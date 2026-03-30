@@ -77,11 +77,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/pdf");
   eleventyConfig.addPassthroughCopy("./src/assets/favicons");
-  eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
-  eleventyConfig.addPassthroughCopy('./src/cms')
-  eleventyConfig.addPassthroughCopy("./src/_redirects");
-  eleventyConfig.addPassthroughCopy("./src/robots.txt");
-
+  
   // DATE FORMATTING
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
