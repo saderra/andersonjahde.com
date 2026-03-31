@@ -68,17 +68,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(metagen);
 
-
   // TAILWIND
   eleventyConfig.addWatchTarget('./tailwind.config.js')
-eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css')
   eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css')
 
   // PASSTHROUGHS
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/pdf");
   eleventyConfig.addPassthroughCopy("./src/assets/favicons");
-    eleventyConfig.addPassthroughCopy("./src/assets/css");
 
   // DATE FORMATTING
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
