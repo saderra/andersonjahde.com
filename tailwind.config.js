@@ -38,33 +38,9 @@ module.exports = {
 			"sbtext": ".6rem"
 		},
       	colors: {
-			cfpurple: {
-				light: '#e8e8e9',
-				bright: '#bcb4ff',
-				DEFAULT: '#2d2b3d',
-				dark: '#201e2b',
-				darker: '#121118',
-				border: '#494754',
-			},
-			cfgray: {
-					DEFAULT: '#f6f6f6',
-					dark: '#f1f1f1'
-				},
-			warm: {
-				DEFAULT: '#fffefa',
-				'50': '#f2f1ed',
-				'100': '#e5e5e1',
-				'150': '#d9d8d4',
-				'200': '#cccbc8',
-				'300': '#b3b2af',
-				'400': '#999896',
-				'500': '#807f7d',
-				'600': '#666664',
-				'700': '#4d4c4b',
-				'800': '#333332',
-				'900': '#1a1919'
+			ajblue: {
+				DEFAULT: '#1b2023'
 			}
-				
 		},
     },
   },
