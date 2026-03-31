@@ -6,12 +6,8 @@
 {% include "components/header.njk" %}
 {% include "components/crumb.njk" %}
 
-{% if template != "home" %} 
-    Not Home
-{% else %}    
-{% include "components/masts/home.njk" %}
-
-
+{% if mast %} 
+    {% include "components/masts.njk" %}
 {% endif %}
 
 
