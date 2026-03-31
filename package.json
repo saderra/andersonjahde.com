@@ -27,6 +27,7 @@
     "eleventy-plugin-metagen": "^1.8.3",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
+    "liquidjs": "^10.25.2",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
     "slugify": "^1.6.5",
