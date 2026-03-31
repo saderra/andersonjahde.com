@@ -21,7 +21,7 @@ module.exports = {
 		},
     extend: {
 		backgroundImage: theme => ({
-			'home-cover': "url('/assets/images/mast/home-page-mast-two-min.jpg')"
+			'home-cover': "url('/assets/images/home.jpg')"
 		}),
 		fontWeight: {
 			light: 200,

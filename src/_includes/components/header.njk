@@ -1,7 +1,18 @@
-<header class="container py-4">
+{% include "components/header/off-canvas.njk" %}
+<header class="fixed sticky top-0  py-4 z-50">
+<nav x-data="{ open: false }"  role="navigation" aria-label="Main Menu">
+<div class="container">
+    <div class="flex items-center justify-between h-24">
+
+    <div class="flex-shrink-0">
+        {% include "components/global/logo.njk" %}
+    </div>
     
-{% include "components/global/logo.njk" %}
+    {% include "components/header/desktop-links.njk" %}
+    {% include "components/header/mobile-button.njk" %}
 
-
+    </div>
+    
+</div>
+</nav>
 </header>
-{% include "components/header/crumb.njk" %}

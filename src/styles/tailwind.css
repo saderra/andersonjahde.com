@@ -14,3 +14,42 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   @apply m-0 p-0 capitalize;
 }
+
+
+/****** MAIN NAVIGATION ***/
+
+ul.main-navigation {
+  @apply poppins text-base text-warm-700 font-medium;
+}
+
+ul.main-navigation {
+  @apply poppins;
+}
+
+ul.main-navigation > li {
+  @apply inline-block float-left;
+}
+
+ul.main-navigation > li > a {
+  @apply block px-2 lg:pl-3 py-6 ml-2 lg:ml-3;
+}
+
+ul.main-navigation > li > ul {
+  @apply w-64 bg-warm-50 border-t border-warm-150 text-sm rounded-lg;
+}
+
+ul.main-navigation > li > ul > li {
+	@apply border-b border-warm-150;
+}
+
+ul.main-navigation > li > ul a {
+	@apply block pl-6 py-3;
+}
+
+ul.main-navigation > li > ul li:hover {
+	@apply bg-stone-100;
+}
+
+ul.main-navigation > li > ul > li:last-of-type {
+  @apply border-none rounded-b-lg;
+}
