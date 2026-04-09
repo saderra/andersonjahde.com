@@ -1,5 +1,6 @@
 {% include "components/header/off-canvas.njk" %}
-<header class="fixed sticky top-0  py-4 z-50">
+{% include "components/header/top.njk" %}
+<header class="fixed sticky top-0  py-4 z-50 bg-neutral-100">
 <nav x-data="{ open: false }"  role="navigation" aria-label="Main Menu">
 <div class="container">
     <div class="flex items-center justify-between h-24">

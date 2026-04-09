@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:#0A0A08;
+  --off-white:#F2EFE6;
+  --mid:#C8C4B8;
+  --rust:#C14D2A;
+  --rust-dark:#8E3519;
+  --mono:'IBM Plex Mono',monospace;
+  --serif:'IBM Plex Serif',serif;
+  --display:'Bebas Neue',sans-serif;
+}
+html{font-size:16px}
+body{font-family:var(--mono);background:var(--off-white);color:var(--black);overflow-x:hidden}
+
+/* NAV */
+nav{
+  background:var(--black);display:flex;align-items:stretch;
+  border-bottom:3px solid var(--rust);
+}
+.nav-id{
+  padding:1rem 2rem;border-right:1px solid rgba(255,255,255,0.08);
+  display:flex;align-items:center;
+}
+.nav-id span{font-family:var(--display);font-size:1.3rem;letter-spacing:0.05em;color:var(--off-white)}
+.nav-id sub{display:block;font-family:var(--mono);font-size:0.55rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--rust);margin-top:2px}
+.nav-links{display:flex;align-items:center;margin-left:auto}
+.nav-links a{
+  padding:0 1.25rem;height:100%;display:flex;align-items:center;
+  font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;
+  color:rgba(255,255,255,0.5);text-decoration:none;border-right:1px solid rgba(255,255,255,0.06);
+  transition:color 0.15s,background 0.15s;
+}
+.nav-links a:hover{color:var(--off-white);background:rgba(255,255,255,0.04)}
+.nav-cta{background:var(--rust)!important;color:var(--off-white)!important;font-size:0.6rem!important;letter-spacing:0.15em!important}
+.nav-cta:hover{background:var(--rust-dark)!important}
+
+/* HERO */
+.hero{
+  display:grid;grid-template-columns:1fr 1fr;min-height:92vh;
+  border-bottom:3px solid var(--black);
+}
+.hero-left{
+  background:var(--black);
+  padding:5rem 3.5rem 4rem;
+  display:flex;flex-direction:column;justify-content:space-between;
+  border-right:3px solid var(--rust);
+  position:relative;
+}
+.hero-sys{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.25);margin-bottom:3rem}
+.hero-sys span{color:var(--rust);margin-right:1rem}
+.hero-h1{
+  font-family:var(--display);
+  font-size:clamp(5rem,10vw,9rem);
+  line-height:0.9;color:var(--off-white);
+  letter-spacing:0.01em;
+}
+.hero-h1 .accent{color:var(--rust);display:block}
+.hero-sub{
+  font-family:var(--serif);font-size:1.05rem;font-weight:300;font-style:italic;
+  color:rgba(255,255,255,0.55);line-height:1.7;max-width:380px;margin-top:2.5rem;
+}
+.hero-bottom{display:flex;align-items:center;gap:0;margin-top:3rem}
+.hero-btn{
+  background:var(--rust);color:var(--off-white);
+  padding:1rem 2rem;font-family:var(--mono);font-size:0.65rem;
+  letter-spacing:0.15em;text-transform:uppercase;text-decoration:none;
+  border:none;display:inline-block;transition:background 0.15s;
+}
+.hero-btn:hover{background:var(--rust-dark)}
+.hero-right{
+  background:var(--off-white);
+  display:grid;grid-template-rows:1fr 1fr;
+}
+.hero-right-top{
+  padding:4rem 3rem;border-bottom:2px solid var(--black);
+  display:flex;flex-direction:column;justify-content:center;
+}
+.hero-right-top .label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--mid);margin-bottom:1.5rem;font-family:var(--mono)}
+.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--black)}
+.stat-cell{padding:1.5rem 1.25rem;border-right:2px solid var(--black)}
+.stat-cell:last-child{border-right:none}
+.stat-n{font-family:var(--display);font-size:3.5rem;line-height:1;color:var(--black)}
+.stat-l{font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--mid);margin-top:4px}
+.hero-right-bottom{
+  padding:3rem;display:flex;flex-direction:column;justify-content:space-between;
+}
+.practice-list-mini{list-style:none}
+.practice-list-mini li{
+  padding:0.6rem 0;border-bottom:1px solid rgba(0,0,0,0.08);
+  font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:#555;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.practice-list-mini li span{color:var(--rust);font-size:0.55rem}
+.award-badge{
+  background:var(--rust);padding:1rem 1.25rem;
+  font-family:var(--mono);margin-top:1.5rem;
+}
+.award-badge .aw-label{font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:0.3rem}
+.award-badge .aw-text{font-size:0.8rem;color:var(--off-white);line-height:1.4}
+
+/* TICKER */
+.ticker{
+  background:var(--rust);overflow:hidden;
+  border-bottom:2px solid var(--rust-dark);
+  padding:0.6rem 0;
+}
+.ticker-inner{display:flex;white-space:nowrap;animation:tick 30s linear infinite}
+.ticker-item{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--off-white);padding:0 2rem;opacity:0.9}
+.ticker-item::after{content:' //';color:rgba(255,255,255,0.3);margin-left:2rem}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* MANIFESTO */
+.manifesto{
+  background:var(--black);
+  padding:6rem 3.5rem;
+  display:grid;grid-template-columns:1fr 2fr;gap:5rem;
+  align-items:start;
+  border-bottom:3px solid var(--off-white);
+}
+.manifesto-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--rust);margin-bottom:1rem;font-family:var(--mono)}
+.manifesto-num{font-family:var(--display);font-size:8rem;line-height:1;color:rgba(255,255,255,0.06)}
+.manifesto-text{font-family:var(--serif);font-size:clamp(1.5rem,2.5vw,2.1rem);font-weight:300;color:var(--off-white);line-height:1.45;letter-spacing:-0.01em}
+.manifesto-text em{color:var(--rust);font-style:italic}
+.manifesto-body{font-family:var(--mono);font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.9;margin-top:2rem;font-weight:300}
+.manifesto-link{display:inline-flex;align-items:center;gap:0.5rem;margin-top:2rem;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--rust);text-decoration:none}
+
+/* PRACTICE */
+.practice{padding:0;border-bottom:3px solid var(--black)}
+.practice-header{
+  padding:2rem 3.5rem;display:flex;align-items:center;justify-content:space-between;
+  border-bottom:2px solid var(--black);background:var(--off-white);
+}
+.practice-header h2{font-family:var(--display);font-size:2rem;letter-spacing:0.04em;color:var(--black)}
+.practice-header a{font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--mid);text-decoration:none;font-family:var(--mono)}
+.practice-grid{display:grid;grid-template-columns:repeat(3,1fr);background:var(--off-white)}
+.p-item{
+  padding:2.5rem 2rem;border-right:2px solid var(--black);border-bottom:2px solid var(--black);
+  position:relative;transition:background 0.15s;cursor:pointer;
+}
+.p-item:nth-child(3n){border-right:none}
+.p-item:nth-child(4),.p-item:nth-child(5),.p-item:nth-child(6){border-bottom:none}
+.p-item:hover{background:#E8E4DA}
+.p-item-n{font-family:var(--display);font-size:5rem;color:rgba(0,0,0,0.05);line-height:1;position:absolute;top:1rem;right:1.5rem}
+.p-item-tag{font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust);margin-bottom:0.75rem;font-family:var(--mono)}
+.p-item-name{font-family:var(--display);font-size:1.5rem;letter-spacing:0.03em;color:var(--black);line-height:1.1;margin-bottom:0.75rem}
+.p-item-desc{font-family:var(--mono);font-size:0.72rem;color:#666;line-height:1.8;font-weight:300}
+.p-arrow{display:inline-block;margin-top:1rem;font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust);font-family:var(--mono)}
+
+/* QUOTE */
+.quote-block{
+  background:var(--off-white);padding:5rem 3.5rem;
+  display:grid;grid-template-columns:auto 1fr;gap:3.5rem;align-items:start;
+  border-bottom:3px solid var(--black);
+}
+.quote-mark{font-family:var(--display);font-size:12rem;line-height:0.7;color:rgba(0,0,0,0.06);padding-top:1.5rem}
+.quote-inner{}
+.q-label{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--mid);margin-bottom:1.25rem}
+.q-text{font-family:var(--serif);font-size:clamp(1.1rem,1.8vw,1.55rem);font-weight:300;font-style:italic;color:var(--black);line-height:1.6}
+.q-attr{font-family:var(--mono);font-size:0.65rem;color:var(--mid);margin-top:1.5rem;letter-spacing:0.08em}
+.stars{color:var(--rust);letter-spacing:2px;margin-bottom:0.5rem;font-size:0.9rem}
+
+/* CTA */
+.cta{
+  background:var(--black);display:grid;grid-template-columns:1fr 1fr;
+  border-bottom:3px solid var(--rust);
+}
+.cta-left{padding:5rem 3.5rem;border-right:2px solid rgba(255,255,255,0.06)}
+.cta-eyebrow{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--rust);margin-bottom:1.25rem}
+.cta-h{font-family:var(--display);font-size:3rem;color:var(--off-white);line-height:1;margin-bottom:1rem;letter-spacing:0.03em}
+.cta-body{font-family:var(--mono);font-size:0.78rem;color:rgba(255,255,255,0.4);line-height:1.9;font-weight:300}
+.cta-right{padding:5rem 3.5rem;display:flex;flex-direction:column;justify-content:center;gap:1.5rem}
+.cta-phone-block{border:1px solid rgba(255,255,255,0.1);padding:2rem}
+.cta-phone-label{font-family:var(--mono);font-size:0.55rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:0.5rem}
+.cta-phone-num{font-family:var(--display);font-size:3rem;color:var(--off-white);letter-spacing:0.03em}
+.cta-address{font-family:var(--mono);font-size:0.7rem;color:rgba(255,255,255,0.35);margin-top:0.5rem;line-height:1.6}
+
+/* ARTICLES */
+.articles{background:var(--off-white);padding:5rem 3.5rem;border-bottom:3px solid var(--black)}
+.articles-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:2.5rem;padding-bottom:1.5rem;border-bottom:2px solid var(--black)}
+.articles-hdr h2{font-family:var(--display);font-size:2rem;letter-spacing:0.04em}
+.articles-hdr a{font-family:var(--mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--mid);text-decoration:none}
+.art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--black)}
+.art-item{padding:2rem;border-right:2px solid var(--black)}
+.art-item:last-child{border-right:none}
+.art-date{font-family:var(--mono);font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--mid);margin-bottom:0.75rem}
+.art-title{font-family:var(--serif);font-size:1rem;font-weight:400;color:var(--black);line-height:1.45;margin-bottom:0.75rem}
+.art-excerpt{font-family:var(--mono);font-size:0.68rem;color:#777;line-height:1.8;font-weight:300}
+.art-read{font-family:var(--mono);font-size:0.58rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-block;margin-top:1rem}
+
+/* FOOTER */
+footer{background:var(--black);padding:4rem 3.5rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem}
+.foot-logo{font-family:var(--display);font-size:2rem;color:var(--off-white);letter-spacing:0.04em}
+.foot-sub{font-family:var(--mono);font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--rust);margin-bottom:1.25rem}
+.foot-blurb{font-family:var(--mono);font-size:0.7rem;color:rgba(255,255,255,0.3);line-height:1.9;font-weight:300;max-width:260px}
+.foot-col h4{font-family:var(--mono);font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:1rem}
+.foot-col ul{list-style:none}
+.foot-col ul li{margin-bottom:0.5rem}
+.foot-col ul li a{font-family:var(--mono);font-size:0.7rem;color:rgba(255,255,255,0.5);text-decoration:none;font-weight:300;transition:color 0.15s}
+.foot-col ul li a:hover{color:var(--rust)}
+.foot-bottom{background:#050505;padding:1rem 3.5rem;display:flex;justify-content:space-between}
+.foot-bottom p{font-family:var(--mono);font-size:0.58rem;color:rgba(255,255,255,0.2);letter-spacing:0.05em}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-id">
+    <div>
+      <span>Anderson & Jahde</span>
+      <sub>Denver Tax Attorneys · Est. 1995</sub>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#">Who We Are</a>
+    <a href="#">Tax Law</a>
+    <a href="#">Resources</a>
+    <a href="#" class="nav-cta">303-782-0003</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-sys"><span>AJ//</span>Tax Law · Denver, CO · Since 1995</div>
+    <div>
+      <div class="hero-h1">
+        We fight<br>the<br><span class="accent">IRS.</span>
+      </div>
+      <p class="hero-sub">Former IRS trial lawyers. Decades in the courtroom. Hundreds of cases settled. When the stakes are serious, you need attorneys who've been on the other side of the table.</p>
+    </div>
+    <div class="hero-bottom">
+      <a href="#" class="hero-btn">Schedule a Consultation</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-top">
+      <div class="label">// By the numbers</div>
+      <div class="stat-row">
+        <div class="stat-cell">
+          <div class="stat-n">30+</div>
+          <div class="stat-l">Years Active</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-n">5.0</div>
+          <div class="stat-l">Google Rating</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-n">100s</div>
+          <div class="stat-l">Cases Won</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right-bottom">
+      <ul class="practice-list-mini">
+        <li>Tax Audits & Appeals <span>→</span></li>
+        <li>Reducing Tax Debts <span>→</span></li>
+        <li>Civil & Criminal Litigation <span>→</span></li>
+        <li>Business Tax Controversy <span>→</span></li>
+        <li>Individual Tax Controversy <span>→</span></li>
+      </ul>
+      <div class="award-badge">
+        <div class="aw-label">// 2023 Recognition</div>
+        <div class="aw-text">Lawyer of the Year — Tax Law<br>Best Lawyers in America · Steven Anderson</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="ticker-item">Tax Audits & Appeals</span>
+    <span class="ticker-item">IRS Controversy</span>
+    <span class="ticker-item">Criminal Defense</span>
+    <span class="ticker-item">Reducing Tax Debts</span>
+    <span class="ticker-item">Business Tax Law</span>
+    <span class="ticker-item">Accountant Liability</span>
+    <span class="ticker-item">Tax Litigation Specialists</span>
+    <span class="ticker-item">Tax Audits & Appeals</span>
+    <span class="ticker-item">IRS Controversy</span>
+    <span class="ticker-item">Criminal Defense</span>
+    <span class="ticker-item">Reducing Tax Debts</span>
+    <span class="ticker-item">Business Tax Law</span>
+    <span class="ticker-item">Accountant Liability</span>
+    <span class="ticker-item">Tax Litigation Specialists</span>
+  </div>
+</div>
+
+<section class="manifesto">
+  <div>
+    <div class="manifesto-label">// Our Position</div>
+    <div class="manifesto-num">01</div>
+  </div>
+  <div>
+    <div class="manifesto-text">The tax system is <em>not designed</em> to be navigated alone. Mishandling a dispute can have consequences that outlast the original problem.</div>
+    <p class="manifesto-body">Individuals and businesses confronted with the IRS and local taxing authorities face potentially serious consequences. The technical world of tax disputes is not for the inexperienced. Our attorneys, including former IRS trial lawyers, have extensive experience handling civil and criminal tax disputes and trials. Since 1995, we've solved countless tax problems — with solutions as unique as each client.</p>
+    <a href="#" class="manifesto-link">Meet the Attorneys →</a>
+  </div>
+</section>
+
+<section class="practice">
+  <div class="practice-header">
+    <h2>Practice Areas</h2>
+    <a href="#">View All →</a>
+  </div>
+  <div class="practice-grid">
+    <div class="p-item">
+      <div class="p-item-n">01</div>
+      <div class="p-item-tag">// Audit Defense</div>
+      <div class="p-item-name">Tax Audits & Appeals</div>
+      <div class="p-item-desc">Being audited by the IRS or Colorado's Department of Revenue? Consulting with us may be the smartest decision you make. We've handled hundreds.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+    <div class="p-item">
+      <div class="p-item-n">02</div>
+      <div class="p-item-tag">// Collections</div>
+      <div class="p-item-name">Reducing Tax Debts</div>
+      <div class="p-item-desc">Resolving tax debts is not as simple as many believe. With decades of experience handling IRS collection cases for corporations and everyday people.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+    <div class="p-item">
+      <div class="p-item-n">03</div>
+      <div class="p-item-tag">// Individual</div>
+      <div class="p-item-name">Individual Tax Controversy</div>
+      <div class="p-item-desc">Audits, unfiled returns, undisclosed foreign assets, back taxes, tax liens or levies — we handle the full range of individual tax matters.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+    <div class="p-item">
+      <div class="p-item-n">04</div>
+      <div class="p-item-tag">// Litigation</div>
+      <div class="p-item-name">Civil & Criminal Litigation</div>
+      <div class="p-item-desc">Tax litigation specialists with more courtroom time than nearly any firm in Colorado. When you have no choice but to litigate, we're who you want.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+    <div class="p-item">
+      <div class="p-item-n">05</div>
+      <div class="p-item-tag">// Business</div>
+      <div class="p-item-name">Business Tax Controversy</div>
+      <div class="p-item-desc">Federal, state, and local compliance problems can end a business early. We've helped hundreds of business owners resolve issues and keep growing.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+    <div class="p-item">
+      <div class="p-item-n">06</div>
+      <div class="p-item-tag">// CPA Liability</div>
+      <div class="p-item-name">Accountant Liability</div>
+      <div class="p-item-desc">We bring special expertise to representing the accounting profession. Several of our attorneys hold CPA licenses — we know the field from the inside.</div>
+      <div class="p-arrow">Read More →</div>
+    </div>
+  </div>
+</section>
+
+<section class="quote-block">
+  <div class="quote-mark">"</div>
+  <div class="quote-inner">
+    <div class="q-label">// Client Review · Google</div>
+    <div class="stars">★★★★★</div>
+    <div class="q-text">Steve Anderson and Jerry Borison are exceptional legal professionals who know how to solve complex IRS tax issues in a timely and effective manner. Their knowledge is unmatched and their ability to craft real solutions in short order will help you sleep much better.</div>
+    <div class="q-attr">— Michael R. · Verified Google Review</div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta-left">
+    <div class="cta-eyebrow">// Get Started</div>
+    <div class="cta-h">Ready to fight back?</div>
+    <p class="cta-body">The sooner you engage an attorney, the more options you have. Our consultations are confidential and there is no obligation. Former IRS attorneys are standing by.</p>
+    <a href="#" class="hero-btn" style="margin-top:2rem;display:inline-block">Free Consultation →</a>
+  </div>
+  <div class="cta-right">
+    <div class="cta-phone-block">
+      <div class="cta-phone-label">// Call Us Directly</div>
+      <div class="cta-phone-num">303-782-0003</div>
+      <div class="cta-address">4582 South Ulster Street<br>Denver, Colorado</div>
+    </div>
+    <div style="border:1px solid rgba(255,255,255,0.08);padding:1.25rem">
+      <div style="font-family:var(--mono);font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:0.4rem">// Named Among</div>
+      <div style="font-family:var(--serif);font-size:0.95rem;font-style:italic;color:rgba(255,255,255,0.65)">Best Law Firms in America</div>
+    </div>
+  </div>
+</section>
+
+<section class="articles">
+  <div class="articles-hdr">
+    <h2>Recent Articles</h2>
+    <a href="#">All Resources →</a>
+  </div>
+  <div class="art-grid">
+    <div class="art-item">
+      <div class="art-date">// Oct 2023</div>
+      <div class="art-title">IRS Announces Moratorium on Processing ERC Claims</div>
+      <div class="art-excerpt">The IRS issued an immediate and complete moratorium on processing new Employee Retention Credit claims as part of its effort to curb widespread fraud.</div>
+      <a href="#" class="art-read">Read More →</a>
+    </div>
+    <div class="art-item">
+      <div class="art-date">// Sep 2023</div>
+      <div class="art-title">IRS to Use Additional Funding to Increase Employment Tax Compliance</div>
+      <div class="art-excerpt">The expected increase in IRS funding from the Inflation Reduction Act will likely affect how the average taxpayer is audited and monitored.</div>
+      <a href="#" class="art-read">Read More →</a>
+    </div>
+    <div class="art-item">
+      <div class="art-date">// Jul 2023</div>
+      <div class="art-title">IRS Ending Unannounced Visits from Revenue Officers</div>
+      <div class="art-excerpt">The IRS will cease its decades-long practice of making unannounced visits to taxpayers' homes and businesses when attempting to collect outstanding debts.</div>
+      <a href="#" class="art-read">Read More →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <div class="foot-sub">// Denver Tax Attorneys · Est. 1995</div>
+    <div class="foot-logo">Anderson & Jahde</div>
+    <p class="foot-blurb" style="margin-top:1rem">Solving complex tax disputes for Colorado individuals and businesses. Former IRS trial lawyers on staff.</p>
+  </div>
+  <div class="foot-col">
+    <h4>// Who We Are</h4>
+    <ul>
+      <li><a href="#">Steven Anderson</a></li>
+      <li><a href="#">Alan Jahde</a></li>
+      <li><a href="#">Briana Fehringer</a></li>
+      <li><a href="#">Kevin Planegger</a></li>
+      <li><a href="#">All Attorneys</a></li>
+    </ul>
+  </div>
+  <div class="foot-col">
+    <h4>// Practice Areas</h4>
+    <ul>
+      <li><a href="#">Tax Audits</a></li>
+      <li><a href="#">Tax Debts</a></li>
+      <li><a href="#">Individual</a></li>
+      <li><a href="#">Litigation</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+  </div>
+  <div class="foot-col">
+    <h4>// Resources</h4>
+    <ul>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Do I Need a Tax Attorney?</a></li>
+      <li><a href="#">When to Hire</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="foot-bottom">
+  <p>© 2024 Anderson & Jahde, P.C. · This website is for informational purposes only and does not constitute legal advice.</p>
+  <p>Denver, Colorado</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,534 @@
+---
+layout: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anderson & Jahde — Denver Tax Attorneys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0E1C2F;
+    --navy-mid: #1A2E47;
+    --gold: #B8933B;
+    --gold-light: #D4AD5C;
+    --cream: #F5F0E8;
+    --cream-dark: #EDE8DC;
+    --stone: #8A8478;
+    --white: #FDFCF9;
+    --serif: 'Playfair Display', Georgia, serif;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--white); color: var(--navy); overflow-x: hidden; }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.25rem 3rem;
+    background: rgba(14, 28, 47, 0.97);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(184,147,59,0.2);
+  }
+  .nav-logo {
+    font-family: var(--serif); color: var(--white);
+    font-size: 1.1rem; letter-spacing: 0.02em; line-height: 1.3;
+  }
+  .nav-logo span { display: block; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); font-family: var(--sans); font-weight: 400; margin-top: 2px; }
+  .nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
+  .nav-links a { color: rgba(255,255,255,0.75); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; font-weight: 400; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--gold-light); }
+  .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 0.5rem 1.25rem; font-weight: 500 !important; letter-spacing: 0.05em !important; }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    background: var(--navy);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-texture {
+    position: absolute; inset: 0; opacity: 0.04;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 61px),
+                      repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,255,255,0.3) 60px, rgba(255,255,255,0.3) 61px);
+  }
+  .hero-left {
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 8rem 4rem 5rem 4rem;
+    position: relative; z-index: 2;
+  }
+  .hero-tag {
+    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); font-family: var(--sans); font-weight: 500; margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.75rem;
+  }
+  .hero-tag::before { content: ''; display: block; width: 32px; height: 1px; background: var(--gold); }
+  .hero h1 {
+    font-family: var(--serif); color: var(--white);
+    font-size: clamp(2.8rem, 4vw, 4.2rem); font-weight: 400;
+    line-height: 1.12; margin-bottom: 1.75rem;
+    letter-spacing: -0.01em;
+  }
+  .hero h1 em { font-style: italic; color: var(--gold-light); }
+  .hero-body {
+    color: rgba(255,255,255,0.62); font-size: 1rem; line-height: 1.8;
+    max-width: 420px; margin-bottom: 2.5rem; font-weight: 300;
+  }
+  .hero-actions { display: flex; gap: 1rem; align-items: center; }
+  .btn-primary {
+    background: var(--gold); color: var(--navy);
+    padding: 0.875rem 2rem; font-family: var(--sans);
+    font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
+    border: none; cursor: pointer; text-decoration: none; display: inline-block;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .btn-primary:hover { background: var(--gold-light); }
+  .btn-ghost {
+    color: rgba(255,255,255,0.65); font-size: 0.8rem; letter-spacing: 0.08em;
+    text-transform: uppercase; text-decoration: none; font-weight: 400;
+    display: flex; align-items: center; gap: 0.5rem; transition: color 0.2s;
+  }
+  .btn-ghost:hover { color: var(--white); }
+  .hero-right {
+    position: relative; overflow: hidden;
+  }
+  .hero-right-bg {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #1A2E47 0%, #0E1C2F 60%);
+  }
+  .hero-stat-block {
+    position: absolute; bottom: 3.5rem; left: 2.5rem; right: 2.5rem;
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgba(184,147,59,0.25);
+    z-index: 2;
+  }
+  .stat-item {
+    padding: 1.5rem 1.25rem; border-right: 1px solid rgba(184,147,59,0.2);
+  }
+  .stat-item:last-child { border-right: none; }
+  .stat-num {
+    font-family: var(--serif); font-size: 2.2rem; color: var(--gold-light);
+    font-weight: 400; display: block; line-height: 1;
+  }
+  .stat-label {
+    font-size: 0.7rem; color: rgba(255,255,255,0.5); letter-spacing: 0.1em;
+    text-transform: uppercase; margin-top: 0.4rem; display: block; font-weight: 300;
+  }
+  .hero-vertical-text {
+    position: absolute; top: 50%; right: 2rem; transform: translateY(-50%) rotate(90deg);
+    transform-origin: center; font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase;
+    color: rgba(255,255,255,0.2); white-space: nowrap; z-index: 2;
+  }
+  .hero-gold-line {
+    position: absolute; top: 8rem; left: 0; width: 1px;
+    height: calc(100% - 16rem); background: rgba(184,147,59,0.3); z-index: 2;
+  }
+
+  /* MARQUEE */
+  .marquee-bar {
+    background: var(--gold); padding: 0.75rem 0; overflow: hidden;
+    display: flex; align-items: center;
+  }
+  .marquee-track {
+    display: flex; gap: 0; white-space: nowrap;
+    animation: marquee 28s linear infinite;
+  }
+  .marquee-item {
+    font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--navy); font-weight: 500; padding: 0 3rem;
+    display: flex; align-items: center; gap: 2.5rem;
+  }
+  .marquee-item::after { content: '◆'; font-size: 0.4rem; opacity: 0.6; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* INTRO */
+  .intro { 
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+    background: var(--cream);
+  }
+  .intro-left { 
+    padding: 6rem 4rem; border-right: 1px solid rgba(14,28,47,0.1);
+  }
+  .intro-right { padding: 6rem 4rem; }
+  .section-tag {
+    font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500; margin-bottom: 1.25rem;
+    display: flex; align-items: center; gap: 0.6rem;
+  }
+  .section-tag::before { content: ''; width: 24px; height: 1px; background: var(--gold); display: block; }
+  .intro-left h2 {
+    font-family: var(--serif); font-size: clamp(1.9rem, 2.8vw, 2.6rem);
+    font-weight: 400; line-height: 1.2; color: var(--navy); margin-bottom: 1.5rem;
+  }
+  .intro-body { font-size: 0.975rem; color: #4A4339; line-height: 1.85; font-weight: 300; max-width: 480px; }
+  .intro-body + .intro-body { margin-top: 1rem; }
+  .intro-link {
+    display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 2rem;
+    font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy);
+    text-decoration: none; font-weight: 500; border-bottom: 1px solid var(--gold); padding-bottom: 2px;
+    transition: color 0.2s;
+  }
+  .intro-link:hover { color: var(--gold); }
+  .award-card {
+    background: var(--navy); padding: 2rem 2rem 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .award-year { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.6rem; }
+  .award-title { font-family: var(--serif); font-size: 1.25rem; color: var(--white); font-weight: 400; line-height: 1.3; }
+  .award-sub { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 0.5rem; font-weight: 300; }
+  .award-sm {
+    background: var(--cream-dark); padding: 1.25rem 1.5rem;
+    display: flex; align-items: center; gap: 1rem;
+    border-left: 3px solid var(--gold);
+  }
+  .award-sm-text { font-size: 0.85rem; color: var(--navy); font-weight: 400; line-height: 1.4; }
+  .award-sm-text strong { display: block; font-weight: 500; font-size: 0.9rem; }
+
+  /* PRACTICE AREAS */
+  .practice { background: var(--white); padding: 6rem 4rem; }
+  .practice-header {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    margin-bottom: 3.5rem; border-bottom: 1px solid rgba(14,28,47,0.1); padding-bottom: 2rem;
+  }
+  .practice-header h2 { font-family: var(--serif); font-size: 2.2rem; font-weight: 400; color: var(--navy); }
+  .practice-header a { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); text-decoration: none; transition: color 0.2s; }
+  .practice-header a:hover { color: var(--gold); }
+  .practice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border: 1px solid rgba(14,28,47,0.08); }
+  .practice-item {
+    padding: 2.5rem 2rem; border-right: 1px solid rgba(14,28,47,0.08);
+    border-bottom: 1px solid rgba(14,28,47,0.08);
+    position: relative; overflow: hidden; cursor: pointer;
+    transition: background 0.25s;
+  }
+  .practice-item:hover { background: var(--cream); }
+  .practice-item:nth-child(3n) { border-right: none; }
+  .practice-item:nth-child(4), .practice-item:nth-child(5), .practice-item:nth-child(6) { border-bottom: none; }
+  .practice-num {
+    font-family: var(--serif); font-size: 3.5rem; color: rgba(14,28,47,0.06);
+    font-weight: 700; position: absolute; top: 1rem; right: 1.5rem; line-height: 1;
+  }
+  .practice-icon { color: var(--gold); margin-bottom: 1rem; font-size: 1.25rem; }
+  .practice-name { font-family: var(--serif); font-size: 1.05rem; color: var(--navy); font-weight: 400; margin-bottom: 0.6rem; line-height: 1.3; }
+  .practice-desc { font-size: 0.82rem; color: var(--stone); line-height: 1.7; font-weight: 300; }
+  .practice-arrow {
+    display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 1.25rem;
+    font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold);
+    font-weight: 500;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial-strip {
+    background: var(--navy); padding: 5rem 4rem;
+    display: grid; grid-template-columns: 1fr 2fr; gap: 5rem; align-items: center;
+  }
+  .testimonial-label { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+  .testimonial-rating { display: flex; gap: 4px; margin-bottom: 0.75rem; }
+  .star { color: var(--gold); font-size: 1rem; }
+  .rating-text { font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 0.25rem; }
+  .testimonial-quote {
+    font-family: var(--serif); font-size: clamp(1.2rem, 2vw, 1.7rem);
+    color: var(--white); font-weight: 400; font-style: italic; line-height: 1.55;
+    border-left: 2px solid var(--gold); padding-left: 2rem; margin-bottom: 1.5rem;
+  }
+  .testimonial-attr { font-size: 0.8rem; color: rgba(255,255,255,0.45); font-weight: 300; }
+
+  /* CTA */
+  .cta-banner {
+    background: var(--cream); padding: 5rem 4rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 3rem;
+  }
+  .cta-left h2 { font-family: var(--serif); font-size: 2rem; font-weight: 400; color: var(--navy); margin-bottom: 0.6rem; }
+  .cta-left p { font-size: 0.9rem; color: var(--stone); font-weight: 300; }
+  .cta-right { display: flex; gap: 1rem; align-items: center; flex-shrink: 0; }
+  .cta-phone {
+    font-family: var(--serif); font-size: 1.5rem; color: var(--navy); text-decoration: none;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .cta-phone span { font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); display: block; }
+
+  /* ARTICLES */
+  .articles { background: var(--white); padding: 6rem 4rem; }
+  .articles-header { margin-bottom: 3rem; display: flex; justify-content: space-between; align-items: flex-end; }
+  .articles-header h2 { font-family: var(--serif); font-size: 2rem; font-weight: 400; color: var(--navy); }
+  .articles-header a { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); text-decoration: none; }
+  .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
+  .article-card { border-top: 2px solid var(--navy); padding-top: 1.5rem; }
+  .article-date { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); margin-bottom: 0.75rem; }
+  .article-title { font-family: var(--serif); font-size: 1.05rem; color: var(--navy); font-weight: 400; line-height: 1.4; margin-bottom: 0.75rem; }
+  .article-excerpt { font-size: 0.82rem; color: var(--stone); line-height: 1.7; font-weight: 300; }
+  .article-read { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 1rem; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); font-weight: 500; text-decoration: none; }
+
+  /* FOOTER */
+  footer {
+    background: #07111D; padding: 4rem;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem;
+    border-top: 1px solid rgba(184,147,59,0.2);
+  }
+  .footer-brand { }
+  .footer-logo { font-family: var(--serif); font-size: 1.1rem; color: var(--white); margin-bottom: 0.4rem; }
+  .footer-logo-sub { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); font-family: var(--sans); }
+  .footer-blurb { font-size: 0.8rem; color: rgba(255,255,255,0.4); line-height: 1.7; margin-top: 1.25rem; font-weight: 300; max-width: 260px; }
+  .footer-phone { font-size: 1.1rem; color: var(--gold-light); font-family: var(--serif); margin-top: 1.25rem; display: block; }
+  .footer-col h4 { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 1.25rem; font-weight: 400; }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { margin-bottom: 0.6rem; }
+  .footer-col ul li a { font-size: 0.82rem; color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.2s; font-weight: 300; }
+  .footer-col ul li a:hover { color: var(--gold-light); }
+  .footer-bottom {
+    background: #07111D; padding: 1.25rem 4rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .footer-bottom p { font-size: 0.7rem; color: rgba(255,255,255,0.25); font-weight: 300; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    Anderson & Jahde
+    <span>Denver Tax Attorneys · Est. 1995</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">Who We Are</a></li>
+    <li><a href="#">Tax Law</a></li>
+    <li><a href="#">Resources</a></li>
+    <li><a href="#" class="nav-cta">303-782-0003</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="hero-left">
+    <div class="hero-tag">Denver's Tax Law Authority Since 1995</div>
+    <h1>When the IRS<br>comes calling,<br><em>we answer.</em></h1>
+    <p class="hero-body">Former IRS trial lawyers. Decades of courtroom experience. Hundreds of cases resolved. Anderson & Jahde stands between you and the full weight of the federal tax system.</p>
+    <div class="hero-actions">
+      <a href="#" class="btn-primary">Schedule a Consultation</a>
+      <a href="#" class="btn-ghost">Our Practice Areas →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-bg"></div>
+    <div class="hero-vertical-text">Anderson & Jahde — Colorado Tax Law</div>
+    <div class="hero-gold-line"></div>
+    <div class="hero-stat-block">
+      <div class="stat-item">
+        <span class="stat-num">30+</span>
+        <span class="stat-label">Years in Denver</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">5★</span>
+        <span class="stat-label">Google Rating</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">100s</span>
+        <span class="stat-label">Cases Resolved</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <div class="marquee-item">Tax Audits & Appeals</div>
+    <div class="marquee-item">IRS Controversy</div>
+    <div class="marquee-item">Criminal Tax Defense</div>
+    <div class="marquee-item">Reducing Tax Debts</div>
+    <div class="marquee-item">Business Tax Law</div>
+    <div class="marquee-item">Accountant Liability</div>
+    <div class="marquee-item">Tax Litigation</div>
+    <div class="marquee-item">Tax Audits & Appeals</div>
+    <div class="marquee-item">IRS Controversy</div>
+    <div class="marquee-item">Criminal Tax Defense</div>
+    <div class="marquee-item">Reducing Tax Debts</div>
+    <div class="marquee-item">Business Tax Law</div>
+    <div class="marquee-item">Accountant Liability</div>
+    <div class="marquee-item">Tax Litigation</div>
+  </div>
+</div>
+
+<section class="intro">
+  <div class="intro-left">
+    <div class="section-tag">About the Firm</div>
+    <h2>Experience that only comes from doing it every day.</h2>
+    <p class="intro-body">Individuals and businesses confronted with the IRS and state taxing authorities face potentially serious consequences. The technical world of tax disputes is not for the inexperienced — mishandling a tax controversy can be devastating.</p>
+    <p class="intro-body">Our attorneys, including former IRS trial lawyers, have solved countless tax problems since opening our doors in Denver in 1995. Solutions as unique as each client.</p>
+    <a href="#" class="intro-link">Meet the Attorneys →</a>
+  </div>
+  <div class="intro-right">
+    <div class="award-card">
+      <div class="award-year">2023 Recognition</div>
+      <div class="award-title">Lawyer of the Year — Tax Law, Denver Area</div>
+      <div class="award-sub">Best Lawyers in America · Steven Anderson</div>
+    </div>
+    <div class="award-sm">
+      <div class="award-sm-text">
+        <strong>Lifetime Achievement Award</strong>
+        James E. Bye — Colorado Bar Association Tax Law Section · 2021
+      </div>
+    </div>
+    <div style="margin-top: 1.25rem; padding: 1.25rem 1.5rem; border: 1px solid rgba(14,28,47,0.1);">
+      <div style="font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--stone); margin-bottom: 0.5rem;">Recognition</div>
+      <div style="font-family: var(--serif); font-size: 1rem; color: var(--navy);">Named Among the Best Law Firms in America</div>
+    </div>
+  </div>
+</section>
+
+<section class="practice">
+  <div class="practice-header">
+    <h2>What We Do</h2>
+    <a href="#">View All Practice Areas →</a>
+  </div>
+  <div class="practice-grid">
+    <div class="practice-item">
+      <div class="practice-num">01</div>
+      <div class="practice-name">Tax Audits & Appeals</div>
+      <div class="practice-desc">Being audited by the IRS or Colorado's Department of Revenue? Consulting with us may be the smartest decision you make. We've handled hundreds.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+    <div class="practice-item">
+      <div class="practice-num">02</div>
+      <div class="practice-name">Reducing Tax Debts</div>
+      <div class="practice-desc">Resolving tax debts is not as simple as many believe. With decades of experience handling IRS collection cases for large corporations to everyday people.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+    <div class="practice-item">
+      <div class="practice-num">03</div>
+      <div class="practice-name">Individual Tax Controversy</div>
+      <div class="practice-desc">Audits, unfiled returns, undisclosed foreign assets, back taxes, tax liens or levies — we handle the full range of individual tax problems.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+    <div class="practice-item">
+      <div class="practice-num">04</div>
+      <div class="practice-name">Civil & Criminal Tax Litigation</div>
+      <div class="practice-desc">When disputes can't be resolved, litigation may be inescapable. We are tax litigation specialists with more courtroom time than nearly any firm in Colorado.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+    <div class="practice-item">
+      <div class="practice-num">05</div>
+      <div class="practice-name">Business Tax Controversy</div>
+      <div class="practice-desc">Federal, state, and local tax compliance problems can lead to the early demise of your business. We've helped hundreds of owners resolve these issues.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+    <div class="practice-item">
+      <div class="practice-num">06</div>
+      <div class="practice-name">Accountant Liability</div>
+      <div class="practice-desc">We bring special expertise to representing the accounting profession. Several of our attorneys hold CPA licenses — we know the field from the inside.</div>
+      <div class="practice-arrow">Learn More →</div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-strip">
+  <div>
+    <div class="testimonial-label">Client Reviews</div>
+    <div class="testimonial-rating">
+      <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+    </div>
+    <div class="rating-text">5.0 · Google Reviews</div>
+  </div>
+  <div>
+    <div class="testimonial-quote">"Steve Anderson and Jerry Borison are exceptional professionals who know how to solve complex IRS tax issues in a timely and effective manner. Their knowledge is unmatched."</div>
+    <div class="testimonial-attr">— Michael R. · Google Review</div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="cta-left">
+    <h2>Ready to resolve your tax problem?</h2>
+    <p>Our attorneys are available for confidential consultations. The sooner you act, the more options you have.</p>
+  </div>
+  <div class="cta-right">
+    <a href="#" class="btn-primary">Get a Free Consultation</a>
+    <div style="text-align: center;">
+      <span style="font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--stone); display: block; margin-bottom: 0.25rem;">Or call directly</span>
+      <a href="tel:3037820003" style="font-family: var(--serif); font-size: 1.3rem; color: var(--navy); text-decoration: none;">303-782-0003</a>
+    </div>
+  </div>
+</section>
+
+<section class="articles">
+  <div class="articles-header">
+    <h2>Recent Articles</h2>
+    <a href="#">View All Resources →</a>
+  </div>
+  <div class="articles-grid">
+    <div class="article-card">
+      <div class="article-date">October 2023</div>
+      <div class="article-title">IRS Announces Moratorium on Processing Employee Retention Credit Claims</div>
+      <div class="article-excerpt">The IRS announced an immediate and complete moratorium on processing new ERC claims in its next step to curb widespread fraud around the credit program.</div>
+      <a href="#" class="article-read">Read More →</a>
+    </div>
+    <div class="article-card">
+      <div class="article-date">September 2023</div>
+      <div class="article-title">IRS to Use Additional Funding to Increase Employment Tax Compliance</div>
+      <div class="article-excerpt">Much has been written — true and untrue — about how the average taxpayer will be affected by the expected increase in IRS funding from the Inflation Reduction Act.</div>
+      <a href="#" class="article-read">Read More →</a>
+    </div>
+    <div class="article-card">
+      <div class="article-date">July 2023</div>
+      <div class="article-title">IRS Ending Unannounced Visits from Revenue Officers</div>
+      <div class="article-excerpt">The IRS announced it would cease its decades-long practice of unannounced visits to taxpayers' homes and businesses when attempting to collect tax debts.</div>
+      <a href="#" class="article-read">Read More →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">
+    <div class="footer-logo">Anderson & Jahde</div>
+    <div class="footer-logo-sub">Denver Tax Attorneys</div>
+    <p class="footer-blurb">Solving complex tax disputes for Colorado individuals and businesses since 1995. Former IRS trial lawyers on staff.</p>
+    <a href="tel:3037820003" class="footer-phone">303-782-0003</a>
+    <p style="font-size: 0.75rem; color: rgba(255,255,255,0.3); margin-top: 0.4rem;">4582 South Ulster Street, Denver, CO</p>
+  </div>
+  <div class="footer-col">
+    <h4>Who We Are</h4>
+    <ul>
+      <li><a href="#">Steven Anderson</a></li>
+      <li><a href="#">Alan Jahde</a></li>
+      <li><a href="#">Briana Fehringer</a></li>
+      <li><a href="#">Kevin Planegger</a></li>
+      <li><a href="#">Whitney Wolfe</a></li>
+      <li><a href="#">All Attorneys</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Practice Areas</h4>
+    <ul>
+      <li><a href="#">Tax Audits & Appeals</a></li>
+      <li><a href="#">Reducing Tax Debts</a></li>
+      <li><a href="#">Individual Controversy</a></li>
+      <li><a href="#">Civil & Criminal Litigation</a></li>
+      <li><a href="#">Business Tax</a></li>
+      <li><a href="#">Accountant Liability</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Resources</h4>
+    <ul>
+      <li><a href="#">Tax Law Articles</a></li>
+      <li><a href="#">Do I Need a Tax Attorney?</a></li>
+      <li><a href="#">When to Hire an Attorney</a></li>
+      <li><a href="#">Is It Worth the Cost?</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p>© 2024 Anderson & Jahde, P.C. All rights reserved. This website is for informational purposes only and does not constitute legal advice.</p>
+  <p>Denver, Colorado</p>
+</div>
+
+</body>
+</html>
