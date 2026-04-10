@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 /****** MAIN NAVIGATION ***/
 
 ul.main-navigation {
-  @apply poppins text-lg font-medium tracking-tight;
+  @apply poppins text-base font-medium;
 }
 
 ul.main-navigation {
@@ -39,7 +39,7 @@ ul.main-navigation > li > ul {
 }
 
 ul.main-navigation > li > ul > li {
-	@apply border-b border-neutral-400;
+	@apply border-b;
 }
 
 ul.main-navigation > li > ul a {
