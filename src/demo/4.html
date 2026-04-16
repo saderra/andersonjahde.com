@@ -1,0 +1,1031 @@
+---
+layout: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anderson &amp; Jahde — Denver Tax Attorneys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ════════════════════════════════════════
+   DESIGN SYSTEM — Anderson & Jahde
+   Traditional law firm · warm · authoritative
+   ════════════════════════════════════════ */
+:root {
+  --navy: #1b2a4a;
+  --navy-deep: #0f1b33;
+  --navy-light: #253758;
+  --gold: #b8952e;
+  --gold-light: #d4af37;
+  --gold-pale: #f5ecd4;
+  --cream: #faf8f3;
+  --cream-dark: #f0ece3;
+  --white: #ffffff;
+  --text-dark: #2c2c2c;
+  --text-body: #4a4a4a;
+  --text-muted: #7a7a7a;
+  --text-light: #999999;
+  --border-light: #e5e0d5;
+  --border-subtle: #ece8df;
+  --shadow-sm: 0 1px 3px rgba(27,42,74,0.06);
+  --shadow-md: 0 4px 16px rgba(27,42,74,0.08);
+  --shadow-lg: 0 8px 32px rgba(27,42,74,0.1);
+  --font-display: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Source Sans 3', -apple-system, 'Segoe UI', sans-serif;
+  --max-width: 1180px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--text-body);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; height: auto; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ─────────────────────────────────────
+   TOP UTILITY BAR
+   ───────────────────────────────────── */
+.top-bar {
+  background: var(--navy-deep);
+  padding: 9px 0;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar__tagline {
+  color: rgba(255,255,255,0.55);
+  font-weight: 400;
+}
+.top-bar__phone {
+  color: var(--gold-light);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.top-bar__phone a { color: inherit; }
+
+/* ─────────────────────────────────────
+   MAIN NAVBAR
+   ───────────────────────────────────── */
+.navbar {
+  background: var(--white);
+  padding: 0;
+  border-bottom: 1px solid var(--border-light);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.navbar__logo img {
+  height: 54px;
+  width: auto;
+  border-radius: 3px;
+}
+.navbar__links {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  height: 100%;
+  align-items: stretch;
+}
+.navbar__links li {
+  display: flex;
+  align-items: stretch;
+}
+.navbar__links a {
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--text-dark);
+  letter-spacing: 0.01em;
+  transition: all 0.25s ease;
+  border-bottom: 3px solid transparent;
+}
+.navbar__links a:hover {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+  background: rgba(184, 149, 46, 0.04);
+}
+.navbar__cta-wrap {
+  display: flex;
+  align-items: center;
+}
+.navbar__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--navy);
+  color: var(--white);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 11px 24px;
+  transition: background 0.25s ease;
+}
+.navbar__cta:hover { background: var(--navy-light); }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: var(--navy);
+}
+
+/* ─────────────────────────────────────
+   HERO / MAST
+   ───────────────────────────────────── */
+.hero {
+  background: var(--navy);
+  padding: 100px 0 90px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 60% at 75% 100%, rgba(184,149,46,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 80% at 10% 20%, rgba(255,255,255,0.03) 0%, transparent 50%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+}
+.hero__eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 24px;
+}
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 5.5vw, 72px);
+  font-weight: 400;
+  line-height: 1.12;
+  color: var(--white);
+  margin-bottom: 24px;
+  max-width: 720px;
+}
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.6);
+  max-width: 540px;
+  margin-bottom: 40px;
+}
+
+/* ─────────────────────────────────────
+   BUTTONS
+   ───────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn--primary {
+  background: var(--gold);
+  color: var(--white);
+}
+.btn--primary:hover {
+  background: var(--gold-light);
+  box-shadow: 0 4px 20px rgba(184,149,46,0.3);
+  transform: translateY(-1px);
+}
+.btn--outline {
+  background: transparent;
+  color: var(--navy);
+  border: 2px solid var(--navy);
+}
+.btn--outline:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+.btn--ghost {
+  background: transparent;
+  color: rgba(255,255,255,0.6);
+  padding: 15px 4px;
+}
+.btn--ghost:hover { color: var(--gold-light); }
+.hero__actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ─────────────────────────────────────
+   STATS BAR
+   ───────────────────────────────────── */
+.stats-bar {
+  background: var(--white);
+  border-bottom: 1px solid var(--border-light);
+  padding: 36px 0;
+}
+.stats-bar .container {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  flex-wrap: wrap;
+}
+.stat { text-align: center; }
+.stat__value {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 2px;
+}
+.stat__label {
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ─────────────────────────────────────
+   SCROLLING TICKER
+   ───────────────────────────────────── */
+.ticker {
+  padding: 22px 0;
+  background: var(--cream-dark);
+  border-bottom: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+.ticker__track {
+  display: flex;
+  gap: 40px;
+  animation: ticker-scroll 28s linear infinite;
+  width: max-content;
+}
+.ticker__item {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.ticker__item::after {
+  content: '◆';
+  font-size: 6px;
+  color: var(--gold);
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ─────────────────────────────────────
+   SECTION SHARED
+   ───────────────────────────────────── */
+.section { padding: 100px 0; }
+.section--cream { background: var(--cream); }
+.section--white { background: var(--white); }
+
+.section__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.section__title {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--navy);
+  margin-bottom: 24px;
+}
+
+/* ─────────────────────────────────────
+   ABOUT SECTION
+   ───────────────────────────────────── */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 72px;
+  align-items: start;
+}
+.about__body p {
+  font-size: 16.5px;
+  color: var(--text-body);
+  margin-bottom: 18px;
+  line-height: 1.85;
+}
+.about__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 12px;
+  letter-spacing: 0.02em;
+  transition: gap 0.3s ease;
+}
+.about__link:hover { gap: 14px; }
+
+.awards {
+  border-left: 3px solid var(--gold-pale);
+  padding-left: 40px;
+}
+.award {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.award:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.award__year {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.award__title {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+.award__detail {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+/* ─────────────────────────────────────
+   PRACTICE AREAS
+   ───────────────────────────────────── */
+.practice-areas__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.practice-areas__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border-light);
+  border: 1px solid var(--border-light);
+}
+.practice-card {
+  background: var(--white);
+  padding: 44px 36px;
+  transition: all 0.35s ease;
+  position: relative;
+}
+.practice-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+.practice-card:hover::after { transform: scaleX(1); }
+.practice-card:hover {
+  background: var(--cream);
+  box-shadow: var(--shadow-md);
+  z-index: 1;
+}
+.practice-card__number {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--gold-pale);
+  margin-bottom: 16px;
+}
+.practice-card:hover .practice-card__number { color: var(--gold); }
+.practice-card__title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--navy);
+  margin-bottom: 14px;
+  line-height: 1.25;
+}
+.practice-card__desc {
+  font-size: 14.5px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+.practice-card__link {
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: letter-spacing 0.3s ease;
+}
+.practice-card:hover .practice-card__link { letter-spacing: 0.07em; }
+
+/* ─────────────────────────────────────
+   CLIENT REVIEWS
+   ───────────────────────────────────── */
+.reviews {
+  background: var(--navy);
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+.reviews::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 50% 100%, rgba(184,149,46,0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+.reviews__label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 20px;
+  position: relative;
+}
+.reviews__stars {
+  font-size: 24px;
+  color: var(--gold-light);
+  letter-spacing: 5px;
+  margin-bottom: 6px;
+  position: relative;
+}
+.reviews__rating {
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+  position: relative;
+}
+.reviews__quote {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255,255,255,0.85);
+  max-width: 720px;
+  margin: 0 auto 28px;
+  line-height: 1.55;
+  position: relative;
+}
+.reviews__attribution {
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.04em;
+  position: relative;
+}
+
+/* ─────────────────────────────────────
+   CTA BAND
+   ───────────────────────────────────── */
+.cta-band {
+  padding: 80px 0;
+  background: var(--cream-dark);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  text-align: center;
+}
+.cta-band .section__title {
+  margin-bottom: 16px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-band__sub {
+  font-size: 16px;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-band__phone {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-light);
+}
+.cta-band__phone a {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+/* ─────────────────────────────────────
+   ARTICLES
+   ───────────────────────────────────── */
+.articles__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.articles__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.article-card {
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  padding: 36px 32px;
+  transition: all 0.3s ease;
+}
+.article-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--gold-pale);
+  transform: translateY(-2px);
+}
+.article-card__date {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+.article-card__title {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.35;
+  margin-bottom: 14px;
+}
+.article-card__excerpt {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.article-card__link {
+  font-size: 13px;
+  color: var(--gold);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: letter-spacing 0.3s ease;
+}
+.article-card:hover .article-card__link { letter-spacing: 0.06em; }
+
+/* ─────────────────────────────────────
+   FOOTER
+   ───────────────────────────────────── */
+.footer {
+  background: var(--navy-deep);
+  padding: 72px 0 0;
+  color: rgba(255,255,255,0.55);
+  font-size: 14px;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 56px;
+}
+.footer__brand-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+.footer__brand-sub {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 18px;
+}
+.footer__brand-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 20px;
+  max-width: 280px;
+}
+.footer__phone {
+  color: var(--gold-light);
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 6px;
+}
+.footer__address {
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+}
+.footer__col-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 22px;
+}
+.footer__col ul {
+  list-style: none;
+}
+.footer__col li {
+  margin-bottom: 10px;
+}
+.footer__col a {
+  color: rgba(255,255,255,0.4);
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+.footer__col a:hover { color: var(--gold-light); }
+.footer__bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 24px 0;
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.25);
+  text-align: center;
+}
+
+/* ─────────────────────────────────────
+   RESPONSIVE
+   ───────────────────────────────────── */
+@media (max-width: 1024px) {
+  .about__grid { grid-template-columns: 1fr; gap: 48px; }
+  .practice-areas__grid { grid-template-columns: repeat(2, 1fr); }
+  .articles__grid { grid-template-columns: repeat(2, 1fr); }
+  .footer__grid { grid-template-columns: repeat(2, 1fr); gap: 36px; }
+}
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+  .top-bar__tagline { display: none; }
+  .navbar__links { display: none; }
+  .menu-toggle { display: block; }
+  .hero { padding: 64px 0 56px; }
+  .section { padding: 64px 0; }
+  .stats-bar .container { gap: 36px; }
+  .practice-areas__grid { grid-template-columns: 1fr; }
+  .articles__grid { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; }
+  .reviews { padding: 64px 0; }
+  .cta-band { padding: 56px 0; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════
+     TOP UTILITY BAR
+     ═══════════════════════════════════ -->
+<div class="top-bar">
+  <div class="container">
+    <span class="top-bar__tagline">Denver Based Tax Attorneys Since 1995</span>
+    <span class="top-bar__phone">Call Now: <a href="tel:3037820003">303-782-0003</a></span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     NAVBAR
+     ═══════════════════════════════════ -->
+<nav class="navbar">
+  <div class="container">
+    <a href="https://andersonjahde.netlify.app/" class="navbar__logo">
+      <img src="https://andersonjahde.netlify.app/assets/images/anderson_jahde_site_logo.jpg" alt="Anderson &amp; Jahde">
+    </a>
+    <ul class="navbar__links">
+      <li><a href="https://andersonjahde.netlify.app/who-we-are/">Who We Are</a></li>
+      <li><a href="https://andersonjahde.netlify.app/tax-law/">Tax Law</a></li>
+      <li><a href="https://andersonjahde.netlify.app/resources/">Resources</a></li>
+      <li><a href="https://andersonjahde.netlify.app/contact/">Contact</a></li>
+    </ul>
+    <div class="navbar__cta-wrap">
+      <a href="tel:3037820003" class="navbar__cta">303-782-0003</a>
+    </div>
+    <button class="menu-toggle" aria-label="Open Main Menu">☰</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════
+     HERO / MAST
+     ═══════════════════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__eyebrow">Denver Based Tax Attorneys Since 1995</div>
+    <h1 class="hero__title">Welcome To<br>Anderson &amp; Jahde</h1>
+    <p class="hero__subtitle">Helping Colorado Taxpayers and Professionals Since 1995</p>
+    <div class="hero__actions">
+      <a href="https://andersonjahde.netlify.app/contact/" class="btn btn--primary">Schedule a Consultation</a>
+      <a href="#practice-areas" class="btn btn--ghost">Our Practice Areas →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     STATS BAR
+     ═══════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stat">
+      <div class="stat__value">30+ Years</div>
+      <div class="stat__label">in Denver</div>
+    </div>
+    <div class="stat">
+      <div class="stat__value">5★</div>
+      <div class="stat__label">Google Rating</div>
+    </div>
+    <div class="stat">
+      <div class="stat__value">100s</div>
+      <div class="stat__label">Cases Resolved</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     TICKER
+     ═══════════════════════════════════ -->
+<div class="ticker">
+  <div class="ticker__track">
+    <span class="ticker__item">Tax Audits &amp; Appeals</span>
+    <span class="ticker__item">IRS Controversy</span>
+    <span class="ticker__item">Criminal Tax Defense</span>
+    <span class="ticker__item">Reducing Tax Debts</span>
+    <span class="ticker__item">Business Tax Law</span>
+    <span class="ticker__item">Accountant Liability</span>
+    <span class="ticker__item">Tax Litigation</span>
+    <span class="ticker__item">Tax Audits &amp; Appeals</span>
+    <span class="ticker__item">IRS Controversy</span>
+    <span class="ticker__item">Criminal Tax Defense</span>
+    <span class="ticker__item">Reducing Tax Debts</span>
+    <span class="ticker__item">Business Tax Law</span>
+    <span class="ticker__item">Accountant Liability</span>
+    <span class="ticker__item">Tax Litigation</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     ABOUT THE FIRM
+     ═══════════════════════════════════ -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="about__grid">
+      <div class="about__body">
+        <div class="section__eyebrow">About the Firm</div>
+        <h2 class="section__title">Experience that only comes from doing it every day.</h2>
+        <p>Individuals and businesses confronted with the IRS and state taxing authorities face potentially serious consequences. The technical world of tax disputes is not for the inexperienced — mishandling a tax controversy can be devastating.</p>
+        <p>Our attorneys, including former IRS trial lawyers, have solved countless tax problems since opening our doors in Denver in 1995. Solutions as unique as each client.</p>
+        <a href="https://andersonjahde.netlify.app/who-we-are/" class="about__link">Meet the Attorneys →</a>
+      </div>
+      <div class="awards">
+        <div class="award">
+          <div class="award__year">2023 Recognition</div>
+          <div class="award__title">Lawyer of the Year — Tax Law, Denver Area</div>
+          <div class="award__detail">Best Lawyers in America · Steven Anderson</div>
+        </div>
+        <div class="award">
+          <div class="award__year">Lifetime Achievement Award</div>
+          <div class="award__title">James E. Bye</div>
+          <div class="award__detail">Colorado Bar Association Tax Law Section · 2021</div>
+        </div>
+        <div class="award">
+          <div class="award__year">Recognition</div>
+          <div class="award__title">Named Among the Best Law Firms in America</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     PRACTICE AREAS
+     ═══════════════════════════════════ -->
+<section id="practice-areas" class="section section--white">
+  <div class="container">
+    <div class="practice-areas__header">
+      <div>
+        <div class="section__eyebrow">What We Do</div>
+        <h2 class="section__title" style="margin-bottom:0;">Our Practice Areas</h2>
+      </div>
+      <a href="https://andersonjahde.netlify.app/tax-law/" class="about__link">View All Practice Areas →</a>
+    </div>
+    <div class="practice-areas__grid">
+      <div class="practice-card">
+        <div class="practice-card__number">01</div>
+        <h3 class="practice-card__title">Tax Audits &amp; Appeals</h3>
+        <p class="practice-card__desc">Being audited by the IRS or Colorado's Department of Revenue? Consulting with us may be the smartest decision you make. We've handled hundreds.</p>
+        <a href="https://andersonjahde.netlify.app/tax-law/tax-audits-appeals/" class="practice-card__link">Learn More →</a>
+      </div>
+      <div class="practice-card">
+        <div class="practice-card__number">02</div>
+        <h3 class="practice-card__title">Reducing Tax Debts</h3>
+        <p class="practice-card__desc">Resolving tax debts is not as simple as many believe. With decades of experience handling IRS collection cases for large corporations to everyday people.</p>
+        <a href="#" class="practice-card__link">Learn More →</a>
+      </div>
+      <div class="practice-card">
+        <div class="practice-card__number">03</div>
+        <h3 class="practice-card__title">Individual Tax Controversy</h3>
+        <p class="practice-card__desc">Audits, unfiled returns, undisclosed foreign assets, back taxes, tax liens or levies — we handle the full range of individual tax problems.</p>
+        <a href="#" class="practice-card__link">Learn More →</a>
+      </div>
+      <div class="practice-card">
+        <div class="practice-card__number">04</div>
+        <h3 class="practice-card__title">Civil &amp; Criminal Tax Litigation</h3>
+        <p class="practice-card__desc">When disputes can't be resolved, litigation may be inescapable. We are tax litigation specialists with more courtroom time than nearly any firm in Colorado.</p>
+        <a href="#" class="practice-card__link">Learn More →</a>
+      </div>
+      <div class="practice-card">
+        <div class="practice-card__number">05</div>
+        <h3 class="practice-card__title">Business Tax Controversy</h3>
+        <p class="practice-card__desc">Federal, state, and local tax compliance problems can lead to the early demise of your business. We've helped hundreds of owners resolve these issues.</p>
+        <a href="#" class="practice-card__link">Learn More →</a>
+      </div>
+      <div class="practice-card">
+        <div class="practice-card__number">06</div>
+        <h3 class="practice-card__title">Accountant Liability</h3>
+        <p class="practice-card__desc">We bring special expertise to representing the accounting profession. Several of our attorneys hold CPA licenses — we know the field from the inside.</p>
+        <a href="#" class="practice-card__link">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     CLIENT REVIEWS
+     ═══════════════════════════════════ -->
+<section class="reviews">
+  <div class="container">
+    <div class="reviews__label">Client Reviews</div>
+    <div class="reviews__stars">★★★★★</div>
+    <div class="reviews__rating">5.0 · Google Reviews</div>
+    <blockquote class="reviews__quote">
+      "Steve Anderson and Jerry Borison are exceptional professionals who know how to solve complex IRS tax issues in a timely and effective manner. Their knowledge is unmatched."
+    </blockquote>
+    <div class="reviews__attribution">— Michael R. · Google Review</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     CTA BAND
+     ═══════════════════════════════════ -->
+<section class="cta-band">
+  <div class="container">
+    <h2 class="section__title">Ready to resolve your tax problem?</h2>
+    <p class="cta-band__sub">Our attorneys are available for confidential consultations. The sooner you act, the more options you have.</p>
+    <a href="https://andersonjahde.netlify.app/contact/" class="btn btn--primary">Get a Free Consultation</a>
+    <div class="cta-band__phone">Or call directly <a href="tel:3037820003">303-782-0003</a></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     RECENT ARTICLES
+     ═══════════════════════════════════ -->
+<section class="section section--white">
+  <div class="container">
+    <div class="articles__header">
+      <div>
+        <div class="section__eyebrow">Recent Articles</div>
+        <h2 class="section__title" style="margin-bottom:0;">From Our Resource Library</h2>
+      </div>
+      <a href="https://andersonjahde.netlify.app/resources/" class="about__link">View All Resources →</a>
+    </div>
+    <div class="articles__grid">
+      <div class="article-card">
+        <div class="article-card__date">October 2023</div>
+        <h3 class="article-card__title">IRS Announces Moratorium on Processing Employee Retention Credit Claims</h3>
+        <p class="article-card__excerpt">The IRS announced an immediate and complete moratorium on processing new ERC claims in its next step to curb widespread fraud around the credit program.</p>
+        <a href="#" class="article-card__link">Read More →</a>
+      </div>
+      <div class="article-card">
+        <div class="article-card__date">September 2023</div>
+        <h3 class="article-card__title">IRS to Use Additional Funding to Increase Employment Tax Compliance</h3>
+        <p class="article-card__excerpt">Much has been written — true and untrue — about how the average taxpayer will be affected by the expected increase in IRS funding from the Inflation Reduction Act.</p>
+        <a href="#" class="article-card__link">Read More →</a>
+      </div>
+      <div class="article-card">
+        <div class="article-card__date">July 2023</div>
+        <h3 class="article-card__title">IRS Ending Unannounced Visits from Revenue Officers</h3>
+        <p class="article-card__excerpt">The IRS announced it would cease its decades-long practice of unannounced visits to taxpayers' homes and businesses when attempting to collect tax debts.</p>
+        <a href="#" class="article-card__link">Read More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Anderson &amp; Jahde</div>
+        <div class="footer__brand-sub">Denver Tax Attorneys</div>
+        <p class="footer__brand-desc">Solving complex tax disputes for Colorado individuals and businesses since 1995. Former IRS trial lawyers on staff.</p>
+        <a href="tel:3037820003" class="footer__phone">303-782-0003</a>
+        <div class="footer__address">4582 South Ulster Street, Denver, CO</div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Who We Are</div>
+        <ul>
+          <li><a href="#">Steven Anderson</a></li>
+          <li><a href="#">Alan Jahde</a></li>
+          <li><a href="#">Briana Fehringer</a></li>
+          <li><a href="#">Kevin Planegger</a></li>
+          <li><a href="#">Whitney Wolfe</a></li>
+          <li><a href="https://andersonjahde.netlify.app/who-we-are/">All Attorneys</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Practice Areas</div>
+        <ul>
+          <li><a href="https://andersonjahde.netlify.app/tax-law/tax-audits-appeals/">Tax Audits &amp; Appeals</a></li>
+          <li><a href="#">Reducing Tax Debts</a></li>
+          <li><a href="#">Individual Controversy</a></li>
+          <li><a href="#">Civil &amp; Criminal Litigation</a></li>
+          <li><a href="#">Business Tax</a></li>
+          <li><a href="#">Accountant Liability</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title">Resources</div>
+        <ul>
+          <li><a href="https://andersonjahde.netlify.app/resources/">Tax Law Articles</a></li>
+          <li><a href="#">Do I Need a Tax Attorney?</a></li>
+          <li><a href="#">When to Hire an Attorney</a></li>
+          <li><a href="#">Is It Worth the Cost?</a></li>
+          <li><a href="https://andersonjahde.netlify.app/contact/">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      © 2024 Anderson &amp; Jahde, P.C. All rights reserved. This website is for informational purposes only and does not constitute legal advice.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
