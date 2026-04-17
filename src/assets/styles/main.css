@@ -3,21 +3,42 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
+  /* Tailwind overrides */
   --container-sm: 100%;
   --container-md: 100%;
   --container-lg: 1140px;
   --container-xl: 1380px;
   --container-2xl: 1540px;
-  --color-ajblue: #1b2023;
   --page-padding: 1.8rem;
+
+  /* Custom */
+  --color-ajblue: #0f1b27;
+  --color-ajlightgrey: #a6aeb4;
+  --color-ajgrey: #1b2023;
+  --color-ajred: #d94948;
+  --color-ajtext: rgba(1, 22, 39, 0.75);
 }
 
 @utility bg-ajblue {
   background: var(--color-ajblue);
 }
 
+@utility bg-ajgrey {
+  background: var(--color-ajgrey);
+}
+
+@utility bg-ajred {
+  background: var(--color-ajred);
+}
+
 @utility bg-home-cover {
   background: url('/assets/images/home.jpg');
+  @apply bg-cover bg-no-repeat;
+}
+
+@utility bg-footer-cover {
+  background: url('/assets/images/footer.jpg');
+  @apply bg-cover bg-no-repeat;
 }
 
 @utility font-medium {
@@ -45,12 +66,11 @@
 }
 
 body {
-  @apply font-sans;
+  @apply font-sans text-ajtext;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
-  @apply m-0 p-0 capitalize;
 }
 
 .container {
@@ -61,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
 main.container {
   padding-bottom: var(--page-padding);
   padding-top: var(--page-padding);
+}
+
+section {
+  @apply my-20;
 }
 
 /****** MAIN NAVIGATION ***/
@@ -99,4 +123,25 @@ ul.main-navigation > li > ul li:hover {
 
 ul.main-navigation > li > ul > li:last-of-type {
   @apply border-none rounded-b-lg;
+}
+
+/** TEXT **/
+
+.heading {
+  @apply text-2xl font-strong;
+}
+
+.heading-l {
+  @apply text-3xl font-strong;
+}
+
+.subtitle {
+/** t **/
+  @apply text-sm uppercase font-strong text-ajlightgrey;
+}
+
+/** CTA **/
+
+.button {
+  @apply inline-block bg-ajred py-2 px-6 rounded-full text-white;
 }

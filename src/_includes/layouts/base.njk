@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
@@ -18,10 +20,10 @@
       {% include 'components/masts/' + mast + '.njk' %}
     {% endif %}
 
-    <main class="container mx-auto">
-      <section>
-        {{ content | safe }}
-      </section>
+    <main>
+      {{ content | safe }}
     </main>
+
+    {% include "components/footer.njk" %}
   </body>
 </html>

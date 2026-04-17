@@ -1,0 +1,57 @@
+---
+title: Denver Tax Attorneys - Anderson & Jahde
+mast: home
+---
+
+<section class="container mx-auto grid md:grid-cols-2 gap-8">
+  <div>
+    <p class="subtitle">About the Firm</p>
+    <h2 class="heading my-6">Experience that only comes from doing it every day.</h2>
+    <p>Individuals and businesses confronted with the IRS and state taxing authorities face potentially serious consequences. The technical world of tax disputes is not for the inexperienced — mishandling a tax controversy can be devastating.</p>
+    <p>Our attorneys, including former IRS trial lawyers, have solved countless tax problems since opening our doors in Denver in 1995. Solutions as unique as each client.</p>
+    <p>
+      <a class="button mt-8" href="/who-we-are">Meet the Attorneys</a>
+    </p>
+  </div>
+
+  <div>
+    <ul class="flex flex-col gap-8">
+      {% set items = [
+        ["Lawyer of the Year &mdash; Tax Law, Denver Area", "2023 Recognition", "Best Lawyers in America &bull; Steven Anderson"],
+        ["James E. Bye", "Lifetime Achievement Award", "Colorado Bar Association Tax Law Section &bull; 2021"],
+        ["Named Among the Best Law Firms in America", "Recognition", ""]
+      ] %}
+      {% for title, subtitle, text in items %}
+      <li>
+        <p class="subtitle">{{ subtitle }}</p>
+        <h3 class="heading">{{ title | safe }}</h3>
+        <p>{{ text | safe }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="bg-ajblue text-white py-16">
+  <div class="container mx-auto">
+    <h2 class="heading-l uppercase">What We Do</h2>
+    <span class="block border-b-2 border-b-white w-1/2 mt-4 mb-12"></span>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-16">
+      {% for area in practiceAreas %}
+      <div>
+        <h3 class="heading uppercase">{{ area.title | safe }}</h3>
+        <span class="block border-b-2 border-b-white w-1/2 my-4"></span>
+        <p>{{ area.text | safe }}</p>
+        <a class="button mt-4" href="{{ area.url }}">Learn More</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mx-auto">
+    <h2 class="heading-l text-center">Recent Articles</h2>
+  </div>
+</section>

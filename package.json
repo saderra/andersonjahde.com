@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i ./src/styles/tailwind.css -c ./tailwind.config.js -o ./_site/assets/css/main.css --minify"
+    "build": "NODE_ENV=production eleventy"
   },
   "keywords": [],
   "author": "",

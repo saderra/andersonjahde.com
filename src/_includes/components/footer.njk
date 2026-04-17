@@ -1,0 +1,48 @@
+<footer class="bg-footer-cover text-white py-8">
+  <div class="container mx-auto grid md:grid-cols-3 gap-8">
+    <div>
+      <h4 class="text-xl uppercase mb-4">Our Attorneys</h4>
+      <ul>
+        {% for attorney in attorneys %}
+        <li>
+          <a href="{{ attorney.url }}">{{ attorney.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="text-xl uppercase mb-4">Practice Areas</h4>
+      <ul>
+        {% for area in practiceAreas %}
+        <li>
+          <a href="{{ area.url }}">{{ area.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="text-xl uppercase mb-4">Denver Office</h4>
+      <p>
+        4582 South Ulster Street<br>
+        Suite 1350<br>
+        Denver, CO 80237<br>
+        {% phone %}
+      </p>
+    </div>
+  </div>
+</footer>
+
+<footer class="bg-ajgrey text-white">
+  <div class="container mx-auto flex flex-col flex-wrap md:flex-row justify-center md:justify-between py-4 gap-4">
+    <div class="overflow-hidden mx-auto md:mx-0">
+      Copyright &copy; {% year %} Anderson & Jahde
+    </div>
+    <nav class="overflow-hidden flex flex-row mx-auto md:mx-0 md:justify-end gap-4">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Legal Disclaimers</a>
+      <a href="#">Site Credit</a>
+    </nav>
+  </div>
+</footer>
