@@ -65,7 +65,7 @@ module.exports = function (eleventyConfig) {
   // PLUGINS
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(embedEverything);
-  eleventyConfig.addPlugin(pluginRss);
+  // eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(metagen);
 
   // TAILWIND
