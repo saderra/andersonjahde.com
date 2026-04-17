@@ -1,27 +1,28 @@
-<div class="items-center hidden lg:flex">
-    {% set navPages = collections.all | eleventyNavigation %}
-    {% macro renderNavListItem(entry) %}
-    {% set isHomepage = entry.url == '/' %}
-    {% set isActive = page.url  %}
-        <li{% if entry.children.length %}{% if entry.url == page.url %} class="group active"{% else %} class="group"{% endif %}{% endif %}>
-            <a href="{{ entry.url | url }}"{% if isActive and not isHomepage %}class="active"{% endif %}>
-                {{ entry.title }}
-            </a>
+{% set navPages = collections.all | eleventyNavigation %}
 
-            {% if entry.children.length %}    
-                <ul class="absolute hidden group-hover:block bg-white border border-stone-200 z-50 border-b-0 border-t-0 shadow-md">
-                {% for child in entry.children %}
-                    {{ renderNavListItem(child) }}
-                {% endfor %}
-                </ul>
-            {% endif %}
-        </li>
-    {% endmacro %}
-    <ul class="main-navigation">
-        {%- for entry in navPages %}
-            {{ renderNavListItem(entry) }}
-        {%- endfor -%}
-        
+<div class="items-center hidden lg:flex">
+  {% macro renderNavListItem(entry) %}
+  {% set isHomepage = entry.url == '/' %}
+  {% set isActive = page.url  %}
+  <li{% if entry.children.length %}{% if entry.url == page.url %} class="group active"{% else %} class="group"{% endif %}{% endif %}>
+    <a href="{{ entry.url | url }}"{% if isActive and not isHomepage %}class="active"{% endif %}>
+      {{ entry.title }}
+    </a>
+
+    {% if entry.children.length %}
+    <ul class="absolute hidden group-hover:block bg-white border border-stone-200 z-50 border-b-0 border-t-0 shadow-md">
+      {% for child in entry.children %}
+      {{ renderNavListItem(child) }}
+      {% endfor %}
     </ul>
+    {% endif %}
+  </li>
+  {% endmacro %}
+
+  <ul class="main-navigation">
+    {%- for entry in navPages %}
+      {{ renderNavListItem(entry) }}
+    {%- endfor -%}
+  </ul>
 </div>
 

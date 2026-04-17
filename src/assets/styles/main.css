@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --container-sm: 100%;
+  --container-md: 100%;
+  --container-lg: 1140px;
+  --container-xl: 1380px;
+  --container-2xl: 1540px;
+  --color-ajblue: #1b2023;
+  --page-padding: 1.8rem;
+}
+
+@utility bg-ajblue {
+  background: var(--color-ajblue);
+}
+
+@utility bg-home-cover {
+  background: url('/assets/images/home.jpg');
+}
+
+@utility font-medium {
+  font-weight: 400;
+}
+
+@utility font-strong {
+  font-weight: 500;
+}
+
+@utility font-stronger {
+  font-weight: 600;
+}
+
+@utility poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@utility text-sbtext {
+  font-size: 0.6rem;
+}
+
+@utility text-toptext {
+  font-size: 0.8rem;
+}
+
+body {
+  @apply font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  @apply m-0 p-0 capitalize;
+}
+
+.container {
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+}
+
+main.container {
+  padding-bottom: var(--page-padding);
+  padding-top: var(--page-padding);
+}
+
+/****** MAIN NAVIGATION ***/
+
+ul.main-navigation {
+  @apply poppins text-base font-medium;
+}
+
+ul.main-navigation {
+  @apply poppins;
+}
+
+ul.main-navigation > li {
+  @apply inline-block float-left;
+}
+
+ul.main-navigation > li > a {
+  @apply block px-2 lg:pl-3 py-6 ml-2 lg:ml-3;
+}
+
+ul.main-navigation > li > ul {
+  @apply w-64 border-t text-sm rounded-lg;
+}
+
+ul.main-navigation > li > ul > li {
+	@apply border-b;
+}
+
+ul.main-navigation > li > ul a {
+	@apply block pl-6 py-3;
+}
+
+ul.main-navigation > li > ul li:hover {
+	@apply bg-stone-100;
+}
+
+ul.main-navigation > li > ul > li:last-of-type {
+  @apply border-none rounded-b-lg;
+}

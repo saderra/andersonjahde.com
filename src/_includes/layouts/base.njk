@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include "components/head.njk" %}
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8befc7acc2.js" crossorigin="anonymous"></script>
 
-<body>
-{% include "components/header/header.njk" %}
-{% include "components/crumb.njk" %}
+    <script src="//unpkg.com/alpinejs" defer></script>
 
-{% if mast %} 
-    {% include "components/masts.njk" %}
-{% endif %}
+    <link rel="stylesheet" href="/assets/styles/main.css?v={% version %}" />
+  </head>
 
+  <body>
+    {% include "components/header/header.njk" %}
 
+    {% if mast %}
+      {% include 'components/masts/' + mast + '.njk' %}
+    {% endif %}
 
-
-<main class="container">
-
-    <section>
-    {{ content | safe }}
-    </section>
-
-</main>
-
-    </body>
+    <main class="container mx-auto">
+      <section>
+        {{ content | safe }}
+      </section>
+    </main>
+  </body>
 </html>
