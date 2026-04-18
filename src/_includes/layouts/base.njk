@@ -11,6 +11,11 @@
     <script src="//unpkg.com/alpinejs" defer></script>
 
     <link rel="stylesheet" href="/assets/styles/main.css?v={% version %}" />
+
+    {% metagen
+      title=title,
+      desc=desc or excerpt
+    %}
   </head>
 
   <body>

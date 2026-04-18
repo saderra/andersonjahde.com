@@ -2,6 +2,7 @@ import dotenv from 'dotenv'
 import eleventyNavigation from '@11ty/eleventy-navigation'
 import htmlmin from 'html-minifier'
 import MarkdownIt from 'markdown-it'
+import metagen from 'eleventy-plugin-metagen'
 import path from 'path'
 import postcss from 'postcss'
 import tailwindcss from '@tailwindcss/postcss'
@@ -28,6 +29,7 @@ export default async function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(eleventyNavigation)
+  eleventyConfig.addPlugin(metagen)
 
   // Process Markdown into HTML
   eleventyConfig.setLibrary('md', MarkdownIt({ html: true, breaks: true, linkify: true }))
