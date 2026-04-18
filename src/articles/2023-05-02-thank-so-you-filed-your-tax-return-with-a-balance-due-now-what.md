@@ -1,6 +1,7 @@
 ---
 tags: article
 title: Thank So You Filed Your Tax Return With A Balance Due— Now What?
+desc: As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes.
 excerpt: |
   As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes.  In large measure, this resulted from many of the pandemic-related credits expiring.
 
