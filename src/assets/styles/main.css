@@ -14,6 +14,7 @@
   /* Custom */
   --color-ajblue: #0f1b27;
   --color-ajlightgrey: #a6aeb4;
+  --color-ajllgrey: #f8f8f8;
   --color-ajgrey: #1b2023;
   --color-ajred: #d94948;
   --color-ajtext: rgba(1, 22, 39, 0.75);
@@ -21,6 +22,10 @@
 
 @utility bg-ajblue {
   background: var(--color-ajblue);
+}
+
+@utility bg-ajllgrey {
+  background: var(--color-ajllgrey);
 }
 
 @utility bg-ajgrey {
@@ -129,6 +134,10 @@ ul.main-navigation > li > ul > li:last-of-type {
 
 .heading {
   @apply text-2xl font-strong;
+}
+
+.heading-s {
+  @apply text-xl font-strong;
 }
 
 .heading-l {

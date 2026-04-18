@@ -1,6 +1,12 @@
 ---
 title: Denver Tax Attorneys - Anderson & Jahde
 mast: home
+
+pagination:
+  data: collections.article
+  reverse: true
+  size: 3
+  alias: articles
 ---
 
 <section class="container mx-auto grid md:grid-cols-2 gap-8">
@@ -52,6 +58,17 @@ mast: home
 
 <section>
   <div class="container mx-auto">
-    <h2 class="heading-l text-center">Recent Articles</h2>
+    <h2 class="heading-l text-center mb-12">Recent Articles</h2>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+      {% for article in articles %}
+      <div class="bg-ajllgrey p-6">
+        <h3 class="heading-s">{{ article.data.title }}</h3>
+        <time class="font-strong" datetime="{{ article.date | datetime }}">{{ article.date | date }}</time>
+        <p>{{ article.data.excerpt }}</p>
+        <a class="button mt-4" href="{{ article.url }}">Read more</a>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

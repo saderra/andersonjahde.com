@@ -13,6 +13,9 @@ const config = {
   css: {
     inputFile: path.resolve('./src/assets/styles/main.css'),
     outputFile: path.join(outDir, 'assets/styles/main.css')
+  },
+  date: {
+    month: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
   }
 }
 
@@ -44,6 +47,32 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/images');
   eleventyConfig.addPassthroughCopy('./src/assets/pdf');
   eleventyConfig.addPassthroughCopy('./src/assets/favicons');
+
+  // Filters
+  eleventyConfig.addFilter('date', value => {
+    const date = new Date(value)
+
+    const year = date.getFullYear()
+    const month = config.date.month[date.getMonth()]
+    const day = date.getDate()
+
+    return `${month} ${day}, ${year}`
+  })
+  eleventyConfig.addFilter('datetime', value => {
+    const date = new Date(value)
+
+    const year = date.getFullYear()
+    const month = (1 + date.getMonth()).toString().padStart(2, '0')
+    const day = date.getDate().toString().padStart(2, '0')
+    const hour = date.getHours().toString().padStart(2, '0')
+    const minute = date.getHours().toString().padStart(2, '0')
+    const second = date.getHours().toString().padStart(2, '0')
+
+    const tzoffsetHour = (Math.abs(date.getTimezoneOffset()) % 60).toString().padStart(2, '0')
+    const tzdirection = date.getTimezoneOffset() < 0 ? '-' : '+'
+
+    return `${year}-${month}-${day}T${hour}:${minute}:${second}${tzdirection}${tzoffsetHour}:00`
+  })
 
   // Shortcodes
   eleventyConfig.addShortcode('mastfile', function () {
