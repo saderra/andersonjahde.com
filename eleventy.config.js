@@ -1,5 +1,6 @@
 import dotenv from 'dotenv'
 import eleventyNavigation from '@11ty/eleventy-navigation'
+import htmlmin from 'html-minifier'
 import MarkdownIt from 'markdown-it'
 import path from 'path'
 import postcss from 'postcss'
@@ -75,13 +76,23 @@ export default async function (eleventyConfig) {
   })
 
   // Shortcodes
-  eleventyConfig.addShortcode('mastfile', function () {
-    if (this.ctx.mast) return `masts/${this.ctx.mast}.njk`
-    throw new Error(`unknown mast "${this.ctx.mast}"`)
-  })
   eleventyConfig.addShortcode('phone', () => process.env.AJ_PHONE)
   eleventyConfig.addShortcode('version', () => process.env.AJ_VERSION || Date.now().toString())
   eleventyConfig.addShortcode('year', () => new Date().getFullYear().toString())
+
+  // Optimize for production
+  if (process.env.NODE_ENV === 'production') {
+    eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
+      if (outputPath?.endsWith('.html')) {
+        return htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true,
+        })
+      }
+      return content
+    })
+  }
 
   return {
     dir: {
