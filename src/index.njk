@@ -9,7 +9,7 @@ pagination:
   alias: articles
 ---
 
-<section class="container mx-auto grid md:grid-cols-2 gap-8">
+<section class="container mx-auto grid md:grid-cols-2 gap-12">
   <div>
     <p class="subtitle">About the Firm</p>
     <h2 class="heading my-6">Experience that only comes from doing it every day.</h2>
@@ -56,19 +56,36 @@ pagination:
   </div>
 </section>
 
-<section>
-  <div class="container mx-auto">
-    <h2 class="heading-l text-center mb-12">Recent Articles</h2>
+<section class="container mx-auto text-center">
+  <h3 class="subtitle">Client Reviews</h3>
+  <p class="stars text-[48px] tracking-widest"><span class="text-gold">★★★★★</span></p>
+  <p class="text-sm uppercase">5.0 &bull; Google reviews</p>
+  <blockquote class="lg:w-2/3 xl:w-1/2 mx-auto my-8">
+    <span class="heading">"Steve Anderson and Jerry Borison are exceptional professionals who know how to solve complex IRS tax issues in a timely and effective manner. Their knowledge is unmatched."</span>
+  </blockquote>
+  <cite>Michael R. &bull; Google Review</cite>
+</section>
 
-    <div class="grid lg:grid-cols-3 gap-8">
-      {% for article in articles %}
-      <div class="bg-ajllgrey p-6">
-        <h3 class="heading-s">{{ article.data.title }}</h3>
-        <time class="font-strong" datetime="{{ article.date | datetime }}">{{ article.date | date }}</time>
-        <p>{{ article.data.excerpt }}</p>
-        <a class="button mt-4" href="{{ article.url }}">Read more</a>
-      </div>
-      {% endfor %}
+<section class="bg-ajblue text-white py-16">
+  <div class="container mx-auto text-center">
+    <h2 class="heading mb-4">Ready to resolve your tax problem?</h2>
+    <p>Our attorneys are available for confidential consultations. The sooner you act, the more options you have.</p>
+    <a class="button mt-8 mb-4" href="/contact">Get a Free Consultation</a>
+    <p class="subtitle">Or call directly: <a href="tel:{% phone %}">{% phone %}</a></p>
+  </div>
+</section>
+
+<section class="container mx-auto">
+  <h2 class="heading-l text-center mb-12">Recent Articles</h2>
+
+  <div class="grid lg:grid-cols-3 gap-8">
+    {% for article in articles %}
+    <div class="bg-ajllgrey p-6">
+      <h3 class="heading-s">{{ article.data.title }}</h3>
+      <time class="inline-block font-strong my-2" datetime="{{ article.date | datetime }}">{{ article.date | date }}</time>
+      <p>{{ article.data.excerpt }}</p>
+      <a class="button mt-4" href="{{ article.url }}">Read more</a>
     </div>
+    {% endfor %}
   </div>
 </section>

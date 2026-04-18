@@ -18,6 +18,7 @@
   --color-ajgrey: #1b2023;
   --color-ajred: #d94948;
   --color-ajtext: rgba(1, 22, 39, 0.75);
+  --color-gold: #d4af37;
 }
 
 @utility bg-ajblue {
@@ -153,4 +154,8 @@ ul.main-navigation > li > ul > li:last-of-type {
 
 .button {
   @apply inline-block bg-ajred py-2 px-6 rounded-full text-white;
+}
+
+.stars {
+  font-family: 'Source Sans 3', -apple-system, 'Segoe UI', sans-serif;
 }
