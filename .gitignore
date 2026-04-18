@@ -4,6 +4,6 @@ bkp/
 source/
 package-lock.json
 .DS_Store
-netlify/functions/search/**  
+netlify/functions/search/**
 !netlify/functions/search/index.js
 .env
