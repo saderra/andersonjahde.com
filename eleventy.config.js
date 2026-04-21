@@ -34,18 +34,6 @@ export default async function (eleventyConfig) {
   // Process Markdown into HTML
   eleventyConfig.setLibrary('md', MarkdownIt({ html: true, breaks: true, linkify: true }))
 
-  // Process Tailwind CSS through PostCSS
-  eleventyConfig.addExtension('css', {
-    outputFileExtension: 'css',
-    useLayouts: false,
-    compile: async (content, file) => {
-      const from = path.resolve(file)
-      const result = await cssProcessor.process(content, { from })
-      return async () => result.css
-    }
-  })
-  eleventyConfig.addTemplateFormats('css')
-
   // Passthrough files
   eleventyConfig.addPassthroughCopy('./src/assets/images');
   eleventyConfig.addPassthroughCopy('./src/assets/pdf');
@@ -82,7 +70,25 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('version', () => process.env.AJ_VERSION || Date.now().toString())
   eleventyConfig.addShortcode('year', () => new Date().getFullYear().toString())
 
-  // Optimize for production
+  // == Process Tailwind CSS through PostCSS ==
+  // Note: this is buggy in dev, as PostCSS/Tailwind do not detect changes to content files. Unclear why.
+  // npm start works around this by concurrently running Tailwind CLI instead.
+  // This method is enabled for production since hot reloading isn't required.
+  if (process.env.NODE_ENV === 'production') {
+    eleventyConfig.addExtension('css', {
+      outputFileExtension: 'css',
+      useLayouts: false,
+      cache: false,
+      compile: async (content, file) => {
+        const from = path.resolve(file)
+        const result = await cssProcessor.process(content, { from })
+        return async () => result.css
+      }
+    })
+    eleventyConfig.addTemplateFormats('css')
+  }
+
+  // == Minify HTML for production ==
   if (process.env.NODE_ENV === 'production') {
     eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
       if (outputPath?.endsWith('.html')) {

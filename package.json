@@ -4,8 +4,10 @@
   "description": "Anderson Jahde",
   "type": "module",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "NODE_ENV=production eleventy"
+    "build": "NODE_ENV=production eleventy",
+    "start:11ty": "eleventy --serve",
+    "start:css": "tailwindcss -i ./src/assets/styles/main.css -o ./_site/assets/styles/main.css --watch",
+    "start": "concurrently --kill-others \"npm run start:11ty\" \"npm run start:css\""
   },
   "keywords": [],
   "author": "",
@@ -15,9 +17,11 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@tailwindcss/cli": "^4.2.3",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/postcss": "^4.2.2",
     "@tailwindcss/typography": "^0.5.19",
+    "concurrently": "^9.2.1",
     "dotenv": "^17.4.2",
     "eleventy-plugin-embed-everything": "^1.21.2",
     "eleventy-plugin-metagen": "^1.8.4",
