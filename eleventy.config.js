@@ -1,4 +1,3 @@
-import dotenv from 'dotenv'
 import eleventyNavigation from '@11ty/eleventy-navigation'
 import htmlmin from 'html-minifier'
 import MarkdownIt from 'markdown-it'
@@ -6,8 +5,6 @@ import metagen from 'eleventy-plugin-metagen'
 import path from 'path'
 import postcss from 'postcss'
 import tailwindcss from '@tailwindcss/postcss'
-
-dotenv.config()
 
 const outDir = path.resolve('./_site')
 
@@ -66,8 +63,7 @@ export default async function (eleventyConfig) {
   })
 
   // Shortcodes
-  eleventyConfig.addShortcode('phone', () => process.env.AJ_PHONE)
-  eleventyConfig.addShortcode('version', () => process.env.AJ_VERSION || Date.now().toString())
+  eleventyConfig.addShortcode('version', () => Date.now().toString())
   eleventyConfig.addShortcode('year', () => new Date().getFullYear().toString())
 
   // == Process Tailwind CSS through PostCSS ==
