@@ -2,10 +2,14 @@
 title: "Whitney W. Wolfe"
 slug: whitney-w-wolfe
 tags:
-  - team
-headshot: /assets/images/team/whitney-min.jpg
+  - attorneys
+headshot: /assets/images/attorneys/whitney-min.jpg
 summary: "Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate planning, and estate and trust administration. With a legal career spanning more than 12 years, Whitney "
 order: 1
+eleventyNavigation:
+  key: "Whitney W. Wolfe"
+  parent: Attorneys
+  order: 10
 ---Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate planning, and estate and trust administration. With a legal career spanning more than 12 years, Whitney has built a reputation for her detailed, results-driven approach. She is known for her compassion, dedication, and commitment to achieving the best possible outcomes for her clients.
 
 Whitney represents individuals, businesses, and estates before the Internal Revenue Service and state taxing authorities. Whitney particularly enjoys representing clients in tax audits and examination proceedings. Whitney is also skilled in matters involving penalty abatement and relief from joint and several liability (innocent spouse relief).  Whitney has secured countless wins for her clients and is a trusted ally for any taxpayer facing scrutiny or aggressive collection action. 

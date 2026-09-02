@@ -35,7 +35,7 @@ Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate pla
 
 [Attorney Profile](https://andersonjahde.com/attorneys/emily-olson/)
 
-[![](/assets/images/team/steven_anderson.jpg)](https://andersonjahde.com/attorneys/steven-anderson/)
+[![](/assets/images/attorneys/steven_anderson.jpg)](https://andersonjahde.com/attorneys/steven-anderson/)
 
 #### [Steven Anderson](https://andersonjahde.com/attorneys/steven-anderson/)
 
@@ -43,7 +43,7 @@ Listed in Best Lawyers In America, Lawyers Of Distinction, Marquis Who’s Who, 
 
 [Attorney Profile](https://andersonjahde.com/attorneys/steven-anderson/)
 
-[![](/assets/images/team/briana-sm-min.jpg)](https://andersonjahde.com/attorneys/briana-fehringer/)
+[![](/assets/images/attorneys/briana-sm-min.jpg)](https://andersonjahde.com/attorneys/briana-fehringer/)
 
 #### [Briana Fehringer](https://andersonjahde.com/attorneys/briana-fehringer/)
 
@@ -51,7 +51,7 @@ Briana Fehringer is a Partner at Anderson & Jahde, P.C. focusing on IRS examinat
 
 [Attorney Profile](https://andersonjahde.com/attorneys/briana-fehringer/)
 
-[![](/assets/images/team/alan.jpg)](https://andersonjahde.com/attorneys/alan-jahde/)
+[![](/assets/images/attorneys/alan.jpg)](https://andersonjahde.com/attorneys/alan-jahde/)
 
 #### [Alan Jahde](https://andersonjahde.com/attorneys/alan-jahde/)
 
@@ -59,7 +59,7 @@ Co-founder of Anderson & Jahde, P.C. Alan focuses on international income and es
 
 [Attorney Profile](https://andersonjahde.com/attorneys/alan-jahde/)
 
-[![](/assets/images/team/richard.jpg)](https://andersonjahde.com/attorneys/richard-destrada/)
+[![](/assets/images/attorneys/richard.jpg)](https://andersonjahde.com/attorneys/richard-destrada/)
 
 #### [Richard D’Estrada](https://andersonjahde.com/attorneys/richard-destrada/)
 
@@ -67,7 +67,7 @@ After serving for 28 years as a trial lawyer in IRS’ Chief Counsel’s Office,
 
 [Attorney Profile](https://andersonjahde.com/attorneys/richard-destrada/)
 
-[![](/assets/images/team/woody.jpg)](https://andersonjahde.com/attorneys/woodson-herring/)
+[![](/assets/images/attorneys/woody.jpg)](https://andersonjahde.com/attorneys/woodson-herring/)
 
 #### [Woodson Herring](https://andersonjahde.com/attorneys/woodson-herring/)
 
@@ -75,7 +75,7 @@ Woodson’s areas of focus include business law, real estate, entity formation a
 
 [Attorney Profile](https://andersonjahde.com/attorneys/woodson-herring/)
 
-[![](/assets/images/team/tom.jpg)](https://andersonjahde.com/attorneys/thomas-hodel/)
+[![](/assets/images/attorneys/tom.jpg)](https://andersonjahde.com/attorneys/thomas-hodel/)
 
 #### [Thomas Hodel](https://andersonjahde.com/attorneys/thomas-hodel/)
 
@@ -83,7 +83,7 @@ Tom Hodel joined Anderson & Jahde as of counsel in May 2015 with over 40…
 
 [Attorney Profile](https://andersonjahde.com/attorneys/thomas-hodel/)
 
-[![](/assets/images/team/lawrence.jpg)](https://andersonjahde.com/attorneys/lawrence-hamil/)
+[![](/assets/images/attorneys/lawrence.jpg)](https://andersonjahde.com/attorneys/lawrence-hamil/)
 
 #### [Lawrence Hamil](https://andersonjahde.com/attorneys/lawrence-hamil/)
 
@@ -99,7 +99,7 @@ Amanda Cruser is a Partner at Anderson & Jahde, P.C.  She focuses her practice 
 
 [Attorney Profile](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
 
-[![](/assets/images/team/kevin-sm-min.jpg)](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+[![](/assets/images/attorneys/kevin-sm-min.jpg)](https://andersonjahde.com/attorneys/kevin-a-planegger/)
 
 #### [Kevin A. Planegger](https://andersonjahde.com/attorneys/kevin-a-planegger/)
 
@@ -107,7 +107,7 @@ Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents indi
 
 [Attorney Profile](https://andersonjahde.com/attorneys/kevin-a-planegger/)
 
-[![](/assets/images/team/whitney-min.jpg)](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+[![](/assets/images/attorneys/whitney-min.jpg)](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
 
 #### [Whitney W. Wolfe](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
 

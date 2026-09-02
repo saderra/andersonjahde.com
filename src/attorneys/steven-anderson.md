@@ -2,15 +2,19 @@
 title: "Steven Anderson"
 slug: steven-anderson
 tags:
-  - team
-headshot: /assets/images/team/steven_anderson.jpg
+  - attorneys
+headshot: /assets/images/attorneys/steven_anderson.jpg
 summary: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America . Our managing partner is the co-founder and President of Anderson & Jahde, P.C. Steven Anderson is a fellow in the "
 order: 10
+eleventyNavigation:
+  key: "Steven Anderson"
+  parent: Attorneys
+  order: 100
 ---### Named 2023 Lawyer Of The Year in Tax for the Denver area by [Best Lawyers In America](https://www.bestlawyers.com/lawyers/steven-r-anderson/156808).
 
 Our managing partner is the co-founder and President of Anderson & Jahde, P.C.  Steven Anderson is a fellow in the American College of Tax Counsel, the recipient of the 2021 James Bye Lifetime Achievement Award in Tax from the Colorado Bar Association, named in Super Lawyers, has been awarded [Martindale-Hubbell](https://www.martindale.com/)’s highest, preeminent, rating in legal ability and ethical standards, named in Lawyers Of Distinction, listed in Marquis Who’s Who, annually named by 5280 Magazine as a Top Lawyer in Denver and named among the Best Lawyers In America.
 
-![](/assets/images/team/2024-10-Best-Tax-Attorney.jpg)
+![](/assets/images/attorneys/2024-10-Best-Tax-Attorney.jpg)
 
 Mr. Anderson has represented and consulted thousands of individuals, corporations, and estates with civil and criminal tax controversies before the Internal Revenue Service, state and local taxing authorities, the United States Tax Court, the United States District Courts, the United States Courts of Appeals and even a leading case in the United States Supreme Court. He served as lead counsel in some of the highest-profile tax cases out of Colorado, and elsewhere, including a criminal tax case that the Department of Justice identified as one of the largest tax evasion cases in the history of Colorado, a seminal case won in the United States Supreme Court, a precedent-setting gift tax case in the United States Tax Court, and a defining Colorado Sales & Use tax case.
 

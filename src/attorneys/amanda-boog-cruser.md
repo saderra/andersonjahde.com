@@ -2,10 +2,14 @@
 title: "Amanda Boog Cruser"
 slug: amanda-boog-cruser
 tags:
-  - team
-headshot: /assets/images/team/amandaboog-min.jpg
+  - attorneys
+headshot: /assets/images/attorneys/amandaboog-min.jpg
 summary: "Amanda Cruser is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, innocent spouse cases, sal"
 order: 3
+eleventyNavigation:
+  key: "Amanda Boog Cruser"
+  parent: Attorneys
+  order: 30
 ---Amanda Cruser is a Partner at Anderson & Jahde, P.C.  She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, innocent spouse cases, sales and use tax audits, and criminal tax investigations.   She has also offered expert opinions on tax matters as they relate to dissolution of marriage cases and business disputes.
 
 Amanda is an attorney and a Certified Public Accountant.  She received her BS in Business Administration with a concentration in accounting from Trinity University in 1994 and received her law degree from the University of Denver in 1998.  She began her law career in the U.S. Department of Justice Honor’s Program where she was assigned to the Western Criminal Enforcement Section of the Tax Division.  In her role as a criminal tax trial attorney, she reviewed and authorized federal tax cases for prosecution and served as a prosecuting tax attorney around the country.  In 2003, she received The John Marshall Award for Trial of Litigation from Attorney General John Ashcroft.

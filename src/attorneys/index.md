@@ -1,6 +1,6 @@
 ---
 title: "Our Attorneys"
-layout: list-team
+layout: list-attorneys
 eleventyNavigation:
   key: Attorneys
   order: 300
