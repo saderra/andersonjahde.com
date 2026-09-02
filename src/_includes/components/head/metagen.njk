@@ -25,8 +25,13 @@
     <meta property="og:description" content="{{ site.description }}">
 {% endif %}
 
+{% if cover %}
 <meta property="og:image" content="{{ site.url + cover }}">
 <meta property="og:image:alt" content="{{ title }} Cover Image">
+{% else %}
+<meta property="og:image" content="{{ site.logo }}">
+<meta property="og:image:alt" content="{{ site.title }}">
+{% endif %}
 
 {% if description %}
 <meta name="description" content="{{ description }}">

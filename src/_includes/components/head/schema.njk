@@ -4,10 +4,10 @@
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "{{ title }}",
-  "image": "{{ site.url + cover }}",
+  "image": "{% if cover %}{{ site.url + cover }}{% else %}{{ site.logo }}{% endif %}",
   "datePublished": "{{ page.date | htmlDateString }}",
   "author": {
-    "@type": "Person",
+    "@type": "Organization",
     "name": "{{ site.author.name }}",
     "url": "{{ site.author.url }}"
   },
@@ -29,9 +29,13 @@
   "@type": "Organization",
   "name": "{{ site.title }}",
   "url": "{{ site.url }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.logo }}"
+  }{% if site.social.instagram %},
   "sameAs": [
     "https://www.instagram.com/{{ site.social.instagram }}"
-  ]
+  ]{% endif %}
 }
 {% endif %}
 
