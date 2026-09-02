@@ -1,7 +1,13 @@
 ---
 title: "Do I Need A Tax Attorney?"
+slug: do-i-need-a-tax-attorney
 description: "Tax lawyers understand tax laws in ways accountants and other non-lawyers do not. Those differences become important in any dispute with the IRS, whether it is an audit, you owe the IRS money, or wors"
-layout: page
+tags:
+  - faq
+eleventyNavigation:
+  key: "Do I Need A Tax Attorney?"
+  parent: FAQ
+  order: 40
 ---
 Tax lawyers understand tax laws in ways accountants and other non-lawyers do not. Those differences become important in any dispute with the IRS, whether it is an audit, you owe the IRS money, or worse, you have been contacted by IRS Special Agents. When you need to communicate with a professional about sensitive facts that might hurt you, you need those communications to be protected under an attorney-client privilege. Communications with accountants and lawyers are not protected by this privilege. Hire a tax lawyer. Tax attorneys have more education than accountants and non-lawyers. Tax lawyers that truly specialize in tax controversy are not commonplace. Most tax lawyers do not specialize in tax controversy. When you have a tax controversy, find a tax lawyer who is a specialist in handling tax controversies.
 

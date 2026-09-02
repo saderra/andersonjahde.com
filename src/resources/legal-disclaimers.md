@@ -2,6 +2,7 @@
 title: "Legal Disclaimers"
 description: "Thank you for your interest in our law firm. The Anderson & Jahde website is designed to provide general information about our law firm and the areas in which we practice. The materials on this websit"
 layout: page
+permalink: /legal-disclaimers/
 ---
 Thank you for your interest in our law firm.
 
