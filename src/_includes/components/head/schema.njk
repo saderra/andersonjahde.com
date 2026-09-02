@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{% if type == "post" %}
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "image": "{{ site.url + cover }}",
+  "datePublished": "{{ page.date | htmlDateString }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.author.url }}"
+  },
+  "mainEntityOfPage": { "@type": "WebPage" },
+   "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo }}"
+    }
+  },
+  "description": "{{ description or site.description }}",
+  "keywords": "{{ keywords }}"
+}
+{% else %}
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "https://www.instagram.com/{{ site.social.instagram }}"
+  ]
+}
+{% endif %}
+
+{# {% if type == "post" %}
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "{{ title }}",
+  "url": "{{ url }}"
+}
+{% endif %} #}
+</script>

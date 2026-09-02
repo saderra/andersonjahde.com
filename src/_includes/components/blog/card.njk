@@ -1,0 +1,11 @@
+<div class="blog-card">
+    {% include "components/blog/cover.njk" %}
+    <div class="blog-card-content">
+    
+        {% include "components/blog/title.njk" %}
+        {% include "components/blog/summary.njk" %}       
+
+
+        <a class="read-more" href="{{ post.url }}">Read More &raquo;</a>
+    </div>
+</div>

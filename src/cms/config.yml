@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update
+
+publish_mode: editorial_workflow
+
+site_url: https://example.com
+display_url: https://example.com
+
+media_folder: "src/assets/images/uploads"
+public_folder: "/assets/images/uploads" 
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: articles
+    label: Article
+    folder: 'src/articles/'
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'SLUG', name: 'slug', widget: 'string' }
+      - { label: "Categories", name: "categories", widget: "select", multiple: true, options: ["Updates", "Guides", "Case Studies", "News"],  default: ["Updates"] }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', default: "", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - { label: "Cover Image", name: "cover", widget: "image", choose_url: true } 
+      - { label: 'Parent', name: 'parent', widget: 'hidden', default: "Articles" }
+      - { label: 'Excerpt', name: 'summary', widget: 'string' }
+      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

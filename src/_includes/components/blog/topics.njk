@@ -1,0 +1,16 @@
+{% if post.data.categories  %} 
+    {% set categoryList = post.data.categories %}
+{% else %}
+    {% set categoryList = categories %}
+{% endif  %} 
+
+<div class="flex items-center md:flex-wrap font-semibold mt-4">
+    <p class="mr-2">Topics:</p>
+    <ul>
+        {%- for cat in categoryList -%}
+            <li class="inline-block border-r pl-2 pr-2 last-of-type:border-0 border-stone-400 first-of-type:pl-2 leading-[0.9]"> 
+                <a href="/articles/categories/{{ cat | slug }}" class="inline-block text-pink-900 hover:text-pink-700 no-underline"> {{ cat | title }} </a>    
+            </li>
+        {%- endfor -%} 
+    </ul>
+</div>

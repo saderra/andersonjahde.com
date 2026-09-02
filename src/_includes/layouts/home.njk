@@ -1,0 +1,23 @@
+{% extends "layouts/base.njk" %}
+{% block mainContent %}
+
+    {% include "components/home/intro.njk" %}
+
+    <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
+
+        
+        <!-- Home Posts -->
+        <div class="p-0 col-span-12 lg:col-span-8">
+            {% set latest_posts = collections.articles | reverse %}
+            <!-- Output The Posts -->
+            {% for post in latest_posts.slice(0,6) %}
+               {% include "components/blog/card.njk" %}
+            {% endfor %}
+        </div><!-- End Home Posts -->
+        
+        {% include "components/section/sidebar.njk" %}
+
+    </div>
+
+{% endblock %}
+

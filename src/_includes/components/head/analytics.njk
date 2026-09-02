@@ -1,0 +1,15 @@
+{% if site.analytics.google  %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.analytics.google }}');
+  {% if site.analytics.googleAdsId %}gtag('config', '{{ site.analytics.googleAdsId }}');{% endif %}
+</script>
+{% endif  %}
+
+
+{% if site.analytics.fathom  %} 
+    <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.analytics.fathom }}" defer></script>
+{% endif  %} 

@@ -1,0 +1,14 @@
+{% set socialStyle = "inline-flex text-neutral-100 text-center py-4" %}
+
+
+{% if site.social.medium %}
+    <a href="https://medium.com/{{ site.social.medium}}" class="{{ socialStyle }}" target="_blank" rel="noopener"><i class="fab fa-medium px-2"></i></a>
+{% endif %}
+
+{% if site.social.instagram %}
+    <a href="https://www.instagram.com/{{ site.social.instagram}}" class="{{ socialStyle }}" target="_blank" rel="noopener"><i class="fab fa-instagram px-2"></i></a>
+{% endif %}
+
+{% if site.social.threads %}
+    <a href="https://www.threads.net/{{ site.social.threads}}" class="{{ socialStyle }}" target="_blank" rel="noopener"><i class="fab fa-threads px-2"></i></a>
+{% endif %}

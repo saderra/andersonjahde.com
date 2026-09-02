@@ -1,0 +1,26 @@
+<div class="bg-brand-dark py-16 px-4 text-center">
+    <h2 class="text-white text-2xl md:text-3xl font-medium mb-4">Stay In The Loop</h2>
+    <p class="text-white/70 max-w-xl mx-auto mb-8">
+        Get occasional updates delivered to your inbox. No spam — just content worth taking the time to read.
+    </p>
+
+    <form
+        id="newsletter-signup"
+        name="{{ site.title }} Newsletter Signup"
+        class="max-w-md mx-auto flex flex-col sm:flex-row gap-3"
+        method="POST"
+        data-netlify="true"
+        action="/contact/"
+    >
+        <label for="newsletter-email" class="sr-only">Your Email</label>
+        <input type="email" id="newsletter-email" placeholder="Email" name="email" required class="flex-1 rounded-md border-0 px-4 py-3" />
+        <button type="submit" class="bg-brand-bright text-brand-darker rounded-md font-medium px-6 py-3">Subscribe</button>
+    </form>
+
+    <!--
+        This form posts to Netlify Forms like the rest of the site's forms.
+        To connect a real email marketing provider instead (Mailchimp, Campaign
+        Monitor, ConvertKit, etc), replace the form above with that provider's
+        embed code and update the `action` accordingly.
+    -->
+</div>

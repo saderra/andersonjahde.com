@@ -1,0 +1,28 @@
+{% extends "layouts/base.njk" %}
+{% block mainContent %}
+      <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
+        <div class="p-0 col-span-12 lg:col-span-8">          
+           <article class="prose max-w-full p-6 md:p-8">
+
+                <image src="{{ cover }}" class="rounded-md" alt="{{ title }} cover image" />
+
+                <div class="bg-stone-50 p-5 md:p-8 rounded-md shadow-inner">
+                   
+                    {% include "components/blog/title.njk" %}
+
+
+                    <div class="mt-4">
+
+                    {{ content | safe }}
+
+        
+            
+                </div>
+            </article>
+        </div>     
+        {% include "components/section/sidebar.njk" %}
+    </div>
+
+{% endblock %}
+
+

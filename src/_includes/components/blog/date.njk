@@ -1,0 +1,12 @@
+{% if post.data.date  %} 
+    {% set timeStamp = post.data.date %}
+{% else %}
+    {% set timeStamp = date %}
+{% endif  %} 
+
+<div class="my-2">
+    <time   datetime="{{ timeStamp | postDate }}"
+            class="block rounded-lg bg-stone-200/40 py-3 px-3 mt-4 font-semibold uppercase text-center text-sm max-w-fit text-stone-600">
+            {{ timeStamp | postDate }}
+    </time>
+</div>

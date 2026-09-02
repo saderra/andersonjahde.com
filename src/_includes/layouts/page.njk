@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+{% block mainContent %}
+
+    <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
+        <div class="p-0 col-span-12 lg:col-span-8">
+           <article class="max-w-full p-8 lg:p-12">
+            <div class="prose">
+               <h1 class="text-3xl md:text-4xl pb-8 mb-8 border-b border-stone-200 font-normal">
+                {% if contentTitle %}
+                    {{ contentTitle }}
+                {% else %}
+                    {{ title }}
+                {% endif %}
+                </h1>
+                {{ content | safe }}
+                </div>
+                {% if showContactForm == true %}
+                    {% include "components/forms/general-contact.njk" %}
+                {% endif %}
+            </article>
+        </div>
+            {% include "components/section/sidebar.njk" %}
+        </div>
+
+{% endblock %}
+
+

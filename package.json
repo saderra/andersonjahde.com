@@ -1,0 +1,26 @@
+{
+  "name": "eleventy-starter",
+  "version": "1.0.0",
+  "description": "A reusable Eleventy starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve & npx tailwindcss -i ./src/styles/tailwind.css -c ./tailwind.config.js -o ./_site/assets/css/main.css --watch",
+    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i ./src/styles/tailwind.css -c ./tailwind.config.js -o ./_site/assets/css/main.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@tailwindcss/forms": "^0.5.11"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@tailwindcss/typography": "^0.5.20",
+    "alpinejs": "^3.17.1",
+    "html-minifier-terser": "^7.2.0",
+    "markdown-it": "^15.0.1",
+    "tailwindcss": "^3.4.19"
+  }
+}

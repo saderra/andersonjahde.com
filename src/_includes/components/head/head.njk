@@ -1,0 +1,20 @@
+<head>
+  {% include "components/head/analytics.njk" %}
+  {% include "components/head/metagen.njk" %}
+  {% include "components/head/favicons.njk" %}
+  {% include "components/head/feed.njk" %}
+  {% include "components/head/style.njk" %}
+  {% include "components/head/fonts.njk" %}
+  {% include "components/head/scripts.njk" %}
+  {% include "components/head/schema.njk" %}
+
+
+  {% if loadConversionTag == true and site.analytics.googleAdsId and site.analytics.googleAdsConversionLabels.leadForm %}
+
+<!-- Event snippet for lead-form conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': '{{ site.analytics.googleAdsId }}/{{ site.analytics.googleAdsConversionLabels.leadForm }}'});
+</script>
+{% endif %}
+
+</head>

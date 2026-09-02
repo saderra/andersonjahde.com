@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "components/head/head.njk" %}
+<body {% if layout %}class="{{ layout }} {{ bodyClass }}"{% endif %}>
+{% include "components/header/header.njk" %}
+
+<section class="bg-neutral-50">
+   {% block mainContent %}{% endblock %}
+</section>
+
+{% include "components/footer/footer.njk" %}
+
+</body>
+</html>

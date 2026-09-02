@@ -1,0 +1,62 @@
+{
+    "title": "Your Business Name",
+    "tagline": "Your Professional Title or Tagline",
+    "url": "https://example.com",
+    "locale": "en-us",
+    "language": "en",
+    "description": "A one- to two-sentence description of who you are and what you offer. This powers page titles, social previews, and search results wherever a page doesn't set its own.",
+    "logo": "https://example.com/assets/images/logo.png",
+    "favicon": "https://example.com/assets/favicons/favicon.ico",
+
+    "author": {
+      "firstName": "Your First Name",
+      "name": "Your Name",
+      "credentials": "Your Credentials",
+      "email": "hello@example.com",
+      "phone": "555-555-0100",
+      "phoneHref": "+15555550100",
+      "url": "https://example.com/about"
+    },
+
+    "address": {
+      "line1": "123 Main Street",
+      "line2": "Suite 100",
+      "city": "Anytown",
+      "state": "CO",
+      "zip": "00000"
+    },
+
+    "social": {
+      "instagram": "yourhandle",
+      "medium": "@yourhandle",
+      "threads": "@yourhandle"
+    },
+
+    "analytics": {
+      "fathom": "",
+      "google": "",
+      "googleAdsId": "",
+      "googleAdsConversionLabels": {
+        "leadForm": "",
+        "scheduleForm": ""
+      },
+      "fontAwesomeKit": ""
+    },
+
+    "clientPortalUrl": "",
+
+    "feed": {
+      "subtitle": "A one-line description of your blog, shown in feed readers.",
+      "filename": "feed.xml",
+      "path": "/feed/feed.xml",
+      "id": "https://example.com/"
+    },
+    "jsonfeed": {
+      "path": "/feed/feed.json",
+      "url": "https://example.com/feed/feed.json"
+    },
+
+    "sidebarintro": "A short bio for the sidebar — two to four sentences on your background and who you help. Replace this with your own.",
+
+    "homeIntro": "A short introduction that tells a first-time visitor who you are, who you help, and what makes your approach different. Two to four sentences is usually enough — replace this with your own."
+  }
