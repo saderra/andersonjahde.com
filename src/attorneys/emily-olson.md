@@ -22,21 +22,21 @@ In her personal time, Emily enjoys traveling with her fiancé, exploring the out
 
 ## Recognition
 
-Best Lawyers: Ones to Watch, 2025-2026
+Best Lawyers: Ones to Watch, 2025-2027
 
 ## Practice Areas
 
--   Estates and Trust
--   Estate Planning
--   Estate Administration
--   Marital Agreements
--   Family Law
--   Appeals
+- Estates and Trust
+- Estate Planning
+- Estate Administration
+- Marital Agreements
+- Family Law
+- Appeals
 
 ## Education
 
--   University of Oregon School of Law, 2022
--   University of Oregon, 2019
+- University of Oregon School of Law, 2022
+- University of Oregon, 2019
 
 ## Admitted
 
