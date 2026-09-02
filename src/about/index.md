@@ -1,27 +1,124 @@
 ---
-title: About [Your Name]
-contentTitle: About [Your Name]
-description: "A one-sentence description of who you are, for search results and social previews."
+title: "Who We Are"
+contentTitle: "Who We Are"
+description: "A Denver tax law firm since 1995."
 hideIntro: true
 eleventyNavigation:
   key: About
   order: 100
 ---
+## A Denver Tax Law Firm Since 1995
 
+![](/assets/images/uploads/group-sm-min-1024x657.jpg)
 
-![Your Name](/assets/images/headshot.jpg "Your Name Headshot")
+Steve and Alan formed Anderson & Jahde in 1995 as a boutique tax law firm with two overarching objectives in mind: (1) to be the very best lawyers they could be; and (2) to provide the very best legal counsel to their clients. Clients come first. Today these benchmarks are our defining values.
 
-This is your About page. Introduce yourself in the first person: who you are, what you do, and who you help. Two to three short paragraphs works well — replace this placeholder copy with your own.
+Anderson & Jahde has been named among the Best Law Firms in America by Best Lawyers in America, and awarded its highest honor of Top Tier Law Firm in Tax. Lawyers in the firm have been honored with some of the highest individual professional recognitions in America. With successes in landmark tax cases all the way up to the United States Supreme Court, our list of satisfied clients is long. Our dedicated attorneys have helped thousands of taxpayers solve their civil and criminal tax controversies with the IRS, the Colorado Department of Revenue, other state taxing authorities and even with other countries.
 
-Use the second paragraph to describe your approach or philosophy — what makes the way you work different, and what a client or customer can expect when they work with you.
+The firm has also represented hundreds of CPAs, tax return preparers and accountants in civil and criminal investigations by the IRS; professional malpractice cases; complaints filed at Colorado’s Board of Accountancy, the AICPA, IRS’s Office of Professional Responsibility, and the Securities Exchange Commission; and, in many other facets of their professional lives.
 
-Use the third paragraph to describe the environment or experience you create, and end with an invitation for the reader to reach out.
+Estate and trust planning, asset protection planning, trust and probate administration, and probate litigation are also central practice areas at Anderson & Jahde. Our work helping clients plan for the future, and then being there for them and their loved ones when the future arrives, is our privilege. To be entrusted with long-term relationships with our clients and their families is a tremendous honor.
 
+* * *
 
-## Official Biography
+[![](/assets/images/uploads/firm-58238-US-basic-M-E0.png)](https://www.bestlawyers.com/Search/ShowProfile.aspx?rec_type=F&rec_id=58238&country=US)
 
-### [Your Name], [Your Credentials]
+![](/assets/images/uploads/Metro-58238-spec134-ed10-colorado-Detail-O1-1-300x300.png)
 
-Replace this section with a longer-form, third-person biography — the kind you'd hand to a journalist, event organizer, or podcast host introducing you. Cover your background, notable experience, and what you're known for.
+## OUR ATTORNEYS
 
-Add a second paragraph covering more recent work, and a third paragraph on what you're focused on today.
+[![](/assets/images/uploads/emily-headshot-994x1024.jpg)](https://andersonjahde.com/attorneys/emily-olson/)
+
+#### [Emily Olson](https://andersonjahde.com/attorneys/emily-olson/)
+
+Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate planning, marital…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/emily-olson/)
+
+[![](/assets/images/team/steven_anderson.jpg)](https://andersonjahde.com/attorneys/steven-anderson/)
+
+#### [Steven Anderson](https://andersonjahde.com/attorneys/steven-anderson/)
+
+Listed in Best Lawyers In America, Lawyers Of Distinction, Marquis Who’s Who, and annually named…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/steven-anderson/)
+
+[![](/assets/images/team/briana-sm-min.jpg)](https://andersonjahde.com/attorneys/briana-fehringer/)
+
+#### [Briana Fehringer](https://andersonjahde.com/attorneys/briana-fehringer/)
+
+Briana Fehringer is a Partner at Anderson & Jahde, P.C. focusing on IRS examinations, Tax…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/briana-fehringer/)
+
+[![](/assets/images/team/alan.jpg)](https://andersonjahde.com/attorneys/alan-jahde/)
+
+#### [Alan Jahde](https://andersonjahde.com/attorneys/alan-jahde/)
+
+Co-founder of Anderson & Jahde, P.C. Alan focuses on international income and estate planning, insurance…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/alan-jahde/)
+
+[![](/assets/images/team/richard.jpg)](https://andersonjahde.com/attorneys/richard-destrada/)
+
+#### [Richard D’Estrada](https://andersonjahde.com/attorneys/richard-destrada/)
+
+After serving for 28 years as a trial lawyer in IRS’ Chief Counsel’s Office, Richard…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/richard-destrada/)
+
+[![](/assets/images/team/woody.jpg)](https://andersonjahde.com/attorneys/woodson-herring/)
+
+#### [Woodson Herring](https://andersonjahde.com/attorneys/woodson-herring/)
+
+Woodson’s areas of focus include business law, real estate, entity formation and restructuring, mergers and…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/woodson-herring/)
+
+[![](/assets/images/team/tom.jpg)](https://andersonjahde.com/attorneys/thomas-hodel/)
+
+#### [Thomas Hodel](https://andersonjahde.com/attorneys/thomas-hodel/)
+
+Tom Hodel joined Anderson & Jahde as of counsel in May 2015 with over 40…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/thomas-hodel/)
+
+[![](/assets/images/team/lawrence.jpg)](https://andersonjahde.com/attorneys/lawrence-hamil/)
+
+#### [Lawrence Hamil](https://andersonjahde.com/attorneys/lawrence-hamil/)
+
+A member of the American College of Trial Lawyers, A Super Lawyer, named in The…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/lawrence-hamil/)
+
+[![](/assets/images/uploads/amandaboog-min-775x1024.jpg)](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+
+#### [Amanda Boog Cruser](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+
+Amanda Cruser is a Partner at Anderson & Jahde, P.C.  She focuses her practice on…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+
+[![](/assets/images/team/kevin-sm-min.jpg)](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+
+#### [Kevin A. Planegger](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+
+Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses,…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+
+[![](/assets/images/team/whitney-min.jpg)](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+
+#### [Whitney W. Wolfe](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+
+Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+
+[![](/assets/images/uploads/Zach-web-819x1024.jpg)](https://andersonjahde.com/attorneys/zachary-hatch/)
+
+#### [Zachary Hatch](https://andersonjahde.com/attorneys/zachary-hatch/)
+
+Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and…
+
+[Attorney Profile](https://andersonjahde.com/attorneys/zachary-hatch/)

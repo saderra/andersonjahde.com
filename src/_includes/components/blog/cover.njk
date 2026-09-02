@@ -1,3 +1,5 @@
+{% if post.data.cover %}
 <a href="{{ post.url }}">
-    <image src="{{ post.data.cover }}" alt="{{ post.data.title }} cover image" />
+    <img src="{{ post.data.cover }}" alt="{{ post.data.title }} cover image">
 </a>
+{% endif %}

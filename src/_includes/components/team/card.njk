@@ -1,0 +1,6 @@
+<a href="{{ member.url }}" class="block text-center">
+    {% if member.data.headshot %}
+    <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-square object-cover rounded-md mb-4">
+    {% endif %}
+    <h3 class="text-lg font-medium">{{ member.data.title }}</h3>
+</a>

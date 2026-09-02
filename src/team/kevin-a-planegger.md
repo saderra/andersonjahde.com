@@ -1,0 +1,20 @@
+---
+title: "Kevin A. Planegger"
+slug: kevin-a-planegger
+tags:
+  - team
+headshot: /assets/images/team/kevin-sm-min.jpg
+summary: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorit"
+order: 2
+---Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorities. With nearly 30 years of experience focused on tax controversy and litigation, Kevin has successfully represented clients in IRS audits, appeals, collection actions, criminal tax investigations, and U.S. Tax Court and federal court litigation.
+
+Before joining Anderson & Jahde, Kevin was a longtime associate at Merriam Law Firm, where he practiced for over two decades alongside founding attorney Ted Merriam. After Ted’s retirement, Kevin assumed leadership of the firm and led it until its merger with Anderson & Jahde in 2024.
+
+Kevin is known for his strategic judgment, litigation skill, and deep knowledge of the tax controversy process. He represents clients facing serious tax liabilities, including civil penalties, trust fund recovery penalties, summons enforcement, lien and levy disputes, and complex collection matters involving assets, insolvency, or noncompliance. He also defends individuals and businesses in criminal tax investigations and prosecutions, including cases involving tax evasion, willful failure to file, and other alleged violations of the Internal Revenue Code.
+
+Over the course of his career, Kevin has handled numerous significant published cases, including:
+
+-   _Mesa Oil, Inc. v. United States_, 467 F.3d 1252 (10th Cir. 2006) – secured remand in a precedent-setting Collection Due Process case.
+-   _Cox v. Commissioner_, 514 F.3d 1119 (10th Cir. 2008) – represented the taxpayer in a landmark Collection Due Process case before the Tenth Circuit, addressing the scope of judicial review under IRC § 6330.
+-   _Budish v. Commissioner_, T.C. Memo. 2014-244 – Tax Court remanded after finding the IRS Appeals Office abused its discretion by improperly requiring a lien as a condition of installment agreement approval.
+-   _Christians v. Commissioner_, T.C. Memo. 2003-130 – successfully challenged IRS adjustments to S corporation income, resulting in significant reductions to proposed tax liabilities.

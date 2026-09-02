@@ -1,7 +1,7 @@
 ---
-title: Your Business Name - Your Professional Title
-description: "A one-sentence description of what you do and who you help, shown in search results and social previews."
-keywords: "keyword one, keyword two, keyword three"
+title: Anderson & Jahde, P.C. - Denver Tax Attorneys
+description: "Anderson & Jahde is a Denver, Colorado tax law firm helping individuals, businesses, and professionals resolve IRS and state tax disputes since 1995."
+keywords: "denver tax attorney, tax lawyer, IRS audit, tax litigation, colorado tax law"
 template: home
 layout: home
 ---

@@ -1,120 +1,63 @@
 ---
-title: Privacy Policy
-description: "{{ site.title }} website privacy policy."
+title: "Privacy Policy"
+layout: page
 ---
+## Who we are
 
+Anderson & Jahde, P.C.
 
-Your privacy is important to us. It is {{ site.title }}'s policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, {{ site.url }}, and other sites we own and operate.
+## What personal data we collect and why we collect it
 
-This policy is effective as of 3 March 2022 and was last updated on 3 March 2022.
+### Comments
 
-## Information We Collect
+When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
 
-Information we collect includes both information you knowingly and actively provide us when using or participating in any of our services and promotions, and any information automatically sent by your devices in the course of accessing our products and services.
+An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
 
-## Log Data
+### Media
 
-When you visit our website, our servers may automatically log the standard data provided by your web browser. It may include your device’s Internet Protocol (IP) address, your browser type and version, the pages you visit, the time and date of your visit, the time spent on each page, other details about your visit, and technical details that occur in conjunction with any errors you may encounter.
+If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
 
-Please be aware that while this information may not be personally identifying by itself, it may be possible to combine it with other data to personally identify individual persons.
+### Contact forms
 
-## Personal Information
+### Cookies
 
-We may ask for personal information which may include one or more of the following:
+If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
 
-Name
-Email
-Date of birth
-Phone/mobile number
-Home/mailing address
+If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
 
-## Legitimate Reasons for Processing Your Personal Information
+When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
 
-We only collect and use your personal information when we have a legitimate reason for doing so. In which instance, we only collect personal information that is reasonably necessary to provide our services to you.
+If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
 
-## Collection and Use of Information
+### Embedded content from other websites
 
-We may collect personal information from you when you do any of the following on our website:
+Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
 
-Sign up to receive updates from us via email or social media channels
-Use a mobile device or web browser to access our content
-Contact us via email, social media, or on any similar technologies
-When you mention us on social media
+These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
 
-We may collect, hold, use, and disclose information for the following purposes, and personal information will not be further processed in a manner that is incompatible with these purposes:
+### Analytics
 
+## How long we retain your data
 
-- for analytics, market research, and business development, including to operate and improve our website, associated applications, and associated social media platforms
-- for internal record keeping and administrative purposes
-- to comply with our legal obligations and resolve any disputes that we may have
-- for security and fraud prevention, and to ensure that our sites and apps are safe, secure, and used in line with our terms of use
+If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
 
-Please be aware that we may combine information we collect about you with general information or research data we receive from other trusted sources.
+For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
 
-## Security of Your Personal Information
+## What rights you have over your data
 
-When we collect and process personal information, and while we retain this information, we will protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.
+If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
 
-Although we will do our best to protect the personal information you provide to us, we advise that no method of electronic transmission or storage is 100% secure, and no one can guarantee absolute data security. We will comply with laws applicable to us in respect of any data breach.
+## Where we send your data
 
-You are responsible for selecting any password and its overall security strength, ensuring the security of your own information within the bounds of our services.
+Visitor comments may be checked through an automated spam detection service.
 
-## How Long We Keep Your Personal Information
+**SMS / Text Messaging**
 
-We keep your personal information only for as long as we need to. This time period may depend on what we are using your information for, in accordance with this privacy policy. If your personal information is no longer required, we will delete it or make it anonymous by removing all details that identify you.
+Anderson & Jahde, P.C. offers text messaging as an optional method of communication for clients and matter-related contacts. We collect mobile phone numbers only when they are provided to us, and we use them to send text messages related to legal and tax matters, including document requests, scheduling, case updates, and responses to inquiries.
 
-However, if necessary, we may retain your personal information for our compliance with a legal, accounting, or reporting obligation or for archiving purposes in the public interest, scientific, or historical research purposes or statistical purposes.
+We will only send text messages after consent has been provided. Consent may be provided by replying START to our text messaging consent request. Text messaging is optional and is not required in order to receive legal services or tax-related representation from Anderson & Jahde, P.C. Clients may choose to communicate with us by phone, email, mail, or other available methods instead.
 
-## Children’s Privacy
+No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. No mobile opt-in data or consent information will be sold or shared with any third party. Mobile information may be shared only with service providers, such as our messaging platform, solely as necessary to support delivery of the text messages requested.
 
-We do not aim any of our products or services directly at children under the age of 13, and we do not knowingly collect personal information about children under 13.
-
-## Disclosure of Personal Information to Third Parties
-
-We may disclose personal information to:
-
-- a parent, subsidiary, or affiliate of our company
-- third party service providers for the purpose of enabling them to provide their services, for example, IT service providers, data storage, hosting and server providers, advertisers, or analytics platforms
-- our employees, contractors, and/or related entities
-- our existing or potential agents or business partners
-- courts, tribunals, regulatory authorities, and law enforcement officers, as required by law, in connection with any actual or prospective legal proceedings, or - in order to establish, exercise, or defend our legal rights
-- third parties, including agents or sub-contractors, who assist us in providing information, products, services, or direct marketing to you
-- third parties to collect and process data
-
-## International Transfers of Personal Information
-
-The personal information we collect is stored and/or processed where we or our partners, affiliates, and third-party providers maintain facilities. Please be aware that the locations to which we store, process, or transfer your personal information may not have the same data protection laws as the country in which you initially provided the information. If we transfer your personal information to third parties in other countries: (i) we will perform those transfers in accordance with the requirements of applicable law; and (ii) we will protect the transferred personal information in accordance with this privacy policy.
-
-## Your Rights and Controlling Your Personal Information
-
-You always retain the right to withhold personal information from us, with the understanding that your experience of our website may be affected. We will not discriminate against you for exercising any of your rights over your personal information. If you do provide us with personal information you understand that we will collect, hold, use and disclose it in accordance with this privacy policy. You retain the right to request details of any personal information we hold about you.
-
-If we receive personal information about you from a third party, we will protect it as set out in this privacy policy. If you are a third party providing personal information about somebody else, you represent and warrant that you have such person’s consent to provide the personal information to us.
-
-If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time. We will provide you with the ability to unsubscribe from our email-database or opt out of communications. Please be aware we may need to request specific information from you to help us confirm your identity.
-
-If you believe that any information we hold about you is inaccurate, out of date, incomplete, irrelevant, or misleading, please contact us using the details provided in this privacy policy. We will take reasonable steps to correct any information found to be inaccurate, incomplete, misleading, or out of date.
-
-If you believe that we have breached a relevant data protection law and wish to make a complaint, please contact us using the details below and provide us with full details of the alleged breach. We will promptly investigate your complaint and respond to you, in writing, setting out the outcome of our investigation and the steps we will take to deal with your complaint. You also have the right to contact a regulatory body or data protection authority in relation to your complaint.
-
-## Use of Cookies
-
-We use “cookies” to collect information about you and your activity across our site. A cookie is a small piece of data that our website stores on your computer, and accesses each time you visit, so we can understand how you use our site. This helps us serve you content based on preferences you have specified.
-
-## Limits of Our Policy
-
-Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and policies of those sites, and cannot accept responsibility or liability for their respective privacy practices.
-
-## Changes to This Policy
-
-At our discretion, we may change our privacy policy to reflect updates to our business processes, current acceptable practices, or legislative or regulatory changes. If we decide to change this privacy policy, we will post the changes here at the same link by which you are accessing this privacy policy.
-
-If required by law, we will get your permission or give you the opportunity to opt in to or opt out of, as applicable, any new uses of your personal information.
-
-## Contact Us
-
-For any questions or concerns regarding your privacy, you may contact us using the following details:
-
-{{ site.title }}
-{{ site.author.email }}
-
+Message frequency varies depending on the nature and status of the matter. Message and data rates may apply. You may opt out of text messages at any time by replying STOP. For assistance, you may reply HELP or contact us at 303-782-0003.

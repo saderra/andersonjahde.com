@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: "Connect With [Your Name]"
+description: "Contact Anderson & Jahde, P.C."
 hideSidebarForm: true
 showContactForm: true
 eleventyNavigation:
@@ -8,18 +8,12 @@ eleventyNavigation:
   order: 10000
 ---
 
-### Call or Text Me Anytime.
-{{ site.author.phone }}
-
-### Mailing Address
+### Denver Office
 {{ site.address.line1 }}
 {{ site.address.line2 }}
 {{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}
 
+**Call:** {{ site.author.phone }}
+**Fax:** 303-782-0055
 
-### For Urgent Help
-If this is an emergency, please call the appropriate local emergency number or a relevant crisis line for your region. [Replace this paragraph with the resources relevant to your business — this placeholder intentionally omits specific crisis-line numbers, since they vary by locale and service type.]
-
-
-
-### Send Me A Message
+### Send Us A Message

@@ -4,7 +4,9 @@
         <div class="p-0 col-span-12 lg:col-span-8">          
            <article class="prose max-w-full p-6 md:p-8">
 
-                <image src="{{ cover }}" class="rounded-md" alt="{{ title }} cover image" />
+                {% if cover %}
+                <img src="{{ cover }}" class="rounded-md" alt="{{ title }} cover image">
+                {% endif %}
 
                 <div class="bg-stone-50 p-5 md:p-8 rounded-md shadow-inner">
                    
