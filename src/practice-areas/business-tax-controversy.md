@@ -22,7 +22,7 @@ Business tax disputes can take all forms and sizes, and can involve complex liti
 
 Employment Tax Legal Specialists
 
-Anderson & Jahde is a leading authority in the [employment tax](https://andersonjahde.com/employment-taxes/) arena. Steve Anderson has taught Employment Tax in the Graduate Tax Program at the University of Denver and has helped untold numbers of taxpayers manage and resolve their employment tax disputes with federal, state, and local taxing authorities.
+Anderson & Jahde is a leading authority in the [employment tax](/practice-areas/employment-taxes/) arena. Steve Anderson has taught Employment Tax in the Graduate Tax Program at the University of Denver and has helped untold numbers of taxpayers manage and resolve their employment tax disputes with federal, state, and local taxing authorities.
 
 The tax attorneys at Anderson & Jahde understand how businesses can run into employment tax problems. During difficult economic times, businesses can find themselves unable to pay their creditors. Sometimes, they pay wages and suppliers rather than employment taxes. The decision might make business sense – if their employees and suppliers are not paid, the business will fail. Unfortunately, good business decisions can have devastating tax consequences, not just for the business, but for the individuals involved in the business, as well.
 

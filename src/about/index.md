@@ -27,98 +27,98 @@ Estate and trust planning, asset protection planning, trust and probate administ
 
 ## OUR ATTORNEYS
 
-[![](/assets/images/uploads/emily-headshot-994x1024.jpg)](https://andersonjahde.com/attorneys/emily-olson/)
+[![](/assets/images/uploads/emily-headshot-994x1024.jpg)](/attorneys/emily-olson/)
 
-#### [Emily Olson](https://andersonjahde.com/attorneys/emily-olson/)
+#### [Emily Olson](/attorneys/emily-olson/)
 
 Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate planning, marital…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/emily-olson/)
+[Attorney Profile](/attorneys/emily-olson/)
 
-[![](/assets/images/attorneys/steven_anderson.jpg)](https://andersonjahde.com/attorneys/steven-anderson/)
+[![](/assets/images/attorneys/steven_anderson.jpg)](/attorneys/steven-anderson/)
 
-#### [Steven Anderson](https://andersonjahde.com/attorneys/steven-anderson/)
+#### [Steven Anderson](/attorneys/steven-anderson/)
 
 Listed in Best Lawyers In America, Lawyers Of Distinction, Marquis Who’s Who, and annually named…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/steven-anderson/)
+[Attorney Profile](/attorneys/steven-anderson/)
 
-[![](/assets/images/attorneys/briana-sm-min.jpg)](https://andersonjahde.com/attorneys/briana-fehringer/)
+[![](/assets/images/attorneys/briana-sm-min.jpg)](/attorneys/briana-fehringer/)
 
-#### [Briana Fehringer](https://andersonjahde.com/attorneys/briana-fehringer/)
+#### [Briana Fehringer](/attorneys/briana-fehringer/)
 
 Briana Fehringer is a Partner at Anderson & Jahde, P.C. focusing on IRS examinations, Tax…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/briana-fehringer/)
+[Attorney Profile](/attorneys/briana-fehringer/)
 
-[![](/assets/images/attorneys/alan.jpg)](https://andersonjahde.com/attorneys/alan-jahde/)
+[![](/assets/images/attorneys/alan.jpg)](/attorneys/alan-jahde/)
 
-#### [Alan Jahde](https://andersonjahde.com/attorneys/alan-jahde/)
+#### [Alan Jahde](/attorneys/alan-jahde/)
 
 Co-founder of Anderson & Jahde, P.C. Alan focuses on international income and estate planning, insurance…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/alan-jahde/)
+[Attorney Profile](/attorneys/alan-jahde/)
 
-[![](/assets/images/attorneys/richard.jpg)](https://andersonjahde.com/attorneys/richard-destrada/)
+[![](/assets/images/attorneys/richard.jpg)](/attorneys/richard-destrada/)
 
-#### [Richard D’Estrada](https://andersonjahde.com/attorneys/richard-destrada/)
+#### [Richard D’Estrada](/attorneys/richard-destrada/)
 
 After serving for 28 years as a trial lawyer in IRS’ Chief Counsel’s Office, Richard…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/richard-destrada/)
+[Attorney Profile](/attorneys/richard-destrada/)
 
-[![](/assets/images/attorneys/woody.jpg)](https://andersonjahde.com/attorneys/woodson-herring/)
+[![](/assets/images/attorneys/woody.jpg)](/attorneys/woodson-herring/)
 
-#### [Woodson Herring](https://andersonjahde.com/attorneys/woodson-herring/)
+#### [Woodson Herring](/attorneys/woodson-herring/)
 
 Woodson’s areas of focus include business law, real estate, entity formation and restructuring, mergers and…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/woodson-herring/)
+[Attorney Profile](/attorneys/woodson-herring/)
 
-[![](/assets/images/attorneys/tom.jpg)](https://andersonjahde.com/attorneys/thomas-hodel/)
+[![](/assets/images/attorneys/tom.jpg)](/attorneys/thomas-hodel/)
 
-#### [Thomas Hodel](https://andersonjahde.com/attorneys/thomas-hodel/)
+#### [Thomas Hodel](/attorneys/thomas-hodel/)
 
 Tom Hodel joined Anderson & Jahde as of counsel in May 2015 with over 40…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/thomas-hodel/)
+[Attorney Profile](/attorneys/thomas-hodel/)
 
-[![](/assets/images/attorneys/lawrence.jpg)](https://andersonjahde.com/attorneys/lawrence-hamil/)
+[![](/assets/images/attorneys/lawrence.jpg)](/attorneys/lawrence-hamil/)
 
-#### [Lawrence Hamil](https://andersonjahde.com/attorneys/lawrence-hamil/)
+#### [Lawrence Hamil](/attorneys/lawrence-hamil/)
 
 A member of the American College of Trial Lawyers, A Super Lawyer, named in The…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/lawrence-hamil/)
+[Attorney Profile](/attorneys/lawrence-hamil/)
 
-[![](/assets/images/uploads/amandaboog-min-775x1024.jpg)](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+[![](/assets/images/uploads/amandaboog-min-775x1024.jpg)](/attorneys/amanda-boog-cruser/)
 
-#### [Amanda Boog Cruser](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+#### [Amanda Boog Cruser](/attorneys/amanda-boog-cruser/)
 
 Amanda Cruser is a Partner at Anderson & Jahde, P.C.  She focuses her practice on…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/amanda-boog-cruser/)
+[Attorney Profile](/attorneys/amanda-boog-cruser/)
 
-[![](/assets/images/attorneys/kevin-sm-min.jpg)](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+[![](/assets/images/attorneys/kevin-sm-min.jpg)](/attorneys/kevin-a-planegger/)
 
-#### [Kevin A. Planegger](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+#### [Kevin A. Planegger](/attorneys/kevin-a-planegger/)
 
 Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses,…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/kevin-a-planegger/)
+[Attorney Profile](/attorneys/kevin-a-planegger/)
 
-[![](/assets/images/attorneys/whitney-min.jpg)](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+[![](/assets/images/attorneys/whitney-min.jpg)](/attorneys/whitney-w-wolfe/)
 
-#### [Whitney W. Wolfe](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+#### [Whitney W. Wolfe](/attorneys/whitney-w-wolfe/)
 
 Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/whitney-w-wolfe/)
+[Attorney Profile](/attorneys/whitney-w-wolfe/)
 
-[![](/assets/images/uploads/Zach-web-819x1024.jpg)](https://andersonjahde.com/attorneys/zachary-hatch/)
+[![](/assets/images/uploads/Zach-web-819x1024.jpg)](/attorneys/zachary-hatch/)
 
-#### [Zachary Hatch](https://andersonjahde.com/attorneys/zachary-hatch/)
+#### [Zachary Hatch](/attorneys/zachary-hatch/)
 
 Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and…
 
-[Attorney Profile](https://andersonjahde.com/attorneys/zachary-hatch/)
+[Attorney Profile](/attorneys/zachary-hatch/)

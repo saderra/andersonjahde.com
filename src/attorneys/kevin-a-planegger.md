@@ -22,3 +22,34 @@ Over the course of his career, Kevin has handled numerous significant published 
 -   _Cox v. Commissioner_, 514 F.3d 1119 (10th Cir. 2008) – represented the taxpayer in a landmark Collection Due Process case before the Tenth Circuit, addressing the scope of judicial review under IRC § 6330.
 -   _Budish v. Commissioner_, T.C. Memo. 2014-244 – Tax Court remanded after finding the IRS Appeals Office abused its discretion by improperly requiring a lien as a condition of installment agreement approval.
 -   _Christians v. Commissioner_, T.C. Memo. 2003-130 – successfully challenged IRS adjustments to S corporation income, resulting in significant reductions to proposed tax liabilities.
+
+## Practice Areas
+
+-   Tax Controversy & Litigation
+-   IRS Collection Defense
+-   IRS Audits & Appeals
+-   Criminal Tax Representation
+-   Employment Tax Disputes
+-   Innocent Spouse Relief
+-   Trust Fund Recovery Penalty (TFRP)
+-   Installment Agreements & Offer in Compromise
+
+## Education
+
+-   LL.M. in Taxation, University of Denver (1996)
+-   J.D., Arizona State University (1994)
+-   B.A., University of California, Irvine (1990)
+
+## Admitted
+
+-   Colorado (1997)
+-   Arizona (1994)
+-   U.S. Tax Court (1997)
+-   U.S. District Court, District of Colorado (1998)
+-   U.S. Court of Appeals, Tenth Circuit (1998)
+
+## Affiliations
+
+-   President, Greater Denver Tax Counsel Association (2001)
+-   Member, Denver Bar Association
+-   Member, Colorado Bar Association

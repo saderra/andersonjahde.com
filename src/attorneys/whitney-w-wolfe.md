@@ -25,3 +25,44 @@ Whitney is licensed to practice in Colorado state courts, the United States Tax 
 Whitney has been recognized by her peers and the broader legal community. Whitney was named to Best _Lawyers’ Ones to Watch_ in 2022 and was selected as a _Super Lawyers’ Rising Star_ in 2023. Whitney was also selected to Colorado Super Lawyers in 2025 and 2026. She was also named by _5280 Magazine_ as one of Denver’s Top Lawyers in 2026.
 
 In her personal time, Whitney enjoys playing the piano, competing in dog shows with her English Cocker Spaniels, and spending quality time with her family and friends.
+
+## Recognition
+
+Best Lawyers Ones to Watch, 2022
+Super Lawyers Rising Stars, 2023
+Super Lawyers, 2025 – 2026
+5280 – Denver’s Top Lawyers, 2026
+
+## Practice Areas
+
+-   Tax law
+-   Tax audits
+-   Tax controversy defense
+-   Employment tax and reporting
+-   Tax appeals
+-   Penalty abatement
+-   Innocent spouse relief
+-   Tax refunds
+-   Tax collections
+-   Estates and trusts
+-   Estate planning
+-   Estate administration
+-   Trust administration
+
+## Education
+
+-   University of Denver Sturm College of Law, LL.M in Taxation, 2025
+-   University of Mississippi, J.D., 2013
+-   College of Charleston Honors College, B.S., 2010
+
+## Admitted
+
+-   U.S. District Court, District of Colorado, 2023
+-   United States Tax Court, 2022
+-   Colorado, 2013
+
+## Affiliations
+
+-   Denver Bar Association
+-   Colorado Bar Association
+-   Colorado Lawyers Committee

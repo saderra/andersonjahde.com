@@ -21,3 +21,30 @@ Much of Zach’s work involves analyzing financial records, reconstructing incom
 He is a member of the National Association of Enrolled Agents (NAEA) and the Colorado Society of Enrolled Agents (CoSEA), and maintains ongoing continuing education to stay current on tax law and IRS procedures.
 
 Outside of the office, Zach is the drummer for Wash Park Band, a 12-piece funk wedding and cover band. He also enjoys spending time with his wife, family, and friends.
+
+## Practice Areas
+
+-   Tax Controversy and Dispute Resolution
+-   IRS Audits and Appeals
+-   IRS Collections and Enforcement
+-   Employment Tax and Trust Fund Recovery Penalties
+-   Offers in Compromise
+-   Installment Agreements
+-   Penalty Abatement
+-   Tax Return Reconstruction and Analysis
+-   Representation Before State and Federal Tax Authorities
+-   Financial Records Review and Reconstruction in Support of Tax Matters
+
+## Education
+
+-   University of Colorado, Boulder – Bachelor of Arts
+
+## Admitted
+
+-   Federally Licensed Enrolled Agent, U.S. Department of the Treasury
+-   Authorized to Practice Before the Internal Revenue Service in All Administrative Matters
+
+## Affiliations
+
+-   National Association of Enrolled Agents (NAEA)
+-   Colorado Society of Enrolled Agents (CoSEA)

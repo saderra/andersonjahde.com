@@ -24,4 +24,4 @@ Other times, these tax resolution firms will actually make things much worse.  
 
 Don’t fall victim to these tactics.  For sure, the IRS can be an intimidating creditor.  But done properly by those who truly care for their client’s interest over their own, the IRS can be managed.  Not everyone can settle their tax debt for pennies on the dollar, so work with a reputable professional with a lot of tax controversy experience who will provide honest and reliable advice on the best, and most efficient means of resolving your liabilities.
 
-If you have questions, [contact Anderson & Jahde](https://andersonjahde.com/contact/) for competent, [professional tax help](https://andersonjahde.com/practice-areas/reducing-tax-debts/).
+If you have questions, [contact Anderson & Jahde](/contact/) for competent, [professional tax help](/practice-areas/reducing-tax-debts/).

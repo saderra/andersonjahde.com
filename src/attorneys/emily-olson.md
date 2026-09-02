@@ -19,3 +19,30 @@ Emily holds a Bachelor of Science in Psychology and Political Science from the U
 Emily is licensed to practice in Colorado. She is a member of the Colorado Women’s Bar Association and the Colorado Bar Association. Emily has been recognized by her peers and the broader legal community. Emily was named in _Best_ _Lawyers’ Ones to Watch_ in 2025 and 2026.
 
 In her personal time, Emily enjoys traveling with her fiancé, exploring the outdoors, and spending quality time with her family, friends, and dog, Ivy.
+
+## Recognition
+
+Best Lawyers: Ones to Watch, 2025-2026
+
+## Practice Areas
+
+-   Estates and Trust
+-   Estate Planning
+-   Estate Administration
+-   Marital Agreements
+-   Family Law
+-   Appeals
+
+## Education
+
+-   University of Oregon School of Law, 2022
+-   University of Oregon, 2019
+
+## Admitted
+
+-   Colorado, 2022
+
+## Affiliations
+
+-   Colorado Bar Association
+-   Colorado Women’s Bar Association

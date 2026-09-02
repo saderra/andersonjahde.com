@@ -14,7 +14,7 @@ description: "The IRS frequently disallows deductions for activities it believes
 
 A hobby loss is a non-deductible loss from an activity done for personal pleasure and not for profit. Taxpayers cannot deduct a hobby loss as a business loss. To determine whether or not an activity is to be classified as a hobby or as a business, the hobby loss rule is applied.
 
-To see how the hobby loss rule is applied, we can look at the case of [Dirkse v. Commissioner](https://www.leagle.com/decision/200079780evtcm717_1646/DIRKSE%20v.%20COMMISSIONER), which was tried by Anderson and Jahde’s [Nicholas J. Richards, Esq](https://andersonjahde.com/attorneys/nicholas-j-richards-jd/). during his time with the IRS. In this particularly case, the petitioners argued that losses from their beekeeping, tree-farming and rental activities were to be deducted as business losses. In deciding whether or not the hobby loss rule was too be applied to the hobbies, the court ultimately ruled in favor of Attorney Richards. A summary of what that decision was based on follows.
+To see how the hobby loss rule is applied, we can look at the case of [Dirkse v. Commissioner](https://www.leagle.com/decision/200079780evtcm717_1646/DIRKSE%20v.%20COMMISSIONER), which was tried by Anderson and Jahde’s Nicholas J. Richards, Esq. during his time with the IRS. In this particularly case, the petitioners argued that losses from their beekeeping, tree-farming and rental activities were to be deducted as business losses. In deciding whether or not the hobby loss rule was too be applied to the hobbies, the court ultimately ruled in favor of Attorney Richards. A summary of what that decision was based on follows.
 
 # What Differentiates a Business Loss From a Hobby Loss?
 

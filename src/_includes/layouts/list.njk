@@ -4,14 +4,32 @@
 <main class="container py-10">
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
     {% if cat %}
-    {% set postList = cat | articlesByCategory(collections.articles) %}
+        {% set postList = cat | articlesByCategory(collections.articles) | reverse %}
+    {% elif pagination %}
+        {% set postList = pagination.items %}
     {% else %}
-    {% set postList = collections.articles %}
+        {% set postList = collections.articles | reverse %}
     {% endif %}
-    {%- for post in postList | reverse -%}
+    {%- for post in postList -%}
         {% include "components/blog/card.njk" %}
     {%- endfor -%}
     </div>
+
+    {% if not cat and pagination and pagination.pages.length > 1 %}
+    <nav class="flex items-center justify-between mt-10 pt-6 border-t border-stone-200" aria-label="Pagination">
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}" class="text-sm font-medium text-brand hover:underline">&laquo; Newer Posts</a>
+        {% else %}
+            <span></span>
+        {% endif %}
+        <span class="text-sm text-stone-500">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}" class="text-sm font-medium text-brand hover:underline">Older Posts &raquo;</a>
+        {% else %}
+            <span></span>
+        {% endif %}
+    </nav>
+    {% endif %}
 </main>
 {% endblock %}
 

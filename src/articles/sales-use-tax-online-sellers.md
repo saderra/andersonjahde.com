@@ -46,4 +46,4 @@ The required notices are:
 -   [Colorado Consumer Use Tax Guide](https://tax.colorado.gov/sites/tax/files/documents/Consumer_Use_Tax_Guide_June_2021.pdf).
 -   [Consumer Use Tax Frequently Asked Questions](https://tax.colorado.gov/consumer-use-FAQ).
 
-Anderson & Jahde has decades of experience navigating [Colorado Sales & Use Tax](https://andersonjahde.com/practice-areas/business-tax-controversy/). Give us a call at 303-782-0003 to learn more.
+Anderson & Jahde has decades of experience navigating [Colorado Sales & Use Tax](/practice-areas/business-tax-controversy/). Give us a call at 303-782-0003 to learn more.

@@ -12,14 +12,14 @@ eleventyNavigation:
 ---
 Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include:
 
--   Handling an audit, appeal, or litigation | [Audit Details](https://andersonjahde.com/practice-areas/tax-audits-appeals/)
--   Resolving past tax debts | [Audit Details](https://andersonjahde.com/practice-areas/tax-audits-appeals/)
+-   Handling an audit, appeal, or litigation | [Audit Details](/practice-areas/tax-audits-appeals/)
+-   Resolving past tax debts | [Audit Details](/practice-areas/tax-audits-appeals/)
 -   Submitting unfiled returns
 -   Disclosing previously undisclosed foreign assets
 -   Tax Liens and Levies
 -   Understanding and responding to official notices
 
-The attorneys at Anderson & Jahde have extensive experience in helping taxpayers unburden themselves using efficient, ethical, and equitable approaches. Facing these agencies alone can often result in additional action or bring to life other precarious situations. Utilizing the professional tax attorneys at Anderson & Jahde will help you avoid missteps or potentially costly mistakes. [Contact us today](https://andersonjahde.com/contact/) to schedule a time with our experts.
+The attorneys at Anderson & Jahde have extensive experience in helping taxpayers unburden themselves using efficient, ethical, and equitable approaches. Facing these agencies alone can often result in additional action or bring to life other precarious situations. Utilizing the professional tax attorneys at Anderson & Jahde will help you avoid missteps or potentially costly mistakes. [Contact us today](/contact/) to schedule a time with our experts.
 
 ### Unfiled Tax Returns
 
