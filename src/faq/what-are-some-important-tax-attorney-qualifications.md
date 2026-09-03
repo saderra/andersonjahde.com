@@ -4,10 +4,7 @@ slug: what-are-some-important-tax-attorney-qualifications
 description: "When the IRS enters your life, look for a tax attorney that truly specializes in tax controversy. Many tax lawyers hold themselves out as qualified to handle an IRS dispute, perhaps because it is an a"
 tags:
   - faq
-eleventyNavigation:
-  key: "What Are Some Important Tax Attorney Qualifications?"
-  parent: FAQ
-  order: 10
+order: 10
 ---
 When the IRS enters your life, look for a tax attorney that truly specializes in tax controversy. Many tax lawyers hold themselves out as qualified to handle an IRS dispute, perhaps because it is an area of practice in which they one day hope to become proficient. That is not what you want.
 

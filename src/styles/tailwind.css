@@ -38,11 +38,11 @@ ul.main-navigation > li > a {
 }
 
 ul.main-navigation > li > ul {
-  @apply bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg;
+  @apply bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg overflow-hidden columns-2 gap-x-6 w-[28rem] p-2;
 }
 
 ul.main-navigation > li > ul > li {
-	@apply border-b border-neutral-200 pr-8;
+	@apply border-b border-neutral-200 pr-8 break-inside-avoid;
 }
 
 ul.main-navigation > li > ul a {
@@ -51,10 +51,6 @@ ul.main-navigation > li > ul a {
 
 ul.main-navigation > li > ul li:hover {
 	@apply bg-stone-100;
-}
-
-ul.main-navigation > li > ul > li:last-of-type {
-  @apply border-none rounded-b-lg;
 }
 
 

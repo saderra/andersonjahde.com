@@ -4,10 +4,7 @@ slug: when-should-i-hire-a-tax-attorney
 description: "Some people choose to hire a tax attorney as soon as they are contacted by the IRS, while others attempt to work with the IRS on their own (at least at first). There are some circumstances where taxpa"
 tags:
   - faq
-eleventyNavigation:
-  key: "When Should I Hire A Tax Attorney?"
-  parent: FAQ
-  order: 30
+order: 30
 ---
 Some people choose to hire a tax attorney as soon as they are contacted by the IRS, while others attempt to work with the IRS on their own (at least at first). There are some circumstances where taxpayers can adequately represent themselves against the IRS. But the IRS is a very powerful agency with many procedural rules, making it difficult for taxpayers to navigate on their own.
 

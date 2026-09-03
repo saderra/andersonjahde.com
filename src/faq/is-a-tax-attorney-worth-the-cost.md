@@ -4,10 +4,7 @@ slug: is-a-tax-attorney-worth-the-cost
 description: "When you find yourself in a dispute with the IRS, not having an experienced tax attorney who specializes in tax controversy to represent you can have devastating consequences. As an example, a taxpaye"
 tags:
   - faq
-eleventyNavigation:
-  key: "Is A Tax Attorney Worth The Cost?"
-  parent: FAQ
-  order: 20
+order: 20
 ---
 When you find yourself in a dispute with the IRS, not having an experienced tax attorney who specializes in tax controversy to represent you can have devastating consequences.
 
