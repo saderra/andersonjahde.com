@@ -5,7 +5,14 @@
 
     <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
 
-        
+
+        <!-- What We Do Section -->
+
+
+        <!-- FAQ Section -->
+        {% include "components/home/faq.njk" %}
+
+
         <!-- Home Posts -->
         <div class="p-0 col-span-12 lg:col-span-8">
             {% set latest_posts = collections.articles | reverse %}

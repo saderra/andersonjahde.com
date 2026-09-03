@@ -66,6 +66,14 @@ module.exports = async function (eleventyConfig) {
     return categories;
   });
 
+  eleventyConfig.addCollection("faq", function(collectionApi) {
+    return collectionApi.getFilteredByTag("faq").sort((a, b) => {
+      let orderA = (a.data.eleventyNavigation && a.data.eleventyNavigation.order) || 0;
+      let orderB = (b.data.eleventyNavigation && b.data.eleventyNavigation.order) || 0;
+      return orderA - orderB;
+    });
+  });
+
 
   // SHORTCODES
   eleventyConfig.addShortcode('version', function () { return now  })
