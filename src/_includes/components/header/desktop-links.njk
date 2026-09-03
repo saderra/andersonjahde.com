@@ -1,27 +1,29 @@
 <div class="items-center hidden lg:flex">
     {% set navPages = collections.all | eleventyNavigation %}
-    {% macro renderNavListItem(entry) %}
+    {% macro renderNavListItem(entry, level=0) %}
     {% set isHomepage = entry.url == '/' %}
     {% set isActive = page.url  %}
-        <li{% if entry.children.length %}{% if entry.url == page.url %} class="group active"{% else %} class="group"{% endif %}{% endif %}>
-            <a href="{{ entry.url | url }}"{% if isActive and not isHomepage %}class="active"{% endif %}>
+    {% set liBase = "inline-block float-left" if level == 0 else "border-b border-neutral-200 pr-8 break-inside-avoid hover:bg-stone-100" %}
+    {% set aBase = "block px-2 lg:pl-3 py-6 ml-2 lg:ml-3" if level == 0 else "block pl-6 py-3" %}
+        <li class="{{ liBase }}{% if entry.children.length %} group{% if entry.url == page.url %} active{% endif %}{% endif %}">
+            <a href="{{ entry.url | url }}" class="{{ aBase }}{% if isActive and not isHomepage %} active{% endif %}">
                 {{ entry.title }}
             </a>
 
-            {% if entry.children.length %}    
-                <ul class="absolute hidden group-hover:block bg-white border border-stone-200 z-50 border-b-0 border-t-0 shadow-md">
+            {% if entry.children.length %}
+                <ul class="absolute hidden group-hover:block z-50 shadow-md bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg overflow-hidden columns-2 gap-x-6 w-[28rem] p-2">
                 {% for child in entry.children %}
-                    {{ renderNavListItem(child) }}
+                    {{ renderNavListItem(child, level + 1) }}
                 {% endfor %}
                 </ul>
             {% endif %}
         </li>
     {% endmacro %}
-    <ul class="main-navigation">
+    <ul class="text-base text-neutral-700 font-medium">
         {%- for entry in navPages %}
             {{ renderNavListItem(entry) }}
         {%- endfor -%}
-        
+
     </ul>
 </div>
 

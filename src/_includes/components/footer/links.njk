@@ -1,4 +1,5 @@
 {% set titleStyle = "text-base font-medium pb-4 border-b border-white/20 uppercase tracking-wide mb-6" %}
+{% set linkStyle = "text-neutral-100 font-normal hover:text-white" %}
 
 <footer class="bg-[#111010] text-neutral-100 py-20" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
@@ -14,13 +15,13 @@
             <h3 class="{{ titleStyle }} mt-10 md:mt-0">Company</h3>
             <ul role="list" class="mt-4 space-y-4">
 
-                <li><a href="/about/" class="footer-link">About</a></li>
-                <li><a href="/practice-areas/" class="footer-link">Practice Areas</a></li>
-                <li><a href="/attorneys/" class="footer-link">Attorneys</a></li>
-                <li><a href="/articles/" class="footer-link">Articles</a></li>
-                <li><a href="/contact/" class="footer-link">Contact</a></li>
-                <li><a href="/privacy" class="footer-link">Privacy Policy</a></li>
-                <li><a href="/legal-disclaimers/" class="footer-link">Legal Disclaimers</a></li>
+                <li><a href="/about/" class="{{ linkStyle }}">About</a></li>
+                <li><a href="/practice-areas/" class="{{ linkStyle }}">Practice Areas</a></li>
+                <li><a href="/attorneys/" class="{{ linkStyle }}">Attorneys</a></li>
+                <li><a href="/articles/" class="{{ linkStyle }}">Articles</a></li>
+                <li><a href="/contact/" class="{{ linkStyle }}">Contact</a></li>
+                <li><a href="/privacy" class="{{ linkStyle }}">Privacy Policy</a></li>
+                <li><a href="/legal-disclaimers/" class="{{ linkStyle }}">Legal Disclaimers</a></li>
 
 
             </ul>

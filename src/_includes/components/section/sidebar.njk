@@ -1,8 +1,9 @@
-{% set sbheader = "pb-4 border-b border-stone-300 mb-4" %}
+{% set sbheader = "pb-4 border-b border-stone-300 mb-6 text-2xl" %}
+{% set sbcard = "p-8 bg-neutral-50 rounded-md mb-8 shadow-sm" %}
 
 <div class="col-span-12 lg:col-span-4" id="sidebar">
 
-    <div>
+    <div class="{{ sbcard }}">
     <h2 class="{{ sbheader }}">Scheduling</h2>
     {% include "components/global/appointment.njk" %}
 
@@ -12,12 +13,12 @@
 
 
 
-        {% if hideIntro != true %} 
-        <div>
+        {% if hideIntro != true %}
+        <div class="{{ sbcard }}">
             <h2 class="{{ sbheader }}">About {{ site.author.firstName }}</h2>
-            <p class="leading-7 mb-6 pr-6 text-stone-700">{{ site.sidebarintro }}</p>
+            <p class="leading-7 mb-0 pr-6 text-stone-700">{{ site.sidebarintro }}</p>
         </div>
-        {% endif %} 
+        {% endif %}
 
 
 
@@ -28,7 +29,7 @@
 
 
 
-         <div>
+         <div class="{{ sbcard }}">
             <h2 class="{{ sbheader }}">Article Topics</h2>
             <ul>
                 {%- for cat in collections.getCat -%}

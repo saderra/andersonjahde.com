@@ -3,11 +3,11 @@
 
     <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
         <div class="p-0 col-span-12 lg:col-span-8">
-           <article class="max-w-full p-8 lg:p-12">
+           <article class="max-w-full p-8 lg:p-12 bg-white shadow-sm rounded-md mb-8">
             {% if headshot %}
             <img src="{{ headshot }}" alt="{{ title }}" class="w-40 h-40 object-cover rounded-full mb-8">
             {% endif %}
-            <div class="prose">
+            <div class="prose max-w-[96%] prose-a:no-underline">
                <h1 class="text-3xl md:text-4xl pb-8 mb-8 border-b border-stone-200 font-normal">{{ title }}</h1>
                 {{ content | safe }}
             </div>

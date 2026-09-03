@@ -22,7 +22,7 @@
                 </button>
                 <div class="grid transition-all duration-300 ease-in-out" :class="activeIndex === {{ loop.index0 }} ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'">
                     <div class="overflow-hidden">
-                        <div class="prose max-w-none pb-6 text-stone-600">
+                        <div class="prose max-w-[96%] pb-6 text-stone-600 prose-a:no-underline">
                             {{ item.templateContent | safe }}
                         </div>
                     </div>

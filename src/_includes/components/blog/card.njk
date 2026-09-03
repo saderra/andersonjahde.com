@@ -1,11 +1,11 @@
-<div class="blog-card">
+<div class="mb-8 bg-white p-4 md:p-6 shadow-sm rounded-md">
     {% include "components/blog/cover.njk" %}
-    <div class="blog-card-content">
-    
+    <div class="bg-stone-50 p-5 md:p-8 rounded-md shadow-inner">
+
         {% include "components/blog/title.njk" %}
-        {% include "components/blog/summary.njk" %}       
+        {% include "components/blog/summary.njk" %}
 
 
-        <a class="read-more" href="{{ post.url }}">Read More &raquo;</a>
+        <a class="inline-flex items-center px-5 py-3 mt-6 border border-transparent shadow-sm font-medium rounded-md text-white bg-brand" href="{{ post.url }}">Read More &raquo;</a>
     </div>
 </div>
