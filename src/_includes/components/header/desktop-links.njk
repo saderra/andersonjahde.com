@@ -3,15 +3,15 @@
     {% macro renderNavListItem(entry, level=0) %}
     {% set isHomepage = entry.url == '/' %}
     {% set isActive = page.url  %}
-    {% set liBase = "inline-block float-left" if level == 0 else "border-b border-neutral-200 pr-8 break-inside-avoid hover:bg-stone-100" %}
-    {% set aBase = "block px-2 lg:pl-3 py-6 ml-2 lg:ml-3" if level == 0 else "block pl-6 py-3" %}
+    {% set liBase = "inline-block float-left" if level == 0 else "border-b border-neutral-200 [&:nth-child(odd)]:border-r hover:bg-stone-200 transition-colors duration-200" %}
+    {% set aBase = "block px-2 lg:pl-3 py-6 ml-2 lg:ml-3" if level == 0 else "block pl-6 pr-8 py-3 whitespace-nowrap" %}
         <li class="{{ liBase }}{% if entry.children.length %} group{% if entry.url == page.url %} active{% endif %}{% endif %}">
             <a href="{{ entry.url | url }}" class="{{ aBase }}{% if isActive and not isHomepage %} active{% endif %}">
                 {{ entry.title }}
             </a>
 
             {% if entry.children.length %}
-                <ul class="absolute hidden group-hover:block z-50 shadow-md bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg overflow-hidden columns-2 gap-x-6 w-[28rem] p-2">
+                <ul class="absolute hidden group-hover:grid z-50 shadow-md bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg overflow-hidden grid-cols-[repeat(2,max-content)] w-max">
                 {% for child in entry.children %}
                     {{ renderNavListItem(child, level + 1) }}
                 {% endfor %}

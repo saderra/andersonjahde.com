@@ -5,11 +5,11 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/steven_anderson.jpg
 summary: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America . Our managing partner is the co-founder and President of Anderson & Jahde, P.C. Steven Anderson is a fellow in the "
-order: 10
+order: 0
 eleventyNavigation:
   key: "Steven Anderson"
   parent: Attorneys
-  order: 100
+  order: 10
 ---### Named 2023 Lawyer Of The Year in Tax for the Denver area by [Best Lawyers In America](https://www.bestlawyers.com/lawyers/steven-r-anderson/156808).
 
 Our managing partner is the co-founder and President of Anderson & Jahde, P.C.  Steven Anderson is a fellow in the American College of Tax Counsel, the recipient of the 2021 James Bye Lifetime Achievement Award in Tax from the Colorado Bar Association, named in Super Lawyers, has been awarded [Martindale-Hubbell](https://www.martindale.com/)’s highest, preeminent, rating in legal ability and ethical standards, named in Lawyers Of Distinction, listed in Marquis Who’s Who, annually named by 5280 Magazine as a Top Lawyer in Denver and named among the Best Lawyers In America.

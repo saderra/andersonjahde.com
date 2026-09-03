@@ -1,40 +1,55 @@
 {% set titleStyle = "text-base font-medium pb-4 border-b border-white/20 uppercase tracking-wide mb-6" %}
 {% set linkStyle = "text-neutral-100 font-normal hover:text-white" %}
+{% set attorneysList = collections.attorneys | sort(false, false, 'data.order') %}
+{% set attorneysHalf = (attorneysList.length / 2) | round(0, 'ceil') %}
 
 <footer class="bg-[#111010] text-neutral-100 py-20" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
 
   <div class="container">
-    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+    <div class="xl:grid xl:grid-cols-4 xl:gap-8">
 
+      <div class="max-w-xs">
+        <h3 class="{{ titleStyle }} mt-10 md:mt-0">Company</h3>
+        <ul role="list" class="mt-4 space-y-4">
 
-      <div class="grid grid-cols-1 gap-8 xl:col-span-2">
-        <div class="max-w-xs">
+            <li><a href="/about/" class="{{ linkStyle }}">About</a></li>
+            <li><a href="/practice-areas/" class="{{ linkStyle }}">Practice Areas</a></li>
+            <li><a href="/articles/" class="{{ linkStyle }}">Articles</a></li>
+            <li><a href="/contact/" class="{{ linkStyle }}">Contact</a></li>
+            <li><a href="/privacy" class="{{ linkStyle }}">Privacy Policy</a></li>
+            <li><a href="/legal-disclaimers/" class="{{ linkStyle }}">Legal Disclaimers</a></li>
 
-          <div>
-            <h3 class="{{ titleStyle }} mt-10 md:mt-0">Company</h3>
-            <ul role="list" class="mt-4 space-y-4">
+        </ul>
+      </div>
 
-                <li><a href="/about/" class="{{ linkStyle }}">About</a></li>
-                <li><a href="/practice-areas/" class="{{ linkStyle }}">Practice Areas</a></li>
-                <li><a href="/attorneys/" class="{{ linkStyle }}">Attorneys</a></li>
-                <li><a href="/articles/" class="{{ linkStyle }}">Articles</a></li>
-                <li><a href="/contact/" class="{{ linkStyle }}">Contact</a></li>
-                <li><a href="/privacy" class="{{ linkStyle }}">Privacy Policy</a></li>
-                <li><a href="/legal-disclaimers/" class="{{ linkStyle }}">Legal Disclaimers</a></li>
-
-
-            </ul>
-          </div>
-
+      <div class="xl:col-span-2">
+        <h3 class="{{ titleStyle }} mt-10 md:mt-0">Attorneys</h3>
+        <div class="grid grid-cols-2 gap-x-8">
+          <ul role="list" class="mt-4 space-y-4">
+            {%- for attorney in attorneysList.slice(0, attorneysHalf) -%}
+            <li><a href="{{ attorney.url | url }}" class="{{ linkStyle }}">{{ attorney.data.title }}</a></li>
+            {%- endfor -%}
+          </ul>
+          <ul role="list" class="mt-4 space-y-4">
+            {%- for attorney in attorneysList.slice(attorneysHalf) -%}
+            <li><a href="{{ attorney.url | url }}" class="{{ linkStyle }}">{{ attorney.data.title }}</a></li>
+            {%- endfor -%}
+          </ul>
         </div>
       </div>
 
+      <div class="mt-10 xl:mt-0">
+        <h3 class="{{ titleStyle }} mt-10 md:mt-0">Denver Office</h3>
+        <div class="mt-4 space-y-1 text-neutral-100">
+          <p>{{ site.address.line1 }}</p>
+          <p>{{ site.address.line2 }}</p>
+          <p>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}</p>
+          <p class="pt-3"><a href="tel:{{ site.author.phoneHref }}" class="{{ linkStyle }}">{{ site.author.phone }}</a></p>
+        </div>
+      </div>
 
     </div>
-
-
   </div>
-
 
 </footer>

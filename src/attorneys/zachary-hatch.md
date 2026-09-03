@@ -5,7 +5,7 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/Zach-web.jpg
 summary: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fu"
-order: 11
+order: 10
 eleventyNavigation:
   key: "Zachary Hatch"
   parent: Attorneys

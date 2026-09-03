@@ -5,7 +5,7 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/richard.jpg
 summary: "Richard has passed away, leaving behind a legacy of personal and professional accomplishments. He was an admired man, and his passing is a loss for those closest to him, Anderson & Jahde, and to the f"
-order: 7
+order: 6
 eleventyNavigation:
   key: "Richard D'Estrada"
   parent: Attorneys

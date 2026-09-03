@@ -5,11 +5,11 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/kevin-sm-min.jpg
 summary: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorit"
-order: 2
+order: 3
 eleventyNavigation:
   key: "Kevin A. Planegger"
   parent: Attorneys
-  order: 20
+  order: 40
 ---Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorities. With nearly 30 years of experience focused on tax controversy and litigation, Kevin has successfully represented clients in IRS audits, appeals, collection actions, criminal tax investigations, and U.S. Tax Court and federal court litigation.
 
 Before joining Anderson & Jahde, Kevin was a longtime associate at Merriam Law Firm, where he practiced for over two decades alongside founding attorney Ted Merriam. After Ted’s retirement, Kevin assumed leadership of the firm and led it until its merger with Anderson & Jahde in 2024.

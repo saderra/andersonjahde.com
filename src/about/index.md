@@ -5,7 +5,7 @@ description: "A Denver tax law firm since 1995."
 hideIntro: true
 eleventyNavigation:
   key: About
-  order: 100
+  order: 350
 ---
 ## A Denver Tax Law Firm Since 1995
 
