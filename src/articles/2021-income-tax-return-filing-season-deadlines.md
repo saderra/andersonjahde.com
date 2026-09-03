@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-01-18
 summary: "Because of the global pandemic, the IRS extended the filing deadline for taxpayers’ 2019 Income Tax Returns. This left many wondering whether the IRS would extend the filing deadlines for 2020 tax returns—generally March 15, 2021 for entity returns, and April 15, 2021 for individual returns. The IRS"
-description: "Because of the global pandemic, the IRS extended the filing deadline for taxpayers’ 2019 Income Tax Returns. This left many wondering whether the IRS would extend the filing deadlines for 2020 tax returns—generally March 15, 2021 for entity returns, and April 15, 2021 for individual returns. The IRS"
----Because of the global pandemic, the IRS extended the filing deadline for taxpayers’ 2019 Income Tax Returns.  This left many wondering whether the IRS would extend the filing deadlines for 2020 tax returns—generally March 15, 2021 for entity returns, and April 15, 2021 for individual returns.  The IRS recently announced the filing deadlines for the 2021 filing season will not be automatically extended, like they were last year.
+description: "Because of the global pandemic, the IRS extended the filing deadline for taxpayers’ 2019 Income Tax Returns. This left many wondering whether the IRS…"
+---
+Because of the global pandemic, the IRS extended the filing deadline for taxpayers’ 2019 Income Tax Returns.  This left many wondering whether the IRS would extend the filing deadlines for 2020 tax returns—generally March 15, 2021 for entity returns, and April 15, 2021 for individual returns.  The IRS recently announced the filing deadlines for the 2021 filing season will not be automatically extended, like they were last year.
 
 The IRS announced last week that the upcoming 2021 filing deadlines (for the 2020 tax returns) will remain the same as normally scheduled. But, instead of the IRS accepting returns beginning in January, it will not begin accepting returns until February 12, 2021. That is because it is updating its system and needs additional time to complete that process, so taxpayers’ refunds are not delayed once returns are filed.
 

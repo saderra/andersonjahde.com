@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2023-04-09
 summary: "Each year, the IRS warns Taxpayers in its “Dirty Dozen” list of tax scams to be on the lookout. This year, the list includes two warnings about which we have had similar concerns. This year’s first addition to the “Dirty Dozen” list was Employee Retention Credit (“ERC”) promoters using aggressive ma"
-description: "Each year, the IRS warns Taxpayers in its “Dirty Dozen” list of tax scams to be on the lookout. This year, the list includes two warnings about which we have had similar concerns. This year’s first addition to the “Dirty Dozen” list was Employee Retention Credit (“ERC”) promoters using aggressive ma"
----Each year, the IRS warns Taxpayers in its “Dirty Dozen” list of tax scams to be on the lookout.   This year, the list includes two warnings about which we have had similar concerns.
+description: "Each year, the IRS warns Taxpayers in its “Dirty Dozen” list of tax scams to be on the lookout. This year, the list includes two warnings about which we…"
+---
+Each year, the IRS warns Taxpayers in its “Dirty Dozen” list of tax scams to be on the lookout.   This year, the list includes two warnings about which we have had similar concerns.
 
 This year’s first addition to the “Dirty Dozen” list was Employee Retention Credit (“ERC”) promoters using aggressive marketing to assist taxpayers in applying for the credits.  Originally enacted as part of the CARES Act, the ERC allows significant credits against employment taxes for those businesses effected by COVID-19 related shutdowns, or who had a significant decline in gross receipts during the pandemic.  The IRS warns:
 

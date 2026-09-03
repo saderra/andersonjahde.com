@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2020-11-09
 summary: "On November 2, 2020, the Internal Revenue Service announced a new program, the Taxpayer Relief Initiative (“TRI”), to help taxpayers who are unable to pay their taxes because of the pandemic. Taxpayers who owe taxes and cannot not pay have always had options such as installment agreements and offers"
-description: "On November 2, 2020, the Internal Revenue Service announced a new program, the Taxpayer Relief Initiative (“TRI”), to help taxpayers who are unable to pay their taxes because of the pandemic. Taxpayers who owe taxes and cannot not pay have always had options such as installment agreements and offers"
----On November 2, 2020, the Internal Revenue Service announced a new program, the Taxpayer Relief Initiative (“TRI”), to help taxpayers who are unable to pay their taxes because of the pandemic. Taxpayers who owe taxes and cannot not pay have always had options such as installment agreements and offers in compromise, but now they have more flexible options. Currently, there are over 20 million taxpayers (individual, business, and specialty taxpayers) who owe the IRS back tax debt.
+description: "On November 2, 2020, the Internal Revenue Service announced a new program, the Taxpayer Relief Initiative (“TRI”), to help taxpayers who are unable to pay…"
+---
+On November 2, 2020, the Internal Revenue Service announced a new program, the Taxpayer Relief Initiative (“TRI”), to help taxpayers who are unable to pay their taxes because of the pandemic. Taxpayers who owe taxes and cannot not pay have always had options such as installment agreements and offers in compromise, but now they have more flexible options. Currently, there are over 20 million taxpayers (individual, business, and specialty taxpayers) who owe the IRS back tax debt.
 
 Here are some relief provisions of the TRI:
 

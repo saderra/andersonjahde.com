@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2017-01-14
 summary: "Small businesses are the backbone of Colorado’s economy— 98% of all businesses in the state have fewer than 100 employees. Because Colorado’s Constitution allows “Home Rule” jurisdictions to enact their own sales and use tax ordinances inconsistent from Colorado’s sales and use tax laws, businesses "
-description: "Small businesses are the backbone of Colorado’s economy— 98% of all businesses in the state have fewer than 100 employees. Because Colorado’s Constitution allows “Home Rule” jurisdictions to enact their own sales and use tax ordinances inconsistent from Colorado’s sales and use tax laws, businesses "
----Small businesses are the backbone of Colorado’s economy— 98% of all businesses in the state have fewer than 100 employees. Because Colorado’s Constitution allows “Home Rule” jurisdictions to enact their own sales and use tax ordinances inconsistent from Colorado’s sales and use tax laws, businesses often have great difficulty wending their way through the variations between Colorado’s tax laws and those of a Home Rule jurisdiction such as Denver. Failure to plan for, and accurately comply with, myriad conflicting state, county, and municipal laws can jeopardize businesses just as they are getting started.  
+description: "Small businesses are the backbone of Colorado’s economy— 98% of all businesses in the state have fewer than 100 employees. Because Colorado’s Constitution…"
+---
+Small businesses are the backbone of Colorado’s economy— 98% of all businesses in the state have fewer than 100 employees. Because Colorado’s Constitution allows “Home Rule” jurisdictions to enact their own sales and use tax ordinances inconsistent from Colorado’s sales and use tax laws, businesses often have great difficulty wending their way through the variations between Colorado’s tax laws and those of a Home Rule jurisdiction such as Denver. Failure to plan for, and accurately comply with, myriad conflicting state, county, and municipal laws can jeopardize businesses just as they are getting started.  
 All Colorado and Denver based businesses, whether new or established, need to be mindful of the following:
 
 1.  The taxing jurisdiction(s) in which they are located.

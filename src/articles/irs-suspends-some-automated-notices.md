@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2022-02-28
 summary: "The IRS’s automated computer system generates certain types of notices to taxpayers, based on parameters programmed in the system and information entered and which is specific to a taxpayer. For example, when a taxpayer files a tax return with a balance due, once the return is processed, the automat"
-description: "The IRS’s automated computer system generates certain types of notices to taxpayers, based on parameters programmed in the system and information entered and which is specific to a taxpayer. For example, when a taxpayer files a tax return with a balance due, once the return is processed, the automat"
----The IRS’s automated computer system generates certain types of notices to taxpayers, based on parameters programmed in the system and information entered and which is specific to a taxpayer.  For example, when a taxpayer files a tax return with a balance due, once the return is processed, the automated system automatically begins to generate collection notices.  The system, however, is not set-up to account for outside events, specifically the backlogs and issues that have been caused as a result of the Covid pandemic.
+description: "The IRS’s automated computer system generates certain types of notices to taxpayers, based on parameters programmed in the system and information entered…"
+---
+The IRS’s automated computer system generates certain types of notices to taxpayers, based on parameters programmed in the system and information entered and which is specific to a taxpayer.  For example, when a taxpayer files a tax return with a balance due, once the return is processed, the automated system automatically begins to generate collection notices.  The system, however, is not set-up to account for outside events, specifically the backlogs and issues that have been caused as a result of the Covid pandemic.
 
 In early February, the IRS announced it is suspending some types of automated notices, in response to the backlog it currently has.  The suspended notices are listed on the IRS website, but are generally of two types: (1) notifications about missing tax returns or (2) collection notices, informing taxpayers of balances due.
 

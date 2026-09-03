@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2022-01-31
 summary: "The IRS was struggling to manage a high workload with fewer resources before the Covid pandemic, but its delays have greatly increased as a result of the months’ long shutdown from the pandemic in 2020. The IRS acknowledged 2021 as one of the most challenging years it has had, but with the backlog ("
-description: "The IRS was struggling to manage a high workload with fewer resources before the Covid pandemic, but its delays have greatly increased as a result of the months’ long shutdown from the pandemic in 2020. The IRS acknowledged 2021 as one of the most challenging years it has had, but with the backlog ("
----The IRS was struggling to manage a high workload with fewer resources before the Covid pandemic, but its delays have greatly increased as a result of the months’ long shutdown from the pandemic in 2020.  The IRS acknowledged 2021 as one of the most challenging years it has had, but with the backlog (including millions of unprocessed income tax returns) and the return filing season having opened on January 24, 2022, this year will be plagued by even more delays.
+description: "The IRS was struggling to manage a high workload with fewer resources before the Covid pandemic, but its delays have greatly increased as a result of the…"
+---
+The IRS was struggling to manage a high workload with fewer resources before the Covid pandemic, but its delays have greatly increased as a result of the months’ long shutdown from the pandemic in 2020.  The IRS acknowledged 2021 as one of the most challenging years it has had, but with the backlog (including millions of unprocessed income tax returns) and the return filing season having opened on January 24, 2022, this year will be plagued by even more delays.
 
 Knowing this, there are things taxpayers can do to prevent further delays in the processing of their returns, payments, or attempts to resolve some issues with the IRS (this is not an exhaustive list):
 

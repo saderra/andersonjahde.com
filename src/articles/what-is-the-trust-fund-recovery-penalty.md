@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2022-04-28
 summary: "The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees. It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages. Although referred to as a pena"
-description: "The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees. It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages. Although referred to as a pena"
----The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees.  It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages.  Although referred to as a penalty, it is a tax.
+description: "The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees. It is…"
+---
+The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees.  It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages.  Although referred to as a penalty, it is a tax.
 
 When an employer does not make required federal tax deposits for employment taxes, it incurs a tax liability comprised of the Trust Fund and non-Trust Fund (the employer’s share of Social Security and Medicare) portions of the tax.  The Trust Fund portion can be assessed against individuals, including employees of the business, if not paid in full.
 

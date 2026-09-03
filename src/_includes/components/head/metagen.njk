@@ -2,15 +2,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{% if noindex %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 {% if cat | title %}
 <title>{{ cat | title }} Articles By {{ site.author.name }}</title>
 {% elseif seoTitle %}
 <title>{{ seoTitle }}</title>
 {% else %}
+  {% if page.url == "/" %}
 <title>{{ title }}</title>
+  {% else %}
+<title>{{ title }} | {{ site.tagline }}</title>
+  {% endif %}
 {% endif %}
 
-
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 <meta name="author" content="{{ site.author.name }}">
 <!-- Open Graph -->

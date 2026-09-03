@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2015-10-30
 summary: "As reported by the Washington Times, Internal Revenue Service Commissioner John Koskinen admitted this week that the agency uses secret cellphone tracking systems, known as cell-site simulators, or StingRays, to collect information about people they are investigating. This finding has sparked an inq"
-description: "As reported by the Washington Times, Internal Revenue Service Commissioner John Koskinen admitted this week that the agency uses secret cellphone tracking systems, known as cell-site simulators, or StingRays, to collect information about people they are investigating. This finding has sparked an inq"
----As reported by the [Washington Times](https://www.washingtontimes.com/news/2015/oct/29/irs-use-secret-cellphone-tracking-systems-has-gras/), Internal Revenue Service Commissioner John Koskinen admitted this week that the agency uses secret cellphone tracking systems, known as cell-site simulators, or StingRays, to collect information about people they are investigating. This finding has sparked an inquiry by two top U.S. senators into the use of these tracking systems.
+description: "As reported by the Washington Times, Internal Revenue Service Commissioner John Koskinen admitted this week that the agency uses secret cellphone tracking…"
+---
+As reported by the [Washington Times](https://www.washingtontimes.com/news/2015/oct/29/irs-use-secret-cellphone-tracking-systems-has-gras/), Internal Revenue Service Commissioner John Koskinen admitted this week that the agency uses secret cellphone tracking systems, known as cell-site simulators, or StingRays, to collect information about people they are investigating. This finding has sparked an inquiry by two top U.S. senators into the use of these tracking systems.
 
 Advances in information collection technology and the ever-changing landscape of legal tax issues in America makes it more important than ever to take the necessary precautions to protect your rights. If you are under the watchful eye of the IRS, it is important to know your rights and to consult a legal tax professional to investigate your legal options.
 

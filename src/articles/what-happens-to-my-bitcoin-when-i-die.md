@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2020-08-18
 summary: "Cryptocurrency is a digital or virtual currency that is becoming more widely used in business transactions. Last year alone, over $335 billion dollars was held in cryptocurrencies. The IRS has taken the position that cryptocurrencies are not currencies at all. Instead, they are characterized as prop"
-description: "Cryptocurrency is a digital or virtual currency that is becoming more widely used in business transactions. Last year alone, over $335 billion dollars was held in cryptocurrencies. The IRS has taken the position that cryptocurrencies are not currencies at all. Instead, they are characterized as prop"
----Cryptocurrency is a digital or virtual currency that is becoming more widely used in business transactions. Last year alone, over $335 billion dollars was held in cryptocurrencies. The IRS has taken the position that cryptocurrencies are not currencies at all. Instead, they are characterized as property or goods and therefore taxed and treated likewise. 
+description: "Cryptocurrency is a digital or virtual currency that is becoming more widely used in business transactions. Last year alone, over $335 billion dollars was…"
+---
+Cryptocurrency is a digital or virtual currency that is becoming more widely used in business transactions. Last year alone, over $335 billion dollars was held in cryptocurrencies. The IRS has taken the position that cryptocurrencies are not currencies at all. Instead, they are characterized as property or goods and therefore taxed and treated likewise. 
 
 Digital currencies have value and must be reported as assets, as part of the value of an estate. This means tax-basis must be tracked.
 

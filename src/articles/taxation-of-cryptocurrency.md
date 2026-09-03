@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-03-28
 summary: "Virtual currency has risen in popularity over the last several years, not only for investment, but for use in paying for goods and services. Unlike the U.S. dollar, the IRS does not treat virtual currency (also called “digital currency” and “cryptocurrency”) as currency. It is treated as property, e"
-description: "Virtual currency has risen in popularity over the last several years, not only for investment, but for use in paying for goods and services. Unlike the U.S. dollar, the IRS does not treat virtual currency (also called “digital currency” and “cryptocurrency”) as currency. It is treated as property, e"
----Virtual currency has risen in popularity over the last several years, not only for investment, but for use in paying for goods and services.  Unlike the U.S. dollar, the IRS does not treat virtual currency (also called “digital currency” and “cryptocurrency”) as currency.  It is treated as property, even though it can be used as a form of payment.
+description: "Virtual currency has risen in popularity over the last several years, not only for investment, but for use in paying for goods and services. Unlike the…"
+---
+Virtual currency has risen in popularity over the last several years, not only for investment, but for use in paying for goods and services.  Unlike the U.S. dollar, the IRS does not treat virtual currency (also called “digital currency” and “cryptocurrency”) as currency.  It is treated as property, even though it can be used as a form of payment.
 
 That means that if you have had any transactions beyond your initial purchase of virtual currency—you have traded it for other virtual currency (or actual currency); used it to pay for goods or services; or sold it—you have taxable transactions that need to be reported on your income tax return (on Schedule D).
 

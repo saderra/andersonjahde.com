@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-02-22
 summary: "Lately there has been a lot of mainstream and social media attention surrounding people who traditionally get a tax refund but are not this year. Some are finding they actually owe money. Understandably, these reports are causing anxiety and anger among a large portion of the taxpaying public who fe"
-description: "Lately there has been a lot of mainstream and social media attention surrounding people who traditionally get a tax refund but are not this year. Some are finding they actually owe money. Understandably, these reports are causing anxiety and anger among a large portion of the taxpaying public who fe"
----Lately there has been a lot of mainstream and social media attention surrounding people who traditionally get a tax refund but are not this year.  Some are finding they actually owe money.  Understandably, these reports are causing anxiety and anger among a large portion of the taxpaying public who feel cheated after being promised a tax reduction.  Much of this is based on a misunderstanding of how the 2017 Tax Act worked.
+description: "Lately there has been a lot of mainstream and social media attention surrounding people who traditionally get a tax refund but are not this year. Some are…"
+---
+Lately there has been a lot of mainstream and social media attention surrounding people who traditionally get a tax refund but are not this year.  Some are finding they actually owe money.  Understandably, these reports are causing anxiety and anger among a large portion of the taxpaying public who feel cheated after being promised a tax reduction.  Much of this is based on a misunderstanding of how the 2017 Tax Act worked.
 
 Many taxpayers believe that because their refund is smaller, they are actually paying more tax.  This is not necessarily true—many individual taxpayers are benefitting from lower taxes as a result of the 2017 Tax Act.  Instead, reduced refunds result from changes in the way the IRS has collected tax during the year.  After the 2017 Tax Act was passed, the IRS adjusted tables employers use to determine how much income tax to withhold from their employees’ paychecks.  For most (if not all), this resulted in less income tax being withheld.
 

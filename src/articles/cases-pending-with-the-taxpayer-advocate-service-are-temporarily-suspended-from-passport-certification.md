@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-08-31
 summary: "Effective July 25, 2019, the Commissioner of the IRS agreed to temporarily suspend its “Passport Certification Program” for all taxpayers with cases pending with the Taxpayer Advocate Service (“TAS”). Generally, the Passport Certification Program authorizes the IRS to notify the State Department of "
-description: "Effective July 25, 2019, the Commissioner of the IRS agreed to temporarily suspend its “Passport Certification Program” for all taxpayers with cases pending with the Taxpayer Advocate Service (“TAS”). Generally, the Passport Certification Program authorizes the IRS to notify the State Department of "
----Effective July 25, 2019, the Commissioner of the IRS agreed to temporarily suspend its “Passport Certification Program” for all taxpayers with cases pending with the Taxpayer Advocate Service (“TAS”).
+description: "Effective July 25, 2019, the Commissioner of the IRS agreed to temporarily suspend its “Passport Certification Program” for all taxpayers with cases…"
+---
+Effective July 25, 2019, the Commissioner of the IRS agreed to temporarily suspend its “Passport Certification Program” for all taxpayers with cases pending with the Taxpayer Advocate Service (“TAS”).
 
 Generally, the Passport Certification Program authorizes the IRS to notify the State Department of taxpayers with “seriously delinquent tax debt,” which is:
 

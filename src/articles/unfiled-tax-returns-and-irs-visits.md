@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2020-02-27
 summary: "If you have unfiled federal income tax returns, you might receive a personal visit from an IRS employee. The IRS recently announced that it hired additional Revenue Officers (IRS collection employees) who will be making house calls to taxpayers missing one or more returns in a prior year, and who ea"
-description: "If you have unfiled federal income tax returns, you might receive a personal visit from an IRS employee. The IRS recently announced that it hired additional Revenue Officers (IRS collection employees) who will be making house calls to taxpayers missing one or more returns in a prior year, and who ea"
----If you have unfiled federal income tax returns, you might receive a personal visit from an IRS employee.  The IRS recently announced that it hired additional Revenue Officers (IRS collection employees) who will be making house calls to taxpayers missing one or more returns in a prior year, and who earn over $100,000.  These unannounced visits began in February 2020.
+description: "If you have unfiled federal income tax returns, you might receive a personal visit from an IRS employee. The IRS recently announced that it hired…"
+---
+If you have unfiled federal income tax returns, you might receive a personal visit from an IRS employee.  The IRS recently announced that it hired additional Revenue Officers (IRS collection employees) who will be making house calls to taxpayers missing one or more returns in a prior year, and who earn over $100,000.  These unannounced visits began in February 2020.
 
 The IRS has already contacted these non-filers by correspondence (generally by mail), notifying them of missing returns, so they should not be surprised to learn of their missing returns.  Eventually, face-to-face contact will be made.  Taxpayers can expect the Revenue Officer to provide two forms of official identification to prove they are in fact IRS employees and not scammers.
 

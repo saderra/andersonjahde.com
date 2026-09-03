@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2016-12-15
 summary: "Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble. The two best alternatives are a prem"
-description: "Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble. The two best alternatives are a prem"
----Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble.  The two best alternatives are a premarital agreement, and a discretionary, asset protection trust.
+description: "Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take…"
+---
+Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble.  The two best alternatives are a premarital agreement, and a discretionary, asset protection trust.
 
 In Colorado, divorcing people normally keep their **separate property** and divide their **marital property**.  Separate property is the property each came into the marriage with and any property gifted to them, whether before or during the marriage, that has not been commingled with the other spouse’s property. Marital property is what is earned or accumulated during the marriage, including the appreciation in value of separate property during the marriage.  Yet courts can “equitably divide” marital property to consider the “economic circumstances of each spouse,” thus giving one spouse more of the marital property than the other.
 

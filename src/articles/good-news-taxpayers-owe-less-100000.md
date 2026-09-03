@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2016-10-14
 summary: "The IRS recently announced it will test an expansion of its Streamlined Installment Agreement Program for Taxpayers who owe less than $100,000. In all Streamlined Installment Agreements, the dollar threshold is based on the “Unpaid Balance of Assessments,” which often may be less than the amount the"
-description: "The IRS recently announced it will test an expansion of its Streamlined Installment Agreement Program for Taxpayers who owe less than $100,000. In all Streamlined Installment Agreements, the dollar threshold is based on the “Unpaid Balance of Assessments,” which often may be less than the amount the"
----The IRS recently announced it will test an expansion of its Streamlined Installment Agreement Program for Taxpayers who owe less than $100,000.
+description: "The IRS recently announced it will test an expansion of its Streamlined Installment Agreement Program for Taxpayers who owe less than $100,000."
+---
+The IRS recently announced it will test an expansion of its Streamlined Installment Agreement Program for Taxpayers who owe less than $100,000.
 
 In all Streamlined Installment Agreements, the dollar threshold is based on the “Unpaid Balance of Assessments,” which often may be less than the amount the Taxpayer actually owes.
 

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2023-10-03
 summary: "On September 14, 2023, the IRS announced its next step in its attempts to curb widespread fraud around the Employee Retention Credit—an immediate and complete moratorium on processing new ERC claims through the end of the year. You may have heard or seen the commercials by, or been spammed with emai"
-description: "On September 14, 2023, the IRS announced its next step in its attempts to curb widespread fraud around the Employee Retention Credit—an immediate and complete moratorium on processing new ERC claims through the end of the year. You may have heard or seen the commercials by, or been spammed with emai"
----On September 14, 2023, the IRS announced its next step in its attempts to curb widespread fraud around the Employee Retention Credit—an immediate and complete moratorium on processing new ERC claims through the end of the year.
+description: "On September 14, 2023, the IRS announced its next step in its attempts to curb widespread fraud around the Employee Retention Credit—an immediate and…"
+---
+On September 14, 2023, the IRS announced its next step in its attempts to curb widespread fraud around the Employee Retention Credit—an immediate and complete moratorium on processing new ERC claims through the end of the year.
 
 You may have heard or seen the commercials by, or been spammed with emails from, companies encouraging businesses to contact them about applying for ERC credits.  Generally, these companies will prepare the necessary amended employment tax returns claiming the credit for a contingent fee.  The IRS has been overly concerned with these marketing companies who assist client’s in claiming credits to which the business is simply not eligible- even naming the industry in its 2023 “Dirty Dozen” list. 
 

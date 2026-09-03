@@ -1,5 +1,6 @@
 ---
 title: "Privacy Policy"
+description: "Privacy Policy for Anderson & Jahde, P.C., explaining what personal data this website collects, how it is used, and how it is protected."
 layout: page
 permalink: /privacy/
 ---

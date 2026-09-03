@@ -4,7 +4,7 @@ slug: estate-trust-administration
 tags:
   - practice-areas
 summary: "Estate planning documents often nominate a close friend or family member to serve as the personal representative of the decedent’s estate. Similarly, trust documents often name a close friend or famil"
-description: "Estate planning documents often nominate a close friend or family member to serve as the personal representative of the decedent’s estate. Similarly, trust documents often name a close friend or famil"
+description: "Estate planning documents often nominate a close friend or family member to serve as the personal representative of the decedent’s estate. Similarly…"
 eleventyNavigation:
   key: "Estate & Trust Administration"
   parent: Practice Areas

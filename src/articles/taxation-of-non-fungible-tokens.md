@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-06-30
 summary: "A non-fungible token (“NFT”) is a type of digital asset, representing something unique. Because it is unique, it cannot be replaced by any other item or asset—like a piece of original art (The Mona Lisa), or an original Michael Jordan rookie basketball card. Something fungible can be replaced with a"
-description: "A non-fungible token (“NFT”) is a type of digital asset, representing something unique. Because it is unique, it cannot be replaced by any other item or asset—like a piece of original art (The Mona Lisa), or an original Michael Jordan rookie basketball card. Something fungible can be replaced with a"
----A non-fungible token (“NFT”) is a type of digital asset, representing something unique.  Because it is unique, it cannot be replaced by any other item or asset—like a piece of original art (The Mona Lisa), or an original Michael Jordan rookie basketball card.  Something fungible can be replaced with another item.  For example, a Bitcoin can be replaced by another Bitcoin, because a Bitcoin is not unique.  Or a print of the Mona Lisa can be replaced by another print.  But The Mona Lisa itself can never be replaced.  This is like an NFT.
+description: "A non-fungible token (“NFT”) is a type of digital asset, representing something unique. Because it is unique, it cannot be replaced by any other item or…"
+---
+A non-fungible token (“NFT”) is a type of digital asset, representing something unique.  Because it is unique, it cannot be replaced by any other item or asset—like a piece of original art (The Mona Lisa), or an original Michael Jordan rookie basketball card.  Something fungible can be replaced with another item.  For example, a Bitcoin can be replaced by another Bitcoin, because a Bitcoin is not unique.  Or a print of the Mona Lisa can be replaced by another print.  But The Mona Lisa itself can never be replaced.  This is like an NFT.
 
 NFTs are unique digital assets, representing value to its creator or holder, just like a piece of tangible art.  An example of an NFT is the very first tweet ever posted on Twitter.  It recently sold for close to $3 million.  While NFTs are a digital asset, like cryptocurrency, they are not cryptocurrency because of their unique properties. 
 

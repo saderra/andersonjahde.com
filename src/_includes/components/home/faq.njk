@@ -5,14 +5,14 @@
         </div>
 
         <div class="divide-y divide-stone-200">
-            {% for item in collections.faq %}
+            {% for item in faqs %}
             <div>
                 <button
                     type="button"
                     @click="activeIndex = (activeIndex === {{ loop.index0 }} ? null : {{ loop.index0 }})"
                     :aria-expanded="activeIndex === {{ loop.index0 }}"
                     class="w-full flex items-center justify-between gap-4 py-5 text-left font-medium text-lg text-stone-900">
-                    <span>{{ item.data.title }}</span>
+                    <span>{{ item.question }}</span>
                     <svg
                         class="flex-shrink-0 h-5 w-5 text-stone-500 transition-transform duration-300"
                         :class="activeIndex === {{ loop.index0 }} ? 'rotate-180' : ''"
@@ -23,7 +23,9 @@
                 <div class="grid transition-all duration-300 ease-in-out" :class="activeIndex === {{ loop.index0 }} ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'">
                     <div class="overflow-hidden">
                         <div class="prose max-w-[96%] pb-6 text-stone-600 prose-a:no-underline">
-                            {{ item.templateContent | safe }}
+                            {% for para in item.answer %}
+                            <p>{{ para }}</p>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
@@ -32,3 +34,23 @@
         </div>
     </div>
 </div>
+
+<script type="application/ld+json">
+{%- set schemaItems = [] -%}
+{%- for item in faqs -%}
+  {%- set _ = schemaItems.push({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer | join(" ")
+      }
+  }) -%}
+{%- endfor -%}
+{%- set faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": schemaItems
+} -%}
+{{ faqSchema | jsonify | safe }}
+</script>

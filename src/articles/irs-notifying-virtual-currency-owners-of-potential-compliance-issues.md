@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2019-09-30
 summary: "The IRS recently began sending letters to virtual currency owners, notifying them of potential failures to include, or correctly report, virtual currency transactions on their income tax returns."
-description: "The IRS recently began sending letters to virtual currency owners, notifying them of potential failures to include, or correctly report, virtual currency transactions on their income tax returns."
+description: "The IRS recently began sending letters to virtual currency owners, notifying them of potential failures to report virtual currency transactions."
 ---The IRS recently began sending letters to virtual currency owners, notifying them of potential failures to include, or correctly report, virtual currency transactions on their income tax returns.
 
 Several years ago, the IRS issued a summons to [Coinbase](https://en.wikipedia.org/wiki/Coinbase), a U.S.-based virtual currency exchange, requesting names of U.S. customers who participated in virtual currency transactions over a specified time period.  After Coinbase refused, the IRS filed a lawsuit to have the summons enforced, and won (at least in part).  Coinbase was ordered to partially comply with the summons.  The result is that Coinbase produced a large amount of information to the IRS, which it’s using to track down taxpayers to determine if they complied with their tax reporting obligations.

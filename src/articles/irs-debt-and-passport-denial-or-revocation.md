@@ -7,9 +7,8 @@ categories:
   - Articles
 date: 2018-11-30
 summary: "Taxpayers with more than $50,000 of unpaid federal tax liabilities may find they cannot travel internationally, unless they are working with the IRS to resolve their tax liabilities. In December 2015, Internal Revenue Code § 7345 was enacted, authorizing the IRS to notify the State Department of tax"
-description: "Taxpayers with more than $50,000 of unpaid federal tax liabilities may find they cannot travel internationally, unless they are working with the IRS to resolve their tax liabilities. In December 2015, Internal Revenue Code § 7345 was enacted, authorizing the IRS to notify the State Department of tax"
----ol { display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; padding-left: 40px; }
-
+description: "Taxpayers with more than $50,000 of unpaid federal tax liabilities may find they cannot travel internationally, unless they are working with the IRS to…"
+---
 Taxpayers with more than $50,000 of unpaid federal tax liabilities may find they cannot travel internationally, unless they are working with the IRS to resolve their tax liabilities.  In December 2015, Internal Revenue Code § 7345 was enacted, authorizing the IRS to notify the State Department of taxpayers with “seriously delinquent tax debt,” which is:
 
 1.  A legally enforceable federal tax liability of an individual;

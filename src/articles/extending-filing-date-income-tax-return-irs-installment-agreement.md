@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2018-06-18
 summary: "When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement. This is known as b"
-description: "When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement. This is known as b"
----When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement.  This is known as being “in compliance.”  If a taxpayer is not in compliance with all required filing and payment obligations, the IRS can (and will) terminate the Installment Agreement.
+description: "When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all…"
+---
+When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement.  This is known as being “in compliance.”  If a taxpayer is not in compliance with all required filing and payment obligations, the IRS can (and will) terminate the Installment Agreement.
 
 This sounds simple, but many taxpayers do not understand that extending the filing deadline of their income tax returns (personal or business) can ultimately lead to a default of the terms of their Installment Agreement.  This is because extending the filing deadline of an income tax return does not extend the _payment_ deadline.
 

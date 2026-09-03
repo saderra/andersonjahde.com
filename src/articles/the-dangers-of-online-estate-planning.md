@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2016-09-20
 summary: "Today, the world-wide-library puts information at our fingertips in a moment. Access to an unlimited amount of information is quite alluring. When it comes to Estate planning, several web services claim that consumers can complete a will or a trust online in minutes. Are these claims correct and wha"
-description: "Today, the world-wide-library puts information at our fingertips in a moment. Access to an unlimited amount of information is quite alluring. When it comes to Estate planning, several web services claim that consumers can complete a will or a trust online in minutes. Are these claims correct and wha"
----Today, the world-wide-library puts information at our fingertips in a moment.  Access to an unlimited amount of information is quite alluring.  When it comes to Estate planning, several web services claim that consumers can complete a will or a trust online in minutes.  Are these claims correct and what happens when problems arise?
+description: "Today, the world-wide-library puts information at our fingertips in a moment. Access to an unlimited amount of information is quite alluring. When it…"
+---
+Today, the world-wide-library puts information at our fingertips in a moment.  Access to an unlimited amount of information is quite alluring.  When it comes to Estate planning, several web services claim that consumers can complete a will or a trust online in minutes.  Are these claims correct and what happens when problems arise?
 
 Online Estate planning seems like an enticing bargain at the outset.  But it may be pennywise and pound foolish.  They offer legal documents at a cheap price, or even free, without knowing or understanding your family’s unique issues and concerns.
 

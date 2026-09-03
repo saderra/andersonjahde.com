@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2017-05-11
 summary: "There are two phases to a tax case: the first part is when the IRS conducts an examination to determine how much you owe (“examination”) and the second part is when the IRS tries to collect from you (“collection”). Of course, if you filed your tax return and did not pay all that was shown as due, th"
-description: "There are two phases to a tax case: the first part is when the IRS conducts an examination to determine how much you owe (“examination”) and the second part is when the IRS tries to collect from you (“collection”). Of course, if you filed your tax return and did not pay all that was shown as due, th"
----There are two phases to a tax case: the first part is when the IRS conducts an examination to determine how much you owe (“examination”) and the second part is when the IRS tries to collect from you (“collection”).  Of course, if you filed your tax return and did not pay all that was shown as due, the IRS will seek to collect the balance even if there was no examination.
+description: "There are two phases to a tax case: the first part is when the IRS conducts an examination to determine how much you owe (“examination”) and the second…"
+---
+There are two phases to a tax case: the first part is when the IRS conducts an examination to determine how much you owe (“examination”) and the second part is when the IRS tries to collect from you (“collection”).  Of course, if you filed your tax return and did not pay all that was shown as due, the IRS will seek to collect the balance even if there was no examination.
 
 **How long to examine?**
 

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2018-08-01
 summary: "Congress recently changed the tax rates and brackets for 2018 and beyond, when it passed the Tax Cuts and Jobs Act (the “Act”). The rate changes, however, were not as radical as some had initially proposed. Instead, the major changes affecting many taxpayers stem from other provisions of the Act, su"
-description: "Congress recently changed the tax rates and brackets for 2018 and beyond, when it passed the Tax Cuts and Jobs Act (the “Act”). The rate changes, however, were not as radical as some had initially proposed. Instead, the major changes affecting many taxpayers stem from other provisions of the Act, su"
----Congress recently changed the tax rates and brackets for 2018 and beyond, when it passed the Tax Cuts and Jobs Act (the “Act”). The rate changes, however, were not as radical as some had initially proposed. Instead, the major changes affecting many taxpayers stem from other provisions of the Act, such as nearly doubling the standard deduction to $12,000 for single filers, $18,000 for head-of-household filers and $24,000 for married couples who file jointly. In any case, the Act was the most sweeping rewrite of the tax code since 1986.
+description: "Congress recently changed the tax rates and brackets for 2018 and beyond, when it passed the Tax Cuts and Jobs Act (the “Act”). The rate changes, however…"
+---
+Congress recently changed the tax rates and brackets for 2018 and beyond, when it passed the Tax Cuts and Jobs Act (the “Act”). The rate changes, however, were not as radical as some had initially proposed. Instead, the major changes affecting many taxpayers stem from other provisions of the Act, such as nearly doubling the standard deduction to $12,000 for single filers, $18,000 for head-of-household filers and $24,000 for married couples who file jointly. In any case, the Act was the most sweeping rewrite of the tax code since 1986.
 
 The full impact of the Act will not be felt until next spring, when you file your 2018 tax return. Most Americans will enjoy a tax cut, at least for the next eight years (the provisions of the Act expire after 2025), but the benefits of the law will depend on a lot of factors, ranging from the size of your family and how much you earn to where you live.
 

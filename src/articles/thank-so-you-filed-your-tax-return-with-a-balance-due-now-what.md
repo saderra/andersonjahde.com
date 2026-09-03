@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2023-05-02
 summary: "As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes. In large measure, this resulted from many of the pandemic-related credits expiring. For those wh"
-description: "As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes. In large measure, this resulted from many of the pandemic-related credits expiring. For those wh"
----As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes.  In large measure, this resulted from many of the pandemic-related credits expiring.
+description: "As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past…"
+---
+As the April 18, 2023, filing deadline approached, many taxpayers were caught off guard to learn their refunds were significantly less than in the past few years, or that they even owed additional taxes.  In large measure, this resulted from many of the pandemic-related credits expiring.
 
 For those who found themselves owing an amount they could not pay, the question arises “what do we do now?”
 

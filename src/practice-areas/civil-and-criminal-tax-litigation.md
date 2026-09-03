@@ -4,7 +4,7 @@ slug: civil-and-criminal-tax-litigation
 tags:
   - practice-areas
 summary: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation with the Internal Revenue Service, Department"
-description: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation with the Internal Revenue Service, Department"
+description: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation…"
 eleventyNavigation:
   key: "Civil and Criminal Tax Litigation"
   parent: Practice Areas

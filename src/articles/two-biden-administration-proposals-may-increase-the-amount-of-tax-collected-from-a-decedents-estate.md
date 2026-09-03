@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-02-06
 summary: "First, the Biden Administration has proposed significantly reducing the current gift and estate tax exemption, which will result in increases of gift and estate tax imposed on large estates. Second, a proposal to eliminate the “step-up in cost basis” benefit for taxpayers on assets at death, which w"
-description: "First, the Biden Administration has proposed significantly reducing the current gift and estate tax exemption, which will result in increases of gift and estate tax imposed on large estates. Second, a proposal to eliminate the “step-up in cost basis” benefit for taxpayers on assets at death, which w"
----First, the Biden Administration has proposed significantly reducing the current gift and estate tax exemption, which will result in increases of gift and estate tax imposed on large estates.  Second, a proposal to eliminate the “step-up in cost basis” benefit for taxpayers on assets at death, which will result in more capital gain taxes being paid when those assets are sold. 
+description: "First, the Biden Administration has proposed significantly reducing the current gift and estate tax exemption, which will result in increases of gift and…"
+---
+First, the Biden Administration has proposed significantly reducing the current gift and estate tax exemption, which will result in increases of gift and estate tax imposed on large estates.  Second, a proposal to eliminate the “step-up in cost basis” benefit for taxpayers on assets at death, which will result in more capital gain taxes being paid when those assets are sold. 
 
 The IRS imposes tax on certain gifts made during life and property transferred at death. Gifts during life are subject to gift tax when total gifts are made over certain amounts to non-spouses and must be reported to the IRS.  At death, an estate may be subject to estate tax (death tax) if the date of death value of the taxable estate exceeds limits set by the government for lifetime gift and estate tax exemptions.  The death tax itself is heavily criticized by taxpayers because it is a tax imposed on money or assets that the taxpayer has already paid taxes on during life. 
 

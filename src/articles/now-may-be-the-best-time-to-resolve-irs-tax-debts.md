@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2020-05-28
 summary: "With many Americans out of work, or living on reduced income due to the global pandemic, they may no longer be able to pay the IRS if they have outstanding tax liabilities. When an IRS tax debt cannot be paid in full, the IRS provides three alternatives for collecting funds from a taxpayer: (1) Inst"
-description: "With many Americans out of work, or living on reduced income due to the global pandemic, they may no longer be able to pay the IRS if they have outstanding tax liabilities. When an IRS tax debt cannot be paid in full, the IRS provides three alternatives for collecting funds from a taxpayer: (1) Inst"
----With many Americans out of work, or living on reduced income due to the global pandemic, they may no longer be able to pay the IRS if they have outstanding tax liabilities. When an IRS tax debt cannot be paid in full, the IRS provides three alternatives for collecting funds from a taxpayer: (1) Installment Agreement (several versions); (2) Offer in Compromise; or (3) Currently Not Collectible Status.
+description: "With many Americans out of work, or living on reduced income due to the global pandemic, they may no longer be able to pay the IRS if they have…"
+---
+With many Americans out of work, or living on reduced income due to the global pandemic, they may no longer be able to pay the IRS if they have outstanding tax liabilities. When an IRS tax debt cannot be paid in full, the IRS provides three alternatives for collecting funds from a taxpayer: (1) Installment Agreement (several versions); (2) Offer in Compromise; or (3) Currently Not Collectible Status.
 
 Under an Installment Agreement, the IRS will agree to accept monthly payments from a taxpayer, generally up to a maximum 10-year period (based on the statute of limitations on collection). In the Offer in Compromise program, the IRS will agree to accept less than the full amount due and owing by a taxpayer, if, and only if, the IRS determines that it cannot collection the amount due from the taxpayer. Currently Not Collectible status is offered to taxpayers with no net realizable equity in assets, and no income from which to pay the IRS.
 

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2018-05-04
 summary: "A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explos"
-description: "A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explos"
----A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explosive.
+description: "A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly…"
+---
+A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explosive.
 
 It is possible, under the right circumstances, for the innocent spouse to be relieved of IRS tax liabilities. First, relief is only available for income taxes; employment taxes are not included. Second, the IRS may only pursue one spouse’s taxes from the other spouse if they filed a joint income tax return because the liability is “joint and several,” meaning the IRS may pursue either spouse or both; if you filed returns on the basis of married filing separately, you are only responsible for your own taxes. Third, by and large, the IRS and the courts disregard the allocation of tax liability the parties may have agreed to in their divorce proceedings. Fourth, while this article is directed to federal taxes, you should always follow up with the state to make sure that whatever relief you get from the IRS, you also get from your state.
 

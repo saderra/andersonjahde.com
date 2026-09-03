@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2017-03-08
 summary: "Taxpayers are barraged by television and radio advertisers claiming they can settle IRS debts for mere pennies on the dollar. These ads leave you believing that IRS will let anyone off on their tax debts for less than what is due and owing. Not so! We have had many clients over the years that have f"
-description: "Taxpayers are barraged by television and radio advertisers claiming they can settle IRS debts for mere pennies on the dollar. These ads leave you believing that IRS will let anyone off on their tax debts for less than what is due and owing. Not so! We have had many clients over the years that have f"
----Taxpayers are barraged by television and radio advertisers claiming they can settle IRS debts for mere pennies on the dollar. These ads leave you believing that IRS will let anyone off on their tax debts for less than what is due and owing. Not so! We have had many clients over the years that have fallen for these pitch men, only to have $5,000.00 to $10,000.00 taken from them with absolutely no resolution to their tax problems. BE VERY CAREFUL! If it seems too good to be true, it probably is.
+description: "Taxpayers are barraged by television and radio advertisers claiming they can settle IRS debts for mere pennies on the dollar. These ads leave you…"
+---
+Taxpayers are barraged by television and radio advertisers claiming they can settle IRS debts for mere pennies on the dollar. These ads leave you believing that IRS will let anyone off on their tax debts for less than what is due and owing. Not so! We have had many clients over the years that have fallen for these pitch men, only to have $5,000.00 to $10,000.00 taken from them with absolutely no resolution to their tax problems. BE VERY CAREFUL! If it seems too good to be true, it probably is.
 
 To be sure, the IRS will, in some very specific circumstances, allow taxpayers to compromise their tax debts under a program known as an “Offer in Compromise—Doubt as to Collectability” (the “Offer Program”). But this should be done by a professional with plenty of experience in this area.
 

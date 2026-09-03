@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-04-30
 summary: "If you are a partner in a partnership, you should be aware there are new rules starting with partnership taxable years that begin after December 31, 2017. The new regime replaces the provisions of the Internal Revenue Code known as the TEFRA procedures, which still govern partnership audits for taxa"
-description: "If you are a partner in a partnership, you should be aware there are new rules starting with partnership taxable years that begin after December 31, 2017. The new regime replaces the provisions of the Internal Revenue Code known as the TEFRA procedures, which still govern partnership audits for taxa"
----**If you are a partner in a partnership, you should be aware there are new rules starting with partnership taxable years that begin after December 31, 2017.**  The new regime replaces the provisions of the Internal Revenue Code known as the TEFRA procedures, which still govern partnership audits for taxable years beginning before December 31, 2017, and may also be applicable for audits by states that have not adopted the new federal procedures. The new rules cover all partnerships, including limited liability companies (LLCs) that are treated as partnerships for tax purposes (collectively referred to as “partnerships”) unless certain actions are taken, as described below.
+description: "If you are a partner in a partnership, you should be aware there are new rules starting with partnership taxable years that begin after December 31, 2017…"
+---
+**If you are a partner in a partnership, you should be aware there are new rules starting with partnership taxable years that begin after December 31, 2017.**  The new regime replaces the provisions of the Internal Revenue Code known as the TEFRA procedures, which still govern partnership audits for taxable years beginning before December 31, 2017, and may also be applicable for audits by states that have not adopted the new federal procedures. The new rules cover all partnerships, including limited liability companies (LLCs) that are treated as partnerships for tax purposes (collectively referred to as “partnerships”) unless certain actions are taken, as described below.
 
 **Assessments Collected at Entity Level (But There Are Ways to Avoid This).**
 

@@ -4,7 +4,7 @@ slug: employment-taxes
 tags:
   - practice-areas
 summary: "When businesses face cash flow problems, they commonly make the mistake of not paying their employment tax obligations. Optimistic business owners perilously opt to fund new ventures or cover cash cru"
-description: "When businesses face cash flow problems, they commonly make the mistake of not paying their employment tax obligations. Optimistic business owners perilously opt to fund new ventures or cover cash cru"
+description: "When businesses face cash flow problems, they commonly make the mistake of not paying their employment tax obligations. Optimistic business owners…"
 eleventyNavigation:
   key: "Employment Taxes"
   parent: Practice Areas

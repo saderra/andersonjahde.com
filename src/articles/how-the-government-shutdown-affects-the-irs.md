@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-01-31
 summary: "Many taxpayers are wondering how the recent government shutdown might affect their ongoing matters with the IRS. The most immediate question seems to be whether and how it will affect the upcoming income tax filing deadlines for all taxpayers. For now, the filing deadlines have not been extended. Bu"
-description: "Many taxpayers are wondering how the recent government shutdown might affect their ongoing matters with the IRS. The most immediate question seems to be whether and how it will affect the upcoming income tax filing deadlines for all taxpayers. For now, the filing deadlines have not been extended. Bu"
----Many taxpayers are wondering how the recent government shutdown might affect their ongoing matters with the IRS.  The most immediate question seems to be whether and how it will affect the upcoming income tax filing deadlines for all taxpayers.  For now, the filing deadlines have not been extended.  But there are also taxpayers with ongoing tax controversies with the IRS, including but not limited to: audits, appeals, Tax Court cases, Federal Tax Liens, levies, and other collection issues.
+description: "Many taxpayers are wondering how the recent government shutdown might affect their ongoing matters with the IRS. The most immediate question seems to be…"
+---
+Many taxpayers are wondering how the recent government shutdown might affect their ongoing matters with the IRS.  The most immediate question seems to be whether and how it will affect the upcoming income tax filing deadlines for all taxpayers.  For now, the filing deadlines have not been extended.  But there are also taxpayers with ongoing tax controversies with the IRS, including but not limited to: audits, appeals, Tax Court cases, Federal Tax Liens, levies, and other collection issues.
 
 The IRS was already understaffed and underfunded prior to the shutdown.  Because it lost employees during the shutdown, the IRS is now dealing with an even bigger staffing issue than before.  Combine that with a 35-day backlog of work that could not be completed during that time and you have more work that needs to be completed by even fewer people.
 

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2017-12-20
 summary: "Year-end tax planning with clients has been a staple in CPA practices for nearly as long as the tax code has been in effect. With all the discussion of the proposed tax bills, in all their iterations and negotiations, and the seemingly endless crystal ball commentary on their effects, many have ques"
-description: "Year-end tax planning with clients has been a staple in CPA practices for nearly as long as the tax code has been in effect. With all the discussion of the proposed tax bills, in all their iterations and negotiations, and the seemingly endless crystal ball commentary on their effects, many have ques"
----Year-end tax planning with clients has been a staple in CPA practices for nearly as long as the tax code has been in effect.  With all the discussion of the proposed tax bills, in all their iterations and negotiations, and the seemingly endless crystal ball commentary on their effects, many have questioned whether they should be doing anything special this year, anticipating a significant change in current law.
+description: "Year-end tax planning with clients has been a staple in CPA practices for nearly as long as the tax code has been in effect. With all the discussion of…"
+---
+Year-end tax planning with clients has been a staple in CPA practices for nearly as long as the tax code has been in effect.  With all the discussion of the proposed tax bills, in all their iterations and negotiations, and the seemingly endless crystal ball commentary on their effects, many have questioned whether they should be doing anything special this year, anticipating a significant change in current law.
 
 Two significant disclaimers: _first_, tax planning is by its very nature highly personal and individualized, and never conducive to generalization.   For this reason, nothing in this article is meant or should be taken as general advice on actions any person should take immediately or over any given timeframe—it is merely meant to raise issues you may want to discuss with your tax advisor.  **Any actions you take with the hope of receiving a particular tax benefit should only be done after careful discussion with a qualified tax advisor who has full knowledge of your individual circumstances.**
 

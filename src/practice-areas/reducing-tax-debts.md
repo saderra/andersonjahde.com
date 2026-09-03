@@ -4,7 +4,7 @@ slug: reducing-tax-debts
 tags:
   - practice-areas
 summary: "For those owing back taxes, penalties and interest, the IRS and Colorado taxing authorities can be daunting and intimidating creditors. The experienced tax lawyers at Anderson & Jahde help individuals"
-description: "For those owing back taxes, penalties and interest, the IRS and Colorado taxing authorities can be daunting and intimidating creditors. The experienced tax lawyers at Anderson & Jahde help individuals"
+description: "For those owing back taxes, penalties and interest, the IRS and Colorado taxing authorities can be daunting and intimidating creditors. The experienced…"
 eleventyNavigation:
   key: "Reducing Tax Debts"
   parent: Practice Areas

@@ -5,12 +5,14 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/Zach-web.jpg
 summary: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fu"
+description: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters…"
 order: 10
 eleventyNavigation:
   key: "Zachary Hatch"
   parent: Attorneys
   order: 110
----Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fund recovery penalties, and offers in compromise. Zach brings a strategic, client-focused approach to helping taxpayers work through complex and often stressful tax issues with clarity and confidence.
+---
+Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fund recovery penalties, and offers in compromise. Zach brings a strategic, client-focused approach to helping taxpayers work through complex and often stressful tax issues with clarity and confidence.
 
 With over 14 years of experience handling tax issues, Zach brings deep, practical insight to every case he handles. As an Enrolled Agent, he is federally licensed by the U.S. Department of the Treasury to represent taxpayers before the Internal Revenue Service in all administrative matters, including audits, collections, and appeals. He has developed significant experience in both individual and business taxation, as well as IRS practice and procedure.
 

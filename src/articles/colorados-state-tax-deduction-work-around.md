@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2022-05-25
 summary: "Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals' deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation's burden on their residents. Colorado's attempt to lessen the impact on small business owners—the \"SALT Parity Act\"—wa"
-description: "Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals' deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation's burden on their residents. Colorado's attempt to lessen the impact on small business owners—the \"SALT Parity Act\"—wa"
----Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals’ deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation’s burden on their residents.
+description: "Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals’ deduction for state and local taxes to $10,000. Since, many states have…"
+---
+Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals’ deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation’s burden on their residents.
 
 Colorado’s attempt to lessen the impact on small business owners—the “SALT Parity Act”—was signed into law on June 23, 2021. Beginning January 1, 2022, “flow-through entities” (i.e., businesses taxed as partnerships or S-Corporations) may elect to be taxed at the entity level. By doing so, the entity’s state taxes are paid and deducted by the business (not subject to the limitation), reducing the profit flowing through to the individual owners. Consequently, the owner’s overall federal income tax is reduced. In effect, it allows a deduction for state taxes paid directly by the entity that normally would “flow-through” to and be paid by the owners (but limited to $10,000). The election is made through a “check-the-box” on the business’s annual Colorado income tax return.
 

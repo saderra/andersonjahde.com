@@ -1,50 +1,109 @@
-<script type="application/ld+json">
 {% if type == "post" %}
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ title }}",
+  "headline": "{{ title | jsonEscape | safe }}",
   "image": "{% if cover %}{{ site.url + cover }}{% else %}{{ site.logo }}{% endif %}",
   "datePublished": "{{ page.date | htmlDateString }}",
   "author": {
     "@type": "Organization",
-    "name": "{{ site.author.name }}",
+    "name": "{{ site.author.name | jsonEscape | safe }}",
     "url": "{{ site.author.url }}"
   },
-  "mainEntityOfPage": { "@type": "WebPage" },
-   "publisher": {
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" },
+  "publisher": {
     "@type": "Organization",
-    "name": "{{ site.title }}",
+    "name": "{{ site.title | jsonEscape | safe }}",
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.logo }}"
     }
   },
-  "description": "{{ description or site.description }}",
-  "keywords": "{{ keywords }}"
+  "description": "{{ (description or site.description) | jsonEscape | safe }}"
 }
-{% else %}
+</script>
+{% elif type == "attorney" %}
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "{{ site.title }}",
+  "@type": "Person",
+  "name": "{{ title | jsonEscape | safe }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "image": "{% if headshot %}{{ site.url + headshot }}{% else %}{{ site.logo }}{% endif %}",
+  "jobTitle": "Attorney",
+  "worksFor": {
+    "@type": "LegalService",
+    "name": "{{ site.title | jsonEscape | safe }}",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+{% elif type == "practice-area" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "{{ title | jsonEscape | safe }}",
+  "description": "{{ (description or site.description) | jsonEscape | safe }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "areaServed": "Colorado",
+  "provider": {
+    "@type": "LegalService",
+    "name": "{{ site.title | jsonEscape | safe }}",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "{{ site.title | jsonEscape | safe }}",
   "url": "{{ site.url }}",
   "logo": {
     "@type": "ImageObject",
     "url": "{{ site.logo }}"
+  },
+  "image": "{{ site.logo }}",
+  "telephone": "{{ site.author.phoneHref }}",
+  "email": "{{ site.author.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.address.line1 | jsonEscape | safe }}, {{ site.address.line2 | jsonEscape | safe }}",
+    "addressLocality": "{{ site.address.city | jsonEscape | safe }}",
+    "addressRegion": "{{ site.address.state }}",
+    "postalCode": "{{ site.address.zip }}",
+    "addressCountry": "US"
   }{% if site.social.instagram %},
   "sameAs": [
     "https://www.instagram.com/{{ site.social.instagram }}"
   ]{% endif %}
 }
+</script>
 {% endif %}
 
-{# {% if type == "post" %}
+{% if type == "post" or type == "attorney" or type == "practice-area" %}
+  {% if type == "post" %}
+    {% set crumbParentName = "Articles" %}
+    {% set crumbParentUrl = "/articles/" %}
+  {% elif type == "attorney" %}
+    {% set crumbParentName = "Attorneys" %}
+    {% set crumbParentUrl = "/attorneys/" %}
+  {% else %}
+    {% set crumbParentName = "Practice Areas" %}
+    {% set crumbParentUrl = "/practice-areas/" %}
+  {% endif %}
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "name": "{{ title }}",
-  "url": "{{ url }}"
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "{{ crumbParentName }}", "item": "{{ site.url }}{{ crumbParentUrl }}" },
+    { "@type": "ListItem", "position": 3, "name": "{{ title | jsonEscape | safe }}", "item": "{{ site.url }}{{ page.url }}" }
+  ]
 }
-{% endif %} #}
 </script>
+{% endif %}

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-03-30
 summary: "Taxpayers who own virtual currency, also known as “cryptocurrency,” may be confused about how to respond to a question on the 2020 Form 1040, U.S. Individual Tax Return, now due May 17, 2021 (extended from April 15, 2021). The IRS recently clarified part of the question, but did not answer all the q"
-description: "Taxpayers who own virtual currency, also known as “cryptocurrency,” may be confused about how to respond to a question on the 2020 Form 1040, U.S. Individual Tax Return, now due May 17, 2021 (extended from April 15, 2021). The IRS recently clarified part of the question, but did not answer all the q"
----Taxpayers who own virtual currency, also known as “cryptocurrency,” may be confused about how to respond to a question on the 2020 Form 1040, _U.S. Individual Tax Return_, now due May 17, 2021 (extended from April 15, 2021).  The IRS recently clarified part of the question, but did not answer all the questions taxpayers have about the inquiry, nor how the IRS will use taxpayer responses for enforcement purposes.
+description: "Taxpayers who own virtual currency, also known as “cryptocurrency,” may be confused about how to respond to a question on the 2020 Form 1040, U.S…"
+---
+Taxpayers who own virtual currency, also known as “cryptocurrency,” may be confused about how to respond to a question on the 2020 Form 1040, _U.S. Individual Tax Return_, now due May 17, 2021 (extended from April 15, 2021).  The IRS recently clarified part of the question, but did not answer all the questions taxpayers have about the inquiry, nor how the IRS will use taxpayer responses for enforcement purposes.
 
 The 2019 Form 1040 was the first time any question was asked on a U.S. income tax return about virtual currency.  It was listed on Schedule 1 in 2019, but for 2020, it was moved to the first page of Form 1040, asking: “At any time during 2020, did you receive, sell, send, exchange, or otherwise acquire any financial interest in any virtual currency?”
 

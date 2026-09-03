@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-08-06
 summary: "A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so. When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to "
-description: "A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so. When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to "
----A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so.  When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to issue the taxpayer a Statutory Notice of Deficiency, giving the taxpayer an opportunity to dispute the proposed adjustments in the United States Tax Court.
+description: "A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so. When the…"
+---
+A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so.  When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to issue the taxpayer a Statutory Notice of Deficiency, giving the taxpayer an opportunity to dispute the proposed adjustments in the United States Tax Court.
 
 Assuming a taxpayer timely and properly files a Petition with the Tax Court, the IRS is prohibited from assessing the proposed tax, penalties, or interest, and it cannot attempt to collect from the taxpayer until the conclusion of the Tax Court case.  The only way the IRS knows a taxpayer has filed a Petition, disputing its proposed adjustments, is if the Tax Court notifies the IRS one was filed.  Unfortunately, this step is occurring much later than normal due to the Tax Court’s backlog.
 

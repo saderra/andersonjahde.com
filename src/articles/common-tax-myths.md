@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2015-05-01
 summary: "If you have legal questions about your taxes, or you have received a notice from the IRS and don’t know where to turn, the experienced tax attorneys at Anderson & Jahde, P.C. are here to help. In our new series of articles, our team of tax lawyers have outlined and debunked some of the most common t"
-description: "If you have legal questions about your taxes, or you have received a notice from the IRS and don’t know where to turn, the experienced tax attorneys at Anderson & Jahde, P.C. are here to help. In our new series of articles, our team of tax lawyers have outlined and debunked some of the most common t"
----If you have legal questions about your taxes, or you have received a [notice from the IRS](/practice-areas/individual-tax-controversy/) and don’t know where to turn, the experienced tax attorneys at Anderson & Jahde, P.C. are here to help. In our new series of articles, our team of tax lawyers have outlined and debunked some of the most common tax myths and misconceptions, starting with settling tax liabilities and the collection of tax debts.
+description: "If you have legal questions about your taxes, or you have received a notice from the IRS and don’t know where to turn, the experienced tax attorneys at…"
+---
+If you have legal questions about your taxes, or you have received a [notice from the IRS](/practice-areas/individual-tax-controversy/) and don’t know where to turn, the experienced tax attorneys at Anderson & Jahde, P.C. are here to help. In our new series of articles, our team of tax lawyers have outlined and debunked some of the most common tax myths and misconceptions, starting with settling tax liabilities and the collection of tax debts.
 
 For many, the IRS is the 500-pound gorilla coming through your front door. In some instances, a healthy dose of concern and skepticism is appropriate. But when fear turns into paralysis, your troubles with the IRS can increase exponentially. Too often taxpayers with tax problems do not know where to turn for competent professional help. Of course, there are national marketing companies and telemarketers poised to capitalize on taxpayer fears of the IRS. They would have taxpayers believe that, whatever their financial condition, they can resolve their tax debt for “pennies on the dollar.”
 

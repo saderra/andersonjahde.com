@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-06-03
 summary: "Estate planning is a wonderful way to love your family and completing a plan often brings relief. There are several threats however, that you must be aware of so that your estate plan does not fail when you need it the most. #1 Avoiding One-Size-Fits-All Planning The first rule of thumb is to make s"
-description: "Estate planning is a wonderful way to love your family and completing a plan often brings relief. There are several threats however, that you must be aware of so that your estate plan does not fail when you need it the most. #1 Avoiding One-Size-Fits-All Planning The first rule of thumb is to make s"
----Estate planning is a wonderful way to love your family and completing a plan often brings relief.   There are several threats however, that you must be aware of so that your estate plan does not fail when you need it the most.
+description: "Estate planning is a wonderful way to love your family and completing a plan often brings relief. There are several threats however, that you must be…"
+---
+Estate planning is a wonderful way to love your family and completing a plan often brings relief.   There are several threats however, that you must be aware of so that your estate plan does not fail when you need it the most.
 
 **#1 Avoiding One-Size-Fits-All Planning**
 

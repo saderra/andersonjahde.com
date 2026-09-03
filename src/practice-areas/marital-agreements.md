@@ -4,7 +4,7 @@ slug: marital-agreements
 tags:
   - practice-areas
 summary: "Whether you are planning to marry or are already wed, a carefully drafted marital agreement can protect your financial interests, clarify each spouse’s rights and responsibilities, and provide peace o"
-description: "Whether you are planning to marry or are already wed, a carefully drafted marital agreement can protect your financial interests, clarify each spouse’s rights and responsibilities, and provide peace o"
+description: "Whether you are planning to marry or are already wed, a carefully drafted marital agreement can protect your financial interests, clarify each spouse’s…"
 eleventyNavigation:
   key: "Marital Agreements"
   parent: Practice Areas

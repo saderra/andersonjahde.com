@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-12-31
 summary: "We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit. Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable. For personal injury actions, however, the tax consequences have changed quit"
-description: "We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit. Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable. For personal injury actions, however, the tax consequences have changed quit"
----We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit.  Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable.  For personal injury actions, however, the tax consequences have changed quite a bit over the last 20 years.
+description: "We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit. Damages received as the result of a breach of…"
+---
+We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit.  Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable.  For personal injury actions, however, the tax consequences have changed quite a bit over the last 20 years.
 
 Prior to 1996, if someone received an award for personal injuries, other than punitive damages, all amounts received were not taxable and/or were excluded from the injured party’s income.  As a result, individuals receiving an award for discrimination argued to exclude the award from taxable income as an “injury to their person.”
 

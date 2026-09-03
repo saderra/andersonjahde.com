@@ -4,7 +4,7 @@ slug: individual-tax-controversy
 tags:
   - practice-areas
 summary: "Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include: Handling an audit, appeal, or litigation | Audit Details Res"
-description: "Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include: Handling an audit, appeal, or litigation | Audit Details Res"
+description: "Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include:"
 eleventyNavigation:
   key: "Individual Tax Controversy"
   parent: Practice Areas

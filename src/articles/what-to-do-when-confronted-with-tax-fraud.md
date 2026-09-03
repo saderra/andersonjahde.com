@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2015-07-13
 summary: "Tax Fraud is a very serious matter that can result in civil and criminal prosecutions, severe penalties, jail time and a felony record. There are, however, different degrees and types of tax fraud and not all tax fraud is criminal. When confronted with potential tax fraud problems it is best to cons"
-description: "Tax Fraud is a very serious matter that can result in civil and criminal prosecutions, severe penalties, jail time and a felony record. There are, however, different degrees and types of tax fraud and not all tax fraud is criminal. When confronted with potential tax fraud problems it is best to cons"
----Tax Fraud is a very serious matter that can result in civil and criminal prosecutions, severe penalties, jail time and a felony record. There are, however, different degrees and types of tax fraud and not all tax fraud is criminal. When confronted with potential tax fraud problems it is best to consult with a tax law professional, as opposed to an accountant. The tax lawyers at Anderson & Jahde have extensive tax fraud experience and can help with tax fraud issues.
+description: "Tax Fraud is a very serious matter that can result in civil and criminal prosecutions, severe penalties, jail time and a felony record. There are…"
+---
+Tax Fraud is a very serious matter that can result in civil and criminal prosecutions, severe penalties, jail time and a felony record. There are, however, different degrees and types of tax fraud and not all tax fraud is criminal. When confronted with potential tax fraud problems it is best to consult with a tax law professional, as opposed to an accountant. The tax lawyers at Anderson & Jahde have extensive tax fraud experience and can help with tax fraud issues.
 
 ## **Proving Tax Fraud**
 

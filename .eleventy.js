@@ -66,14 +66,9 @@ module.exports = async function (eleventyConfig) {
     return categories;
   });
 
-  eleventyConfig.addCollection("faq", function(collectionApi) {
-    return collectionApi.getFilteredByTag("faq").sort((a, b) => {
-      let orderA = a.data.order || 0;
-      let orderB = b.data.order || 0;
-      return orderA - orderB;
-    });
-  });
-
+  // FILTERS
+  eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
+  eleventyConfig.addFilter('jsonEscape', (str) => JSON.stringify(String(str)).slice(1, -1));
 
   // SHORTCODES
   eleventyConfig.addShortcode('version', function () { return now  })

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2018-09-17
 summary: "The Successor Trustee If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust. A trustee is a person or trust company you select and name in your trust. With a living trust that you create, you are the Grantor of the trust and you are gener"
-description: "The Successor Trustee If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust. A trustee is a person or trust company you select and name in your trust. With a living trust that you create, you are the Grantor of the trust and you are gener"
----### _The Successor Trustee_
+description: "The Successor Trustee. If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust. A trustee is a…"
+---
+### _The Successor Trustee_
 
 If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust.   A trustee is a person or trust company you select and name in your trust.  With a living trust that you create, you are the Grantor of the trust and you are generally the first trustee in charge of your own assets held in your trust.  As the Grantor, you can make changes to your trust, including moving assets to and from the trust, changing its beneficiaries and changing successor trustees.
 

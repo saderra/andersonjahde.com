@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2021-09-30
 summary: "If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited. They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes. The Departm"
-description: "If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited. They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes. The Departm"
----If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited.  They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes.
+description: "If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options…"
+---
+If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited.  They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes.
 
 The Department does not have any type of temporary hardship status when a taxpayer is not showing the ability to make pay its outstanding income tax liabilities, even when that person is unable to pay his or her necessary monthly living expenses.  The options for repayment are generally: (1) pay the entire balance due (including penalties and interest) within 36-months, or (2) provide financial information to enter a longer-term agreement, not to exceed 99-months.  _See_ the Department’s Form 6596, _Statement of Income and Expenses_.
 

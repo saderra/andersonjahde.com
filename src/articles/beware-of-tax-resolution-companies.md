@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2019-11-01
 summary: "You owe the IRS money. You know you owe the IRS money. You may have even set up an installment agreement with the IRS that you have been faithfully paying for a while. But the next thing you know, your phone is blowing up, and your mailbox is overflowing with unsolicited ads from any number of the t"
-description: "You owe the IRS money. You know you owe the IRS money. You may have even set up an installment agreement with the IRS that you have been faithfully paying for a while. But the next thing you know, your phone is blowing up, and your mailbox is overflowing with unsolicited ads from any number of the t"
----You owe the IRS money.  You know you owe the IRS money.  You may have even set up an installment agreement with the IRS that you have been faithfully paying for a while.  But the next thing you know, your phone is blowing up, and your mailbox is overflowing with unsolicited ads from any number of the thousands of “tax resolution” or “tax relief” companies around the country.
+description: "You owe the IRS money. You know you owe the IRS money. You may have even set up an installment agreement with the IRS that you have been faithfully paying…"
+---
+You owe the IRS money.  You know you owe the IRS money.  You may have even set up an installment agreement with the IRS that you have been faithfully paying for a while.  But the next thing you know, your phone is blowing up, and your mailbox is overflowing with unsolicited ads from any number of the thousands of “tax resolution” or “tax relief” companies around the country.
 
 The messages take many forms.  Some seem to be nice and helpful – “we can help you reduce the amount you owe the IRS.”  Others are more threatening—“call us now or your accounts will be levied.”  Others are downright fraudulent.  We have seen letters that purport to be sent from an IRS employee donning a slightly modified version of the seal of the Department of Treasury.  Some even threaten you could be subject to criminal penalties if you don’t call right away.  Most, if not all, are scams.
 

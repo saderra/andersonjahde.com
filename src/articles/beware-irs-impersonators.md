@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2016-08-22
 summary: "Beware of IRS Impersonators A lot of honest taxpayers are being robbed by tricky IRS impersonation scams. These people are not real IRS employees, just thieves. If you are contacted by someone claiming to be an IRS employee, here are a few things to keep in mind: If you receive an automated message "
-description: "Beware of IRS Impersonators A lot of honest taxpayers are being robbed by tricky IRS impersonation scams. These people are not real IRS employees, just thieves. If you are contacted by someone claiming to be an IRS employee, here are a few things to keep in mind: If you receive an automated message "
----## Beware of IRS Impersonators
+description: "Beware of IRS Impersonators. A lot of honest taxpayers are being robbed by tricky IRS impersonation scams. These people are not real IRS employees, just…"
+---
+## Beware of IRS Impersonators
 
 A lot of honest taxpayers are being robbed by tricky IRS impersonation scams. These people are not real IRS employees, just thieves.
 

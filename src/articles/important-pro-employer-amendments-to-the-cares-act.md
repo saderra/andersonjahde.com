@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2020-07-01
 summary: "Important Pro-Employer Amendments to the CARES Act On June 4, 2020, President Trump signed into law the Paycheck Protection Program Flexibility Act of 2020, which amended the PPP loan provisions of the CARES Act in several helpful ways. These provisions include: Extending the time for which PPP Loan"
-description: "Important Pro-Employer Amendments to the CARES Act On June 4, 2020, President Trump signed into law the Paycheck Protection Program Flexibility Act of 2020, which amended the PPP loan provisions of the CARES Act in several helpful ways. These provisions include: Extending the time for which PPP Loan"
----Important Pro-Employer Amendments to the CARES Act
+description: "Important Pro-Employer Amendments to the CARES Act. On June 4, 2020, President Trump signed into law the Paycheck Protection Program Flexibility Act of…"
+---
+Important Pro-Employer Amendments to the CARES Act
 
 On June 4, 2020, President Trump signed into law the Paycheck Protection Program Flexibility Act of 2020, which amended the PPP loan provisions of the CARES Act in several helpful ways. These provisions include:
 

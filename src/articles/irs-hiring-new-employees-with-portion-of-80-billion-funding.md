@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2022-09-30
 summary: "In August 2022, President Biden authorized $80 billion in funding to the Internal Revenue Service over the next ten years. The funding is based on estimates in a U.S. Department of Treasury report from May 2021, outlining the President’s proposed initiatives to increase tax compliance and the fundin"
-description: "In August 2022, President Biden authorized $80 billion in funding to the Internal Revenue Service over the next ten years. The funding is based on estimates in a U.S. Department of Treasury report from May 2021, outlining the President’s proposed initiatives to increase tax compliance and the fundin"
----In August 2022, President Biden authorized $80 billion in funding to the Internal Revenue Service over the next ten years.
+description: "In August 2022, President Biden authorized $80 billion in funding to the Internal Revenue Service over the next ten years. The funding is based on…"
+---
+In August 2022, President Biden authorized $80 billion in funding to the Internal Revenue Service over the next ten years.
 
 The funding is based on estimates in a U.S. Department of Treasury report from May 2021, outlining the President’s proposed initiatives to increase tax compliance and the funding required to implement them.  It includes modernizing current technology, increasing data analytics use, and hiring agents to enforce civil and criminal tax laws.  It’s estimated 87,000 new employees will be hired across all departments. 
 

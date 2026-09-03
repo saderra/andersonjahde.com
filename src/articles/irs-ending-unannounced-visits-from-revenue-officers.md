@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2023-07-25
 summary: "On July 24, 2023, IRS Commissioner Danny Werfel announced the IRS would cease its decades-long practice of unannounced visits to taxpayer’s homes and places of business when attempting to collect unpaid taxes. In addition to concerns over the safety of IRS employees (noting a steep increase in threa"
-description: "On July 24, 2023, IRS Commissioner Danny Werfel announced the IRS would cease its decades-long practice of unannounced visits to taxpayer’s homes and places of business when attempting to collect unpaid taxes. In addition to concerns over the safety of IRS employees (noting a steep increase in threa"
----On July 24, 2023, IRS Commissioner Danny Werfel announced the IRS would cease its decades-long practice of unannounced visits to taxpayer’s homes and places of business when attempting to collect unpaid taxes. In addition to concerns over the safety of IRS employees (noting a steep increase in threats to agency employees), the Commissioner shared concern over an increase in scammers impersonating IRS employees to extort money from unsuspecting taxpayers.
+description: "On July 24, 2023, IRS Commissioner Danny Werfel announced the IRS would cease its decades-long practice of unannounced visits to taxpayer’s homes and…"
+---
+On July 24, 2023, IRS Commissioner Danny Werfel announced the IRS would cease its decades-long practice of unannounced visits to taxpayer’s homes and places of business when attempting to collect unpaid taxes. In addition to concerns over the safety of IRS employees (noting a steep increase in threats to agency employees), the Commissioner shared concern over an increase in scammers impersonating IRS employees to extort money from unsuspecting taxpayers.
 
 Moving forward, when a case is assigned, the Revenue Officer’s first contact with the taxpayer will be by letter requesting a telephone call to schedule an in-person meeting. So, if someone knocks on your door and introduces themselves as being from the IRS, know this is not, in fact, and actual IRS employee.
 

@@ -7,8 +7,9 @@ categories:
   - Articles
 date: 2018-10-29
 summary: "On June 21, 2018, the United States Supreme Court issued its Opinion in South Dakota v. Wayfair, Inc., overturning decades-old precedent requiring a retailer to have an actual “physical presence” within a state before that state can require the retailer to charge, collect, and remit its sales tax. W"
-description: "On June 21, 2018, the United States Supreme Court issued its Opinion in South Dakota v. Wayfair, Inc., overturning decades-old precedent requiring a retailer to have an actual “physical presence” within a state before that state can require the retailer to charge, collect, and remit its sales tax. W"
----On June 21, 2018, the United States Supreme Court issued its Opinion in _South Dakota v. Wayfair, Inc._, overturning decades-old precedent requiring a retailer to have an actual “physical presence” within a state before that state can require the retailer to charge, collect, and remit its sales tax. With such a drastic change in the legal landscape, many wonder how the Supreme Court’s decision may affect their businesses.
+description: "On June 21, 2018, the United States Supreme Court issued its Opinion in South Dakota v. Wayfair, Inc., overturning decades-old precedent requiring a…"
+---
+On June 21, 2018, the United States Supreme Court issued its Opinion in _South Dakota v. Wayfair, Inc._, overturning decades-old precedent requiring a retailer to have an actual “physical presence” within a state before that state can require the retailer to charge, collect, and remit its sales tax. With such a drastic change in the legal landscape, many wonder how the Supreme Court’s decision may affect their businesses.
 
 Colorado (as we expect many others to do) has acted quickly to capitalize on the Court’s about-face.  The Colorado Department of Revenue recently announced new rules, taking effect **December 1, 2018**, turning Colorado into a “destination-based” taxing jurisdiction—meaning, all sales will be sourced (and, therefore, taxed) based on the delivery address of the customer.
 
