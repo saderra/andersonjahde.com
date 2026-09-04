@@ -4,6 +4,7 @@ slug: briana-fehringer
 tags:
   - attorneys
 headshot: /assets/images/attorneys/briana-sm-min.jpg
+role: "Partner"
 summary: "Briana Fehringer is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, and IRS Streamlined Fil"
 description: "Briana Fehringer is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and…"
 order: 1

@@ -1,6 +1,12 @@
-<a href="{{ member.url }}" class="block text-center">
+<a href="{{ member.url }}" class="group block text-center">
     {% if member.data.headshot %}
-    <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-square object-cover rounded-md mb-4">
+    <div class="relative overflow-hidden rounded-xl shadow-sm group-hover:shadow-xl transition-shadow duration-300 mb-5">
+        <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
     {% endif %}
-    <h3 class="text-lg font-medium">{{ member.data.title }}</h3>
+    <h3 class="font-display text-xl font-semibold text-stone-900 group-hover:text-accent transition-colors duration-300">{{ member.data.title }}</h3>
+    {% if member.data.role %}
+    <p class="uppercase tracking-[0.15em] text-xs text-accent font-semibold mt-1.5">{{ member.data.role }}</p>
+    {% endif %}
 </a>

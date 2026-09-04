@@ -4,6 +4,7 @@ slug: amanda-boog-cruser
 tags:
   - attorneys
 headshot: /assets/images/attorneys/amandaboog-min.jpg
+role: "Partner"
 summary: "Amanda Cruser is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, innocent spouse cases, sal"
 description: "Amanda Cruser is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and…"
 order: 2

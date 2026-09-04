@@ -4,6 +4,7 @@ slug: steven-anderson
 tags:
   - attorneys
 headshot: /assets/images/attorneys/steven_anderson.jpg
+role: "Co-Founder & President"
 summary: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America . Our managing partner is the co-founder and President of Anderson & Jahde, P.C. Steven Anderson is a fellow in the "
 description: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America. Our managing partner is the co-founder and President of Anderson &…"
 order: 0

@@ -4,6 +4,7 @@ slug: kevin-a-planegger
 tags:
   - attorneys
 headshot: /assets/images/attorneys/kevin-sm-min.jpg
+role: "Partner"
 summary: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorit"
 description: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the…"
 order: 3

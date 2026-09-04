@@ -7,10 +7,15 @@
 
     <div class="flex flex-wrap justify-center gap-8">
         {% for page in collections["practice-areas"] | sort(false, false, "data.eleventyNavigation.order") %}
-        <div class="basis-full sm:basis-[calc(50%-1rem)] lg:basis-[calc(33.333%-1.334rem)] bg-white p-8 shadow-sm hover:shadow-lg rounded-md flex flex-col transition-shadow duration-300">
-            <h3 class="self-start text-2xl font-medium text-stone-900 pb-5 mb-5 border-b-[5px] border-accent">{{ page.data.title }}</h3>
+        <div class="group basis-full sm:basis-[calc(50%-1rem)] lg:basis-[calc(33.333%-1.334rem)] bg-white p-8 border border-stone-100 shadow-sm hover:shadow-xl hover:-translate-y-1 rounded-xl flex flex-col transition-all duration-300">
+            <h3 class="self-start font-display text-2xl font-semibold text-stone-900 pb-5 mb-5 border-b-[5px] border-accent">{{ page.data.title }}</h3>
             <p class="text-stone-600 leading-7 flex-1">{{ page.data.excerpt }}</p>
-            <a href="{{ page.url }}" class="self-start inline-flex items-center px-4 py-2 mt-8 border border-accent text-sm font-medium rounded-md text-accent hover:bg-accent hover:text-white transition-colors">Learn More &raquo;</a>
+            <a href="{{ page.url }}" class="self-start inline-flex items-center gap-1.5 px-4 py-2 mt-8 border border-accent text-sm font-medium rounded-md text-accent hover:bg-accent hover:text-white transition-colors duration-300">
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1">
+                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+                </svg>
+            </a>
         </div>
         {% endfor %}
     </div>
