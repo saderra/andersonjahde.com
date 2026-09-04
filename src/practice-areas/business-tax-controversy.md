@@ -5,6 +5,7 @@ tags:
   - practice-areas
 summary: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair practices, fraud and misrepresentation and a host o"
 description: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair…"
+excerpt: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair practices, fraud and misrepresentation and a host of other claims. Our experienced tax attorneys practice before Federal courts and all Colorado State courts."
 eleventyNavigation:
   key: "Business Tax Controversy"
   parent: Practice Areas

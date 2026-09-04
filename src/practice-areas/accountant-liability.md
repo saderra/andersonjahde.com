@@ -5,6 +5,7 @@ tags:
   - practice-areas
 summary: "Anderson & Jahde brings a special expertise to representing the accounting profession. Some of our lawyers also earned CPA licenses and worked in tax and audit departments in the days of the Big Eight"
 description: "Anderson & Jahde brings a special expertise to representing the accounting profession. Some of our lawyers also earned CPA licenses and worked in tax and…"
+excerpt: "Anderson & Jahde brings a special expertise to representing the accounting profession. Some of our lawyers also earned CPA licenses and worked in tax and audit departments in the days of the Big Eight and Big Ten accounting firms. They have first-hand experience in the trenches of the accounting profession."
 eleventyNavigation:
   key: "Accountant Liability"
   parent: Practice Areas

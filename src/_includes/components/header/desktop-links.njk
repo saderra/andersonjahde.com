@@ -11,7 +11,7 @@
             </a>
 
             {% if entry.children.length %}
-                <ul class="absolute hidden group-hover:grid z-50 shadow-md bg-neutral-50 border-t border-neutral-200 text-sm rounded-lg overflow-hidden grid-cols-[repeat(2,max-content)] w-max">
+                <ul class="absolute hidden group-hover:grid z-50 shadow-md bg-neutral-50 border-t border-neutral-200 text-sm text-neutral-700 rounded-lg overflow-hidden grid-cols-[repeat(2,max-content)] w-max">
                 {% for child in entry.children %}
                     {{ renderNavListItem(child, level + 1) }}
                 {% endfor %}
@@ -19,7 +19,7 @@
             {% endif %}
         </li>
     {% endmacro %}
-    <ul class="text-base text-neutral-700 font-medium">
+    <ul class="text-base font-medium {% if layout == 'home' %}text-white{% else %}text-neutral-700{% endif %}">
         {%- for entry in navPages %}
             {{ renderNavListItem(entry) }}
         {%- endfor -%}

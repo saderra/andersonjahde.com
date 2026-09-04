@@ -5,6 +5,7 @@ tags:
   - practice-areas
 summary: "Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include: Handling an audit, appeal, or litigation | Audit Details Res"
 description: "Individuals face numerous challenges and concerns when interacting with the IRS or state tax agencies. These complicated processes include:"
+excerpt: "The attorneys at Anderson & Jahde have extensive experience in helping taxpayers unburden themselves using efficient, ethical, and equitable approaches. Facing these agencies alone can often result in additional action or bring to life other precarious situations."
 eleventyNavigation:
   key: "Individual Tax Controversy"
   parent: Practice Areas

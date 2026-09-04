@@ -5,6 +5,7 @@ tags:
   - practice-areas
 summary: "Planning for the future is one of the most important steps you can take to protect yourself, your loved ones, and the assets you’ve worked hard to accumulate and grow. Our estate planning attorneys wo"
 description: "Planning for the future is one of the most important steps you can take to protect yourself, your loved ones, and the assets you’ve worked hard to…"
+excerpt: "Planning for the future is one of the most important steps you can take to protect yourself, your loved ones, and the assets you’ve worked hard to accumulate and grow. Our estate planning attorneys work closely with individuals and families to create comprehensive, personalized plans that provide peace of mind for years to come."
 eleventyNavigation:
   key: "Estate Planning"
   parent: Practice Areas

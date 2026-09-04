@@ -5,6 +5,7 @@ tags:
   - practice-areas
 summary: "An IRS or State tax audit can quickly become complicated and dangerous. While you may be led to believe hiring a lawyer is too expensive, consulting with a tax attorney from Anderson & Jahde is one of"
 description: "An IRS or State tax audit can quickly become complicated and dangerous. While you may be led to believe hiring a lawyer is too expensive, consulting with…"
+excerpt: "An IRS or State tax audit can quickly become complicated and dangerous. While you may be led to believe hiring a lawyer is too expensive, consulting with a tax attorney from Anderson & Jahde is one of the safest decisions you can make and can save you time and money."
 eleventyNavigation:
   key: "Tax Audits & Appeals"
   parent: Practice Areas
