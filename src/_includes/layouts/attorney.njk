@@ -10,7 +10,7 @@
         <div class="bg-white border border-stone-100 shadow-sm rounded-xl overflow-hidden mb-8 md:flex">
             {% if headshot %}
             <div class="md:w-72 flex-shrink-0">
-                <img src="{{ headshot }}" alt="{{ title }}" class="w-full h-72 md:h-full object-cover">
+                <img src="{{ headshot }}" alt="{{ title }}" class="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top">
             </div>
             {% endif %}
 

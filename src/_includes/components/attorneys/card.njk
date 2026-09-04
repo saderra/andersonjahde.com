@@ -1,7 +1,7 @@
 <a href="{{ member.url }}" class="group block text-center">
     {% if member.data.headshot %}
     <div class="relative overflow-hidden rounded-xl shadow-sm group-hover:shadow-xl transition-shadow duration-300 mb-5">
-        <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105">
+        <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-[4/5] object-cover object-top transition-transform duration-500 group-hover:scale-105">
         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
     {% endif %}
