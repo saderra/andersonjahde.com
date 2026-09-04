@@ -1,0 +1,21 @@
+{% from "components/practice-area/icon.njk" import icon %}
+{% if whyUs and whyUs.length %}
+<div class="bg-[#111010] text-white">
+    <div class="container py-14 md:py-16">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-8 md:mb-10">
+                <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">Why Anderson &amp; Jahde</p>
+                <h2 class="font-display text-2xl md:text-3xl font-semibold">What Sets Us Apart</h2>
+            </div>
+            <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-4">
+                {% for item in whyUs %}
+                <li class="flex items-start gap-3">
+                    <span class="flex-shrink-0 text-accent mt-0.5">{{ icon("check-circle", "w-5 h-5") }}</span>
+                    <span class="text-white/80 leading-7">{{ item }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}

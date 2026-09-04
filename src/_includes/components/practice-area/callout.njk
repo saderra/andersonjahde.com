@@ -1,0 +1,12 @@
+{% if callout %}
+<div class="bg-white">
+    <div class="container py-14 md:py-16">
+        <div class="max-w-3xl mx-auto border-l-4 border-accent bg-stone-50 rounded-r-xl px-6 py-8 md:px-10 md:py-10">
+            <p class="font-display text-xl md:text-2xl font-semibold text-stone-900 leading-snug">&ldquo;{{ callout }}&rdquo;</p>
+            {% if calloutAttribution %}
+            <p class="mt-4 text-sm uppercase tracking-[0.15em] text-stone-500 font-semibold">{{ calloutAttribution }}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}

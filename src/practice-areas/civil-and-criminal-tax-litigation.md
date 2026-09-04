@@ -3,41 +3,67 @@ title: "Civil and Criminal Tax Litigation"
 slug: civil-and-criminal-tax-litigation
 tags:
   - practice-areas
-summary: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation with the Internal Revenue Service, Department"
-description: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation…"
-excerpt: "Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation with the Internal Revenue Service, Department of Justice, state departments of revenue and local taxing authorities."
+summary: "Denver tax litigation attorneys — including former IRS trial lawyers — defending individuals and businesses in IRS criminal investigations, U.S. Tax Court, and federal and state tax litigation."
+description: "Facing IRS criminal investigation or Tax Court litigation? Our Denver tax litigators, including former IRS trial attorneys, defend individuals and businesses in civil and criminal tax cases."
+excerpt: "Our litigators — including former IRS Trial Attorneys — defend individuals and businesses in civil and criminal tax cases before the IRS, DOJ, and federal and state courts."
 eleventyNavigation:
   key: "Civil and Criminal Tax Litigation"
   parent: Practice Areas
   order: 100
+intro: "When a tax dispute can't be resolved administratively, litigation follows. Our attorneys — including former IRS Trial Attorneys and Special Assistant United States Attorneys — represent taxpayers of every size before the U.S. Tax Court, U.S. District Court, federal appellate courts, and Colorado state courts."
+whoFor:
+  - "You've been contacted by an IRS Criminal Investigator or Special Agent"
+  - "Your case couldn't be resolved at audit or appeals and is headed to Tax Court"
+  - "You're under investigation for tax evasion, bankruptcy fraud, money laundering, or concealing foreign assets"
+  - "You received a Statutory Notice of Deficiency and need to preserve your right to petition Tax Court"
+  - "Another attorney or CPA needs co-counsel experienced in tax litigation procedure"
+  - "A civil tax case has followed a closed criminal tax matter"
+services:
+  - icon: shield-exclamation
+    title: "Criminal Tax Defense"
+    description: "We represent targets of IRS criminal investigations from the first Special Agent interview through administrative investigation, grand jury proceedings, plea negotiations, trial, sentencing, and appeal."
+  - icon: scale
+    title: "U.S. Tax Court Litigation"
+    description: "We petition and try cases in United States Tax Court, challenging IRS deficiency determinations and building the record needed to win — or to negotiate a favorable settlement."
+  - icon: building-office
+    title: "Federal District & Appellate Courts"
+    description: "When a case belongs in U.S. District Court or before a Federal Court of Appeals, our litigators handle refund suits, collection defenses, and appeals with the same rigor."
+  - icon: document-text
+    title: "State & Local Tax Litigation"
+    description: "We litigate disputes with the Colorado Department of Revenue and local taxing authorities, from administrative protests through state court appeals."
+  - icon: users
+    title: "Co-Counsel for Attorneys & Accountants"
+    description: "Because tax litigation involves specialized procedure, other attorneys and accountants regularly bring us in to advise or co-counsel their clients' cases."
+process:
+  - title: "Immediate Response"
+    description: "If IRS Special Agents contact you, we step in right away — before you say anything that could become evidence against you."
+  - title: "Investigation-Stage Resolution"
+    description: "We work to resolve or limit exposure during the IRS's own investigation, often the best window to avoid indictment altogether."
+  - title: "Litigation or Trial"
+    description: "When a case proceeds to Tax Court, District Court, or a criminal trial, we build and try the case ourselves — we're in court regularly."
+  - title: "Appeal"
+    description: "If needed, we carry the case through sentencing and appeal to the Federal Courts of Appeals."
+callout: "The IRS and Department of Justice report a criminal tax conviction rate above 92%. The moment you're contacted by a Special Agent is the moment you need a criminal tax attorney — not after."
+whyUs:
+  - "Former IRS Trial Attorneys and Special Assistant United States Attorneys on staff"
+  - "Regular trial experience in U.S. Tax Court, U.S. District Court, and Colorado state courts"
+  - "Tax law professors who teach the next generation of tax attorneys"
+  - "Trusted by other attorneys and CPAs as co-counsel in complex tax litigation"
+  - "Representation for individuals, small businesses, and large corporations alike"
+pageFaqs:
+  - question: "What should I do if an IRS Special Agent contacts me?"
+    answer:
+      - "Don't discuss your case with the agent, and don't assume that cooperating on the spot will make the investigation go away."
+      - "Special Agents work in pairs and are trained to draw out admissions during the first interview, often before you even know you're a target. Contact a criminal tax attorney before you say anything — and don't discuss the investigation with your CPA or return preparer, since those conversations aren't privileged."
+  - question: "What's the difference between a civil and a criminal tax case?"
+    answer:
+      - "A civil tax case seeks payment of tax, penalties, and interest. A criminal tax case seeks a conviction and can result in prison time."
+      - "The two are often connected: a criminal tax case is frequently followed by a civil case against the same taxpayer once the criminal matter concludes."
+  - question: "How long do I have to petition the U.S. Tax Court?"
+    answer:
+      - "Generally 90 days from the date of a Statutory Notice of Deficiency."
+      - "Missing this deadline lets the IRS assess the tax, penalties, and interest in the notice and begin collection — even if you had a winning defense to the underlying adjustment."
+  - question: "Do you only handle Colorado tax litigation?"
+    answer:
+      - "No. Tax Court and federal court litigation isn't limited by state lines, and our attorneys represent taxpayers nationwide in federal tax matters, in addition to Colorado state and local tax disputes."
 ---
-Helping taxpayers in trouble is a mainstay of our practice. Our tax attorneys represent taxpayers through every facet of civil and criminal tax litigation with the Internal Revenue Service, Department of Justice, state departments of revenue and local taxing authorities. The legal team at Anderson & Jahde comprises strong, veteran tax advocates with extensive experience before the United States Tax Court, U.S. District Court, Federal Courts of Appeals, state courts and state and federal agencies.
-
-Our attorneys include former IRS Trial Attorneys, Special Assistant United States Attorneys, tax law professors, and leading tax litigators who have represented taxpayers of every shape and size from every walk of life and business, even including municipal governments and the Internal Revenue Service, itself. No client is too large or too small, be they an individual or large corporation. Because tax litigation involves unique, very specialized procedures and issues, many attorneys and accountants contact us to assist and advise their clients through the labyrinth of tax procedures. We are pros at what we do.
-
-## Criminal Tax Defense Attorneys
-
-The IRS and the U.S. Department of Justice report the highest success rate for criminal tax prosecutions of any prosecutorial body in the land – annually above 92%. These successes are based on the government’s selection process, its expertise and, when they can obtain one, the initial interview with the taxpayer. If you are contacted by an IRS Criminal Investigator, you have an immediate need for a criminal tax attorney like the experienced tax professionals at Anderson & Jahde. Some members of our legal team are even former IRS lawyers.  Criminal tax cases can have long lives and be very expensive to defend. Once they are completed, they are followed by a civil tax case against the same taxpayer. The IRS is very good at prosecuting criminal tax cases. Often, during the IRS’ criminal investigation stage of the case can the best time to resolve a criminal tax case, before it gets to indictment.  The questions the investigators will ask are crafted to improve the government’s case. Criminal tax cases are very serious, and can have devastating consequences. Targets of criminal tax investigations need the protection of an experienced criminal tax lawyers of Anderson & Jahde.
-
-We protect the rights of taxpayers through all phases of criminal investigation and trials, including:
-
-1.  Administrative investigation
-2.  Grand jury investigations
-3.  Plea negotiations
-4.  Criminal tax trials
-5.  Sentencing
-6.  Appeals
-
-IRS Special Agents conduct criminal tax investigations. If you are contacted by IRS Special Agents, you are well advised not to talk with them without first talking with a criminal tax lawyer experienced in Federal tax prosecutions. You have protected constitutional rights. IRS agents are well trained to be disarming, non-threatening, and at developing critically important evidence from taxpayer admissions during the initial interview and other interviews throughout their investigation. Special Agents know their first contact with the target may be a one-time opportunity. They are very good at getting you to talk. They typically work in pairs, with at least two Special Agents present—one asking questions, while the other takes copious notes of what the taxpayer says. These admissions will be used against you in the criminal investigation and prosecution.
-
-Don’t be fooled—Special Agents are not there to help or befriend you. Questioning during the initial interview is designed obtain admissions of facts you may not even think are significant or incriminating. The IRS might not otherwise be able to obtain these admissions and information. Special Agents are not there to collect taxes. Their job is to develop successful criminal tax prosecutions that end with a conviction and jail time.
-
-IRS Special Agents investigate many types of Federal crimes, some of the more familiar of which include bankruptcy fraud, money laundering, concealment of foreign assets, tax evasion and tax related crimes.
-
-The target of a criminal tax investigation needs the guidance and counsel of an experienced criminal tax lawyer. This is a specialized, highly technical area of practice not for the inexperienced.
-
-Unfortunately, as laypersons, taxpayers often make fatal and irreversible mistakes in deciding on their own how to handle the initial contact from a Special Agent. Fearing that if they appear unwilling to talk, they might give the IRS the impression they have something to hide. Hence, taxpayers decide, on their own, to talk with the Special Agents. Do not make this mistake! Taxpayers are frequently surprised by the IRS’s techniques. This is not the time to win your case! But it can be a time to land yourself in jail.
-
-From the first minute you have an immediate need for, and right to, a criminal tax attorney. And while companies claim to specialize in helping you – most are not attorneys. Anderson & Jahde comprises tax attorneys with decades of experience in representing taxpayers in these investigations. With your future and livelihood, you’ll want an attorney with the obligation of providing the best defense. You’ll want an ally protected under attorney-client privilege. You have no such protection with non-lawyers. Don’t talk with your CPA if IRS Special Agents have shown up.  Some of the finest criminal defense lawyers recognize that criminal tax cases require a special expertise, for which they contact Anderson & Jahde, P.C. to assist them in representing their clients.
-
-If you think you may be the subject of a criminal tax issue (be it Federal, State or Municipal), [contact us immediately](https://contact) to start your defense.

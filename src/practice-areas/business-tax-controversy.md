@@ -3,48 +3,56 @@ title: "Business Tax Controversy"
 slug: business-tax-controversy
 tags:
   - practice-areas
-summary: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair practices, fraud and misrepresentation and a host o"
-description: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair…"
-excerpt: "Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair practices, fraud and misrepresentation and a host of other claims. Our experienced tax attorneys practice before Federal courts and all Colorado State courts."
+summary: "Denver business tax attorneys handling employment tax disputes, multi-jurisdiction sales & use tax controversies, and business tax liens, levies, and litigation."
+description: "Facing a business tax audit, employment tax, or sales & use tax dispute? Our Denver tax attorneys represent businesses before the IRS, Colorado, and all Colorado courts."
+excerpt: "From employment tax to multi-jurisdiction sales & use tax, our attorneys represent businesses in disputes before Federal courts and all Colorado State courts."
 eleventyNavigation:
   key: "Business Tax Controversy"
   parent: Practice Areas
   order: 140
+intro: "Business tax disputes can involve complex litigation — audits, employment tax exposure, sales and use tax compliance across dozens of jurisdictions, or liens that threaten day-to-day operations. Because success often turns on understanding the accounting behind the dispute, businesses retain Anderson & Jahde for the same reason individuals do: results."
+whoFor:
+  - "The IRS or Colorado Department of Revenue has opened an examination or audit of your business"
+  - "You're facing personal liability under the Trust Fund Recovery Penalty as an owner or officer"
+  - "A taxing authority is challenging how you classified a worker — employee or independent contractor"
+  - "Your business sells across multiple Colorado municipalities or states and faces sales & use tax exposure"
+  - "Your business is facing a tax lien, levy, or garnishment"
+  - "You need to protest a determination before the Department of Revenue"
+services:
+  - icon: document-text
+    title: "Tax Examinations & Audits"
+    description: "We represent your business directly with examiners, from initial document requests through negotiations with IRS Appeals."
+  - icon: shield-check
+    title: "Employment Tax Defense"
+    description: "Steve Anderson has taught employment tax at the University of Denver's Graduate Tax Program. We defend businesses and individuals facing Trust Fund Recovery Penalty exposure under IRC § 6672 and worker classification disputes."
+  - icon: building-office
+    title: "Sales & Use Tax Controversies"
+    description: "Colorado has over 70 home-rule municipalities imposing their own sales and use taxes, plus multi-state exposure after Wayfair v. South Dakota. We help you determine where you owe before it becomes a problem."
+  - icon: currency-dollar
+    title: "Business Tax Liens & Levies"
+    description: "We secure installment agreements, offers in compromise, bankruptcy protection, and Currently Not Collectible status to resolve debt with minimal disruption to operations."
+  - icon: scale
+    title: "Trials, Tax Court & District Court"
+    description: "When a business dispute can't be resolved administratively, we litigate in Tax Court, District Court, and on appeal."
+whyUs:
+  - "Steve Anderson has taught Employment Tax in the University of Denver's Graduate Tax Program"
+  - "Attorneys who are also Sales and Use Tax professors, tracking Wayfair-era developments as they happen"
+  - "Decades representing businesses from small operations to large corporations"
+  - "Collection alternatives structured to keep your business running, not just resolve the debt"
+callout: "A business decision to pay employees and suppliers instead of employment taxes can make sense in the moment — and can end in personal liability for the owners and officers involved."
+pageFaqs:
+  - question: "Can I be personally liable for my business's unpaid employment taxes?"
+    answer:
+      - "Yes. Owners, officers, and other 'responsible persons' who willfully fail to withhold and remit employment taxes can be personally liable under the Trust Fund Recovery Penalty, IRC § 6672 — separate from any liability the business itself has."
+      - "The IRS is aggressive about pursuing this penalty once a deposit failure is detected, and the path to personal liability can be difficult to see coming without experienced counsel."
+  - question: "My business sells online in multiple states. Do I owe sales tax everywhere?"
+    answer:
+      - "Possibly. Following the Supreme Court's Wayfair decision, more states are asserting authority over out-of-state internet sellers. Colorado alone has over 70 home-rule municipalities and collects for over 150 cities and 50 counties at a combined 27+ tax rates."
+      - "We help multi-state and multi-jurisdiction businesses determine their actual exposure before an auditor does it for them."
+  - question: "What happens if a taxing authority challenges how I classified a worker?"
+    answer:
+      - "Worker classification disputes turn on numerous, complicated factors. Getting it wrong can convert what looked like a simple contractor relationship into a significant tax liability, including back employment taxes and penalties."
+  - question: "What are my options if my business owes back taxes?"
+    answer:
+      - "Depending on the amount owed, the age of the liability, and ability to pay, options include installment agreements, offers in compromise, bankruptcy, and Currently Not Collectible status — each with different tradeoffs for ongoing operations."
 ---
-Business tax disputes can take all forms and sizes, and can involve complex litigation—business torts, contract disputes, business split ups, unfair practices, fraud and misrepresentation and a host of other claims. As success in these cases often turns on understanding the accounting and financial aspects of the case, individuals and businesses often retain Anderson & Jahde to handle their complex business and commercial litigation because of our experience in these areas. Our experienced tax attorneys practice before Federal courts and all Colorado State courts. If you have a business or commercial dispute, the attorneys at Anderson & Jahde are available to represent you in a variety of capacities:
-
--   Tax Examinations & Audits
--   Negotiations with IRS Appeals
--   Trials
--   Tax Court Cases
--   District Court Cases
--   Appeals
--   Protests before the Department of Revenue
-
-Employment Tax Legal Specialists
-
-Anderson & Jahde is a leading authority in the [employment tax](/practice-areas/employment-taxes/) arena. Steve Anderson has taught Employment Tax in the Graduate Tax Program at the University of Denver and has helped untold numbers of taxpayers manage and resolve their employment tax disputes with federal, state, and local taxing authorities.
-
-The tax attorneys at Anderson & Jahde understand how businesses can run into employment tax problems. During difficult economic times, businesses can find themselves unable to pay their creditors. Sometimes, they pay wages and suppliers rather than employment taxes. The decision might make business sense – if their employees and suppliers are not paid, the business will fail. Unfortunately, good business decisions can have devastating tax consequences, not just for the business, but for the individuals involved in the business, as well.
-
-Owners, officers and other individuals can be personally liable under the Trust Fund Recovery Penalty of IRC § 6672. The Trust Fund Recovery Penalty generally applies to “responsible persons” who “willfully” fail to withhold and remit employment taxes to the IRS.
-
-The IRS is aggressive in its investigation and enforcement of the Trust Fund Recovery Penalty. Once the IRS detects a failure to deposit, a Revenue Officer starts a collection case against the business and builds a case for personal liability under the Trust Fund Recovery Penalty. While the IRS usually informs individuals they could be liable for the Trust Fund Recovery Penalty, the path to liability can be difficult to discern. Business owners and officers should not risk dealing with the IRS without an experienced employment tax attorney.
-
-The same is true when a taxing authority challenges a business’ classification of a worker as an independent contractor. The factors considered in these analyses are numerous and complicated. A simple slip of an uninformed tongue can make the difference between maintaining your characterization, or a potentially insurmountable tax liability. At Anderson & Jahde, we speak employment tax fluently to help you avoid these devastating effects.
-
-If you have been contacted by the IRS, or state Department of Revenue or Labor, do not let their notices go ignored. Contact the experienced employment tax legal specialists at Anderson & Jahde now.
-
-Sales & Use Tax Controversies
-
-Compliance with Sales and Use Tax requirements is perhaps one of the most complicated compliance areas businesses face. In Colorado, there are over 70 home rule municipalities that impose their own sales and use taxes at over 20 rates. And the State of Colorado collects sales taxes for over 150 cities and over 50 counties that collectively have 27 tax rates.
-
-In addition, Multi-State businesses face an array of compliance challenges that change from state to state, and between municipalities within those states. With the internet developing as a major source of business sales and revenue, small businesses that once only sold on “main street” and paid Sales and Use taxes to a few taxing authorities within their state might now be required to file and pay taxes in a variety of states. For years, states have attempted to stretch the boundaries of their authority to businesses outside their state lines through “Nexis” audits, looking for those businesses to bear the brunt of the taxes lost because of internet sales.
-
-And following the Supreme Court’s decision in Wayfair vs. South Dakota, more and more states are revising their laws to bring within their net sales from out-of-state vendors selling over the internet. Having followed these developments over the years, the attorneys at Anderson & Jahde are uniquely situated to assist you in determining what jurisdictions can impose an obligation on you before it becomes a problem.
-
-The tax attorneys at Anderson & Jahde, including Sales and Use Tax professors and teachers, represent businesses in all manners of sales and use tax issues. We can help you navigate this complex area of the law.
-
-Business Tax Liens & Levies
-
-When a business is delinquent in Federal or State Tax payments, it is faced with potential liens, levies and garnishments that could stop it in its tracks. When these issues arise, our tax attorneys can assist in resolving the debt. Our tax litigation attorneys represent clients before state and federal tax authorities and regularly secure collection alternatives that enable our clients to fulfill their tax obligations with minimal impact on ongoing operations. Depending on the taxes owed, the age of the liability and the taxpayer’s ability to pay, the options include, installment agreements, offers in compromise, bankruptcy, and placing the debt in “Currently not Collectible” status.

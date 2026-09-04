@@ -1,0 +1,63 @@
+{% if pageFaqs and pageFaqs.length %}
+<div class="bg-stone-50" x-data="{ activeIndex: null }">
+    <div class="container py-14 md:py-16">
+        <div class="mb-8 md:mb-10 max-w-2xl mx-auto text-center">
+            <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">FAQ</p>
+            <h2 class="font-display text-2xl md:text-3xl font-semibold text-stone-900">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="max-w-3xl mx-auto bg-white p-6 md:p-10 border border-stone-100 shadow-md rounded-xl">
+            <div class="divide-y divide-stone-200">
+                {% for item in pageFaqs %}
+                <div>
+                    <button
+                        type="button"
+                        @click="activeIndex = (activeIndex === {{ loop.index0 }} ? null : {{ loop.index0 }})"
+                        :aria-expanded="activeIndex === {{ loop.index0 }}"
+                        class="w-full flex items-center justify-between gap-4 py-6 text-left font-display font-semibold text-lg transition-colors duration-300"
+                        :class="activeIndex === {{ loop.index0 }} ? 'text-accent' : 'text-stone-900 hover:text-accent'">
+                        <span>{{ item.question }}</span>
+                        <span
+                            class="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border transition-all duration-300"
+                            :class="activeIndex === {{ loop.index0 }} ? 'bg-accent border-accent text-white rotate-180' : 'border-stone-300 text-stone-500'">
+                            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="grid transition-all duration-300 ease-in-out" :class="activeIndex === {{ loop.index0 }} ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'">
+                        <div class="overflow-hidden">
+                            <div class="prose max-w-[96%] pb-6 text-stone-600 prose-a:no-underline">
+                                {% for para in item.answer %}
+                                <p>{{ para }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/ld+json">
+{%- set schemaItems = [] -%}
+{%- for item in pageFaqs -%}
+  {%- set _ = schemaItems.push({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer | join(" ")
+      }
+  }) -%}
+{%- endfor -%}
+{%- set faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": schemaItems
+} -%}
+{{ faqSchema | jsonify | safe }}
+</script>
+{% endif %}

@@ -1,8 +1,6 @@
 {% extends "layouts/base.njk" %}
 {% block mainContent %}
 
-{% set parsed = content | splitContentSections(excerpt) %}
-
 <div class="bg-stone-100">
     <div class="container pt-10 pb-16 md:pt-16 md:pb-20 text-center">
         <a href="/practice-areas/" class="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.15em] text-stone-500 hover:text-accent transition-colors duration-200 mb-6">
@@ -31,31 +29,23 @@
     </div>
 </div>
 
-{% if parsed.lead %}
+{% include "components/practice-area/intro.njk" %}
+{% include "components/practice-area/who-for.njk" %}
+{% include "components/practice-area/services.njk" %}
+{% include "components/practice-area/process.njk" %}
+{% include "components/practice-area/callout.njk" %}
+{% include "components/practice-area/why-us.njk" %}
+{% include "components/practice-area/faq.njk" %}
+
+{% if content and (content | length) > 20 %}
 <div class="bg-white">
     <div class="container py-14 md:py-16">
-        <div class="max-w-3xl mx-auto prose prose-stone prose-lg prose-p:text-stone-600 prose-p:leading-8 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline">
-            {{ parsed.lead | safe }}
+        <div class="max-w-3xl mx-auto prose prose-stone prose-p:text-stone-600 prose-p:leading-8 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline">
+            {{ content | safe }}
         </div>
     </div>
 </div>
 {% endif %}
-
-{% for section in parsed.sections %}
-<div class="{% if loop.index0 % 2 == 0 %}bg-stone-50{% else %}bg-white{% endif %}">
-    <div class="container py-14 md:py-16">
-        <div class="max-w-3xl mx-auto prose prose-stone max-w-none
-            prose-h2:font-display prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:font-semibold prose-h2:text-stone-900 prose-h2:pb-4 prose-h2:mb-6 prose-h2:border-b-[3px] prose-h2:border-accent prose-h2:inline-block
-            prose-h3:font-display prose-h3:text-xl prose-h3:font-semibold prose-h3:text-stone-900 prose-h3:mt-8
-            prose-p:text-stone-600 prose-p:leading-8
-            prose-strong:text-stone-900
-            prose-ul:marker:text-accent prose-ol:marker:text-accent prose-ol:marker:font-bold prose-li:leading-8
-            prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline">
-            {{ section | safe }}
-        </div>
-    </div>
-</div>
-{% endfor %}
 
 {% include "components/home/cta.njk" %}
 
