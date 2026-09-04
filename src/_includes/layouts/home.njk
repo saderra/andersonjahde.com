@@ -2,18 +2,22 @@
 {% block mainContent %}
 
     {% include "components/home/intro.njk" %}
+    {% include "components/home/stats.njk" %}
 
     <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
-
 
         <!-- What We Do Section -->
         {% include "components/home/practice-areas.njk" %}
 
+        <!-- Attorneys Section -->
+        {% include "components/home/attorneys.njk" %}
 
         <!-- FAQ Section -->
         {% include "components/home/faq.njk" %}
 
     </div>
+
+    {% include "components/home/cta.njk" %}
 
 {% endblock %}
 

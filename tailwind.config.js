@@ -25,6 +25,9 @@ module.exports = {
 		maxWidth: {
 			xxs: '200px',
 		},
+		fontFamily: {
+			display: ['"Playfair Display"', 'ui-serif', 'Georgia', 'serif'],
+		},
       	colors: {
 			brand: {
 				light: '#e8e8e9',
