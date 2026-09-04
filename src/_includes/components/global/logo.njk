@@ -1,5 +1,9 @@
 <div>
     <a href="/">
+        {% if layout == 'home' %}
+        <img src="/assets/images/logo-white.png" alt="{{ site.title }} — {{ site.author.credentials }}" width="489" height="179" class="w-auto h-24">
+        {% else %}
         <img src="/assets/images/logo.png" alt="{{ site.title }} — {{ site.author.credentials }}" width="489" height="179" class="w-auto h-24">
+        {% endif %}
     </a>
 </div>
