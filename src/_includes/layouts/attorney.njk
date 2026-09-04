@@ -8,7 +8,7 @@
             <img src="{{ headshot }}" alt="{{ title }}" class="w-40 h-40 object-cover rounded-full mb-8">
             {% endif %}
             <div class="prose max-w-[96%] prose-a:no-underline">
-               <h1 class="text-3xl md:text-4xl pb-8 mb-8 border-b border-stone-200 font-normal">{{ title }}</h1>
+               <h1 class="font-display text-3xl md:text-4xl pb-8 mb-8 border-b border-stone-200 font-semibold text-stone-900">{{ title }}</h1>
                 {{ content | safe }}
             </div>
             {% if showContactForm == true %}

@@ -1,6 +1,6 @@
 <div class="col-span-12 mb-8">
     <div class="mb-8 md:mb-10 max-w-2xl">
-        <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-[#d10000] font-semibold mb-2">Practice Areas</p>
+        <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">Practice Areas</p>
         <h2 class="font-display text-3xl md:text-4xl font-semibold text-stone-900">What We Do</h2>
         <p class="text-stone-600 mt-3">Explore our tax law practice areas.</p>
     </div>
@@ -8,9 +8,9 @@
     <div class="flex flex-wrap justify-center gap-8">
         {% for page in collections["practice-areas"] | sort(false, false, "data.eleventyNavigation.order") %}
         <div class="basis-full sm:basis-[calc(50%-1rem)] lg:basis-[calc(33.333%-1.334rem)] bg-white p-8 shadow-sm hover:shadow-lg rounded-md flex flex-col transition-shadow duration-300">
-            <h3 class="self-start text-2xl font-medium text-stone-900 pb-5 mb-5 border-b-[5px] border-[#d10000]">{{ page.data.title }}</h3>
+            <h3 class="self-start text-2xl font-medium text-stone-900 pb-5 mb-5 border-b-[5px] border-accent">{{ page.data.title }}</h3>
             <p class="text-stone-600 leading-7 flex-1">{{ page.data.excerpt }}</p>
-            <a href="{{ page.url }}" class="self-start inline-flex items-center px-4 py-2 mt-8 border border-brand text-sm font-medium rounded-md text-brand hover:bg-brand hover:text-white transition-colors">Learn More &raquo;</a>
+            <a href="{{ page.url }}" class="self-start inline-flex items-center px-4 py-2 mt-8 border border-accent text-sm font-medium rounded-md text-accent hover:bg-accent hover:text-white transition-colors">Learn More &raquo;</a>
         </div>
         {% endfor %}
     </div>
