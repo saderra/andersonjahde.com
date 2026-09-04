@@ -26,12 +26,12 @@
       <div class="xl:col-span-2">
         <h3 class="{{ titleStyle }} mt-10 md:mt-0">Attorneys</h3>
         <div class="grid grid-cols-2 gap-x-8">
-          <ul role="list" class="mt-4 space-y-4">
+          <ul role="list" class="space-y-4">
             {%- for attorney in attorneysList.slice(0, attorneysHalf) -%}
             <li><a href="{{ attorney.url | url }}" class="{{ linkStyle }}">{{ attorney.data.title }}</a></li>
             {%- endfor -%}
           </ul>
-          <ul role="list" class="mt-4 space-y-4">
+          <ul role="list" class="space-y-4">
             {%- for attorney in attorneysList.slice(attorneysHalf) -%}
             <li><a href="{{ attorney.url | url }}" class="{{ linkStyle }}">{{ attorney.data.title }}</a></li>
             {%- endfor -%}
