@@ -1,0 +1,83 @@
+{% extends "layouts/base.njk" %}
+{% from "components/practice-area/icon.njk" import icon %}
+{% block mainContent %}
+
+<div class="bg-stone-100">
+    <div class="container pt-10 pb-16 md:pt-16 md:pb-20 text-center">
+        <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-3">Get In Touch</p>
+        <h1 class="font-display text-4xl md:text-5xl font-semibold text-stone-900 max-w-3xl mx-auto leading-tight">{{ title }}</h1>
+        <p class="text-stone-600 text-lg leading-8 mt-6 max-w-2xl mx-auto">Tell us about your tax problem and a member of our team will follow up shortly. If your matter is time-sensitive, call us directly.</p>
+    </div>
+</div>
+
+<div class="container py-12 md:py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+
+        <div class="lg:col-span-5 lg:sticky lg:top-24 space-y-8">
+
+            <div class="p-8 bg-white border border-stone-100 shadow-sm rounded-xl">
+                <h2 class="font-display font-semibold text-2xl text-stone-900 pb-4 border-b border-stone-200 mb-6">Denver Office</h2>
+
+                <ul class="space-y-5">
+                    <li class="flex items-start gap-4">
+                        <span class="flex-shrink-0 text-accent mt-0.5">{{ icon("map-pin", "w-5 h-5") }}</span>
+                        <div class="text-stone-700 leading-6">
+                            <p class="font-medium text-stone-900">{{ site.address.line1 }}, {{ site.address.line2 }}</p>
+                            <p>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="flex-shrink-0 text-accent mt-0.5">{{ icon("phone", "w-5 h-5") }}</span>
+                        <div class="text-stone-700 leading-6">
+                            <a href="tel:{{ site.author.phoneHref }}" class="font-medium text-stone-900 hover:text-accent transition-colors">{{ site.author.phone }}</a>
+                            <p class="text-sm text-stone-500">Fax: 303-782-0055</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="flex-shrink-0 text-accent mt-0.5">{{ icon("envelope", "w-5 h-5") }}</span>
+                        <a href="mailto:{{ site.author.email }}" class="font-medium text-stone-900 hover:text-accent transition-colors leading-6">{{ site.author.email }}</a>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="flex-shrink-0 text-accent mt-0.5">{{ icon("clock", "w-5 h-5") }}</span>
+                        <div class="text-stone-700 leading-6">
+                            <p class="font-medium text-stone-900">Monday &ndash; Friday</p>
+                            <p>8:00 AM &ndash; 5:00 PM</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white border border-stone-100 shadow-sm rounded-xl overflow-hidden">
+                <img src="/assets/images/contact/location-map-dtc.svg" alt="Schematic map of the Denver Tech Center showing Anderson & Jahde's office at 4582 South Ulster Street, near Interstate 25 and Interstate 225" class="w-full h-auto" width="680" height="620" loading="lazy" />
+                <div class="px-6 py-5 border-t border-stone-100 flex items-center justify-between gap-4">
+                    <p class="text-sm text-stone-500">Denver Tech Center</p>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination={{ site.map.lat }},{{ site.map.lng }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-dark transition-colors">
+                        Get Directions
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="lg:col-span-7">
+            <div class="p-8 md:p-10 bg-white border border-stone-100 shadow-sm rounded-xl">
+                <h2 class="font-display font-semibold text-2xl text-stone-900 mb-2">Send Us a Message</h2>
+                <p class="text-stone-600 leading-7">Share a few details about your situation below.</p>
+
+                {% if content and (content | length) > 20 %}
+                <div class="prose prose-stone prose-p:text-stone-600 prose-p:leading-7 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline mt-4">
+                    {{ content | safe }}
+                </div>
+                {% endif %}
+
+                {% include "components/forms/general-contact.njk" %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

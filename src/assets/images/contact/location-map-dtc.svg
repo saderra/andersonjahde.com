@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="620" viewBox="0 0 680 620" role="img" aria-labelledby="mapTitle mapDesc">
+
+<title id="mapTitle">Location map for Anderson &amp; Jahde, P.C., 4582 South Ulster Street, Denver</title>
+<desc id="mapDesc">Schematic map of the Denver Tech Center showing Interstate 25 running north to south on the west, Interstate 225 branching northeast, and the office at 4582 South Ulster Street between East Union Avenue and Interstate 225, north of East Belleview Avenue and west of South Yosemite Street.</desc>
+<style>
+.mp text{font-family:var(--map-font,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif)}
+.mp .fw{fill:none;stroke:var(--map-freeway,#a8a29e);stroke-width:7;stroke-linecap:round}
+.mp .ar{fill:none;stroke:var(--map-road,#d6d3d1);stroke-width:4.5;stroke-linecap:round}
+.mp .st{fill:none;stroke:var(--map-road,#d6d3d1);stroke-width:3;stroke-linecap:round}
+.mp .lb{font-size:14px;fill:var(--map-ink,#1c1917);paint-order:stroke;stroke:var(--map-surface,#faf9f7);stroke-width:4;stroke-linejoin:round}
+.mp .sm{font-size:12px;fill:var(--map-muted,#78716c);paint-order:stroke;stroke:var(--map-surface,#faf9f7);stroke-width:4;stroke-linejoin:round}
+.mp .sh{fill:var(--map-accent,#d10000)}
+.mp .shx{font-size:13px;font-weight:500;fill:var(--map-accent-ink,#ffffff)}
+.mp .hd{font-size:15px;font-weight:500;fill:var(--map-ink,#1c1917);paint-order:stroke;stroke:var(--map-surface,#faf9f7);stroke-width:4;stroke-linejoin:round}
+</style>
+<g class="mp">
+<rect x="0" y="0" width="680" height="620" rx="6" fill="var(--map-surface,#faf9f7)"/>
+<path class="ar" d="M20 555 L680 557"/>
+<path class="st" d="M198 620 L198 0"/>
+<path class="st" d="M576 620 L576 0"/>
+<path class="st" d="M160 472 C230 460 310 434 373 418 C440 400 510 382 640 352"/>
+<path class="st" d="M387 620 L385 555 C381 520 374 466 373 418 C371 386 345 342 311 318 C305 313 300 303 298 290 L296 268"/>
+<path class="fw" d="M72 0 C82 62 87 124 90 184 C96 300 107 470 114 620"/>
+<path class="fw" d="M90 184 C215 164 330 112 430 68 C490 42 540 28 576 21 C620 14 645 8 660 0"/>
+<rect class="sh" x="84" y="406" width="40" height="28" rx="5"/>
+<text class="shx" x="104" y="420" text-anchor="middle" dominant-baseline="central">I&#8209;25</text>
+<rect class="sh" x="365" y="72" width="50" height="28" rx="5"/>
+<text class="shx" x="390" y="86" text-anchor="middle" dominant-baseline="central">I&#8209;225</text>
+<text class="lb" x="232" y="546">E Belleview Ave</text>
+<text class="lb" x="206" y="300">S Quebec St</text>
+<text class="lb" x="392" y="486">S Ulster St</text>
+<text class="lb" x="584" y="470">S Yosemite St</text>
+<text class="lb" x="455" y="385">E Union Ave</text>
+<text class="sm" x="86" y="34">&#8593; to downtown Denver</text>
+<text class="sm" x="124" y="596">&#8595; to C&#8209;470</text>
+<text class="sm" x="440" y="40">to Aurora &#183; I&#8209;70 &#8599;</text>
+<circle cx="302" cy="312" r="14" fill="var(--map-accent,#d10000)" opacity=".16"/>
+<circle cx="302" cy="312" r="7.5" fill="var(--map-accent,#d10000)" stroke="var(--map-surface,#faf9f7)" stroke-width="2.5"/>
+<text class="hd" x="322" y="307">Anderson &amp; Jahde, P.C.</text>
+<text class="sm" x="322" y="327">4582 S Ulster St, Suite 1350</text>
+<path d="M34 60 L34 36" fill="none" stroke="var(--map-muted,#78716c)" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M29 42 L34 32 L39 42 Z" fill="var(--map-muted,#78716c)"/>
+<text class="sm" x="34" y="78" text-anchor="middle">N</text>
+</g>
+</svg>

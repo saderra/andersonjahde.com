@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include "components/head/head.njk" %}
-<body {% if layout %}class="{{ layout }} {{ bodyClass }}"{% endif %}>
+<body x-data="{ open: false, consultOpen: false, consultSubmitting: false, consultSubmitted: false, consultError: false }" {% if layout %}class="{{ layout }} {{ bodyClass }}"{% endif %}>
 {% include "components/header/header.njk" %}
 
 <section class="bg-neutral-50">

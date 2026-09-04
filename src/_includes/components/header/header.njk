@@ -1,7 +1,7 @@
 {% include "components/header/off-canvas.njk" %}
 {% include "components/header/top.njk" %}
 <header class="{% if layout == 'home' %}absolute inset-x-0 top-10 bg-transparent{% else %}sticky top-0 bg-white border-b border-neutral-100{% endif %} z-50">
-<nav x-data="{ open: false, consultOpen: false, consultSubmitting: false, consultSubmitted: false, consultError: false }"  role="navigation" aria-label="Main Menu">
+<nav role="navigation" aria-label="Main Menu">
 <div class="container">
     <div class="flex items-center justify-between {% if layout != 'home' %}h-32{% endif %}">
 
