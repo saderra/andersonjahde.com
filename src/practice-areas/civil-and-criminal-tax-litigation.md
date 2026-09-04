@@ -21,12 +21,12 @@ The IRS and the U.S. Department of Justice report the highest success rate for c
 
 We protect the rights of taxpayers through all phases of criminal investigation and trials, including:
 
--   Administrative investigation
--   Grand jury investigations
--   Plea negotiations
--   Criminal tax trials
--   Sentencing
--   Appeals
+1.  Administrative investigation
+2.  Grand jury investigations
+3.  Plea negotiations
+4.  Criminal tax trials
+5.  Sentencing
+6.  Appeals
 
 IRS Special Agents conduct criminal tax investigations. If you are contacted by IRS Special Agents, you are well advised not to talk with them without first talking with a criminal tax lawyer experienced in Federal tax prosecutions. You have protected constitutional rights. IRS agents are well trained to be disarming, non-threatening, and at developing critically important evidence from taxpayer admissions during the initial interview and other interviews throughout their investigation. Special Agents know their first contact with the target may be a one-time opportunity. They are very good at getting you to talk. They typically work in pairs, with at least two Special Agents present—one asking questions, while the other takes copious notes of what the taxpayer says. These admissions will be used against you in the criminal investigation and prosecution.
 

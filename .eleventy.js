@@ -70,6 +70,58 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
   eleventyConfig.addFilter('jsonEscape', (str) => JSON.stringify(String(str)).slice(1, -1));
 
+  // Splits rendered markdown HTML into a lead block (content before the
+  // first <h2>) and an array of section chunks (each starting at an <h2>),
+  // so a landing-page layout can wrap each section in its own band.
+  // Also drops the first paragraph when it duplicates the page excerpt,
+  // since that excerpt is shown separately in the hero.
+  eleventyConfig.addFilter('splitContentSections', function (html, excerpt) {
+    if (!html) return { lead: '', sections: [] };
+
+    const normalize = (s) => s
+      .replace(/<[^>]+>/g, '')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;|&apos;/g, "'")
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/[‘’]/g, "'")
+      .replace(/[“”]/g, '"')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const splitSentences = (s) => (s.match(/[^.!?]+[.!?]*(\s+|$)/g) || [s]).map((x) => x.trim()).filter(Boolean);
+
+    let working = html;
+    if (excerpt) {
+      const firstP = working.match(/^\s*<p>([\s\S]*?)<\/p>/i);
+      if (firstP) {
+        const pSentences = splitSentences(normalize(firstP[1]));
+        const excerptSentences = splitSentences(normalize(excerpt));
+
+        // Count how many leading sentences the paragraph shares with the
+        // excerpt (in order), since the excerpt is sometimes a synthesized
+        // summary rather than a strict prefix of the paragraph.
+        let shared = 0;
+        while (shared < pSentences.length && shared < excerptSentences.length && pSentences[shared] === excerptSentences[shared]) {
+          shared++;
+        }
+
+        if (shared > 0) {
+          const remainder = pSentences.slice(shared).join(' ').trim();
+          const replacement = remainder ? `<p>${remainder}</p>` : '';
+          working = replacement + working.slice(firstP.index + firstP[0].length);
+        }
+      }
+    }
+
+    const chunks = working.split(/(?=<h2)/i);
+    const lead = /^\s*<h2/i.test(chunks[0] || '') ? '' : (chunks.shift() || '').trim();
+    const sections = chunks.map((c) => c.trim()).filter(Boolean);
+
+    return { lead, sections };
+  });
+
   // SHORTCODES
   eleventyConfig.addShortcode('version', function () { return now  })
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
