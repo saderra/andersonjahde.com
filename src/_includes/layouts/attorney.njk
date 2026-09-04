@@ -1,22 +1,76 @@
 {% extends "layouts/base.njk" %}
 {% block mainContent %}
 
-    <div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8">
-        <div class="p-0 col-span-12 lg:col-span-8">
-           <article class="max-w-full p-8 lg:p-12 bg-white shadow-sm rounded-md mb-8">
+{% set parsed = content | splitContentSections %}
+{% set isFormer = status == 'retired' or status == 'deceased' %}
+
+<div class="container grid gap-0 lg:gap-10 grid-cols-12 pt-8 pb-8">
+    <div class="p-0 col-span-12 lg:col-span-8">
+
+        <div class="bg-white border border-stone-100 shadow-sm rounded-xl overflow-hidden mb-8 md:flex">
             {% if headshot %}
-            <img src="{{ headshot }}" alt="{{ title }}" class="w-40 h-40 object-cover rounded-full mb-8">
-            {% endif %}
-            <div class="prose max-w-[96%] prose-a:no-underline">
-               <h1 class="font-display text-3xl md:text-4xl pb-8 mb-8 border-b border-stone-200 font-semibold text-stone-900">{{ title }}</h1>
-                {{ content | safe }}
+            <div class="md:w-72 flex-shrink-0">
+                <img src="{{ headshot }}" alt="{{ title }}" class="w-full h-72 md:h-full object-cover">
             </div>
-            {% if showContactForm == true %}
-                {% include "components/forms/general-contact.njk" %}
             {% endif %}
-            </article>
+
+            <div class="p-8 md:p-10 flex flex-col justify-center">
+                {% if status == 'retired' %}
+                <span class="inline-block self-start uppercase tracking-[0.15em] text-xs font-semibold text-stone-500 bg-stone-100 rounded-full px-3 py-1 mb-4">Retired</span>
+                {% elif status == 'deceased' %}
+                <span class="inline-block self-start uppercase tracking-[0.15em] text-xs font-semibold text-stone-500 bg-stone-100 rounded-full px-3 py-1 mb-4">In Memoriam</span>
+                {% endif %}
+
+                <h1 class="font-display text-3xl md:text-4xl font-semibold text-stone-900 leading-tight">{{ title }}</h1>
+
+                {% if role %}
+                <p class="uppercase tracking-[0.15em] text-sm text-accent font-semibold mt-2">{{ role }}</p>
+                {% endif %}
+
+                {% if not isFormer %}
+                <div class="flex flex-wrap items-center gap-6 mt-6">
+                    <a href="/contact/" class="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent-dark text-white font-medium rounded-md transition-colors">
+                        Schedule a Consultation
+                    </a>
+                    <a href="tel:{{ site.author.phoneHref }}" class="inline-flex items-center gap-2 text-stone-700 hover:text-accent font-medium transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h1.5a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                        {{ site.author.phone }}
+                    </a>
+                </div>
+                {% endif %}
+            </div>
         </div>
-            {% include "components/section/sidebar.njk" %}
+
+        {% if parsed.lead %}
+        <div class="prose prose-stone prose-lg max-w-none prose-p:text-stone-600 prose-p:leading-8 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline mb-6">
+            {{ parsed.lead | safe }}
         </div>
+        {% endif %}
+
+        {% for section in parsed.sections %}
+        <div class="bg-white border border-stone-100 shadow-sm rounded-xl p-6 md:p-8 mb-6
+            prose prose-stone max-w-none
+            prose-h2:font-display prose-h2:text-xl md:prose-h2:text-2xl prose-h2:font-semibold prose-h2:text-stone-900 prose-h2:pb-3 prose-h2:mb-5 prose-h2:border-b-[3px] prose-h2:border-accent prose-h2:inline-block
+            prose-h4:font-display prose-h4:text-base prose-h4:font-semibold prose-h4:text-stone-900 prose-h4:mt-6
+            prose-p:text-stone-600 prose-p:leading-7
+            prose-strong:text-stone-900
+            prose-ul:marker:text-accent prose-li:leading-7
+            prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+            prose-img:rounded-lg">
+            {{ section | safe }}
+        </div>
+        {% endfor %}
+
+        {% if showContactForm == true %}
+        <div class="bg-white border border-stone-100 shadow-sm rounded-xl p-6 md:p-8">
+            {% include "components/forms/general-contact.njk" %}
+        </div>
+        {% endif %}
+
+    </div>
+    {% include "components/section/sidebar.njk" %}
+</div>
 
 {% endblock %}

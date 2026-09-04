@@ -7,14 +7,13 @@ headshot: /assets/images/attorneys/lawrence.jpg
 summary: "Deceased Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several seminal legal malpractice cases. He is a Fellow o"
 description: "Deceased. Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several…"
 order: 9
+status: deceased
 eleventyNavigation:
   key: "Lawrence Hamil"
   parent: Attorneys
   order: 100
 ---
-Deceased
-
-Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several seminal legal malpractice cases.  He is a Fellow of the prestigious American College of Trial Lawyers, and he has been recognized as a “Super Lawyer” and “Bet-the-Farm Lawyer” by various organizations for many years.  Larry does not actively litigate cases any longer, but he consults with other practicing attorneys, acts as an expert witness, and mediates and arbitrates commercial disputes.  Throughout his career, Larry also represented clients in a variety of commercial transactions, particularly relating to real estate, finance, securities, business acquisitions and banking.  He has advised business clients with respect to foreign and international legal transactions in Europe, Africa and Central/South America.  Larry’s unusual combination of extensive litigation and transactional experience gives him skills that are particularly valuable to clients dealing with complex commercial transactions.
+Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several seminal legal malpractice cases.  He was a Fellow of the prestigious American College of Trial Lawyers, and he was recognized as a “Super Lawyer” and “Bet-the-Farm Lawyer” by various organizations for many years. In his later years, Larry stepped back from active litigation to consult with other practicing attorneys, serve as an expert witness, and mediate and arbitrate commercial disputes. Throughout his career, Larry also represented clients in a variety of commercial transactions, particularly relating to real estate, finance, securities, business acquisitions and banking. He advised business clients with respect to foreign and international legal transactions in Europe, Africa and Central/South America. Larry’s unusual combination of extensive litigation and transactional experience made him a particularly valuable resource for clients dealing with complex commercial transactions.
 
 ## Education
 

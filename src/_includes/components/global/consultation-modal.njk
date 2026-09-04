@@ -1,0 +1,97 @@
+<div
+    x-show="consultOpen"
+    x-cloak
+    @keydown.escape.window="consultOpen = false"
+    class="fixed inset-0 z-[100] flex items-center justify-center p-4"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="consultation-modal-title"
+>
+    <div
+        x-show="consultOpen"
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        @click="consultOpen = false"
+        class="absolute inset-0 bg-black/80"
+    ></div>
+
+    <div
+        x-show="consultOpen"
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 scale-95"
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 scale-100"
+        x-transition:leave-end="opacity-0 scale-95"
+        @click.outside="consultOpen = false"
+        class="relative w-full max-w-lg max-h-[90vh] overflow-y-auto bg-white rounded-xl shadow-2xl p-8 md:p-10"
+    >
+        <button
+            type="button"
+            @click="consultOpen = false"
+            class="absolute top-5 right-5 text-stone-400 hover:text-stone-700 transition-colors"
+        >
+            <span class="sr-only">Close</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        <div x-show="!consultSubmitted">
+            <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">Get Started</p>
+            <h2 id="consultation-modal-title" class="font-display text-2xl md:text-3xl font-semibold text-stone-900 mb-6">How Can We Help?</h2>
+
+            <form
+                name="{{ site.title }} Consultation Request"
+                method="POST"
+                data-netlify="true"
+                @submit.prevent="
+                    consultSubmitting = true;
+                    consultError = false;
+                    fetch('/', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                        body: new URLSearchParams(new FormData($el)).toString()
+                    }).then(() => {
+                        consultSubmitting = false;
+                        consultSubmitted = true;
+                    }).catch(() => {
+                        consultSubmitting = false;
+                        consultError = true;
+                    })
+                "
+            >
+                <input type="hidden" name="form-name" value="{{ site.title }} Consultation Request" />
+
+                <label for="consult-name" class="hidden" aria-label="Enter Your Name">Your Name:</label>
+                <input id="consult-name" type="text" placeholder="Name" name="name" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
+
+                <label for="consult-email" class="hidden" aria-label="Enter Your Email">Your Email:</label>
+                <input id="consult-email" type="email" placeholder="Email" name="email" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
+
+                <label for="consult-phone" class="hidden" aria-label="Enter Your Phone Number">Your Phone Number:</label>
+                <input id="consult-phone" type="tel" placeholder="Phone" name="phone" class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
+
+                <label for="consult-message" class="hidden" aria-label="How Can We Help?">How Can We Help?</label>
+                <textarea id="consult-message" placeholder="How Can We Help?" name="message" class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4 h-28"></textarea>
+
+                <p x-show="consultError" class="text-sm text-red-600 mb-4">Something went wrong sending your message. Please try again, or call us at {{ site.author.phone }}.</p>
+
+                <button type="submit" :disabled="consultSubmitting" class="inline-flex items-center justify-center w-full px-6 py-3 bg-accent hover:bg-accent-dark disabled:opacity-60 text-white font-medium rounded-md transition-colors">
+                    <span x-show="!consultSubmitting">Send Message</span>
+                    <span x-show="consultSubmitting">Sending&hellip;</span>
+                </button>
+            </form>
+        </div>
+
+        <div x-show="consultSubmitted" x-cloak class="py-6">
+            <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">Thank You</p>
+            <h2 class="font-display text-2xl md:text-3xl font-semibold text-stone-900 mb-3">We've Received Your Message</h2>
+            <p class="text-stone-600 leading-7">A member of our team will be in touch with you shortly. If your matter is time-sensitive, call us directly at <a href="tel:{{ site.author.phoneHref }}" class="text-accent font-semibold">{{ site.author.phone }}</a>.</p>
+        </div>
+    </div>
+</div>

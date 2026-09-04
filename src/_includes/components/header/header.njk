@@ -1,19 +1,29 @@
 {% include "components/header/off-canvas.njk" %}
 {% include "components/header/top.njk" %}
 <header class="{% if layout == 'home' %}absolute inset-x-0 top-10 bg-transparent{% else %}sticky top-0 bg-white border-b border-neutral-100{% endif %} z-50">
-<nav x-data="{ open: false }"  role="navigation" aria-label="Main Menu">
+<nav x-data="{ open: false, consultOpen: false, consultSubmitting: false, consultSubmitted: false, consultError: false }"  role="navigation" aria-label="Main Menu">
 <div class="container">
     <div class="flex items-center justify-between {% if layout != 'home' %}h-32{% endif %}">
 
     <div class="flex-shrink-0{% if layout == 'home' %} self-start{% endif %}">
         {% include "components/global/logo.njk" %}
     </div>
-    
+
     {% include "components/header/desktop-links.njk" %}
+
+    <div class="hidden lg:flex flex-shrink-0">
+        <button type="button" @click="consultOpen = true" class="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent-dark text-white font-medium rounded-md transition-colors">
+            Schedule a Consultation
+        </button>
+    </div>
+
     {% include "components/header/mobile-button.njk" %}
 
     </div>
-    
+
 </div>
+
+{% include "components/global/consultation-modal.njk" %}
+
 </nav>
 </header>
