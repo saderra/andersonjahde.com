@@ -2,7 +2,8 @@
 title: Contact
 description: "Contact Anderson & Jahde, P.C."
 hideSidebarForm: true
-showContactForm: true
+showContactForm: false
+showMap: false
 eleventyNavigation:
   key: Contact
   order: 10000
@@ -15,5 +16,3 @@ eleventyNavigation:
 
 **Call:** {{ site.author.phone }}
 **Fax:** 303-782-0055
-
-### Send Us A Message

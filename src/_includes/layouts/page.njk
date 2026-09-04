@@ -17,6 +17,9 @@
                 {% if showContactForm == true %}
                     {% include "components/forms/general-contact.njk" %}
                 {% endif %}
+                {% if showMap == true %}
+                    {% include "components/global/map-embed.njk" %}
+                {% endif %}
             </article>
         </div>
             {% include "components/section/sidebar.njk" %}
