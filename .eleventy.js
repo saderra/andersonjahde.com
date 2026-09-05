@@ -24,6 +24,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/pdf");
   eleventyConfig.addPassthroughCopy("./src/assets/favicons");
+  eleventyConfig.addPassthroughCopy("./src/assets/fonts");
   eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
   eleventyConfig.addPassthroughCopy('./src/cms')
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
@@ -147,8 +148,8 @@ module.exports = async function (eleventyConfig) {
       outputDir: "./_site/assets/images/optimized/",
       urlPath: "/assets/images/optimized/",
       sharpJpegOptions: { quality: 80 },
-      sharpWebpOptions: { quality: 80 },
-      sharpAvifOptions: { quality: 60 },
+      sharpWebpOptions: { quality: 80, effort: 6 },
+      sharpAvifOptions: { quality: 60, effort: 9 },
     });
   }
 

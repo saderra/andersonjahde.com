@@ -1,11 +1,11 @@
 <div>
     {% if layout == 'home' %}
     <a href="/" class="inline-block bg-gradient-to-b from-white to-neutral-300 rounded-b-xl shadow-lg p-4 md:p-5">
-        <img src="/assets/images/logo.png" alt="{{ site.title }} — {{ site.author.credentials }}" width="437" height="151" class="w-auto h-20">
+        {% image "/assets/images/logo.png", site.title ~ " — " ~ site.author.credentials, { widths: [250], sizes: "250px", class: "w-auto h-20", eager: true } %}
     </a>
     {% else %}
     <a href="/">
-        <img src="/assets/images/logo.png" alt="{{ site.title }} — {{ site.author.credentials }}" width="437" height="151" class="w-auto h-[86px]">
+        {% image "/assets/images/logo.png", site.title ~ " — " ~ site.author.credentials, { widths: [250], sizes: "250px", class: "w-auto h-[86px]", eager: true } %}
     </a>
     {% endif %}
 </div>
