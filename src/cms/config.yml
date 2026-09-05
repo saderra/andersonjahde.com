@@ -4,11 +4,11 @@ backend:
 
 publish_mode: editorial_workflow
 
-site_url: https://example.com
-display_url: https://example.com
+site_url: https://andersonjahde.com
+display_url: https://andersonjahde.com
 
 media_folder: "src/assets/images/uploads"
-public_folder: "/assets/images/uploads" 
+public_folder: "/assets/images/uploads"
 
 slug:
   encoding: "ascii"
@@ -27,10 +27,113 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'SLUG', name: 'slug', widget: 'string' }
-      - { label: "Categories", name: "categories", widget: "select", multiple: true, options: ["Updates", "Guides", "Case Studies", "News"],  default: ["Updates"] }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['articles'] }
+      - { label: 'Categories', name: 'categories', widget: 'hidden', default: ['Articles'] }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', default: "", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
-      - { label: "Cover Image", name: "cover", widget: "image", choose_url: true } 
-      - { label: 'Parent', name: 'parent', widget: 'hidden', default: "Articles" }
       - { label: 'Excerpt', name: 'summary', widget: 'string' }
       - { label: 'Meta Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: attorneys
+    label: Attorneys
+    folder: 'src/attorneys/'
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'SLUG', name: 'slug', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['attorneys'] }
+      - { label: 'Headshot', name: 'headshot', widget: 'image', choose_url: true }
+      - { label: 'Excerpt', name: 'summary', widget: 'text' }
+      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'Sort Order', name: 'order', widget: 'number', value_type: 'int', hint: 'Lower numbers appear first on the Attorneys page' }
+      - { label: 'Status', name: 'status', widget: 'select', options: ['active', 'retired', 'deceased'], required: false }
+      - label: 'Navigation'
+        name: 'eleventyNavigation'
+        widget: 'object'
+        fields:
+          - { label: 'Nav Label', name: 'key', widget: 'string' }
+          - { label: 'Nav Parent', name: 'parent', widget: 'hidden', default: 'Attorneys' }
+          - { label: 'Nav Sort Order', name: 'order', widget: 'number', value_type: 'int' }
+      - { label: 'Bio', name: 'body', widget: 'markdown' }
+
+  - name: practice-areas
+    label: Practice Areas
+    folder: 'src/practice-areas/'
+    identifier_field: title
+    slug: "{{fields.slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'SLUG', name: 'slug', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['practice-areas'] }
+      - { label: 'Excerpt', name: 'summary', widget: 'text' }
+      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'Page Excerpt', name: 'excerpt', widget: 'text' }
+      - { label: 'Intro Paragraph', name: 'intro', widget: 'text' }
+      - label: 'Navigation'
+        name: 'eleventyNavigation'
+        widget: 'object'
+        fields:
+          - { label: 'Nav Label', name: 'key', widget: 'string' }
+          - { label: 'Nav Parent', name: 'parent', widget: 'hidden', default: 'Practice Areas' }
+          - { label: 'Nav Sort Order', name: 'order', widget: 'number', value_type: 'int' }
+      - label: 'Who This Is For'
+        name: 'whoFor'
+        widget: 'list'
+        field: { label: 'Item', name: 'item', widget: 'string' }
+        required: false
+      - label: 'Services'
+        name: 'services'
+        widget: 'list'
+        required: false
+        fields:
+          - { label: 'Icon', name: 'icon', widget: 'string', hint: 'Heroicons name, e.g. document-text' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+      - label: 'Why Us'
+        name: 'whyUs'
+        widget: 'list'
+        field: { label: 'Item', name: 'item', widget: 'string' }
+        required: false
+      - { label: 'Callout', name: 'callout', widget: 'text', required: false }
+      - label: 'Page FAQs'
+        name: 'pageFaqs'
+        widget: 'list'
+        required: false
+        fields:
+          - { label: 'Question', name: 'question', widget: 'string' }
+          - label: 'Answer'
+            name: 'answer'
+            widget: 'list'
+            field: { label: 'Paragraph', name: 'paragraph', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: 'Contact'
+        name: 'contact'
+        file: 'src/contact/index.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - label: 'Legal Disclaimers'
+        name: 'legal-disclaimers'
+        file: 'src/resources/legal-disclaimers.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Meta Description', name: 'description', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Privacy Policy'
+        name: 'privacy'
+        file: 'src/resources/privacy.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Meta Description', name: 'description', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
