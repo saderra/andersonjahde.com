@@ -13,7 +13,7 @@ eleventyNavigation:
   parent: Attorneys
   order: 10
 ---
-### Named 2023 Lawyer Of The Year in Tax for the Denver area by [Best Lawyers In America](https://www.bestlawyers.com/lawyers/steven-r-anderson/156808).
+## Named 2023 Lawyer Of The Year in Tax for the Denver area by [Best Lawyers In America](https://www.bestlawyers.com/lawyers/steven-r-anderson/156808).
 
 Our managing partner is the co-founder and President of Anderson & Jahde, P.C.  Steven Anderson is a fellow in the American College of Tax Counsel, the recipient of the 2021 James Bye Lifetime Achievement Award in Tax from the Colorado Bar Association, named in Super Lawyers, has been awarded [Martindale-Hubbell](https://www.martindale.com/)’s highest, preeminent, rating in legal ability and ethical standards, named in Lawyers Of Distinction, listed in Marquis Who’s Who, annually named by 5280 Magazine as a Top Lawyer in Denver and named among the Best Lawyers In America.
 
@@ -33,9 +33,25 @@ In 2004 the Internal Revenue Service invited Steven Anderson to participate as a
 
 <center>
 
-<!--Peer Ratings Widget-->
-<script src="https://www.martindale.com/marketyourfirm/mhratings/js/peer-rating.js"></script>
+<!--Peer Ratings Widget: loaded on scroll into view, not on page load, since it pulls in
+     third-party jQuery over plain HTTP and a tracking cookie -->
 <div id="mh-rating-container" isln="909429216" param="9928ff91d403184ef514074c60ced543"></div>
+<script>
+(function () {
+  var el = document.getElementById("mh-rating-container");
+  if (!el || !("IntersectionObserver" in window)) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      var s = document.createElement("script");
+      s.src = "https://www.martindale.com/marketyourfirm/mhratings/js/peer-rating.js";
+      document.body.appendChild(s);
+      io.disconnect();
+    });
+  });
+  io.observe(el);
+})();
+</script>
 <!--Peer Ratings Widget-->
 <br />
 <hr />

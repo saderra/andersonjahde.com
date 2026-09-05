@@ -19,9 +19,6 @@ module.exports = {
 			}
 		},
     extend: {
-		backgroundImage: theme => ({
-			'home-cover': "url('/assets/images/mast/irs-building.jpg')",
-		}),
 		maxWidth: {
 			xxs: '200px',
 		},
