@@ -1,7 +1,7 @@
 <a href="{{ member.url }}" class="group block text-center">
-    {% if member.data.headshot %}
+    {% if member.data.headshotImage %}
     <div class="relative overflow-hidden rounded-xl shadow-sm group-hover:shadow-xl transition-shadow duration-300 mb-5">
-        <img src="{{ member.data.headshot }}" alt="{{ member.data.title }}" class="w-full aspect-[4/5] object-cover object-top transition-transform duration-500 group-hover:scale-105">
+        {{ member.data.headshotImage | renderImage({ alt: member.data.title, sizes: "(min-width: 1024px) 260px, (min-width: 640px) 45vw, 90vw", loading: "lazy", decoding: "async", class: "w-full aspect-[4/5] object-cover object-top transition-transform duration-500 group-hover:scale-105" }) | safe }}
         <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
     {% endif %}

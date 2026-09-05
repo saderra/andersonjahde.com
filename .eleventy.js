@@ -2,12 +2,14 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const now = String(Date.now())
 const { minify } = require('html-minifier-terser');
 const { DateTime } = require("luxon");
+const path = require("path");
 
 module.exports = async function (eleventyConfig) {
 
-  // @11ty/eleventy-plugin-rss is ESM-only; dynamic import keeps the rest of
-  // this config file as plain CommonJS.
+  // @11ty/eleventy-plugin-rss and @11ty/eleventy-img are ESM-only; dynamic
+  // import keeps the rest of this config file as plain CommonJS.
   const { default: pluginRss } = await import("@11ty/eleventy-plugin-rss");
+  const { default: Image } = await import("@11ty/eleventy-img");
 
   // PLUGINS
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -125,6 +127,85 @@ module.exports = async function (eleventyConfig) {
   // SHORTCODES
   eleventyConfig.addShortcode('version', function () { return now  })
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+  // Resolves and transforms a local image (AVIF/WebP + original format, at
+  // the given widths) into @11ty/eleventy-img's metadata object. `src` may
+  // be either a site-root path (e.g. "/assets/images/foo.jpg", matching how
+  // templates already reference passthrough-copied images) or a path
+  // relative to the project root.
+  async function getImageMetadata(src, widths) {
+    const inputPath = src.startsWith("/assets") ? `./src${src}` : src;
+    const ext = path.extname(inputPath).slice(1).toLowerCase();
+    const originalFormat = ext === "jpg" ? "jpeg" : ext;
+    const formats = originalFormat === "png"
+      ? ["webp", "png"]
+      : ["avif", "webp", originalFormat];
+
+    return Image(inputPath, {
+      widths: [...widths, null],
+      formats,
+      outputDir: "./_site/assets/images/optimized/",
+      urlPath: "/assets/images/optimized/",
+      sharpJpegOptions: { quality: 80 },
+      sharpWebpOptions: { quality: 80 },
+      sharpAvifOptions: { quality: 60 },
+    });
+  }
+
+  // Renders a <picture> (width/height + lazy-loading included) from
+  // pre-resolved image metadata. Kept synchronous and separate from image
+  // transformation on purpose: Nunjucks doesn't reliably resolve promises
+  // returned from shortcodes called inside a {% for %} loop's macro/include
+  // body (it silently renders empty output there), so any image used on a
+  // listing page gets its metadata precomputed up front — see the
+  // `headshotImage`/`coverImage` computed data below — leaving only this
+  // synchronous filter to run inside the loop.
+  eleventyConfig.addFilter("renderImage", function (metadata, attributes = {}) {
+    if (!metadata) return "";
+    return Image.generateHTML(metadata, attributes);
+  });
+
+  // Same responsive-image output as `renderImage`, for the handful of
+  // pages that render a local image directly (not from a collection loop),
+  // where an async shortcode is safe to call inline.
+  eleventyConfig.addNunjucksAsyncShortcode("image", async function (src, alt, options = {}) {
+    if (typeof alt !== "string") {
+      throw new Error(`Missing \`alt\` text on responsive image for: ${src}`);
+    }
+
+    const {
+      widths = [400, 800, 1200],
+      sizes = "100vw",
+      class: className,
+      eager = false,
+    } = options;
+
+    const metadata = await getImageMetadata(src, widths);
+
+    const imageAttributes = {
+      alt,
+      sizes,
+      loading: eager ? "eager" : "lazy",
+      decoding: "async",
+    };
+    if (className) imageAttributes.class = className;
+    if (eager) imageAttributes.fetchpriority = "high";
+
+    return Image.generateHTML(metadata, imageAttributes);
+  });
+
+  // Precomputes responsive-image metadata for any content item with a
+  // `headshot` (attorneys) or `cover` (articles) field, so both a listing
+  // card and the item's own detail page can render it via the synchronous
+  // `renderImage` filter with per-context sizes/classes.
+  eleventyConfig.addGlobalData("eleventyComputed", () => ({
+    headshotImage: async (data) => data.headshot
+      ? getImageMetadata(data.headshot, [200, 300, 400, 600, 900])
+      : undefined,
+    coverImage: async (data) => data.cover
+      ? getImageMetadata(data.cover, [400, 600, 800, 1200])
+      : undefined,
+  }));
 
   let markdownIt = require("markdown-it");
   let options = {

@@ -4,8 +4,8 @@
         <div class="p-0 col-span-12 lg:col-span-8">          
            <article class="prose max-w-full p-6 md:p-8 bg-white shadow-sm rounded-md mb-8 prose-a:no-underline">
 
-                {% if cover %}
-                <img src="{{ cover }}" class="rounded-md" alt="{{ title }} cover image">
+                {% if coverImage %}
+                {{ coverImage | renderImage({ alt: title + " cover image", sizes: "(min-width: 1024px) 760px, 100vw", loading: "eager", decoding: "async", fetchpriority: "high", class: "rounded-md" }) | safe }}
                 {% endif %}
 
                 <div class="bg-stone-50 p-5 md:p-8 rounded-md shadow-inner">

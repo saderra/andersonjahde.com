@@ -8,9 +8,9 @@
     <div class="p-0 col-span-12 lg:col-span-8">
 
         <div class="bg-white border border-stone-100 shadow-sm rounded-xl overflow-hidden mb-8 md:flex">
-            {% if headshot %}
+            {% if headshotImage %}
             <div class="md:w-72 flex-shrink-0">
-                <img src="{{ headshot }}" alt="{{ title }}" class="w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top">
+                {{ headshotImage | renderImage({ alt: title, sizes: "(min-width: 768px) 288px, 100vw", loading: "eager", decoding: "async", fetchpriority: "high", class: "w-full aspect-[4/5] md:aspect-auto md:h-full object-cover object-top" }) | safe }}
             </div>
             {% endif %}
 

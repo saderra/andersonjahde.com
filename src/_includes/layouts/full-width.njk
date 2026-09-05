@@ -6,8 +6,8 @@
 
     <article class="prose max-w-full p-12 bg-white shadow-sm rounded-md mb-8 prose-a:no-underline">
 
-        {% if mast %} 
-            <img src="/assets/images/mast/{{ mast }}" alt="{{ title }} intro image" class="w-full rounded-md">
+        {% if mast %}
+            {% image "/assets/images/mast/" + mast, title + " intro image", { widths: [600, 1000, 1400, 1800], sizes: "(min-width: 1024px) 1100px, 100vw", class: "w-full rounded-md", eager: true } %}
 
         {% else %}
          <h1 class="font-display text-4xl pb-8 mb-8 border-b border-stone-200 font-semibold text-stone-900">{{ title }}</h1>

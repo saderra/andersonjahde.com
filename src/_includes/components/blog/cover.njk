@@ -1,5 +1,5 @@
-{% if post.data.cover %}
+{% if post.data.coverImage %}
 <a href="{{ post.url }}">
-    <img src="{{ post.data.cover }}" alt="{{ post.data.title }} cover image" class="w-auto mb-4 md:mb-6 rounded-md">
+    {{ post.data.coverImage | renderImage({ alt: post.data.title + " cover image", sizes: "(min-width: 1024px) 360px, (min-width: 640px) 45vw, 90vw", loading: "lazy", decoding: "async", class: "w-auto mb-4 md:mb-6 rounded-md" }) | safe }}
 </a>
 {% endif %}
