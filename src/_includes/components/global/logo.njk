@@ -1,6 +1,6 @@
 <div>
     {% if layout == 'home' %}
-    <a href="/" class="inline-block bg-gradient-to-b from-white to-neutral-300 rounded-b-xl shadow-lg p-4 md:p-5">
+    <a href="/" class="block bg-gradient-to-b from-white to-neutral-300 rounded-b-xl shadow-lg p-4 md:p-5">
         {% image "/assets/images/logo.png", site.title ~ " — " ~ site.author.credentials, { widths: [250], sizes: "250px", class: "w-auto h-20", eager: true } %}
     </a>
     {% else %}
