@@ -1,7 +1,7 @@
 {% include "components/header/off-canvas.njk" %}
-<div class="relative">
 {% include "components/header/top.njk" %}
-<header class="{% if layout == 'home' %}absolute inset-x-0 top-full bg-transparent{% else %}sticky top-0 bg-white border-b border-neutral-100{% endif %} z-50">
+<div class="relative">
+<header class="{% if layout == 'home' %}absolute inset-x-0 top-0 bg-transparent{% else %}sticky top-0 bg-white border-b border-neutral-100{% endif %} z-50">
 <nav role="navigation" aria-label="Main Menu">
 <div class="container">
     <div class="flex items-center justify-between {% if layout != 'home' %}h-32{% endif %}">
