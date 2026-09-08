@@ -19,6 +19,8 @@ Before joining Anderson & Jahde, Kevin was a longtime associate at Merriam Law F
 
 Kevin is known for his strategic judgment, litigation skill, and deep knowledge of the tax controversy process. He represents clients facing serious tax liabilities, including civil penalties, trust fund recovery penalties, summons enforcement, lien and levy disputes, and complex collection matters involving assets, insolvency, or noncompliance. He also defends individuals and businesses in criminal tax investigations and prosecutions, including cases involving tax evasion, willful failure to file, and other alleged violations of the Internal Revenue Code.
 
+## Notable Cases
+
 Over the course of his career, Kevin has handled numerous significant published cases, including:
 
 -   _Mesa Oil, Inc. v. United States_, 467 F.3d 1252 (10th Cir. 2006) – secured remand in a precedent-setting Collection Due Process case.
