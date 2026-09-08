@@ -105,9 +105,10 @@ the header nav, and a layout from `src/_includes/layouts/`.
 
 `components/forms/general-contact.njk` is a Netlify form (`data-netlify=
 "true"`) that posts back to `/contact/`. Its `name` attribute is
-`{{ site.title }} General Contact` — Netlify's form detection just needs
-that attribute present in the built HTML, so it updates automatically when
-you rebrand `site.json`.
+`Anderson Jahde Lead Form` — the same name used by
+`components/forms/sidebar-lead.njk` and
+`components/global/consultation-modal.njk`, so all three variants land in
+one form in the Netlify dashboard instead of three.
 
 `components/global/signup.njk` (newsletter signup) is a separate, plain
 Netlify form posting to the same page. Swap it for your email provider's
