@@ -44,7 +44,8 @@
         </div>
 
         {% if parsed.lead %}
-        <div class="prose prose-stone prose-lg max-w-none prose-p:text-stone-600 prose-p:leading-8 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline mb-6">
+        <div class="bg-white border border-stone-100 shadow-sm rounded-xl p-6 md:p-8 mb-6
+            prose prose-stone prose-lg max-w-none prose-p:text-stone-600 prose-p:leading-8 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline">
             {{ parsed.lead | safe }}
         </div>
         {% endif %}
