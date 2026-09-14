@@ -52,9 +52,6 @@ In 2004 the Internal Revenue Service invited Steven Anderson to participate as a
 
 <div class="not-prose grid grid-cols-2 sm:grid-cols-3 gap-6 items-center justify-items-center mt-6">
   <img src="/assets/images/attorneys/2024-10-Best-Tax-Attorney.jpg" alt="10 Best Attorney 2024 Client Satisfaction Award, American Institute of Legal Counsel" class="h-28 w-auto object-contain" />
-  <a target="_blank" href="https://www.bestlawyers.com/lawyers/steven-r-anderson/156808" rel="noopener noreferrer">
-    <img alt="Best Lawyers Award Badge" src="/assets/images/attorneys/badges/best-lawyers-anderson.png" class="h-28 w-auto object-contain" />
-  </a>
   <img src="/assets/images/attorneys/badges/gdww-top-lawyer-2019.png" alt="Global Directory Who's Who Badge" class="h-28 w-auto object-contain" />
   <a href="https://profiles.superlawyers.com/colorado/littleton/lawyer/steven-r-anderson/36feed23-188f-419a-be27-783792600139.html?adSubId=3345231&refPageViewId=535c74ad609de502">
     <img src="/assets/images/attorneys/badges/super-lawyers.png" alt="Super Lawyers" class="h-28 w-auto object-contain" />
