@@ -29,6 +29,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/cms')
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/_redirects");
+  eleventyConfig.addPassthroughCopy("./src/_headers");
   eleventyConfig.addPassthroughCopy({ "node_modules/alpinejs/dist/cdn.min.js": "assets/js/alpine.js" });
 
   // DATE FORMATTING
