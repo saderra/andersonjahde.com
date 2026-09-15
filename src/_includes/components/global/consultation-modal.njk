@@ -74,10 +74,10 @@
                 <input id="consult-email" type="email" placeholder="Email" name="email" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
 
                 <label for="consult-phone" class="hidden" aria-label="Enter Your Phone Number">Your Phone Number:</label>
-                <input id="consult-phone" type="tel" placeholder="Phone" name="phone" class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
+                <input id="consult-phone" type="tel" placeholder="Phone" name="phone" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4" />
 
                 <label for="consult-message" class="hidden" aria-label="How Can We Help?">How Can We Help?</label>
-                <textarea id="consult-message" placeholder="How Can We Help?" name="message" class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4 h-28"></textarea>
+                <textarea id="consult-message" placeholder="How Can We Help?" name="message" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-4 h-28"></textarea>
 
                 <p x-show="consultError" class="text-sm text-red-600 mb-4">Something went wrong sending your message. Please try again, or call us at {{ site.author.phone }}.</p>
 
