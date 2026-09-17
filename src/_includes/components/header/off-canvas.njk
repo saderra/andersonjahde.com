@@ -13,10 +13,10 @@
             <div class="inset-0 overflow-hidden">
                 <!-- Background overlay, show/hide based on slide-over state. -->
                 <div class="absolute inset-0" x-show="show" @click="$dispatch('offcanvas')" aria-hidden="true"></div>
-                <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                <div class="pointer-events-none fixed inset-y-0 right-0 flex w-full">
                     <div class="absolute inset-0" aria-hidden="true"></div>
 
-                <div class="pointer-events-auto w-screen max-w-md">
+                <div class="pointer-events-auto w-full">
                     <div class="flex h-full flex-col overflow-y-auto bg-black/90 py-6 shadow-xl">
                     <div class="px-4 sm:px-6">
                         <div class="flex items-start justify-between">
