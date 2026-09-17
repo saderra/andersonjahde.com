@@ -47,10 +47,6 @@
       }
     },
 
-    "recaptcha": {
-      "siteKey": ""
-    },
-
     "clientPortalUrl": "",
 
     "feed": {

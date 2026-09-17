@@ -35,37 +35,10 @@ Notable fields:
 | `address.*` | Mailing address shown on the Contact page |
 | `social.*` | Leave any handle blank ("") to hide that icon/link entirely |
 | `analytics.*` | Fathom, GA4, Google Ads, Font Awesome Kit — every one is blank by default and the relevant `<script>` tag only renders when a value is present |
-| `recaptcha.siteKey` | Google reCAPTCHA v2 site key for spam filtering on the lead forms — blank by default (no widget renders). See "reCAPTCHA setup" below. |
 | `clientPortalUrl` | Optional link in the top bar (e.g. a scheduling or client-portal tool). Leave blank to hide it. |
 | `homeIntro` | The paragraph under the homepage hero headline |
 
 All homepage copy now lives in `site.json` — there's no separate `home.json`.
-
-### reCAPTCHA setup
-
-The sidebar lead form, contact page form, and header consultation modal all
-support Netlify's [custom reCAPTCHA v2 integration](https://docs.netlify.com/manage/forms/spam-filters/)
-to keep spam submissions out of both the Netlify Forms dashboard and Fathom's
-`Lead Form Submit` conversion event. The custom (not Netlify-provided) variant
-is required because the modal form and a page form can both be present on the
-same page at once, and Netlify's built-in widget only supports one CAPTCHA
-per page.
-
-To turn it on:
-
-1. Create a reCAPTCHA v2 ("I'm not a robot" Checkbox) key pair at
-   https://www.google.com/recaptcha/admin, registering your production domain
-   (and any Netlify deploy-preview domains you want it to work on).
-2. In the Netlify site's environment variables, add `SITE_RECAPTCHA_KEY`
-   (scope: Builds and Runtime) and `SITE_RECAPTCHA_SECRET` (scope: Runtime)
-   using the values from step 1. Netlify's forms backend reads
-   `SITE_RECAPTCHA_SECRET` directly by that name — never commit it to the repo.
-3. Set `recaptcha.siteKey` in `src/_data/site.json` to the same site key value
-   from step 1. It's safe to commit — this is the public key, meant to be
-   embedded in the page.
-
-Until `recaptcha.siteKey` is set, none of the reCAPTCHA markup renders and
-the forms behave exactly as before.
 
 ## 2. Theming — `tailwind.config.js` + `src/styles/tailwind.css`
 
