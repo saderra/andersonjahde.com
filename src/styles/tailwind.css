@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .offcanvas-nav {
-  @apply flex-1 overflow-y-auto overscroll-contain py-2;
+  @apply flex-1 overflow-y-auto overscroll-contain;
   -webkit-overflow-scrolling: touch;
 }
 
