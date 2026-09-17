@@ -21,3 +21,149 @@ h1, h2, h3, h4, h5, h6 {
 [x-cloak] {
   display: none !important;
 }
+
+/* Off-canvas mobile menu (components/header/off-canvas.njk + mobile-menu.njk).
+   The drawer stays in the DOM; `visibility` is transitioned alongside
+   transform/opacity so it is hidden from focus and clicks when closed. */
+.offcanvas-backdrop {
+  @apply fixed inset-0 z-[98] bg-black/60 opacity-0 invisible transition-[opacity,visibility] duration-300;
+}
+
+.offcanvas-panel {
+  @apply fixed inset-0 z-[99] w-full flex flex-col bg-neutral-950 text-neutral-100 translate-x-full invisible transition-[transform,visibility] duration-300 ease-out;
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+[data-offcanvas].is-open .offcanvas-backdrop {
+  @apply opacity-100 visible;
+}
+
+[data-offcanvas].is-open .offcanvas-panel {
+  @apply translate-x-0 visible;
+}
+
+.offcanvas-header {
+  @apply flex items-center justify-between gap-4 px-5 h-24 border-b border-white/10 flex-shrink-0;
+}
+
+.offcanvas-brand {
+  @apply font-display text-lg font-semibold text-white tracking-tight no-underline truncate;
+}
+
+.offcanvas-close {
+  @apply -mr-2 p-2 rounded-md text-neutral-400 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/60 flex-shrink-0;
+}
+
+.offcanvas-nav {
+  @apply flex-1 overflow-y-auto overscroll-contain py-2;
+  -webkit-overflow-scrolling: touch;
+}
+
+.offcanvas-list {
+  @apply list-none m-0 p-0;
+}
+
+.offcanvas-list > li {
+  @apply border-b border-white/[0.07];
+}
+
+.offcanvas-row {
+  @apply flex items-stretch;
+}
+
+.offcanvas-link {
+  @apply flex-1 block px-5 py-4 text-lg font-medium text-white no-underline;
+}
+
+.offcanvas-row:hover .offcanvas-link,
+.offcanvas-link:focus-visible {
+  @apply bg-white/5 outline-none;
+}
+
+.offcanvas-row.is-current .offcanvas-link {
+  @apply text-red-300;
+  box-shadow: inset 3px 0 0 theme('colors.red.500');
+}
+
+.offcanvas-toggle {
+  @apply flex items-center justify-center w-14 text-neutral-400 hover:text-white hover:bg-white/5 border-l border-white/[0.07] focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-white/60;
+}
+
+.accordion-chevron {
+  @apply transition-transform duration-200;
+}
+
+[data-accordion].is-open .accordion-chevron {
+  @apply rotate-180;
+}
+
+/* Grid-row animation lets a section grow to any height (no max-height cap) */
+.accordion-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+[data-accordion].is-open .accordion-panel {
+  grid-template-rows: 1fr;
+}
+
+.offcanvas-sublist {
+  @apply list-none m-0 p-0 overflow-hidden min-h-0 bg-black/40;
+}
+
+.offcanvas-sublink {
+  @apply block py-3 pr-5 pl-9 text-base font-normal text-neutral-400 no-underline border-l-2 border-transparent;
+  margin-left: 1.25rem;
+}
+
+.offcanvas-sublist li:first-child .offcanvas-sublink {
+  @apply mt-1;
+}
+
+.offcanvas-sublist li:last-child .offcanvas-sublink {
+  @apply mb-2;
+}
+
+.offcanvas-sublink:hover,
+.offcanvas-sublink:focus-visible {
+  @apply text-white outline-none;
+}
+
+.offcanvas-sublink.is-current {
+  @apply text-red-300 border-red-500;
+}
+
+.offcanvas-footer {
+  @apply flex-shrink-0 px-5 pt-4 border-t border-white/10 bg-black/30;
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+}
+
+.offcanvas-cta {
+  @apply block w-full py-3.5 text-center bg-accent hover:bg-accent-dark text-white font-medium rounded-md no-underline mb-3 transition-colors;
+}
+
+.offcanvas-actions {
+  @apply grid gap-2;
+}
+
+.offcanvas-action {
+  @apply inline-flex items-center justify-center gap-1.5 py-2.5 rounded-md border border-white/15 text-neutral-300 hover:text-white hover:border-white/40 text-sm font-medium no-underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .offcanvas-panel {
+    transform: none;
+    opacity: 0;
+    transition: opacity 0.2s ease, visibility 0.2s;
+  }
+  [data-offcanvas].is-open .offcanvas-panel {
+    opacity: 1;
+  }
+  .accordion-panel,
+  .accordion-chevron {
+    transition: none;
+  }
+}
