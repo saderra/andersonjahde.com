@@ -1,4 +1,4 @@
-<form id="contact" class="mt-6" name="Anderson Jahde Lead Form" method="POST" data-netlify="true" action="/contact/">
+<form id="contact" class="mt-6" name="Anderson Jahde Lead Form" method="POST" data-netlify="true" {% if site.recaptcha.siteKey %}data-netlify-recaptcha="true"{% endif %} action="/contact/" onsubmit="window.fathom && window.fathom.trackEvent('Lead Form Submit')">
 
 <label for="name" class="hidden" aria-label="Enter Your Name">Your Name:</label>
 <input type="text" placeholder="Name" name="name" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-6" />
@@ -12,6 +12,10 @@
 
 <label for="message" class="hidden" aria-label="Enter Your Message">How Can I Help?</label>
 <textarea placeholder="How Can I Help?" name="message" required class="block w-full rounded-md border-0 px-4 py-3 text-stone-900 shadow-sm ring-1 ring-inset ring-stone-300 placeholder:text-stone-400 focus:ring-2 focus:ring-inset focus:ring-brand sm:text-sm sm:leading-6 mb-6 h-32"></textarea>
+
+{% if site.recaptcha.siteKey %}
+<div id="recaptcha-contact" class="mb-6"></div>
+{% endif %}
 
 <button type="submit" class="bg-accent hover:bg-accent-dark transition-colors rounded-md text-white px-6 py-3 min-w-[200px]">Send Message</button>
 

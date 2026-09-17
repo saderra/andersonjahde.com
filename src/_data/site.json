@@ -47,6 +47,10 @@
       }
     },
 
+    "recaptcha": {
+      "siteKey": ""
+    },
+
     "clientPortalUrl": "",
 
     "feed": {
