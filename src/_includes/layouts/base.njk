@@ -11,6 +11,32 @@
 {% include "components/footer/footer.njk" %}
 
 <script>
+  // Reject Cyrillic characters in any Netlify form field, since nearly all of
+  // the site's form spam is Russian-language. Uses native form validation so
+  // the browser blocks the submit and shows the message; the fetch-based modal
+  // form is covered too because its submit event only fires once validation
+  // passes. Bots that POST directly to Netlify bypass this (client-side only).
+  (function () {
+    var cyrillic = /\p{Script=Cyrillic}/u;
+    var selector = "form[data-netlify] input, form[data-netlify] textarea";
+    function check(el) {
+      if (!el.matches || !el.matches(selector)) return;
+      el.setCustomValidity(cyrillic.test(el.value) ? "Please use only English (Latin) characters." : "");
+    }
+    document.addEventListener("input", function (e) { check(e.target); });
+    document.addEventListener("submit", function (e) {
+      var fields = e.target.querySelectorAll ? e.target.querySelectorAll("input, textarea") : [];
+      fields.forEach(check);
+      if (e.target.matches && e.target.matches("form[data-netlify]") && !e.target.checkValidity()) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        e.target.reportValidity();
+      }
+    }, true);
+  })();
+</script>
+
+<script>
   if (/[#&](confirmation_token|invite_token|recovery_token|email_change_token)=/.test(window.location.hash)) {
     var identityScript = document.createElement("script");
     identityScript.src = "https://identity.netlify.com/v1/netlify-identity-widget.js";
