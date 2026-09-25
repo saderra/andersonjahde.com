@@ -6,12 +6,21 @@ tags:
 headshot: /assets/images/attorneys/amandaboog-min.jpg
 role: "Partner"
 summary: "Amanda Cruser is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, innocent spouse cases, sal"
-description: "Amanda Cruser is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and…"
+description: "Amanda Cruser, attorney and CPA, is a Partner at Anderson & Jahde in Denver. A former DOJ Tax Division prosecutor, she defends taxpayers in audits, collections, and criminal tax cases."
 order: 2
 eleventyNavigation:
   key: "Amanda Boog Cruser"
   parent: Attorneys
   order: 30
+alumniOf:
+  - "Trinity University"
+  - "University of Denver Sturm College of Law"
+knowsAbout:
+  - "Criminal tax investigations"
+  - "IRS examinations"
+  - "Innocent spouse relief"
+  - "Sales and use tax audits"
+  - "Trust Fund Recovery Penalty"
 ---
 Amanda Cruser is a Partner at Anderson & Jahde, P.C.  She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, innocent spouse cases, sales and use tax audits, and criminal tax investigations.   She has also offered expert opinions on tax matters as they relate to dissolution of marriage cases and business disputes.
 

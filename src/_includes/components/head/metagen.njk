@@ -22,10 +22,16 @@
 
 <meta name="author" content="{{ site.author.name }}">
 <!-- Open Graph -->
+{% if type == "post" %}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ page.date | htmlDateString }}">
+{% if updated %}<meta property="article:modified_time" content="{{ updated | htmlDateString }}">{% endif %}
+{% else %}
 <meta property="og:type" content="website">
+{% endif %}
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ seoTitle or title }}">
 
 {% if description %}
     <meta property="og:description" content="{{ description }}">

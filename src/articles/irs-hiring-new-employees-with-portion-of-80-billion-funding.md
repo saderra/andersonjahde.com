@@ -1,5 +1,5 @@
 ---
-title: "IRS Hiring New Employees with Portion of $80 Billion Funding￼"
+title: "IRS Hiring New Employees with Portion of $80 Billion Funding"
 slug: irs-hiring-new-employees-with-portion-of-80-billion-funding
 tags:
   - articles

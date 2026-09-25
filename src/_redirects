@@ -70,19 +70,25 @@
 /estate-trust-administration/  /practice-areas/estate-trust-administration/  301
 /marital-agreements/  /practice-areas/marital-agreements/  301
 /employment-taxes/  /practice-areas/employment-taxes/  301
-/who-we-are/  /#about  301
-/about/  /#about  301
+/who-we-are/  /about/  301
 /privacy-policy/  /privacy/  301
-/what-are-some-important-tax-attorney-qualifications/  /  301
-/is-a-tax-attorney-worth-the-cost/  /  301
-/when-should-i-hire-a-tax-attorney/  /  301
-/do-i-need-a-tax-attorney/  /  301
-/faq/  /  301
-/faq/what-are-some-important-tax-attorney-qualifications/  /  301
-/faq/is-a-tax-attorney-worth-the-cost/  /  301
-/faq/when-should-i-hire-a-tax-attorney/  /  301
-/faq/do-i-need-a-tax-attorney/  /  301
+/what-are-some-important-tax-attorney-qualifications/  /faq/what-are-some-important-tax-attorney-qualifications/  301
+/is-a-tax-attorney-worth-the-cost/  /faq/is-a-tax-attorney-worth-the-cost/  301
+/when-should-i-hire-a-tax-attorney/  /faq/when-should-i-hire-a-tax-attorney/  301
+/do-i-need-a-tax-attorney/  /faq/do-i-need-a-tax-attorney/  301
 
 /category/articles/  /articles/  301
 /author/andersonjahde/  /articles/  301
 /author/corinnevotaw/  /articles/  301
+
+# Former attorney pages that no longer exist
+/attorneys/carolyn-wiley/  /attorneys/  301
+
+# WordPress archive / pagination URLs
+/author/*  /articles/  301
+/category/*  /articles/  301
+/articles/page/*  /articles/  301
+/page/*  /  301
+/feed/  /feed/feed.xml  301
+/tag/*  /articles/  301
+/i-an-estate-planwhat-do-my-successor-trustees-or-personal-representatives-actually-do/  /articles/i-have-an-estate-plan-what-do-my-successor-trustees-or-personal-representatives-actually-do/  301

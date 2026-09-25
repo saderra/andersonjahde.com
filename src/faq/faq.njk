@@ -1,0 +1,35 @@
+---
+pagination:
+  data: faqs
+  size: 1
+  alias: faq
+permalink: "/faq/{{ faq.slug }}/"
+layout: page
+type: faq
+eleventyComputed:
+  title: "{{ faq.question | safe }}"
+  seoTitle: "{{ faq.seoTitle | safe }}"
+  description: "{{ faq.description | safe }}"
+---
+{% for para in faq.answer %}
+<p>{{ para }}</p>
+{% endfor %}
+
+<div class="not-prose mt-10 p-6 rounded-xl bg-stone-50 border border-stone-200">
+    <p class="font-display text-xl font-semibold text-stone-900 mb-2">Talk to a Denver tax attorney</p>
+    <p class="text-stone-600 leading-7 mb-4">Anderson &amp; Jahde has focused exclusively on tax controversy, tax litigation, and related estate matters since 1995. Our attorneys include former IRS trial lawyers.</p>
+    <div class="flex flex-wrap items-center gap-4">
+        <button type="button" @click="consultOpen = true" class="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent-dark text-white font-medium rounded-md transition-colors">Schedule a Consultation</button>
+        <a href="tel:{{ site.author.phoneHref }}" class="font-medium text-stone-700 hover:text-accent">{{ site.author.phone }}</a>
+    </div>
+</div>
+
+<h2>More questions about hiring a tax attorney</h2>
+<ul>
+{% for item in faqs %}
+  {% if item.slug != faq.slug %}
+  <li><a href="/faq/{{ item.slug }}/">{{ item.question }}</a></li>
+  {% endif %}
+{% endfor %}
+  <li><a href="/practice-areas/">See our tax law practice areas</a></li>
+</ul>

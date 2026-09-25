@@ -49,4 +49,5 @@ pageFaqs:
   - question: "How does a marital agreement affect my estate plan?"
     answer:
       - "The rights and obligations it creates can significantly affect wills, trusts, and other estate planning instruments. We coordinate both documents together so they don't conflict."
+seoTitle: "Colorado Prenuptial & Postnuptial Agreement Attorneys | Anderson & Jahde"
 ---

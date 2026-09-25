@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2021-08-31
 summary: "A federal tax lien is the government’s legal claim against a taxpayer’s property when the taxpayer neglects or fails to pay a tax debt. The lien protects the government’s interest in all the taxpayer’s property, including real estate, personal property, and financial assets. So what happens when a t"
-description: "A federal tax lien is the government’s legal claim against a taxpayer’s property when the taxpayer neglects or fails to pay a tax debt. The lien protects…"
+description: "Does a federal tax lien survive a taxpayer's death, and can the IRS reach trust assets under a power of appointment? Denver tax attorneys explain IRC 6321 vs. 6324."
 ---
 A federal tax lien is the government’s legal claim against a taxpayer’s property when the taxpayer neglects or fails to pay a tax debt.  The lien protects the government’s interest in all the taxpayer’s property, including real estate, personal property, and financial assets.  So what happens when a taxpayer who possesses a power of appointment[\[1\]](#_ftn1) passes away owing federal income taxes?  The following explains how tax liens arise, what they attach to, and their impact on a decedent’s estate. 
 

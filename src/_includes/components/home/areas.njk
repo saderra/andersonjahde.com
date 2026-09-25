@@ -1,0 +1,18 @@
+<div class="bg-white border-t border-stone-200">
+    <div class="container py-12 md:py-14">
+        <div class="max-w-3xl mx-auto text-center">
+            <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">Areas We Serve</p>
+            <h2 class="font-display text-2xl md:text-3xl font-semibold text-stone-900">Tax Attorneys for Denver and All of Colorado</h2>
+            <p class="text-stone-600 leading-7 mt-4">
+                From our office in the Denver Tech Center, we represent taxpayers throughout the Front Range and across Colorado in IRS and Colorado Department of Revenue matters. Because federal tax disputes are handled before the IRS, the United States Tax Court, and the federal courts, we also represent clients from other states.
+            </p>
+            <ul class="flex flex-wrap justify-center gap-x-3 gap-y-2 mt-6 text-sm text-stone-600">
+                {% for city in site.areasServed %}
+                <li class="px-3 py-1 rounded-full bg-stone-100 border border-stone-200">{{ city }}</li>
+                {% endfor %}
+                <li class="px-3 py-1 rounded-full bg-stone-100 border border-stone-200">All of Colorado</li>
+            </ul>
+            <p class="text-sm text-stone-500 mt-6">Have a question before you call? Read our <a href="/faq/" class="font-semibold text-accent hover:underline">tax attorney FAQ</a>.</p>
+        </div>
+    </div>
+</div>

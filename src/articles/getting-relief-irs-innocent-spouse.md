@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2018-05-04
 summary: "A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explos"
-description: "A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly…"
+description: "Being pursued by the IRS for a spouse's or ex-spouse's taxes? Denver tax attorneys explain the three types of innocent spouse relief and who qualifies."
 ---
 A common problem we see is where the IRS is pursuing one spouse for taxes attributable to his or her spouse, or ex-spouse. These are particularly difficult in divorce situations since not only are many divorces sufficiently traumatic in and of themselves but adding the IRS to the mix makes it explosive.
 

@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2017-04-12
 summary: "Owning rental property used to be an endeavor of the wealthy. But in the new sharing economy, legions of people have become mini-entrepreneurs. Thanks to Airbnb and other sharing sites, anyone can easily offer up a couch, a spare room or the entire house for a short-term rental (usually defined as f"
-description: "Owning rental property used to be an endeavor of the wealthy. But in the new sharing economy, legions of people have become mini-entrepreneurs. Thanks to…"
+description: "Thinking about Airbnb or a short-term rental in Denver? Licensing rules, Denver Lodger's Tax, and the income tax consequences of renting a room in your home."
 ---
 Owning rental property used to be an endeavor of the wealthy.  But in the new sharing economy, legions of people have become mini-entrepreneurs.  Thanks to Airbnb and other sharing sites, anyone can easily offer up a couch, a spare room or the entire house for a short-term rental (usually defined as fewer than 30 days).  However, there’s more to renting out your extra space than simply pocketing the cash.  If you’re thinking of becoming a landlord in your own home, keep the following in mind.
 

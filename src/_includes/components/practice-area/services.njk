@@ -14,8 +14,13 @@
                     {{ icon(item.icon, "w-6 h-6") }}
                 </div>
                 {% endif %}
-                <h3 class="font-display text-xl font-semibold text-stone-900 mb-3">{{ item.title }}</h3>
+                <h3 class="font-display text-xl font-semibold text-stone-900 mb-3">
+                    {% if item.url %}<a href="{{ item.url }}" class="hover:text-accent transition-colors">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+                </h3>
                 <p class="text-stone-600 leading-7 flex-1">{{ item.description }}</p>
+                {% if item.url %}
+                <a href="{{ item.url }}" class="inline-flex items-center gap-1 mt-5 text-sm font-semibold text-accent hover:underline">Learn more &raquo;</a>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

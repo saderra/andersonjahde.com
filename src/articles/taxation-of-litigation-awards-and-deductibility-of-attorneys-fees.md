@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2019-12-31
 summary: "We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit. Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable. For personal injury actions, however, the tax consequences have changed quit"
-description: "We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit. Damages received as the result of a breach of…"
+description: "Is your lawsuit settlement taxable? Which damages the IRS taxes, the personal injury exclusion, and when attorneys' fees are deductible. From Denver tax attorneys."
 ---
 We are frequently asked about the tax consequences of receiving a judgment or settlement in a lawsuit.  Damages received as the result of a breach of contract or property damage have always been, and continue to be, taxable.  For personal injury actions, however, the tax consequences have changed quite a bit over the last 20 years.
 

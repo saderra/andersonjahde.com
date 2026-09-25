@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2016-01-26
 summary: "The IRS frequently disallows deductions for activities it believes are \"not engaged in for profit.\" \"Hobby Losses\", as the IRS calls them, often involve expenses for horse or dog breeding activities, small scale farming, small livestock operations, airplanes, etc. Because these businesses often grow"
-description: "The IRS frequently disallows deductions for activities it believes are “not engaged in for profit.” “Hobby Losses”, as the IRS calls them, often involve…"
+description: "The IRS 'hobby loss' rules explained: how the IRS decides an activity is not for profit, the factors it weighs, and how to defend deductions in an audit."
 ---
 The IRS frequently disallows deductions for activities it believes are “not engaged in for profit.” “Hobby Losses”, as the IRS calls them, often involve expenses for horse or dog breeding activities, small scale farming, small livestock operations, airplanes, etc. Because these businesses often grow out of hobbies, they tend to be started without adequate business planning and advice. For some, a business plan and other business like activities established at the outset of the business can make the difference between an activity that is engaged for profit and one the IRS determines is not. The attorneys and Anderson & Jahde represent businesses in “Hobby Loss” audits and litigation and they can help new business owners understand and implement procedures to help demonstrate that a new business is engaged in with the requisite profit motive.
 

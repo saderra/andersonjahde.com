@@ -1,0 +1,18 @@
+---
+title: "Frequently Asked Questions About Hiring a Tax Attorney"
+seoTitle: "Tax Attorney FAQ | Anderson & Jahde, Denver Tax Attorneys"
+description: "Straight answers from Denver tax controversy attorneys: is a tax attorney worth the cost, when to hire one, tax attorney vs. CPA, and what qualifications matter."
+layout: page
+type: faq-index
+permalink: /faq/
+---
+<p>People contacted by the IRS or the Colorado Department of Revenue ask us the same handful of questions first. Each answer below comes from attorneys who have handled tax controversies exclusively since 1995.</p>
+
+<ul>
+{% for item in faqs %}
+  <li><a href="/faq/{{ item.slug }}/">{{ item.question }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Still have a question?</h2>
+<p>Call <a href="tel:{{ site.author.phoneHref }}">{{ site.author.phone }}</a> or <a href="/contact/">contact us</a> to schedule a consultation with a Denver tax attorney.</p>

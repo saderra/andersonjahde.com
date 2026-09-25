@@ -55,4 +55,5 @@ pageFaqs:
   - question: "What are my options if my business owes back taxes?"
     answer:
       - "Depending on the amount owed, the age of the liability, and ability to pay, options include installment agreements, offers in compromise, bankruptcy, and Currently Not Collectible status — each with different tradeoffs for ongoing operations."
+seoTitle: "Business Tax Dispute Attorneys in Denver | Anderson & Jahde"
 ---

@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2018-09-17
 summary: "The Successor Trustee If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust. A trustee is a person or trust company you select and name in your trust. With a living trust that you create, you are the Grantor of the trust and you are gener"
-description: "The Successor Trustee. If you have completed your estate plan using a living trust, you likely have named successor trustees of your trust. A trustee is a…"
+description: "What does a successor trustee or personal representative actually do when you die or become incapacitated? Denver estate attorneys walk through the duties step by step."
 ---
 ### _The Successor Trustee_
 

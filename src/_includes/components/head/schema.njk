@@ -1,108 +1,124 @@
-{% if type == "post" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ title | jsonEscape | safe }}",
-  "image": "{% if cover %}{{ site.url + cover }}{% else %}{{ site.logo }}{% endif %}",
-  "datePublished": "{{ page.date | htmlDateString }}",
-  "author": {
-    "@type": "Organization",
-    "name": "{{ site.author.name | jsonEscape | safe }}",
-    "url": "{{ site.author.url }}"
-  },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title | jsonEscape | safe }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.logo }}"
-    }
-  },
-  "description": "{{ (description or site.description) | jsonEscape | safe }}"
-}
-</script>
-{% elif type == "attorney" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "{{ title | jsonEscape | safe }}",
-  "url": "{{ site.url }}{{ page.url }}",
-  "image": "{% if headshot %}{{ site.url + headshot }}{% else %}{{ site.logo }}{% endif %}",
-  "jobTitle": "Attorney",
-  "worksFor": {
-    "@type": "LegalService",
-    "name": "{{ site.title | jsonEscape | safe }}",
-    "url": "{{ site.url }}"
-  }
-}
-</script>
-{% elif type == "practice-area" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "{{ title | jsonEscape | safe }}",
-  "description": "{{ (description or site.description) | jsonEscape | safe }}",
-  "url": "{{ site.url }}{{ page.url }}",
-  "areaServed": "Colorado",
-  "provider": {
-    "@type": "LegalService",
-    "name": "{{ site.title | jsonEscape | safe }}",
-    "url": "{{ site.url }}"
-  }
-}
-</script>
-{% else %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
+{#- Shared organization node, referenced by @id from every page type. -#}
+{%- set orgId = site.url + "/#organization" -%}
+{%- set areaServed = [] -%}
+{%- for city in site.areasServed -%}
+  {%- set _ = areaServed.push({ "@type": "City", "name": city, "containedInPlace": { "@type": "State", "name": "Colorado" } }) -%}
+{%- endfor -%}
+{%- set _ = areaServed.push({ "@type": "State", "name": "Colorado" }) -%}
+
+{%- set org = {
   "@type": "LegalService",
-  "name": "{{ site.title | jsonEscape | safe }}",
-  "url": "{{ site.url }}",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "{{ site.logo }}"
-  },
-  "image": "{{ site.logo }}",
-  "telephone": "{{ site.author.phoneHref }}",
+  "@id": orgId,
+  "name": site.title,
+  "url": site.url + "/",
+  "logo": { "@type": "ImageObject", "url": site.logo },
+  "image": site.logo,
+  "description": site.description,
+  "telephone": site.author.phoneHref,
+  "foundingDate": site.foundingYear,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "{{ site.address.line1 | jsonEscape | safe }}, {{ site.address.line2 | jsonEscape | safe }}",
-    "addressLocality": "{{ site.address.city | jsonEscape | safe }}",
-    "addressRegion": "{{ site.address.state }}",
-    "postalCode": "{{ site.address.zip }}",
+    "streetAddress": site.address.line1 + ", " + site.address.line2,
+    "addressLocality": site.address.city,
+    "addressRegion": site.address.state,
+    "postalCode": site.address.zip,
     "addressCountry": "US"
-  }{% if site.social.instagram %},
-  "sameAs": [
-    "https://www.instagram.com/{{ site.social.instagram }}"
-  ]{% endif %}
-}
-</script>
-{% endif %}
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": site.map.lat, "longitude": site.map.lng },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=" + site.map.lat + "," + site.map.lng,
+  "areaServed": areaServed,
+  "knowsAbout": site.knowsAbout
+} -%}
+{%- if site.profiles and site.profiles.length -%}{%- set _ = (org | setAttribute("sameAs", site.profiles)) -%}{%- endif -%}
+{%- if site.hours and site.hours.opens and site.hours.closes -%}
+  {%- set _ = (org | setAttribute("openingHoursSpecification", [{ "@type": "OpeningHoursSpecification", "dayOfWeek": site.hours.days, "opens": site.hours.opens, "closes": site.hours.closes }])) -%}
+{%- endif -%}
 
-{% if type == "post" or type == "attorney" or type == "practice-area" %}
-  {% if type == "post" %}
-    {% set crumbParentName = "Articles" %}
-    {% set crumbParentUrl = "/articles/" %}
-  {% elif type == "attorney" %}
-    {% set crumbParentName = "Attorneys" %}
-    {% set crumbParentUrl = "/attorneys/" %}
-  {% else %}
-    {% set crumbParentName = "Practice Areas" %}
-    {% set crumbParentUrl = "/practice-areas/" %}
-  {% endif %}
+{%- set graph = [org] -%}
+{%- set pageUrl = site.url + page.url -%}
+
+{%- if type == "post" -%}
+  {%- set _ = graph.push({
+    "@type": "BlogPosting",
+    "@id": pageUrl + "#article",
+    "headline": title,
+    "image": (site.url + cover) if cover else site.logo,
+    "datePublished": page.date | htmlDateString,
+    "dateModified": (updated or page.date) | htmlDateString,
+    "author": { "@id": orgId },
+    "publisher": { "@id": orgId },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+    "description": description or site.description,
+    "inLanguage": "en-US"
+  }) -%}
+{%- elif type == "attorney" -%}
+  {%- set person = {
+    "@type": "Person",
+    "@id": pageUrl + "#person",
+    "name": title,
+    "url": pageUrl,
+    "image": (site.url + headshot) if headshot else site.logo,
+    "description": description,
+    "jobTitle": jobTitle or role or "Attorney",
+    "worksFor": { "@id": orgId },
+    "workLocation": { "@type": "Place", "address": org.address }
+  } -%}
+  {%- if alumniOf -%}
+    {%- set schools = [] -%}
+    {%- for school in alumniOf -%}{%- set _ = schools.push({ "@type": "CollegeOrUniversity", "name": school }) -%}{%- endfor -%}
+    {%- set _ = (person | setAttribute("alumniOf", schools)) -%}
+  {%- endif -%}
+  {%- if knowsAbout -%}{%- set _ = (person | setAttribute("knowsAbout", knowsAbout)) -%}{%- endif -%}
+  {%- if profiles and profiles.length -%}{%- set _ = (person | setAttribute("sameAs", profiles)) -%}{%- endif -%}
+  {%- set _ = graph.push(person) -%}
+{%- elif type == "practice-area" -%}
+  {%- set _ = graph.push({
+    "@type": "Service",
+    "@id": pageUrl + "#service",
+    "serviceType": title,
+    "name": title,
+    "description": description or site.description,
+    "url": pageUrl,
+    "areaServed": areaServed,
+    "provider": { "@id": orgId }
+  }) -%}
+{%- elif type == "faq" -%}
+  {%- set _ = graph.push({
+    "@type": "FAQPage",
+    "@id": pageUrl + "#faq",
+    "url": pageUrl,
+    "mainEntity": [{
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": { "@type": "Answer", "text": faq.answer | join(" ") }
+    }]
+  }) -%}
+{%- elif type == "faq-index" -%}
+  {%- set items = [] -%}
+  {%- for item in faqs -%}
+    {%- set _ = items.push({ "@type": "Question", "name": item.question, "url": site.url + "/faq/" + item.slug + "/", "acceptedAnswer": { "@type": "Answer", "text": item.answer | join(" ") } }) -%}
+  {%- endfor -%}
+  {%- set _ = graph.push({ "@type": "FAQPage", "@id": pageUrl + "#faq", "url": pageUrl, "mainEntity": items }) -%}
+{%- endif -%}
+
+{#- Breadcrumbs for every page below the homepage. -#}
+{%- if page.url != "/" -%}
+  {%- set crumbs = [{ "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" }] -%}
+  {%- set parentName = "" -%}
+  {%- if type == "post" -%}{%- set parentName = "Articles" -%}{%- set parentUrl = "/articles/" -%}
+  {%- elif type == "attorney" -%}{%- set parentName = "Attorneys" -%}{%- set parentUrl = "/attorneys/" -%}
+  {%- elif type == "practice-area" -%}{%- set parentName = "Practice Areas" -%}{%- set parentUrl = "/practice-areas/" -%}
+  {%- elif type == "faq" -%}{%- set parentName = "FAQ" -%}{%- set parentUrl = "/faq/" -%}
+  {%- endif -%}
+  {%- if parentName -%}
+    {%- set _ = crumbs.push({ "@type": "ListItem", "position": 2, "name": parentName, "item": site.url + parentUrl }) -%}
+    {%- set _ = crumbs.push({ "@type": "ListItem", "position": 3, "name": title, "item": pageUrl }) -%}
+  {%- else -%}
+    {%- set _ = crumbs.push({ "@type": "ListItem", "position": 2, "name": title, "item": pageUrl }) -%}
+  {%- endif -%}
+  {%- set _ = graph.push({ "@type": "BreadcrumbList", "itemListElement": crumbs }) -%}
+{%- endif -%}
+
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
-    { "@type": "ListItem", "position": 2, "name": "{{ crumbParentName }}", "item": "{{ site.url }}{{ crumbParentUrl }}" },
-    { "@type": "ListItem", "position": 3, "name": "{{ title | jsonEscape | safe }}", "item": "{{ site.url }}{{ page.url }}" }
-  ]
-}
+{{ { "@context": "https://schema.org", "@graph": graph } | jsonify | safe }}
 </script>
-{% endif %}

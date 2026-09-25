@@ -6,12 +6,22 @@ tags:
 headshot: /assets/images/attorneys/kevin-sm-min.jpg
 role: "Partner"
 summary: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorit"
-description: "Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the…"
+description: "Kevin Planegger, Partner at Anderson & Jahde in Denver, has nearly 30 years in tax controversy, including precedent-setting Collection Due Process cases in the Tenth Circuit."
 order: 3
 eleventyNavigation:
   key: "Kevin A. Planegger"
   parent: Attorneys
   order: 40
+alumniOf:
+  - "University of Denver Sturm College of Law"
+  - "Arizona State University"
+  - "University of California, Irvine"
+knowsAbout:
+  - "IRS collection defense"
+  - "Collection Due Process hearings"
+  - "Criminal tax representation"
+  - "Employment tax disputes"
+  - "Offers in compromise"
 ---
 Kevin Planegger is a partner at Anderson & Jahde, P.C., where he represents individuals, businesses, and fiduciaries in complex matters involving the Internal Revenue Service and state taxing authorities. With nearly 30 years of experience focused on tax controversy and litigation, Kevin has successfully represented clients in IRS audits, appeals, collection actions, criminal tax investigations, and U.S. Tax Court and federal court litigation.
 

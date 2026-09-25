@@ -58,4 +58,5 @@ pageFaqs:
   - question: "Can an audit turn into something worse?"
     answer:
       - "It can, if handled poorly. Facts developed during a civil audit can sometimes support a criminal referral. Having an attorney manage the audit from the start helps prevent that outcome."
+seoTitle: "IRS Audit & Appeals Attorneys in Denver | Anderson & Jahde"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is the Trust Fund Recovery Penalty?￼"
+title: "What is the Trust Fund Recovery Penalty?"
 slug: what-is-the-trust-fund-recovery-penalty
 tags:
   - articles
@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2022-04-28
 summary: "The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees. It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages. Although referred to as a pena"
-description: "The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees. It is…"
+description: "The Trust Fund Recovery Penalty lets the IRS collect a business's unpaid payroll taxes from owners and employees personally. Who is a 'responsible person' and how to respond."
 ---
 The Trust Fund Recovery Penalty (“TFRP”) relates to employment taxes (IRS Form 941) due by an employer to the IRS for wages paid to its employees.  It is the employees’ portion of income tax, Social Security, and Medicare, withheld by the employer from employees’ wages.  Although referred to as a penalty, it is a tax.
 

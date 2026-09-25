@@ -5,13 +5,16 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/tom.jpg
 summary: "Retired Tom Hodel joined Anderson & Jahde as of counsel in May 2015. He has over 40 years of experience in tax and probate litigation, including service as a trial attorney in the offices of IRS Chief"
-description: "Retired. Tom Hodel joined Anderson & Jahde as of counsel in May 2015. He has over 40 years of experience in tax and probate litigation, including service…"
+description: "Tom Hodel, retired of counsel at Anderson & Jahde, brought 40+ years of tax and probate litigation experience, including service as an IRS Chief Counsel trial attorney."
 order: 8
 status: retired
 eleventyNavigation:
   key: "Thomas Hodel"
   parent: Attorneys
   order: 90
+alumniOf:
+  - "University of Minnesota Law School"
+  - "University of Minnesota"
 ---
 Tom Hodel joined Anderson & Jahde as of counsel in May 2015. He has over 40 years of experience in tax and probate litigation, including service as a trial attorney in the offices of IRS Chief Counsel. Mr. Hodel has written articles for the _[Colorado Lawyer](https://www.cobar.org/tcl/tcl_vol.cfm?issue=current)_ regarding civil tax procedures and TEFRA partnership provisions. He also has lectured at [CLE](https://cle.cobar.org/) seminars and luncheons concerning civil tax cases and changes in federal tax laws.
 

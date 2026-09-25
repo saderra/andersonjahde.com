@@ -142,3 +142,28 @@ files) before deploying.
 5. Hand-edit `src/site.webmanifest` and `src/cms/config.yml` (not
    templated — see §6).
 6. `npm run build` and spot-check the output.
+
+## SEO conventions
+
+- **`seoTitle`** (optional front matter) overrides the `<title>`/`og:title`.
+  Use it to lead with the search phrase (e.g. "IRS Audit & Appeals Attorneys
+  in Denver | Anderson & Jahde") while `title` stays the on-page heading.
+- **`description`** should be one or two full sentences under ~155
+  characters. The WordPress import left most of them truncated with an
+  ellipsis; rewrite them as articles are reviewed.
+- **`updated`** (articles, `YYYY-MM-DD`) marks when an article was last
+  re-read and corrected. It renders as "Last reviewed" on the post, feeds
+  `dateModified` in the JSON-LD and `<lastmod>` in the sitemap. Only set it
+  after a real review; bumping it without changes does nothing for ranking.
+- **`draft: true`** keeps a template out of the production build
+  (`ELEVENTY_PRODUCTION=true`), including the sitemap and feeds, while it
+  still renders under `npm start` for local preview.
+- JSON-LD for every page is assembled in
+  `src/_includes/components/head/schema.njk` as a single `@graph`. Firm-wide
+  fields live in `src/_data/site.json`: `areasServed`, `knowsAbout`,
+  `profiles` (sameAs URLs such as the Google Business Profile, LinkedIn,
+  Avvo) and `hours` (leave `opens`/`closes` blank to omit opening hours).
+  Attorney pages accept optional `alumniOf`, `knowsAbout`, `profiles`, and
+  `jobTitle`.
+- FAQ answers live in `src/_data/faqs.json`; each renders at
+  `/faq/<slug>/` (from `src/faq/faq.njk`) and on the homepage accordion.

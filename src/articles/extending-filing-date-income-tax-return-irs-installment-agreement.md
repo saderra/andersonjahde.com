@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2018-06-18
 summary: "When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement. This is known as b"
-description: "When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all…"
+description: "Filing an extension while on an IRS installment agreement can put you in default. Denver tax attorneys explain why and how to stay in compliance."
 ---
 When a taxpayer agrees to pay the IRS through a monthly Installment Agreement, the terms of the agreement require that the taxpayer (1) timely file all required federal tax returns and (2) timely pay all federal tax obligations for the entire duration of the Installment Agreement.  This is known as being “in compliance.”  If a taxpayer is not in compliance with all required filing and payment obligations, the IRS can (and will) terminate the Installment Agreement.
 

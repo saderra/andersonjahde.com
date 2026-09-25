@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2017-11-15
 summary: "If you have an outstanding balance due the IRS that remains unpaid after the IRS gives notice and demands payment, then a federal tax lien automatically arises. The lien applies to all real and personal property of a taxpayer, including any after-acquired property. To protect its interest in a taxpa"
-description: "If you have an outstanding balance due the IRS that remains unpaid after the IRS gives notice and demands payment, then a federal tax lien automatically…"
+description: "How does an IRS tax lien affect your property, credit, and ability to sell or refinance? Denver tax attorneys explain federal tax liens and how to get one released."
 ---
 If you have an outstanding balance due the IRS that remains unpaid after the IRS gives notice and demands payment, then a federal tax lien automatically arises.  The lien applies to all real and personal property of a taxpayer, including any after-acquired property.
 

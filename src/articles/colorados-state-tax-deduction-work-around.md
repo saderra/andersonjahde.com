@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2022-05-25
 summary: "Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals' deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation's burden on their residents. Colorado's attempt to lessen the impact on small business owners—the \"SALT Parity Act\"—wa"
-description: "Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals’ deduction for state and local taxes to $10,000. Since, many states have…"
+description: "Colorado's SALT Parity Act lets partnerships and S corporations elect entity-level tax to work around the $10,000 SALT cap. How the election works and who benefits."
 ---
 Under the Tax Cuts and Jobs Act of 2017, Congress limited individuals’ deduction for state and local taxes to $10,000. Since, many states have experimented to reduce this limitation’s burden on their residents.
 

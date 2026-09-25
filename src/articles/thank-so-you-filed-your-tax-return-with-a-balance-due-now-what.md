@@ -1,5 +1,5 @@
 ---
-title: "Thank So You Filed Your Tax Return With A Balance Due— Now What?￼"
+title: "Thank So You Filed Your Tax Return With A Balance Due— Now What?"
 slug: thank-so-you-filed-your-tax-return-with-a-balance-due-now-what
 tags:
   - articles

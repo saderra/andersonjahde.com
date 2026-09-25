@@ -5,12 +5,21 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/Zach-web.jpg
 summary: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fu"
-description: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters…"
+description: "Zachary Hatch is an Enrolled Agent at Anderson & Jahde in Denver with 14+ years handling IRS audits, appeals, collections, offers in compromise, and Trust Fund Recovery Penalty cases."
 order: 10
 eleventyNavigation:
   key: "Zachary Hatch"
   parent: Attorneys
   order: 110
+jobTitle: "Enrolled Agent"
+alumniOf:
+  - "University of Colorado Boulder"
+knowsAbout:
+  - "IRS audits and appeals"
+  - "IRS collections"
+  - "Offers in compromise"
+  - "Installment agreements"
+  - "Trust Fund Recovery Penalty"
 ---
 Zachary Hatch is an Enrolled Agent at Anderson & Jahde, P.C. He represents individuals and businesses in a wide range of federal and state tax matters, including audits, appeals, collections, trust fund recovery penalties, and offers in compromise. Zach brings a strategic, client-focused approach to helping taxpayers work through complex and often stressful tax issues with clarity and confidence.
 

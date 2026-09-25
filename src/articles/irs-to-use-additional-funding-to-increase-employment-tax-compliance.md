@@ -1,5 +1,5 @@
 ---
-title: "IRS to Use Additional Funding To Increase Employment Tax Compliance￼"
+title: "IRS to Use Additional Funding To Increase Employment Tax Compliance"
 slug: irs-to-use-additional-funding-to-increase-employment-tax-compliance
 tags:
   - articles

@@ -5,13 +5,16 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/richard.jpg
 summary: "Richard has passed away, leaving behind a legacy of personal and professional accomplishments. He was an admired man, and his passing is a loss for those closest to him, Anderson & Jahde, and to the f"
-description: "Richard has passed away, leaving behind a legacy of personal and professional accomplishments. He was an admired man, and his passing is a loss for those…"
+description: "In memoriam: Richard D'Estrada spent 28 years as a senior IRS Chief Counsel trial attorney before joining Anderson & Jahde to represent taxpayers in civil and criminal tax matters."
 order: 6
 status: deceased
 eleventyNavigation:
   key: "Richard D'Estrada"
   parent: Attorneys
   order: 70
+alumniOf:
+  - "Marquette University Law School"
+  - "University of Minnesota"
 ---
 Richard has passed away, leaving behind a legacy of personal and professional accomplishments. He was an admired man, and his passing is a loss for those closest to him, Anderson & Jahde, and to the field of law. We already miss you.
 

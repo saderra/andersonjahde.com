@@ -49,4 +49,5 @@ pageFaqs:
   - question: "Will the estate I'm administering owe federal estate tax?"
     answer:
       - "It depends on the total value of the estate compared to the federal estate tax exemption. Because we handle both tax and estate matters, we can help you determine taxable status and file the required return if one is needed."
+seoTitle: "Estate & Trust Administration Attorneys in Denver | Anderson & Jahde"
 ---

@@ -7,8 +7,10 @@ categories:
   - Articles
 date: 2021-11-30
 summary: "A Q&A guide to remote sellers' exposure to sales and use tax in Colorado after the US Supreme Court's decision in South Dakota v. Wayfair, Inc. in 2018."
-description: "A Q&A guide to remote sellers' exposure to sales and use tax in Colorado after the US Supreme Court's decision in South Dakota v. Wayfair, Inc. in 2018."
----### Does Colorado require remote sellers to collect sales and use tax on sales of goods or services made into your state?
+description: "Colorado sales and use tax rules for remote and online sellers, in Q&A form: economic nexus thresholds, state vs. home-rule cities, and how to register and file."
+---
+
+### Does Colorado require remote sellers to collect sales and use tax on sales of goods or services made into your state?
 
 In Colorado, with limited exceptions, all retailers must collect, account for, and remit state-collected sales taxes on taxable sales delivered to customers in the state (Colo. Rev. Stat. Ann.\[FS(P1\]  § 39-26-105(1)(a)(I)(A), (B), and (1.5)). A retailer (or vendor) is “a person **doing business in this state** known to the trade and public as such, and selling to the user or consumer, and not for resale” (Colo. Rev. Stat. Ann. § 39-26-102(8)) (emphasis added).
 

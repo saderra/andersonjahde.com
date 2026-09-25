@@ -5,12 +5,21 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/woody.jpg
 summary: "Woodson Herring has practiced law for over 30 years. In addition to taxation, his areas of focus include business law, real estate, entity formation and restructuring, mergers and acquisitions, estate"
-description: "Woodson Herring has practiced law for over 30 years. In addition to taxation, his areas of focus include business law, real estate, entity formation and…"
+description: "Woodson Herring is a Denver attorney with over 30 years in taxation, business law, real estate, mergers and acquisitions, estate planning, and estate and trust administration."
 order: 7
 eleventyNavigation:
   key: "Woodson Herring"
   parent: Attorneys
   order: 80
+alumniOf:
+  - "University of Tennessee"
+  - "University of Denver Sturm College of Law"
+knowsAbout:
+  - "Business law"
+  - "Real estate"
+  - "Entity formation"
+  - "Mergers and acquisitions"
+  - "Estate planning"
 ---
 Woodson Herring has practiced law for over 30 years. In addition to taxation, his areas of focus include business law, real estate, entity formation and restructuring, mergers and acquisitions, estate planning and estate and trust administration. Mr. Herring earned his M.B.A. and J.D. from the University of Tennessee and his LL.M. in Taxation from the University of Denver. Woodson is a member of the Douglas County Bar Association, and the Colorado Bar Association.
 

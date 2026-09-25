@@ -1,5 +1,5 @@
 ---
-title: "IRS Includes ERC Promoters and “Offer Mills” in 2023 “Dirty Dozen” List￼"
+title: "IRS Includes ERC Promoters and “Offer Mills” in 2023 “Dirty Dozen” List"
 slug: irs-includes-erc-promoters-and-offer-mills-in-2023-dirty-dozen-list
 tags:
   - articles

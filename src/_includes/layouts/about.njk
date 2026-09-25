@@ -1,0 +1,67 @@
+{% extends "layouts/base.njk" %}
+{% block mainContent %}
+
+<div class="bg-stone-100">
+    <div class="container pt-10 pb-16 md:pt-16 md:pb-20 text-center">
+        <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-3">{{ eyebrow or "About the Firm" }}</p>
+
+        <h1 class="font-display text-4xl md:text-5xl font-semibold text-stone-900 max-w-3xl mx-auto leading-tight">{{ title }}</h1>
+
+        {% if excerpt %}
+        <p class="text-stone-600 text-lg leading-8 mt-6 max-w-2xl mx-auto">{{ excerpt }}</p>
+        {% endif %}
+
+        <div class="flex flex-wrap items-center justify-center gap-6 mt-8 lg:hidden">
+            <button type="button" @click="consultOpen = true" class="inline-flex items-center justify-center px-8 py-4 bg-accent hover:bg-accent-dark text-white font-medium rounded-md transition-colors">
+                Schedule a Consultation
+            </button>
+            <a href="tel:{{ site.author.phoneHref }}" class="inline-flex items-center gap-2 text-stone-700 hover:text-accent font-medium transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h1.5a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+                {{ site.author.phone }}
+            </a>
+        </div>
+    </div>
+</div>
+
+{% include "components/practice-area/intro.njk" %}
+
+{# Firm story: photo beside the page body #}
+{% if content and (content | length) > 20 %}
+<div class="bg-stone-50">
+    <div class="container py-14 md:py-16">
+        <div class="text-center mb-8 md:mb-10">
+            <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-accent font-semibold mb-2">{{ storyEyebrow or "Our Story" }}</p>
+            <h2 class="font-display text-2xl md:text-3xl font-semibold text-stone-900">{{ storyHeading or "A Denver Tax Law Firm Since 1995" }}</h2>
+        </div>
+        <div class="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
+            {% if photo %}
+            <div class="lg:col-span-2 lg:sticky lg:top-28">
+                {% image photo, photoAlt or title, { widths: [400, 700, 1024], sizes: "(min-width: 1024px) 40vw, 100vw", class: "w-full h-auto rounded-xl shadow-md" } %}
+                {% if photoCaption %}<p class="text-sm text-stone-500 mt-3 text-center">{{ photoCaption }}</p>{% endif %}
+            </div>
+            {% endif %}
+            <div class="{% if photo %}lg:col-span-3{% else %}lg:col-span-5 max-w-3xl mx-auto{% endif %} prose prose-stone max-w-none prose-p:text-stone-600 prose-p:leading-8 prose-h2:font-display prose-h2:text-xl md:prose-h2:text-2xl prose-h2:font-semibold prose-h2:text-stone-900 prose-a:text-accent prose-a:font-semibold prose-a:no-underline hover:prose-a:underline">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% include "components/practice-area/services.njk" %}
+{% include "components/practice-area/callout.njk" %}
+{% include "components/practice-area/why-us.njk" %}
+
+{# Attorneys preview, same block as the homepage #}
+<div class="bg-stone-200 py-14 md:py-16">
+    <div class="container grid gap-0 lg:gap-10 grid-cols-12">
+        {% include "components/home/attorneys.njk" %}
+    </div>
+</div>
+
+{% include "components/home/areas.njk" %}
+{% include "components/home/cta.njk" %}
+
+{% endblock %}

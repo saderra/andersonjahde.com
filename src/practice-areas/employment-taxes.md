@@ -58,4 +58,5 @@ pageFaqs:
   - question: "What happens once a Revenue Officer opens a case against my business?"
     answer:
       - "A Revenue Officer will investigate the failure to deposit and begin building a case for personal liability under the Trust Fund Recovery Penalty against responsible individuals, in addition to pursuing the business itself. Early representation matters — by the time the IRS formally notifies an individual of potential liability, the case is often already well developed."
+seoTitle: "Payroll & Employment Tax Attorneys in Denver | Anderson & Jahde"
 ---

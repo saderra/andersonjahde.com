@@ -9,4 +9,5 @@ pagination:
 eleventyNavigation:
   key: Articles
   order: 500
+seoTitle: "Tax Law Articles & IRS Updates | Anderson & Jahde, Denver"
 ---

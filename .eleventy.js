@@ -32,14 +32,24 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/_headers");
   eleventyConfig.addPassthroughCopy({ "node_modules/alpinejs/dist/cdn.min.js": "assets/js/alpine.js" });
 
-  // DATE FORMATTING
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  // DRAFTS
+  // Any template with `draft: true` in its front matter is built locally
+  // (so it can be previewed at localhost) but skipped from the production
+  // build, so it never reaches the live site, sitemap, or feeds.
+  eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+    if (data.draft && process.env.ELEVENTY_PRODUCTION) return false;
   });
 
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-  });
+  // DATE FORMATTING
+  // Front-matter dates are parsed as UTC midnight, so every formatter reads
+  // them in UTC; formatting in local time would shift them a day earlier in
+  // Denver. Accepts Date objects or ISO strings (e.g. an `updated` field).
+  const toDateTime = (value) => value instanceof Date
+    ? DateTime.fromJSDate(value, { zone: 'utc' })
+    : DateTime.fromISO(String(value), { zone: 'utc' });
+
+  eleventyConfig.addFilter('htmlDateString', (value) => toDateTime(value).toFormat('yyyy-LL-dd'));
+  eleventyConfig.addFilter("postDate", (value) => toDateTime(value).toLocaleString(DateTime.DATE_MED));
 
   //My methods
   
@@ -72,6 +82,9 @@ module.exports = async function (eleventyConfig) {
 
   // FILTERS
   eleventyConfig.addFilter('jsonify', (obj) => JSON.stringify(obj));
+  // Lets a template add an optional key to an object built with {% set %},
+  // used by the JSON-LD schema component to include fields only when set.
+  eleventyConfig.addFilter('setAttribute', (obj, key, value) => { obj[key] = value; return obj; });
   eleventyConfig.addFilter('jsonEscape', (str) => JSON.stringify(String(str)).slice(1, -1));
 
   // Splits rendered markdown HTML into a lead block (content before the

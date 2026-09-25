@@ -6,12 +6,23 @@ tags:
 headshot: /assets/images/attorneys/briana-sm-min.jpg
 role: "Partner"
 summary: "Briana Fehringer is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, and IRS Streamlined Fil"
-description: "Briana Fehringer is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and…"
+description: "Briana Fehringer, Partner at Anderson & Jahde in Denver, represents taxpayers in IRS audits, Tax Court cases, IRS and Colorado collections, and offshore disclosure programs."
 order: 1
 eleventyNavigation:
   key: "Briana Fehringer"
   parent: Attorneys
   order: 20
+alumniOf:
+  - "Georgetown University Law Center"
+  - "University of La Verne College of Law"
+profiles:
+  - "https://profiles.superlawyers.com/colorado/littleton/lawyer/briana-fehringer/00e06bd8-112d-4d42-8b3a-3a503571d353.html"
+knowsAbout:
+  - "IRS examinations"
+  - "U.S. Tax Court litigation"
+  - "IRS and state collections"
+  - "Streamlined Filing Compliance Procedures"
+  - "Accountant liability"
 ---
 Briana Fehringer is a Partner at Anderson & Jahde, P.C. She focuses her practice on representing taxpayers in IRS examinations, Tax Court cases, IRS and State collection cases, and IRS Streamlined Filing Compliance and Delinquent International Information Return Submission Procedures.
 

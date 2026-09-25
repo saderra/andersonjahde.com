@@ -1,5 +1,5 @@
 ---
-title: "Supreme Court Issues Important FBAR Penalty Decision￼"
+title: "Supreme Court Issues Important FBAR Penalty Decision"
 slug: supreme-court-issues-important-fbar-penalty-decision
 tags:
   - articles

@@ -5,12 +5,22 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/whitney-min.jpg
 summary: "Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate planning, and estate and trust administration. With a legal career spanning more than 12 years, Whitney "
-description: "Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate planning, and estate and trust administration. With a…"
+description: "Whitney Wolfe is a Denver tax and estate planning attorney at Anderson & Jahde handling IRS audits, penalty abatement, innocent spouse relief, wills, trusts, and estate administration."
 order: 4
 eleventyNavigation:
   key: "Whitney W. Wolfe"
   parent: Attorneys
   order: 50
+alumniOf:
+  - "University of Denver Sturm College of Law"
+  - "University of Mississippi School of Law"
+  - "College of Charleston"
+knowsAbout:
+  - "Tax audits"
+  - "Penalty abatement"
+  - "Innocent spouse relief"
+  - "Estate planning"
+  - "Estate and trust administration"
 ---
 Whitney Wolfe is an attorney at Anderson & Jahde, P.C., specializing in tax controversy, estate planning, and estate and trust administration. With a legal career spanning more than 12 years, Whitney has built a reputation for her detailed, results-driven approach. She is known for her compassion, dedication, and commitment to achieving the best possible outcomes for her clients.
 

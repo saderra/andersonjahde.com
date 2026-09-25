@@ -7,60 +7,93 @@
     "description": "Anderson & Jahde is a Denver, Colorado tax law firm helping individuals, businesses, and professionals resolve IRS and state tax disputes since 1995.",
     "logo": "https://andersonjahde.com/assets/images/logo.jpg",
     "favicon": "https://andersonjahde.com/assets/favicons/favicon.ico",
-
     "author": {
-      "firstName": "Anderson & Jahde",
-      "name": "Anderson & Jahde, P.C.",
-      "credentials": "Attorneys at Law",
-      "phone": "303-782-0003",
-      "phoneHref": "+13037820003",
-      "url": "https://andersonjahde.com/about/"
+        "firstName": "Anderson & Jahde",
+        "name": "Anderson & Jahde, P.C.",
+        "credentials": "Attorneys at Law",
+        "phone": "303-782-0003",
+        "phoneHref": "+13037820003",
+        "url": "https://andersonjahde.com/about/"
     },
-
     "address": {
-      "line1": "4582 South Ulster Street",
-      "line2": "Suite 1350",
-      "city": "Denver",
-      "state": "CO",
-      "zip": "80237"
+        "line1": "4582 South Ulster Street",
+        "line2": "Suite 1350",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80237"
     },
-
     "map": {
-      "lat": "39.6329755",
-      "lng": "-104.8984800",
-      "scale": "3067.123"
+        "lat": "39.6329755",
+        "lng": "-104.8984800",
+        "scale": "3067.123"
     },
-
     "social": {
-      "instagram": "",
-      "medium": "",
-      "threads": ""
+        "instagram": "",
+        "medium": "",
+        "threads": ""
     },
-
     "analytics": {
-      "fathom": "TURHYUUY",
-      "google": "",
-      "googleAdsId": "",
-      "googleAdsConversionLabels": {
-        "leadForm": "",
-        "scheduleForm": ""
-      }
+        "fathom": "TURHYUUY",
+        "google": "",
+        "googleAdsId": "",
+        "googleAdsConversionLabels": {
+            "leadForm": "",
+            "scheduleForm": ""
+        }
     },
-
     "clientPortalUrl": "",
-
     "feed": {
-      "subtitle": "Tax law articles and IRS updates from Anderson & Jahde, P.C.",
-      "filename": "feed.xml",
-      "path": "/feed/feed.xml",
-      "id": "https://andersonjahde.com/"
+        "subtitle": "Tax law articles and IRS updates from Anderson & Jahde, P.C.",
+        "filename": "feed.xml",
+        "path": "/feed/feed.xml",
+        "id": "https://andersonjahde.com/"
     },
     "jsonfeed": {
-      "path": "/feed/feed.json",
-      "url": "https://andersonjahde.com/feed/feed.json"
+        "path": "/feed/feed.json",
+        "url": "https://andersonjahde.com/feed/feed.json"
     },
-
     "sidebarintro": "Anderson & Jahde has been solving tax problems for individuals, businesses, and professionals in Denver since 1995.",
-
-    "homeIntro": "Individuals and businesses confronted with the ominous powers of the IRS and local taxing authorities face potentially serious consequences. The tax attorneys at Anderson & Jahde, including former IRS trial lawyers, have extensive experience handling civil and criminal tax disputes and trials. Since opening our doors in Denver, Colorado in 1995, our tax attorneys have solved countless tax problems with solutions as unique as each client."
-  }
+    "homeIntro": "Individuals and businesses confronted with the ominous powers of the IRS and local taxing authorities face potentially serious consequences. The tax attorneys at Anderson & Jahde, including former IRS trial lawyers, have extensive experience handling civil and criminal tax disputes and trials. Since opening our doors in Denver, Colorado in 1995, our tax attorneys have solved countless tax problems with solutions as unique as each client.",
+    "foundingYear": "1995",
+    "areasServed": [
+        "Denver",
+        "Aurora",
+        "Lakewood",
+        "Littleton",
+        "Englewood",
+        "Centennial",
+        "Greenwood Village",
+        "Highlands Ranch",
+        "Boulder",
+        "Colorado Springs",
+        "Fort Collins",
+        "Grand Junction"
+    ],
+    "profiles": [],
+    "hours": {
+        "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "",
+        "closes": ""
+    },
+    "knowsAbout": [
+        "Tax controversy",
+        "IRS audits and appeals",
+        "Tax litigation",
+        "Criminal tax defense",
+        "Offers in compromise",
+        "Installment agreements",
+        "Trust Fund Recovery Penalty",
+        "Employment taxes",
+        "Colorado Department of Revenue disputes",
+        "Accountant liability",
+        "Estate planning",
+        "Estate and trust administration",
+        "Marital agreements"
+    ]
+}

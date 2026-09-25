@@ -5,4 +5,5 @@ layout: list-attorneys
 eleventyNavigation:
   key: Attorneys
   order: 300
+seoTitle: "Denver Tax Attorneys | Meet Our Team | Anderson & Jahde, P.C."
 ---

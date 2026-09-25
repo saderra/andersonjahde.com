@@ -5,12 +5,20 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/emily-headshot.jpg
 summary: "Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate planning, marital agreements, estate and trust administration, and family law. Drawn to law by a desire to make a differenc"
-description: "Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate planning, marital agreements, estate and trust administration, and family…"
+description: "Emily Olson is a Denver estate planning attorney at Anderson & Jahde focusing on wills, trusts, marital agreements, estate and trust administration, and family law."
 order: 11
 eleventyNavigation:
   key: "Emily Olson"
   parent: Attorneys
   order: 120
+alumniOf:
+  - "University of Oregon School of Law"
+  - "University of Oregon"
+knowsAbout:
+  - "Estate planning"
+  - "Marital agreements"
+  - "Estate administration"
+  - "Family law"
 ---
 Emily Olson is an attorney at Anderson & Jahde, P.C., specializing in estate planning, marital agreements, estate and trust administration, and family law. Drawn to law by a desire to make a difference in people’s lives, Emily values her role as an advocate and takes pride in helping individuals and families achieve their goals and provide peace of mind through thoughtful estate planning and marital agreements.
 

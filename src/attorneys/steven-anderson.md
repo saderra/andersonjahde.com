@@ -6,12 +6,24 @@ tags:
 headshot: /assets/images/attorneys/steven_anderson.jpg
 role: "Co-Founder & President"
 summary: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America . Our managing partner is the co-founder and President of Anderson & Jahde, P.C. Steven Anderson is a fellow in the "
-description: "Named 2023 Lawyer Of The Year in Tax for the Denver area by Best Lawyers In America. Our managing partner is the co-founder and President of Anderson &…"
+description: "Steven Anderson co-founded Anderson & Jahde in 1995. Best Lawyers' 2023 Denver Tax Lawyer of the Year, former CPA, and lead counsel in a U.S. Supreme Court tax case."
 order: 0
 eleventyNavigation:
   key: "Steven Anderson"
   parent: Attorneys
   order: 10
+alumniOf:
+  - "University of Colorado"
+  - "Metropolitan State College"
+  - "University of Denver Sturm College of Law"
+profiles:
+  - "https://www.bestlawyers.com/lawyers/steven-r-anderson/156808"
+  - "https://profiles.superlawyers.com/colorado/littleton/lawyer/steven-r-anderson/36feed23-188f-419a-be27-783792600139.html"
+knowsAbout:
+  - "Civil and criminal tax controversy"
+  - "Tax litigation"
+  - "Accountant liability"
+  - "Business litigation"
 ---
 ## Named 2023 Lawyer Of The Year in Tax for the Denver area by [Best Lawyers In America](https://www.bestlawyers.com/lawyers/steven-r-anderson/156808).
 

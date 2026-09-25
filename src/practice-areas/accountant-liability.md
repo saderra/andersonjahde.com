@@ -53,4 +53,5 @@ pageFaqs:
   - question: "Do you work with solo practitioners or only large firms?"
     answer:
       - "Both. Our accounting-profession clients range from solo practitioners to large CPA firms, and we tailor our approach to the scale of the practice."
+seoTitle: "Accountant Liability Attorneys in Denver | Anderson & Jahde"
 ---

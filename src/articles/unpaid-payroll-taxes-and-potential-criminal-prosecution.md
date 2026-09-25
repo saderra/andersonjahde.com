@@ -1,5 +1,5 @@
 ---
-title: "Unpaid Payroll Taxes and Potential Criminal Prosecution￼"
+title: "Unpaid Payroll Taxes and Potential Criminal Prosecution"
 slug: unpaid-payroll-taxes-and-potential-criminal-prosecution
 tags:
   - articles
@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2022-07-29
 summary: "Federal law requires employers who pay wages to employees to withhold and remit employment taxes to the IRS. In addition, employers must timely file IRS Forms 941 (or Forms 943 or 944, if applicable) to report their employment taxes. Employers who fail to comply with either requirement can face sign"
-description: "Federal law requires employers who pay wages to employees to withhold and remit employment taxes to the IRS. In addition, employers must timely file IRS…"
+description: "Unpaid payroll taxes can lead to the Trust Fund Recovery Penalty and, for 'responsible persons,' criminal charges. Denver tax attorneys explain the risk and how to respond."
 ---
 Federal law requires employers who pay wages to employees to withhold and remit employment taxes to the IRS.  In addition, employers must timely file IRS Forms 941 (or Forms 943 or 944, if applicable) to report their employment taxes.  Employers who fail to comply with either requirement can face significant civil penalties for non-compliance.  Business owners, and employees hired by the employer to file and pay its employment taxes, may also be at risk for having to pay the employees’ portion of the tax (plus their income tax withholding).  This is the Trust Fund Recovery Penalty (“TFRP”).  The IRS has authority to assess the TFRP against those parties the IRS deems responsible (as defined by the Internal Revenue Code).  This overcomes state law protections otherwise in place to protect business owners against personal liabilities (e.g., if the entity is a Limited Liability Company).
 

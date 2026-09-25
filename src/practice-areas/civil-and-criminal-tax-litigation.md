@@ -66,4 +66,5 @@ pageFaqs:
   - question: "Do you only handle Colorado tax litigation?"
     answer:
       - "No. Tax Court and federal court litigation isn't limited by state lines, and our attorneys represent taxpayers nationwide in federal tax matters, in addition to Colorado state and local tax disputes."
+seoTitle: "Denver Tax Litigation & Criminal Tax Defense Attorneys | Anderson & Jahde"
 ---

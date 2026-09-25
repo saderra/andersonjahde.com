@@ -51,4 +51,5 @@ pageFaqs:
   - question: "How often should I update my estate plan?"
     answer:
       - "Revisit your plan after any major life change — marriage, divorce, a new child, a significant change in assets, or a move to a new state — and periodically even without a triggering event, since laws and exemption amounts change."
+seoTitle: "Denver Estate Planning Attorneys | Wills & Trusts | Anderson & Jahde"
 ---

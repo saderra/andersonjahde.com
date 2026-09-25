@@ -55,4 +55,5 @@ pageFaqs:
   - question: "I have an undisclosed foreign account. What should I do?"
     answer:
       - "Talk to a tax attorney before you file anything. Voluntary disclosure programs exist, but using the wrong one — or disclosing incorrectly — can create liability that a properly structured disclosure would have avoided."
+seoTitle: "Denver IRS Tax Attorneys for Individuals | Anderson & Jahde"
 ---

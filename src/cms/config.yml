@@ -29,9 +29,11 @@ collections:
       - { label: 'SLUG', name: 'slug', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['articles'] }
       - { label: 'Categories', name: 'categories', widget: 'hidden', default: ['Articles'] }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', default: "", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', default: "", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: 'Last Reviewed', name: 'updated', widget: 'datetime', required: false, default: "", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, hint: 'Set this only when the article has actually been re-read and updated. Shown on the page and sent to Google as the modified date.' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false, hint: 'Drafts are left out of the live site until this is switched off.' }
       - { label: 'Excerpt', name: 'summary', widget: 'string' }
-      - { label: 'Meta Description', name: 'description', widget: 'string' }
+      - { label: 'Meta Description', name: 'description', widget: 'string', hint: 'One or two full sentences, under 155 characters. Lead with the reader\'s problem.' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: attorneys

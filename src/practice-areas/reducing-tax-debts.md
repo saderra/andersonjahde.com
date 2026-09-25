@@ -63,4 +63,5 @@ pageFaqs:
   - question: "I think the IRS says I owe more than I actually do. What can I do?"
     answer:
       - "There are procedures to challenge an incorrect assessment, separate from debt-reduction programs like an offer in compromise. Getting the underlying number right often matters more than negotiating around a wrong one."
+seoTitle: "IRS & Colorado Tax Debt Relief Attorneys in Denver | Anderson & Jahde"
 ---

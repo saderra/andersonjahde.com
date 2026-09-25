@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2021-08-06
 summary: "A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so. When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to "
-description: "A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so. When the…"
+description: "The IRS assessed tax while your Tax Court case was pending? That is a premature assessment. Denver tax attorneys explain why it happens and how to get it reversed."
 ---
 A premature assessment occurs when the IRS assesses (or makes record in its system) tax, and penalties and interest, without authority to do so.  When the IRS proposes adjustments to a taxpayer’s tax return (and tax is a type subject to deficiency procedures, like income tax), the IRS is required to issue the taxpayer a Statutory Notice of Deficiency, giving the taxpayer an opportunity to dispute the proposed adjustments in the United States Tax Court.
 

@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2016-12-15
 summary: "Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble. The two best alternatives are a prem"
-description: "Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take…"
+description: "Want to give your child money without it going to their spouse in a divorce? Colorado attorneys compare premarital agreements and discretionary asset protection trusts."
 ---
 Clients often ask if there is a way they can financially provide for their children without making that money available for their child’s spouse to take in a divorce. Gifting property to the child outright without any legal protections is just asking for trouble.  The two best alternatives are a premarital agreement, and a discretionary, asset protection trust.
 

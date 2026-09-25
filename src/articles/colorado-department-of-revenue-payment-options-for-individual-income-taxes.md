@@ -7,7 +7,7 @@ categories:
   - Articles
 date: 2021-09-30
 summary: "If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited. They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes. The Departm"
-description: "If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options…"
+description: "Owe Colorado income tax you can't pay? The Department of Revenue's payment plan options, how long you can take to pay, and why they differ from the IRS. From Denver tax attorneys."
 ---
 If you have outstanding income tax liabilities with the Colorado Department of Revenue (the “Department”) and cannot pay them in full, the payment options are limited.  They also vary from those accepted by the Internal Revenue Service for payment of the same or most other types of taxes.
 

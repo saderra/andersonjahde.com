@@ -5,13 +5,16 @@ tags:
   - attorneys
 headshot: /assets/images/attorneys/lawrence.jpg
 summary: "Deceased Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several seminal legal malpractice cases. He is a Fellow o"
-description: "Deceased. Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several…"
+description: "In memoriam: Lawrence Hamil, a Fellow of the American College of Trial Lawyers, was lead trial attorney in complex commercial and legal malpractice cases at Anderson & Jahde."
 order: 9
 status: deceased
 eleventyNavigation:
   key: "Lawrence Hamil"
   parent: Attorneys
   order: 100
+alumniOf:
+  - "University of Colorado Law School"
+  - "University of Colorado"
 ---
 Larry is best known as the lead trial attorney in numerous cases involving complex commercial issues, and he was the lead attorney in several seminal legal malpractice cases.  He was a Fellow of the prestigious American College of Trial Lawyers, and he was recognized as a “Super Lawyer” and “Bet-the-Farm Lawyer” by various organizations for many years. In his later years, Larry stepped back from active litigation to consult with other practicing attorneys, serve as an expert witness, and mediate and arbitrate commercial disputes. Throughout his career, Larry also represented clients in a variety of commercial transactions, particularly relating to real estate, finance, securities, business acquisitions and banking. He advised business clients with respect to foreign and international legal transactions in Europe, Africa and Central/South America. Larry’s unusual combination of extensive litigation and transactional experience made him a particularly valuable resource for clients dealing with complex commercial transactions.
 

@@ -30,6 +30,7 @@
                             {% for para in item.answer %}
                             <p>{{ para }}</p>
                             {% endfor %}
+                            <p class="not-prose"><a href="/faq/{{ item.slug }}/" class="font-semibold text-accent hover:underline">Read the full answer &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -38,23 +39,3 @@
         </div>
     </div>
 </div>
-
-<script type="application/ld+json">
-{%- set schemaItems = [] -%}
-{%- for item in faqs -%}
-  {%- set _ = schemaItems.push({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer | join(" ")
-      }
-  }) -%}
-{%- endfor -%}
-{%- set faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": schemaItems
-} -%}
-{{ faqSchema | jsonify | safe }}
-</script>
