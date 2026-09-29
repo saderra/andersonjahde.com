@@ -11,17 +11,27 @@
 {% include "components/footer/footer.njk" %}
 
 <script>
-  // Reject Cyrillic characters in any Netlify form field, since nearly all of
-  // the site's form spam is Russian-language. Uses native form validation so
-  // the browser blocks the submit and shows the message; the fetch-based modal
-  // form is covered too because its submit event only fires once validation
-  // passes. Bots that POST directly to Netlify bypass this (client-side only).
+  // Validate Netlify form fields beyond the browser's built-in checks:
+  //  - reject Cyrillic characters in any field, since nearly all of the site's
+  //    form spam is Russian-language;
+  //  - reject a required textarea (the "How can we help?" message) that holds
+  //    only whitespace, which the native `required` attribute would accept.
+  // Uses native form validation so the browser blocks the submit and shows the
+  // message; the fetch-based modal form is covered too because its submit event
+  // only fires once validation passes. Bots that POST directly to Netlify
+  // bypass this (client-side only); the honeypot field on each form is for them.
   (function () {
     var cyrillic = /\p{Script=Cyrillic}/u;
     var selector = "form[data-netlify] input, form[data-netlify] textarea";
     function check(el) {
       if (!el.matches || !el.matches(selector)) return;
-      el.setCustomValidity(cyrillic.test(el.value) ? "Please use only English (Latin) characters." : "");
+      var message = "";
+      if (cyrillic.test(el.value)) {
+        message = "Please use only English (Latin) characters.";
+      } else if (el.tagName === "TEXTAREA" && el.required && el.value.trim() === "") {
+        message = "Please tell us how we can help.";
+      }
+      el.setCustomValidity(message);
     }
     document.addEventListener("input", function (e) { check(e.target); });
     document.addEventListener("submit", function (e) {
