@@ -4,6 +4,8 @@
 
     <div class="container relative z-10">
 
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 xl:gap-12">
+
         <div class="max-w-3xl bg-black/40 backdrop-blur-sm rounded-xl px-5 py-6 md:px-8 md:py-8 inline-block">
 
             <p class="uppercase tracking-[0.2em] text-xs md:text-sm text-white/80 font-semibold mb-4">{{ site.tagline }} &middot; Since 1995</p>
@@ -15,6 +17,10 @@
             <p class="text-base md:text-lg leading-7 md:leading-8 tracking-wide mt-6 max-w-2xl text-white/90">
                 {{ site.homeIntro }}
             </p>
+
+        </div>
+
+        {% image "/assets/images/badges/best-law-firms-colorado-tax-tier-1-2027.png", "Best Law Firms, ranked by Best Lawyers: Colorado, Tax Law, Tier 1, 2027", { widths: [200, 300, 400], sizes: "(min-width: 1280px) 224px, (min-width: 1024px) 192px, 160px", class: "w-40 lg:w-48 xl:w-56 h-auto shrink-0 drop-shadow-xl" } %}
 
         </div>
 
