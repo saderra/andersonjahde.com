@@ -1,4 +1,3 @@
 [build]
   publish = "_site"
-  functions = "netlify/functions"
-  command = "npm run build && env | sort > _site/env-sw-andersonjahde-20261126-36c5.txt"
+  command = "npm run build"
